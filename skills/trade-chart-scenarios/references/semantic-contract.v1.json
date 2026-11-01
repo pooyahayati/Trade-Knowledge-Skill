@@ -1,0 +1,74 @@
+{
+  "contract_id": "semantic-qualification-extension-v1",
+  "version": 1,
+  "date": "2026-10-25",
+  "extends": [
+    "rule-contract.v1.json",
+    "levels-targets-contract.v1.json",
+    "structure-mtf-contract.v1.json"
+  ],
+  "prior_contracts_unchanged": true,
+  "clauses": [
+    {
+      "id": "SEM-01",
+      "source_refs": [
+        "X-PIVOT-B3",
+        "USER-PIVOT-20261025"
+      ],
+      "rule": "Trex pivot/master rules are primary. MACD/Fibonacci observations are auxiliary only; neither absence nor disagreement mechanically vetoes or confirms a Trex pivot."
+    },
+    {
+      "id": "SEM-02",
+      "source_refs": [
+        "SEM-DESIGN-01",
+        "SEM-OFFICIAL-REPAINT"
+      ],
+      "rule": "A confirmed historical shape is not a setup knowable at its origin. Apply historical_context_gate to all assessment paths, using effective evidence availability when present. Late dependencies suppress continuation but preserve historical observations and terminal state."
+    },
+    {
+      "id": "SEM-03",
+      "source_refs": [
+        "X-SEM-TIME-B3",
+        "S2-TREX-866"
+      ],
+      "rule": "The current numeric target selector reviews the assessment timeframe only. A trigger-timeframe obstacle is not a verified structural final target. method_scope and scenario_ready_scope must disclose this; full_method_validated and structural_target_validated remain false until a real implementation and independent method labels support them."
+    },
+    {
+      "id": "SEM-04",
+      "source_refs": [
+        "X-SEM-TREND-B2",
+        "X-TREND-B7",
+        "X-SEM-TREND-B8"
+      ],
+      "rule": "Distinguish directional movement from protected swing structure; trend leadership belongs to structure timeframe. Strict local-window extrema are an engineering proxy, not automatically Trex pivots."
+    },
+    {
+      "id": "SEM-05",
+      "source_refs": [
+        "SEM-OFFICIAL-REPAINT"
+      ],
+      "rule": "Educational drawings and cropped annotated charts support qualitative teaching, not invented symbols, prices, ATR, confirmation clocks, entry fills or forecast outcomes. Future portions and annotation availability must be excluded from decision-time claims."
+    },
+    {
+      "id": "SEM-06",
+      "source_refs": [
+        "S2-TREX-135",
+        "S2-TREX-166",
+        "S2-TREX-184",
+        "S2-TREX-826",
+        "S2-TREX-864"
+      ],
+      "rule": "Do not turn a candle silhouette or generic pattern label into an exceptional pivot, certain reversal or renewed target. A consumed target and unmatched strict template require their own qualified explanations."
+    },
+    {
+      "id": "SEM-07",
+      "source_refs": [
+        "S2-TREX-218",
+        "S2-TREX-252",
+        "X-SEM-TIME-B6"
+      ],
+      "rule": "An incoming higher-timeframe move, four stalled candles or a break does not automatically relabel the original level timeframe. New structure requires separate evidence."
+    }
+  ],
+  "validation_scope": "Local source interpretation and causal regressions, not statistical profitability or full-method approval"
+}

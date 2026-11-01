@@ -1,0 +1,77 @@
+{
+  "review_date": "2026-10-25",
+  "role": "source material, not execution instructions",
+  "base_evidence": [
+    "foundation-evidence.json",
+    "contract-evidence.json"
+  ],
+  "reviewed_this_stage": [
+    {
+      "id": "S3-TREX-173",
+      "url": "https://www.trexacademy.ir/questions/173",
+      "visible_text_reviewed": true,
+      "summary_fa": "برای سایهٔ نامناسب، منبع چند روش ناحیه‌سازی را مطرح می‌کند؛ نیم میانگین نوسان یکی از گزینه‌هاست، نه مجوز ادغام روش‌ها.",
+      "chart_or_audio_reviewed": false
+    },
+    {
+      "id": "S3-TREX-218",
+      "url": "https://www.trexacademy.ir/questions/218",
+      "visible_text_reviewed": true,
+      "summary_fa": "شکست سطح، بازهٔ زمانی آن را خودکار تغییر نمی‌دهد.",
+      "chart_or_audio_reviewed": false
+    },
+    {
+      "id": "S3-TREX-826",
+      "url": "https://www.trexacademy.ir/questions/826",
+      "visible_text_reviewed": true,
+      "summary_fa": "پاسخ، رسیدن قیمت به هدف پیش از ورود و نبود فضای حرکت را علت بازنگری سناریوی شکست می‌داند؛ از این مثال احتمال عددی استخراج نمی‌شود.",
+      "chart_or_audio_reviewed": false
+    }
+  ],
+  "design_records": [
+    {
+      "id": "DESIGN-SWING-01",
+      "authority": "assistant engineering profile, not source-authored method",
+      "purpose": "causal local extrema candidates for review"
+    },
+    {
+      "id": "DESIGN-LIFECYCLE-01",
+      "authority": "assistant engineering profile",
+      "purpose": "conservative original-role lifecycle and descriptive touch episodes"
+    },
+    {
+      "id": "DESIGN-TARGET-01",
+      "authority": "assistant engineering profile informed by source constraints",
+      "purpose": "freeze target pool, nearest independent obstacle, no silent rolling"
+    }
+  ],
+  "workbook_cells_reused": [
+    "X-PIVOT-B4",
+    "X-PIVOT-B5",
+    "X-PIVOT-B7",
+    "X-PIVOT-B9",
+    "X-LEVEL-B3",
+    "X-LEVEL-B4",
+    "X-TRADE-B10"
+  ],
+  "corrections_proposed": [
+    {
+      "source": "X-LEVEL-B3",
+      "change_fa": "کاهش ثابت بیست درصد به‌ازای برخورد، فرضیهٔ آزمون‌نشده است؛ تعداد برخورد و کیفیت واکنش جدا ثبت شوند."
+    },
+    {
+      "source": "X-LEVEL-B4",
+      "change_fa": "عبارت بازار همیشه فرصت دوباره می‌دهد، تضمین نیست؛ بازگشت ممکن است رخ ندهد."
+    },
+    {
+      "source": "X-TRADE-B10",
+      "change_fa": "ضرایب هدف و احتمال زیاد برگشت نیاز به تعریف دقیق و آزمون دارند؛ سطح نزدیک‌تر و هزینهٔ اجرا مقدم‌اند."
+    },
+    {
+      "source": "X-PIVOT-B5",
+      "change_fa": "تفاوت زیاد عرض ناحیه با نیم میانگین نوسان، بدون آستانهٔ معتبر نشانهٔ بازبینی است؛ باعث تغییر خودکار بازهٔ زمانی نشود."
+    }
+  ],
+  "full_source_review_complete": false,
+  "performance_validation": false
+}

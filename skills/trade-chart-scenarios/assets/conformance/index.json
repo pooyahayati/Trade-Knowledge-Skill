@@ -1,0 +1,220 @@
+{
+  "contract_id": "stable_indicator_conformance_v1",
+  "fixtures": [
+    {
+      "id": "BTCUSDT-H1",
+      "file": "BTCUSDT-H1.json",
+      "sha256": "c586d26be47c122317368b2b7a349aba9db43db259b1f2fc17f7c36e51e45248",
+      "rows": 180,
+      "kind": "historical_market"
+    },
+    {
+      "id": "BTCUSDT-H4",
+      "file": "BTCUSDT-H4.json",
+      "sha256": "d1744dac2cedb20d2b169199c7b50ab534760a65d7ca492d8524d3be4f5e6a6a",
+      "rows": 110,
+      "kind": "historical_market"
+    },
+    {
+      "id": "BTCUSDT-D1",
+      "file": "BTCUSDT-D1.json",
+      "sha256": "79b47d6c666e81d3c159a50e3794963d503a9a2f9ad13fd7c8f95cd611e7b107",
+      "rows": 60,
+      "kind": "historical_market"
+    },
+    {
+      "id": "ETHUSDT-H1",
+      "file": "ETHUSDT-H1.json",
+      "sha256": "6c897969cdcc6cde91113fc097025867f884e78fb69105b4e855eecfade05f35",
+      "rows": 180,
+      "kind": "historical_market"
+    },
+    {
+      "id": "ETHUSDT-H4",
+      "file": "ETHUSDT-H4.json",
+      "sha256": "c598fd59adece49b41d213d06b9d6196974c50c1a9e8e801f4ea2b0e9ead7332",
+      "rows": 110,
+      "kind": "historical_market"
+    },
+    {
+      "id": "ETHUSDT-D1",
+      "file": "ETHUSDT-D1.json",
+      "sha256": "ad99c2a5b04aa4b4cff791f807873e58c499faaf393ac2e618cdecbd9bc6743b",
+      "rows": 60,
+      "kind": "historical_market"
+    },
+    {
+      "id": "range-8-exact",
+      "file": "range-8-exact.json",
+      "sha256": "5971816f3994d78d5ec1857ebb3505d8fd2b3ca47fe0dd31ec36a12fd5f9a793",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-8-near-below",
+      "file": "range-8-near-below.json",
+      "sha256": "f4fe2a1741d0498398f1e1ec9e235d3a96f4d56010da40e932d7146c70f85a92",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-8-near-above",
+      "file": "range-8-near-above.json",
+      "sha256": "143ffab6634e5207ead799d9bc310f128b1aa44f8fb4fbb20bfbea6b4e17dcaa",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-8-outside-below",
+      "file": "range-8-outside-below.json",
+      "sha256": "692665fb3ae8ca01b414d01dec5203498c4cf48a5e94d9b61eb4040db6dcfa5d",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-8-outside-above",
+      "file": "range-8-outside-above.json",
+      "sha256": "eaa5c2b18f5a644b9620764839a654957efc252a219d3d808801c3f3255dfc16",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-12-exact",
+      "file": "range-12-exact.json",
+      "sha256": "33d4339baa47b7c042d47b23e0232a05c270775f4f57619b717125d8e15f4276",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-12-near-below",
+      "file": "range-12-near-below.json",
+      "sha256": "9d605b853f40aa1757753a70143d26d4ee0bc5016a14288119defc03dc7ab4f3",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-12-near-above",
+      "file": "range-12-near-above.json",
+      "sha256": "2c74ae55c7b89a22890db15db34b9a03a978694b61c2903bcd78a299cff6b69e",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-12-outside-below",
+      "file": "range-12-outside-below.json",
+      "sha256": "74fafac1cbd5f2e8caa80c507ea8ffd5bfbf85102bee45efde6a65b4e1f5f02c",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-12-outside-above",
+      "file": "range-12-outside-above.json",
+      "sha256": "8345f0f74f18056a39d72e1b7340be9bcb0ed1b34b0f0dd50d433c76b6d88916",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-25-exact",
+      "file": "range-25-exact.json",
+      "sha256": "317a8ad485bbd94aaf9aaa36f6e3de5448f527183f15ba3a0a22a7878294ab18",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-25-near-below",
+      "file": "range-25-near-below.json",
+      "sha256": "3816793c27768aef5fb844506bc1d8c358f2d672cdcdfce23afa111643291e99",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-25-near-above",
+      "file": "range-25-near-above.json",
+      "sha256": "4c1b70f5ae92e561100d98a91f809c4a8cb251e96b1d16d1ddf75edc1dfc875d",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-25-outside-below",
+      "file": "range-25-outside-below.json",
+      "sha256": "3d33156261110c8bd410818c329349d03c34b81163fb1999d3b61ff91fe5b00a",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "range-25-outside-above",
+      "file": "range-25-outside-above.json",
+      "sha256": "9e2fdd6c67b89bc64dab585a3e0890343529e5d047224a1c390c587063a4c8b9",
+      "rows": 4,
+      "kind": "synthetic_boundary"
+    },
+    {
+      "id": "pin-upper",
+      "file": "pin-upper.json",
+      "sha256": "976a36a365f97a75c273301dfdf021faba6e71f0b11eacb0674946ef99d9490c",
+      "rows": 4,
+      "kind": "synthetic_geometry"
+    },
+    {
+      "id": "pin-lower",
+      "file": "pin-lower.json",
+      "sha256": "f5c5ce05486ab0f52be1180165138024d9e0e2da1e1bdadfa35148d83eb0c5ff",
+      "rows": 4,
+      "kind": "synthetic_geometry"
+    },
+    {
+      "id": "pin-opposite-too-large",
+      "file": "pin-opposite-too-large.json",
+      "sha256": "753425dae2e0297ea35e833848a2b329bec018c529a1ddc8b4c5131a9a911584",
+      "rows": 4,
+      "kind": "synthetic_geometry"
+    },
+    {
+      "id": "doji",
+      "file": "doji.json",
+      "sha256": "1d6256d8bd076d8e773a8aa8181b8fd2c0a24dda21f7e3015543e14a1e2db81f",
+      "rows": 4,
+      "kind": "synthetic_geometry"
+    },
+    {
+      "id": "zero-seed-gap-flat",
+      "file": "zero-seed-gap-flat.json",
+      "sha256": "71e070cd94bc48248262eba05f7972d803a30da74eeacd35cd0b99b33c856605",
+      "rows": 5,
+      "kind": "synthetic_gap"
+    },
+    {
+      "id": "open-tail",
+      "file": "open-tail.json",
+      "sha256": "c9e30d36f303d33fb98e5efdaea79c07f078ca640cf12cf9df5d2ab4e8508abe",
+      "rows": 6,
+      "kind": "synthetic_clock"
+    },
+    {
+      "id": "unavailable-middle",
+      "file": "unavailable-middle.json",
+      "sha256": "53029d67404aa45af72957d44fee01bfdaf1efd85c920b6aeb19929d6096e4a3",
+      "rows": 4,
+      "kind": "synthetic_clock"
+    },
+    {
+      "id": "delayed-receipt",
+      "file": "delayed-receipt.json",
+      "sha256": "9221d7dba690a00287e45a08dd061eeea5a9df84b872100960678099e9623056",
+      "rows": 7,
+      "kind": "synthetic_clock"
+    }
+  ],
+  "native_runtime_execution_verified": false,
+  "independent_of_production_arithmetic": true,
+  "independent_human_or_model_review": false,
+  "distribution_scope": {
+    "variant": "public",
+    "synthetic_fixtures": 23,
+    "binance_historical_fixtures": 6,
+    "historical_private_full_fixture_count": 35,
+    "original_index_sha256": "4f7f67ce7d0ae7d0ebfae72280fadf0f83c32612250ba9806921d992c1c1fa8e",
+    "omitted_reason": "FXCM sample redistribution permission unverified",
+    "price_and_expected_row_values_changed": false
+  }
+}

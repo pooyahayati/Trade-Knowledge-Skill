@@ -1,0 +1,110 @@
+{
+  "contract_id": "source-linked-pivot-review-extension-v1",
+  "version": 1,
+  "date": "2026-10-26",
+  "extends": [
+    "rule-contract.v1.json",
+    "levels-targets-contract.v1.json",
+    "semantic-contract.v1.json",
+    "target-hierarchy-contract.v1.json"
+  ],
+  "prior_contracts_unchanged": true,
+  "profile": "source_linked_pivots_v1",
+  "compatibility": "Explicit opt-in for numerical API compatibility; required by the skill for any new Trex pivot/target qualification. Legacy profile is arithmetic only.",
+  "clauses": [
+    {
+      "id": "PIV-01",
+      "source_refs": [
+        "X-CANDLE-B4",
+        "PIV-TREX-192",
+        "PIV-TREX-198",
+        "PIV-DESIGN-01"
+      ],
+      "rule": "Distinguish shape candidate, context-selected reference and covered pivot. Standard dominant-body candidates require incoming direction in this ordinary profile. Dominant-shadow reference colour is not a veto; its body cannot be counted as a third directional body if opposite. Gap/opposite-body cases require a separate model."
+    },
+    {
+      "id": "PIV-02",
+      "source_refs": [
+        "PIV-TREX-177",
+        "PIV-TREX-189",
+        "PIV-TREX-203",
+        "PIV-DESIGN-01"
+      ],
+      "rule": "Use the last qualifying candidate within the supplied wave before the first strict cover. Flag a newer reference for reselection; never silently move the level or replace an existing reference with a virtual ATR line. Freeze a completed event at first cover; a later candidate belongs to a new review."
+    },
+    {
+      "id": "PIV-03",
+      "source_refs": [
+        "PIV-TREX-178",
+        "PIV-TREX-222",
+        "PIV-DESIGN-01"
+      ],
+      "rule": "Three standard directional bodies and ATR displacement are alternative routes. Inspect every candle from declared start through master. Every counter bar or doji requires time-stamped no-pivot or settlement-bypassed context. Consecutiveness alone neither validates nor invalidates. A strict cover of an earlier geometric master contradicts a no-pivot assertion in this bounded profile."
+    },
+    {
+      "id": "PIV-04",
+      "source_refs": [
+        "PIV-TREX-222",
+        "PIV-DESIGN-01"
+      ],
+      "rule": "A settlement annotation requires a later closed price strictly beyond that counter bar extreme in the incoming direction, within the preleg, and a review timestamp no earlier than that bypass. This conservative price proxy does not independently prove settlement identity."
+    },
+    {
+      "id": "PIV-05",
+      "source_refs": [
+        "PIV-TREX-178",
+        "PIV-TREX-186",
+        "PIV-DESIGN-01"
+      ],
+      "rule": "The reproducible default displacement reference is three prior ATR; other supplied thresholds remain measured but require method review. A contextual 2.4 example does not justify a global 2.5 threshold. Baseline and endpoints must be explicit and causal."
+    },
+    {
+      "id": "PIV-06",
+      "source_refs": [
+        "PIV-TREX-135",
+        "PIV-TREX-166",
+        "PIV-TREX-179",
+        "PIV-TREX-185",
+        "PIV-TREX-193",
+        "PIV-TREX-197",
+        "PIV-TREX-246",
+        "PIV-TREX-256",
+        "PIV-TREX-412"
+      ],
+      "rule": "Pinbar, long-shadow and self-cover are distinct descriptive branches. Self-cover needs opposite body and appropriately directed shadow; neither a matched silhouette nor two prior bodies plus the exception proves a third directional body. No blanket confirmation exemption is granted without a source-defined subtype and context."
+    },
+    {
+      "id": "PIV-07",
+      "source_refs": [
+        "X-CANDLE-B7",
+        "X-CANDLE-B8",
+        "PIV-TREX-291",
+        "PIV-DESIGN-01"
+      ],
+      "rule": "Long-shadow screening uses that shadow length against prior ATR. Workbook pinbar screening keeps its existing definition. Self-cover screening uses body fraction 0.4 to 2/3, incoming-side shadow at least 1/3, opposite wick at most 0.1 and reversed body; this design band is a candidate filter only, not an executable exhaustive source rule or an order-node detector."
+    },
+    {
+      "id": "PIV-08",
+      "source_refs": [
+        "PIV-TREX-176",
+        "PIV-DESIGN-01"
+      ],
+      "rule": "Separate level observation time from method qualification time. A later wave review blocks historical readiness but cannot erase a nearer known obstacle or restart its lifecycle. Preserve late covers as observations. No unresolved pivot or exception can qualify a target/continuation."
+    },
+    {
+      "id": "PIV-09",
+      "source_refs": [
+        "USER-PIVOT-20261025",
+        "PIV-DESIGN-REAL-01"
+      ],
+      "rule": "Trex remains primary, MACD/Fibonacci auxiliary. Report limits of supplied start, reference, noise labels and level inventory; technical checks and source interpretations do not validate profitability or the full method."
+    }
+  ],
+  "unresolved": [
+    "Exhaustive exceptional subtype definitions and confirmation exemptions",
+    "Independent contextual labels for no-pivot/settlement and highest timeframe",
+    "Gap/opposite-body master variants",
+    "Virtual-line and base-pivot executable submodels"
+  ],
+  "full_method_validated": false
+}

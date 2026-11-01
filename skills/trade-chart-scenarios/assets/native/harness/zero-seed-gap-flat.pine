@@ -1,0 +1,128 @@
+//@version=6
+indicator("TK fixture zero-seed-gap-flat", overlay = false, precision = 16)
+// Fixture SHA256: 6843c0e8ed17225190bb767e33c7ced080d716666c67fa427c8fddfbef13d226
+// Scope: 12 numeric fields and 3 category fields; fixed eligible input only.
+// Integer sign comparisons avoid Pine's nine-fractional-digit float comparisons.
+tk_cmp(float x, float y) =>
+    int(math.sign(x - y))
+tk_snap(float x, float boundary) =>
+    tk_cmp(math.abs(x - boundary), 1e-9) <= 0 ? boundary : x
+tk_delta(float a, float b, float quantum) =>
+    math.round((a - b) / quantum) * quantum
+tk_on_grid(float price, float quantum) =>
+    float units = price / quantum
+    tk_cmp(math.abs(units - math.round(units)), math.max(1e-9, math.abs(units) * 4e-16)) <= 0
+
+type TKState
+    int count = 0
+    float previous = na
+    float sum = 0.0
+    float atr = na
+    float weight = na
+type TKRow
+    float tr = na
+    float atr = na
+    float baseline = na
+    float span = na
+    float body = na
+    float upper = na
+    float lower = na
+    float seed = na
+    float raw = na
+    float comp = na
+    float bf = na
+    float cl = na
+    int length = -1
+    int dominant = -1
+    int pin = -1
+
+tk_step(TKState s, int n, float quantum, float o, float h, float l, float c) =>
+    TKRow r = TKRow.new()
+    if n < 1 or n > 5000 or na(quantum) or tk_cmp(quantum, 0.0) <= 0 or na(o) or na(h) or na(l) or na(c) or tk_cmp(l, 0.0) <= 0 or tk_cmp(h, l) < 0 or tk_cmp(o, l) < 0 or tk_cmp(o, h) > 0 or tk_cmp(c, l) < 0 or tk_cmp(c, h) > 0 or tk_cmp(h / quantum, 1e14) > 0
+        runtime.error("Invalid period or OHLC; history must not skip this bar")
+    if not tk_on_grid(o, quantum) or not tk_on_grid(h, quantum) or not tk_on_grid(l, quantum) or not tk_on_grid(c, quantum)
+        runtime.error("OHLC does not match the declared price quantum")
+    r.span := tk_delta(h, l, quantum)
+    r.body := math.abs(tk_delta(c, o, quantum))
+    r.upper := tk_delta(h, math.max(o, c), quantum)
+    r.lower := tk_delta(math.min(o, c), l, quantum)
+    r.baseline := s.atr
+    r.seed := s.weight
+    if not na(s.previous)
+        r.tr := math.max(r.span, math.max(math.abs(tk_delta(h, s.previous, quantum)), math.abs(tk_delta(l, s.previous, quantum))))
+        if not na(s.atr)
+            s.atr := ((n - 1) * s.atr + r.tr) / n
+            s.weight := s.weight * (n - 1) / n
+        else
+            s.sum := s.sum + r.tr
+            s.count := s.count + 1
+            if s.count == n
+                s.atr := s.sum / n
+                s.weight := 1.0
+    s.previous := c
+    r.atr := s.atr
+    if tk_cmp(r.span, 0.0) == 0
+        if not na(r.baseline) and tk_cmp(r.baseline, 0.0) > 0
+            r.raw := 0.0
+            r.comp := 0.0
+        r.length := 0
+        r.dominant := 0
+        r.pin := 0
+    else
+        r.bf := r.body / r.span
+        r.cl := tk_delta(c, l, quantum) / r.span
+        if not na(r.baseline) and tk_cmp(r.baseline, 0.0) > 0
+            r.raw := r.span / r.baseline
+            r.comp := tk_snap(tk_snap(tk_snap(r.raw, 0.8), 1.2), 2.5)
+            r.length := tk_cmp(r.comp, 0.8) < 0 ? 1 : (tk_cmp(r.comp, 1.2) <= 0 ? 2 : (tk_cmp(r.comp, 2.5) <= 0 ? 3 : 4))
+            float part = math.max(r.body, math.max(r.upper, r.lower)) / r.span
+            r.dominant := r.length == 2 and tk_cmp(tk_snap(part, 0.8), 0.8) >= 0 ? 1 : 0
+            bool top = tk_cmp(tk_snap(r.lower / r.span, 0.8), 0.8) >= 0 and tk_cmp(tk_snap(r.upper / r.span, 0.1), 0.1) <= 0
+            bool bottom = tk_cmp(tk_snap(tk_delta(math.max(o, c), l, quantum) / r.span, 0.2), 0.2) <= 0 and tk_cmp(tk_snap(r.lower / r.span, 0.1), 0.1) <= 0
+            r.pin := tk_cmp(r.comp, 1.2) >= 0 and (top or bottom) ? 1 : 0
+    r
+
+tk_period(string tf, int custom) =>
+    int fixed = tf == "60" ? 24 : (tf == "240" or tf == "1D" ? 30 : (tf == "1W" ? 54 : (tf == "1M" ? 12 : 0)))
+    fixed > 0 ? (custom == 0 or custom == fixed ? fixed : 0) : ((tf == "1" or tf == "5" or tf == "15") and custom >= 1 and custom <= 5000 ? custom : 0)
+
+var array<float> prices = array.from(100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 130.0, 132.0, 130.0, 131.0, 131.0, 131.0, 131.0, 131.0)
+var array<float> expected = array.from(na, na, na, 0.0, 0.0, 0.0, 0.0, na, na, na, na, na, 0.0, 0.0, 0.0, 0.0, na, na, 0.0, 0.0, 0.0, 0.0, na, na, na, na, na, 0.0, 0.0, 0.0, 0.0, 0.0, na, 0.0, 0.0, 0.0, 0.0, na, na, na, na, na, 0.0, 0.0, 0.0, 32.0, 16.0, 0.0, 2.0, 1.0, 1.0, 0.0, 1.0, na, na, 0.5, 0.5, -1.0, -1.0, -1.0, 0.0, 8.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0.0, 0.0, na, na, 0.0, 0.0, 0.0)
+tk_equal(float actual, float wanted, float absolute) =>
+    bool match = false
+    if na(wanted)
+        match := na(actual)
+    else if not na(actual)
+        match := tk_cmp(math.abs(actual - wanted), math.max(absolute, math.abs(wanted) * 1e-12)) <= 0
+    match
+var TKState state = TKState.new()
+var int failures = 0
+var int processed = 0
+TKRow r = TKRow.new()
+int i = bar_index
+if barstate.isconfirmed and i < 5
+    r := tk_step(state, 2, 0.00000000001, array.get(prices, i * 4), array.get(prices, i * 4 + 1), array.get(prices, i * 4 + 2), array.get(prices, i * 4 + 3))
+    array<float> actual = array.from(r.tr, r.atr, r.baseline, r.span, r.body, r.upper, r.lower, r.seed, r.raw, r.comp, r.bf, r.cl, float(r.length), float(r.dominant), float(r.pin))
+    for j = 0 to 14
+        float absolute = j < 7 ? 0.00000000000000001 : (j < 12 ? 1e-12 : 0.0)
+        bool matched = j < 12 ? tk_equal(array.get(actual, j), array.get(expected, i * 15 + j), absolute) : tk_cmp(array.get(actual, j), array.get(expected, i * 15 + j)) == 0
+        if not matched
+            failures := failures + 1
+    processed := processed + 1
+plot(i < 5 and barstate.isconfirmed ? r.tr : na, "true_range")
+plot(i < 5 and barstate.isconfirmed ? r.atr : na, "atr_after_bar")
+plot(i < 5 and barstate.isconfirmed ? r.baseline : na, "baseline_atr")
+plot(i < 5 and barstate.isconfirmed ? r.span : na, "range")
+plot(i < 5 and barstate.isconfirmed ? r.body : na, "body")
+plot(i < 5 and barstate.isconfirmed ? r.upper : na, "upper_wick")
+plot(i < 5 and barstate.isconfirmed ? r.lower : na, "lower_wick")
+plot(i < 5 and barstate.isconfirmed ? r.seed : na, "baseline_seed_weight")
+plot(i < 5 and barstate.isconfirmed ? r.raw : na, "range_ratio")
+plot(i < 5 and barstate.isconfirmed ? r.comp : na, "comparison_ratio")
+plot(i < 5 and barstate.isconfirmed ? r.bf : na, "body_fraction")
+plot(i < 5 and barstate.isconfirmed ? r.cl : na, "close_location")
+plot(i < 5 and barstate.isconfirmed ? r.length : na, "length_code")
+plot(i < 5 and barstate.isconfirmed ? r.dominant : na, "dominant_code")
+plot(i < 5 and barstate.isconfirmed ? r.pin : na, "pin_code")
+plot(processed, "Processed rows")
+plot(failures, "Mismatch count")

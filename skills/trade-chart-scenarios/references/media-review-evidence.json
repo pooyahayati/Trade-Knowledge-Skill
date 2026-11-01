@@ -1,0 +1,415 @@
+{
+  "review_id": "stage16-teacher-media-review",
+  "created_at": "2026-10-31T09:46:02.171384+00:00",
+  "sources": [
+    {
+      "id": "MED16-AUDIO-139",
+      "kind": "teacher_answer_archive_attachment",
+      "source_url": "https://www.trexacademy.ir/questions/139",
+      "internal_question_id": 139,
+      "displayed_title": "سوال شماره 144",
+      "attachment_id": 83,
+      "record": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "bbb3541f4a778ba1bda17250ad67f2918ccec36a704af69df6e5d9dd2d7e8ac4",
+        "bytes": 3509
+      },
+      "media": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "83580b385812a768b68b6b0dc13870a3f3de1066e3902ffba45b6020b6f282ba",
+        "bytes": 1059693
+      },
+      "archive_timestamp": "2022-07-22T10:22:35.000000Z",
+      "speech_date_verified": false,
+      "transcript": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "6ff42e349ec63d9cbcf67eea90563e5f833c45af071bc963eec5e9fc67d07bdf",
+        "bytes": 3110
+      },
+      "transcription_receipt": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "a8721e4319f903edc41e56e81c3e1d862ddcbb1cb55ddb76cd2c7c0e74aed17c",
+        "bytes": 553
+      },
+      "actually_listened": false,
+      "authority": "machine_transcription_of_attached_teacher_audio",
+      "written_answer_is_transcript": false,
+      "topic_mismatch_with_adjacent_written_answer": false
+    },
+    {
+      "id": "MED16-AUDIO-152",
+      "kind": "teacher_answer_archive_attachment",
+      "source_url": "https://www.trexacademy.ir/questions/152",
+      "internal_question_id": 152,
+      "displayed_title": "سوال شماره 156",
+      "attachment_id": 100,
+      "record": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "0ec42a8cd65236f916959244d694a937175757067aa839ea48afe53ab2f239b4",
+        "bytes": 3588
+      },
+      "media": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "a60892f5b9c40212b36ab6da3269b525adf916a1282999d60a71decbdbf40604",
+        "bytes": 816502
+      },
+      "archive_timestamp": "2022-07-22T10:22:35.000000Z",
+      "speech_date_verified": false,
+      "transcript": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "424028ebff5592660c617ec8d905243f7ef8c0bd1414f5e24d5db90deb7564d8",
+        "bytes": 3069
+      },
+      "transcription_receipt": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "b42180e8ffd0b6c7543225697e6f0ca7c402dd74fedc16e22f7411616adfb2df",
+        "bytes": 554
+      },
+      "actually_listened": false,
+      "authority": "machine_transcription_of_attached_teacher_audio",
+      "written_answer_is_transcript": false,
+      "topic_mismatch_with_adjacent_written_answer": true
+    },
+    {
+      "id": "MED16-AUDIO-156",
+      "kind": "teacher_answer_archive_attachment",
+      "source_url": "https://www.trexacademy.ir/questions/156",
+      "internal_question_id": 156,
+      "displayed_title": "سوال شماره 160",
+      "attachment_id": 112,
+      "record": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "251798277746710e2c62833ac2dc99bd03f2d05ee6fa63e6cc158c8c63ac798d",
+        "bytes": 4341
+      },
+      "media": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "4fc13d22bca907c9fd5dbedb4059eb44c11a1a099f23ee488a9e00e6c0bb5c34",
+        "bytes": 1094546
+      },
+      "archive_timestamp": "2022-07-22T10:22:35.000000Z",
+      "speech_date_verified": false,
+      "transcript": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "54451cccff70b4b2aa1b27b9d7211a6497706492622df7d70c19595f489f9fb6",
+        "bytes": 4398
+      },
+      "transcription_receipt": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "6b481579fcf84b00af690a502bb741bbbaa950c0cfd0ecfc5d0d4ae90df4af1f",
+        "bytes": 554
+      },
+      "actually_listened": false,
+      "authority": "machine_transcription_of_attached_teacher_audio",
+      "written_answer_is_transcript": false,
+      "topic_mismatch_with_adjacent_written_answer": false
+    },
+    {
+      "id": "MED16-AUDIO-164",
+      "kind": "teacher_answer_archive_attachment",
+      "source_url": "https://www.trexacademy.ir/questions/164",
+      "internal_question_id": 164,
+      "displayed_title": "سوال شماره 168",
+      "attachment_id": 121,
+      "record": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "c955800b1160987faf2240cfe60b650681b6a20cf757515e81f615cb0b51a6d2",
+        "bytes": 3254
+      },
+      "media": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "22016b4aa75a36cdb5806d746e7c0106c6c4e9d5d61ce7705b160385ab416dfe",
+        "bytes": 758398
+      },
+      "archive_timestamp": "2022-07-22T10:22:35.000000Z",
+      "speech_date_verified": false,
+      "transcript": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "3ecb7d4f2add74dbca0b4599a28d30fb8606a4656672cd1f41ab220bac10e817",
+        "bytes": 2730
+      },
+      "transcription_receipt": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "4d7e87ec5b05ad06f1110761da1f2c65cc9700fdafbf88650445b9c0a2d66368",
+        "bytes": 554
+      },
+      "actually_listened": false,
+      "authority": "machine_transcription_of_attached_teacher_audio",
+      "written_answer_is_transcript": false,
+      "topic_mismatch_with_adjacent_written_answer": true
+    },
+    {
+      "id": "MED16-AUDIO-165",
+      "kind": "teacher_answer_archive_attachment",
+      "source_url": "https://www.trexacademy.ir/questions/165",
+      "internal_question_id": 165,
+      "displayed_title": "سوال شماره 170",
+      "attachment_id": 122,
+      "record": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "a766926426d607280b725650bda5b811c03dbb5d46ed062f54d4b01912ba2d40",
+        "bytes": 2446
+      },
+      "media": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "c92ac180eeb9e7af4ba88a1a1ba3483dfcefdc632a6f841308ff6b337212904a",
+        "bytes": 3086783
+      },
+      "archive_timestamp": "2022-07-22T10:22:35.000000Z",
+      "speech_date_verified": false,
+      "transcript": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "3f4a37255a6d0ca8d9498a16885b3f8b6a6d675e1efa89a3e92683fa51b8cc20",
+        "bytes": 9837
+      },
+      "transcription_receipt": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "37f5a1675160200320a9c1d1eafbd2e480a02e890a191b60f3adc504219e8303",
+        "bytes": 554
+      },
+      "actually_listened": false,
+      "authority": "machine_transcription_of_attached_teacher_audio",
+      "written_answer_is_transcript": false,
+      "topic_mismatch_with_adjacent_written_answer": false
+    },
+    {
+      "id": "MED16-VIDEO-WAVE",
+      "kind": "local_teacher_video",
+      "media": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "4168340c69c179168cf6e271cfea5c3a4fef97ed8149dc9edbeb717e06d0dafc",
+        "bytes": 481817149
+      },
+      "source_span": [
+        "00:28:38",
+        "00:29:35"
+      ],
+      "transcript": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "f96d60cc83a8880326fbefb470949bc6230b85357bcd7e8714ee3c08bc5a9709",
+        "bytes": 7667
+      },
+      "transcription_receipt": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "b2d4b531162e6b95d456686d1d6773785dd2487a18feeb135532a2b86732a5c7",
+        "bytes": 798
+      },
+      "transcript_times_relative_to_excerpt": true,
+      "actually_listened": false,
+      "visual_stills_reviewed": true,
+      "recording_date_verified": false,
+      "course_attribution": "user supplied 1396 course folder; displayed 2017 chart dates"
+    },
+    {
+      "id": "MED16-VIDEO-MASTER",
+      "kind": "local_teacher_video",
+      "media": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "4168340c69c179168cf6e271cfea5c3a4fef97ed8149dc9edbeb717e06d0dafc",
+        "bytes": 481817149
+      },
+      "source_span": [
+        "00:29:35",
+        "00:31:20"
+      ],
+      "transcript": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "f96d60cc83a8880326fbefb470949bc6230b85357bcd7e8714ee3c08bc5a9709",
+        "bytes": 7667
+      },
+      "transcription_receipt": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "b2d4b531162e6b95d456686d1d6773785dd2487a18feeb135532a2b86732a5c7",
+        "bytes": 798
+      },
+      "transcript_times_relative_to_excerpt": true,
+      "actually_listened": false,
+      "visual_stills_reviewed": true,
+      "recording_date_verified": false,
+      "course_attribution": "user supplied 1396 course folder; displayed 2017 chart dates"
+    },
+    {
+      "id": "MED16-VIDEO-REFERENCE",
+      "kind": "local_teacher_video",
+      "media": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "4168340c69c179168cf6e271cfea5c3a4fef97ed8149dc9edbeb717e06d0dafc",
+        "bytes": 481817149
+      },
+      "source_span": [
+        "00:33:35",
+        "00:35:40"
+      ],
+      "transcript": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "1b51a8cb5a6303fa34e83891cf60dfe8f3deda4bad6b1dcf2e9f0f47a0993693",
+        "bytes": 5638
+      },
+      "transcription_receipt": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "f8e27336503f99a078429575a709b4e8a6c239f2b85bd22e3ee6dbc45927280e",
+        "bytes": 798
+      },
+      "transcript_times_relative_to_excerpt": true,
+      "actually_listened": false,
+      "visual_stills_reviewed": true,
+      "recording_date_verified": false,
+      "course_attribution": "user supplied 1396 course folder; displayed 2017 chart dates"
+    },
+    {
+      "id": "MED16-VIDEO-DISPLACEMENT",
+      "kind": "local_teacher_video",
+      "media": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "4168340c69c179168cf6e271cfea5c3a4fef97ed8149dc9edbeb717e06d0dafc",
+        "bytes": 481817149
+      },
+      "source_span": [
+        "01:01:20",
+        "01:04:05"
+      ],
+      "transcript": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "6477842cc1d512b218e444cb43bcb9acf22a60877bb6648aabd796b33718b9bd",
+        "bytes": 8147
+      },
+      "transcription_receipt": {
+        "path": "<private-local-artifact-not-distributed>",
+        "sha256": "dd5c6f3fc408f4838a1385348026f0a66d56b535c6a787aff6006d65ed6a8c1f",
+        "bytes": 798
+      },
+      "transcript_times_relative_to_excerpt": true,
+      "actually_listened": false,
+      "visual_stills_reviewed": true,
+      "recording_date_verified": false,
+      "course_attribution": "user supplied 1396 course folder; displayed 2017 chart dates"
+    },
+    {
+      "id": "MED16-DESIGN",
+      "kind": "engineering_review_policy",
+      "rule": "Only qualitative corroborated distinctions affect guidance. Ambiguous numerals, boundaries, subtype membership and a source-only inference cannot grant automatic confirmation or entry."
+    }
+  ],
+  "findings": [
+    {
+      "id": "MEDIA-F01",
+      "topic": "master_with_split_shadows",
+      "sources": [
+        "MED16-VIDEO-MASTER"
+      ],
+      "spans": [
+        "00:30:35.8-00:30:47.8",
+        "00:30:53.8-00:31:06.8"
+      ],
+      "qualitative_status": "supported_by_video_drawing_and_machine_transcript",
+      "conclusion": "The master example can have shadows on both sides; the single longest shadow test is not an exhaustive source definition.",
+      "inference": "Combined shadow fraction is the compatible interpretation, conditional on ASR wording; exact inequality not verified.",
+      "action": "Diagnostic review flag only; old core unchanged; no automatic master selection."
+    },
+    {
+      "id": "MEDIA-F02",
+      "topic": "shadow_versus_body_condition",
+      "sources": [
+        "MED16-AUDIO-165"
+      ],
+      "spans": [
+        "00:54.36-01:35.24",
+        "01:35.24-02:01.72",
+        "02:14.52-02:30.52"
+      ],
+      "qualitative_status": "consistent_machine_transcripts_and_existing_written_family_distinction",
+      "conclusion": "Reviewing shadow alone differs from adding pinbar body conditions. Whole-candle body fraction differs dimensionally from shadow/ATR.",
+      "action": "Keep workbook B7/B8 profiles separate; report alternate definitions without averaging thresholds."
+    },
+    {
+      "id": "MEDIA-F03",
+      "topic": "pinbar_numeric_branches",
+      "sources": [
+        "MED16-AUDIO-165"
+      ],
+      "spans": [
+        "02:01.72-02:41.08",
+        "03:24.08-03:46.18"
+      ],
+      "status": "unresolved",
+      "conclusion": "ASR numerals remain unreliable, including the standard interval and the longer-family cutoff. General self-cover ratio is not settled.",
+      "action": "Do not replace workbook fifth/1.2 thresholds with third/quarter or an inferred 2.5 cutoff."
+    },
+    {
+      "id": "MEDIA-F04",
+      "topic": "wave_continuity_and_count",
+      "sources": [
+        "MED16-VIDEO-WAVE",
+        "MED16-VIDEO-DISPLACEMENT"
+      ],
+      "spans": [
+        "00:28:43-00:29:35",
+        "01:02:19-01:02:49"
+      ],
+      "status": "qualitative_supported_numeric_scope_limited",
+      "conclusion": "Counter-colour without a pivot can be noise. A two-bar distance example exists. Raw count alone does not universally reject the wave.",
+      "action": "Keep alternative routes and required noise context; exact fixed three-ATR rule remains an engineering profile."
+    },
+    {
+      "id": "MEDIA-F05",
+      "topic": "actual_master_and_virtual_line",
+      "sources": [
+        "MED16-VIDEO-REFERENCE",
+        "SR15-TREX-203"
+      ],
+      "status": "actual_master_precedence_supported_virtual_fallback_context_unresolved",
+      "conclusion": "A small candle does not by itself replace the actual master. The old virtual-line discussion and archived written answer cannot be merged without their conditions. The archive date does not prove chronological supersession."
+    },
+    {
+      "id": "MEDIA-F06",
+      "topic": "noise_confirmation_and_entry",
+      "sources": [
+        "MED16-AUDIO-139",
+        "MED16-AUDIO-156",
+        "PBC-TREX-135"
+      ],
+      "status": "qualitative_supported_subtype_unresolved",
+      "conclusion": "Zero and nonzero noise differ; shape, recognized exception membership, trigger setup and reaching an entry area are distinct. No reached area means no hypothetical filled entry.",
+      "action": "Keep single-pinbar subtype confirmation unresolved and automatic exemption disabled."
+    },
+    {
+      "id": "MEDIA-F07",
+      "topic": "archive_identity",
+      "sources": [
+        "MED16-AUDIO-152",
+        "MED16-AUDIO-164"
+      ],
+      "status": "content_topic_mismatch_observed",
+      "conclusion": "Archive links are preserved, but the attached audio topics differ from adjacent written answers. Question numbers do not verify spoken content."
+    }
+  ],
+  "independent_review": {
+    "path": "<private-local-artifact-not-distributed>",
+    "sha256": "f6dd3648b98d9a97402ef0eaf7bd8ba5b55fe8e71c649a453fe008a4b7782c6b",
+    "bytes": 112552
+  },
+  "review_activity": {
+    "read_raw_asr": true,
+    "read_raw_archived_faq": true,
+    "video_stills_actually_viewed": 16,
+    "archived_illustrations_actually_viewed": 3,
+    "audio_actually_listened": false,
+    "independent_retranscription_performed": false,
+    "read_product_implementation_or_existing_guide_interpretations": false,
+    "fresh_audio_asr_records_reviewed": 5,
+    "archive_record_metadata_reviewed": 5,
+    "targeted_same_model_asr_excerpts_reviewed": 4
+  },
+  "targeted_audio_recheck": {
+    "path": "<private-local-artifact-not-distributed>",
+    "sha256": "ce4ddb4ceb5f77edf514b830b3ceef8af0fc85b777d8fbac59642d8fe64189bd",
+    "bytes": 873
+  },
+  "model_sha256": "ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb",
+  "independent_human_listening": false,
+  "model_direct_audio_input_supported": false,
+  "same_model_repetition_counts_as_independent_evidence": false,
+  "exhaustive_course_review": false,
+  "original_media_modified": false,
+  "verbatim_teacher_transcripts_distributed": false
+}

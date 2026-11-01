@@ -1,0 +1,618 @@
+{
+  "format_version": 1,
+  "contract_id": "trade_knowledge_reference_v1",
+  "review_date": "2026-10-25",
+  "status": "reference_specification_complete_for_declared_subset_not_executed",
+  "purpose": "A reproducible, evidence-linked definition for initial analysis and future three-platform implementations.",
+  "platform_scope": {
+    "targets": [
+      "TradingView",
+      "MetaTrader4",
+      "MetaTrader5"
+    ],
+    "source_ref": "USER-PLATFORMS-20261025",
+    "user_confirmed": true
+  },
+  "runtime_implemented": false,
+  "trading_performance_validated": false,
+  "user_accepted_trading_defaults": false,
+  "evidence_files": [
+    "foundation-evidence.json",
+    "contract-evidence.json"
+  ],
+  "clauses": [
+    {
+      "id": "DATA-01",
+      "title_fa": "داده و واحد",
+      "source_refs": [
+        "REF-ATR",
+        "USER-PLATFORMS-20261025"
+      ],
+      "behavior": {
+        "bar_fields": [
+          "id",
+          "symbol",
+          "feed_id",
+          "price_basis",
+          "timeframe",
+          "open_time",
+          "close_time",
+          "available_at",
+          "is_closed",
+          "open",
+          "high",
+          "low",
+          "close"
+        ],
+        "instrument_fields": [
+          "tick_size",
+          "session_definition",
+          "source_timezone"
+        ],
+        "optional_instrument_fields": [
+          "pip_size"
+        ],
+        "price_basis_enum": [
+          "bid",
+          "ask",
+          "mid",
+          "last"
+        ],
+        "price_validation": "finite positive prices; low <= min(open,close) <= max(open,close) <= high",
+        "time_validation": "timezone-aware instants normalized to UTC; open_time < close_time <= available_at for closed bars",
+        "ordering": "unique ids and strictly ordered, non-overlapping bar intervals per feed/symbol/timeframe",
+        "tick_policy": "require tick-aligned OHLC; use integer ticks for direct price comparisons; do not infer tick or pip from display digits",
+        "numeric_values": "JSON decimal strings for price fixtures; do not round ATR or geometry before decisions",
+        "invalid_input_status": "invalid_input",
+        "missing_required_input_status": "insufficient_data"
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "DATA-02",
+      "title_fa": "زمان دسترسی و شکاف داده",
+      "source_refs": [
+        "REF-REPAINT"
+      ],
+      "behavior": {
+        "confirmation_requires": "is_closed and available_at <= as_of",
+        "forming_bar": "preview_only; may not confirm an event",
+        "gap_policy": "scheduled session closure is not missing data; unexplained missing expected bars invalidate the calculation segment; no synthetic carry-forward candles",
+        "higher_timeframe_join": "latest closed value with available_at <= decision_time; never use the final high/low of an unfinished higher-timeframe candle",
+        "events": [
+          "origin_at",
+          "confirmed_at",
+          "available_at",
+          "invalidated_at"
+        ],
+        "available_event_time": "max of confirmation bar availability, dependencies and annotation availability",
+        "history_corrections": "produce a new analysis version; preserve what was known in the old version"
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "VOL-C01",
+      "title_fa": "نمایهٔ مرجع نوسان",
+      "source_refs": [
+        "REF-ATR",
+        "REF-RMA",
+        "X-TRADE-B6"
+      ],
+      "behavior": {
+        "profile_id": "excel_periods_wilder_v1",
+        "choice_status": "selected_by_assistant_for_reference_specification_not_user_validated_trading_default",
+        "tr": "max(high-low, abs(high-previous_close), abs(low-previous_close))",
+        "first_tr_policy": "requires_previous_close; if absent, skip first bar TR and wait for N valid TRs; never silently substitute high-low",
+        "periods": {
+          "H1": 24,
+          "H4": 30,
+          "D1": 30,
+          "W1": 54,
+          "MN1": 12
+        },
+        "unlisted_period": "explicit_input_required; no inherited or guessed period",
+        "seed": "arithmetic mean of first N contiguous valid TRs",
+        "recurrence": "((N-1)*previous_atr + current_tr)/N",
+        "minimum_history": "N valid TRs with valid previous closes; zero ATR is computable but cannot be a ratio denominator",
+        "history_identity": "retain feed, session, input hash and seed start; same terminal date with different history is not an equality test",
+        "calendar_note": "periods are bar counts, not promises of calendar days, weeks or years",
+        "missing_policy": "not_computable; no APR substitution"
+      },
+      "limits": [
+        "RMA is a declared engineering choice because the workbook does not specify smoothing.",
+        "Native TradingView/MetaTrader equality is not established; first-TR and history initialization must be matched."
+      ],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "VOL-C02",
+      "title_fa": "مبنای سنجش کندل",
+      "source_refs": [
+        "TREX-19",
+        "TREX-305",
+        "REF-REPAINT"
+      ],
+      "behavior": {
+        "baseline": "ATR of immediately preceding bar in the same series, available by the target bar close/as_of",
+        "exclude_target_tr": true,
+        "store_baseline_value_and_bar_id": true,
+        "use_during_forming_bar": "preview only if prior ATR is available",
+        "stale_or_missing_previous_bar": "not_computable; never search arbitrarily farther back"
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "VOL-C03",
+      "title_fa": "نمایه‌های متفاوت و توان حرکتی",
+      "source_refs": [
+        "TREX-305",
+        "TREX-84",
+        "TREX-26",
+        "X-TRADE-B8",
+        "S2-TREX-924"
+      ],
+      "behavior": {
+        "source_composite_profile": "trex_composite_atr; preserve documented weights separately; native smoothing/seed not verified",
+        "composite_reimplementation": "if RMA is chosen for each component, give it a distinct research profile id; do not call it identical to the native source indicator",
+        "apr_formula": "reference_price * 0.0066 * explicit_timeframe_factor",
+        "apr_price_reference": "must be explicit and timestamped; no implicit current/live price",
+        "apr_usage": "hypothesis_math_only; no direction, maximum-move guarantee, or automatic substitution for ATR",
+        "crypto_scale_conflict": "unresolved; cannot enable automatic APR-dependent classifications",
+        "phase_lag_suggestion": "not implemented; no numerical lag specification in the inspected answer"
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "CND-C01",
+      "title_fa": "هندسه و ردهٔ طول",
+      "source_refs": [
+        "X-CANDLE-B2",
+        "X-CANDLE-B4",
+        "X-CANDLE-B8",
+        "X-CANDLE-B15",
+        "TREX-144",
+        "TREX-192"
+      ],
+      "behavior": {
+        "range": "high-low",
+        "body": "abs(close-open)",
+        "upper_wick": "high-max(open,close)",
+        "lower_wick": "min(open,close)-low",
+        "zero_range": "flat_bar; body/wick fractions and close-location ratios are undefined",
+        "zero_or_missing_baseline": "geometry available; length_class = not_computable",
+        "ratio": "range / previous_closed_atr",
+        "bands": [
+          {
+            "name": "short",
+            "lower": null,
+            "upper": "0.8",
+            "upper_inclusive": false
+          },
+          {
+            "name": "standard",
+            "lower": "0.8",
+            "lower_inclusive": true,
+            "upper": "1.2",
+            "upper_inclusive": true
+          },
+          {
+            "name": "long_range",
+            "lower": "1.2",
+            "lower_inclusive": false,
+            "upper": "2.5",
+            "upper_inclusive": true
+          },
+          {
+            "name": "very_long_range",
+            "lower": "2.5",
+            "lower_inclusive": false,
+            "upper": null
+          }
+        ],
+        "ratio_comparison_epsilon": "0.000000001",
+        "epsilon_behavior": "snap only to an explicitly compared dimensionless boundary within epsilon; retain raw ratio and boundary flag; this is numerical tolerance, not trading tolerance",
+        "close_location": "(close-low)/range; lower third < 1/3; middle [1/3,2/3]; upper > 2/3",
+        "pinbar_geometry": "both open and close in same extreme fifth; opposite wick <= 0.1*range; range >= 1.2*baseline; candidate only",
+        "names": "length classes are not automatic semantic longbar, spinning-top, reversal or trade labels"
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "CND-C02",
+      "title_fa": "تفکیک مرجع هندسی و مرجع ساختاری",
+      "source_refs": [
+        "X-CANDLE-B4",
+        "TREX-203",
+        "S2-TREX-166",
+        "S2-TREX-135"
+      ],
+      "behavior": {
+        "standard_dominant_candidate": "standard length AND max(body,upper_wick,lower_wick)/range >= 0.8",
+        "structural_master": "explicit annotation of active bar, direction, model, evidence, available_at and replacement event; never every geometric candidate",
+        "pinbar_exception": "a structural master may be a pinbar outside standard-length geometry; eligibility of exceptional pivots requires a named reviewed model",
+        "auto_select_or_replace": "unsupported in v1; return needs_context rather than select the largest/latest bar silently",
+        "replacement": "new explicit reference id and availability; old history retained; no retroactive confirmation"
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "TF-C01",
+      "title_fa": "بازه‌ها و سه محیط مقصد",
+      "source_refs": [
+        "X-TIME-B3",
+        "X-TIME-B7",
+        "REF-TV-TF",
+        "REF-MT4-TF",
+        "REF-MT5-TF",
+        "USER-PLATFORMS-20261025"
+      ],
+      "behavior": {
+        "targets": [
+          "TradingView_Pine_v6",
+          "MetaTrader4_MQL4",
+          "MetaTrader5_MQL5"
+        ],
+        "analysis_ladder_high_to_low": [
+          "MN1",
+          "W1",
+          "D1",
+          "H4",
+          "H1",
+          "M15",
+          "M5",
+          "M1"
+        ],
+        "ladder_status": "selected common-platform reference ladder; not a claim of exact fractal scaling",
+        "roles": "structure = chosen rung; pattern = next lower rung; trigger = two lower rungs; insufficient rungs -> unsupported",
+        "M30": "may be represented as data, but not silently inserted in this analysis ladder",
+        "custom_tf": [
+          "H16",
+          "M16",
+          "M4"
+        ],
+        "custom_tf_status": "deferred aggregation contract; no rounding to nearest standard timeframe",
+        "calendar_alignment": "declare broker/exchange session, timezone and week start; common UTC timestamps do not imply identical daily candles",
+        "monthly": "calendar interval; never fixed thirty-day resampling"
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "PIV-C01",
+      "title_fa": "پوشش مرجع و پیوت عادی",
+      "source_refs": [
+        "X-PIVOT-B4",
+        "X-PIVOT-B7",
+        "X-PIVOT-B9",
+        "TREX-170",
+        "TREX-177",
+        "TREX-203",
+        "TREX-222",
+        "S2-TREX-176",
+        "S2-TREX-178"
+      ],
+      "behavior": {
+        "model": "ordinary_master_cover_v1",
+        "required_context": [
+          "known timeframe",
+          "pre-leg qualification with cited bar ids",
+          "explicit structural master and availability"
+        ],
+        "preleg_routes": [
+          "at least three reviewed standard same-direction bars; intervening noise requires contextual review",
+          "explicitly selected length-based alternative; its threshold, start/end and ATR snapshot must be supplied"
+        ],
+        "do_not_require_both_preleg_routes": true,
+        "cover_down": "closed close < master.low",
+        "cover_up": "closed close > master.high",
+        "equality_is_cover": false,
+        "count": "closed bars strictly after the selected master; bar one or two is timely",
+        "timely_output": "cover_confirmed_timely; pivot candidate only within supplied valid context; not an entry instruction",
+        "late_output": "cover_confirmed_late; no live-entry qualification; does not erase the level",
+        "no_master": "needs_context; no silent virtual-line fallback",
+        "exceptional_models": "self-covering and pinbar exceptional pivot routes are excluded from this detector, not declared invalid",
+        "unknown_noise_or_preleg": "needs_context; no confirmed pivot"
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "LVL-C01",
+      "title_fa": "ناحیهٔ سطح و هویت آن",
+      "source_refs": [
+        "X-PIVOT-B5",
+        "X-LEVEL-B3",
+        "X-LEVEL-B4",
+        "S2-TREX-173",
+        "S2-TREX-218",
+        "S2-TREX-252",
+        "S2-TREX-871"
+      ],
+      "behavior": {
+        "required": [
+          "id",
+          "kind",
+          "side",
+          "timeframe",
+          "lower",
+          "upper",
+          "origin_at",
+          "available_at",
+          "source_refs",
+          "construction_method"
+        ],
+        "kind_enum": [
+          "classical_line",
+          "pivot_zone",
+          "order_node"
+        ],
+        "interval_validation": "lower <= upper; equality is a line",
+        "wick_to_body_support": "[low, min(open,close)] of an explicitly selected extreme candle",
+        "wick_to_body_resistance": "[max(open,close), high] of an explicitly selected extreme candle",
+        "half_atr_support": "[extreme_low, extreme_low + 0.5*frozen_atr]",
+        "half_atr_resistance": "[extreme_high - 0.5*frozen_atr, extreme_high]",
+        "construction_policy": "select one method explicitly; never union or average methods silently; selected extreme and ATR must be known by available_at",
+        "derived_boundary_precision": "keep exact derived boundary for comparisons; half-ATR levels need not align to ticks; display rounding must not change the decision boundary",
+        "outer_edge_for_breakout": "upper for bullish crossing; lower for bearish crossing",
+        "timeframe_persistence": "breaking or revisiting a level does not rewrite its original timeframe; new structure gets a new id/version",
+        "touch_counts": "descriptive only; no automatic twenty-percent confidence or risk reduction per touch",
+        "dynamic_trendlines": "outside this version; require a time-dependent level function in a later contract"
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "BRK-C01",
+      "title_fa": "نامزد شکست نوع اول",
+      "source_refs": [
+        "X-BREAK-B2",
+        "X-BREAK-B3",
+        "TREX-928",
+        "S2-TREX-895",
+        "S2-TREX-934",
+        "S2-TREX-1130",
+        "S2-TREX-871"
+      ],
+      "behavior": {
+        "model": "type1_strict_candle_candidate_v1",
+        "timeframe": "same as level; closed and available",
+        "bullish": "close > open AND close > level.upper",
+        "bearish": "close < open AND close < level.lower",
+        "crossing_context": "bullish: immediate previous closed close <= level.upper AND b0.open <= level.upper; bearish: immediate previous closed close >= level.lower AND b0.open >= level.lower; previous close must be available as of evaluation",
+        "crossing_choice_status": "explicit no-gap crossing subset chosen for this reference template; a candle already beyond the level is not a fresh crossing",
+        "gap_crossing": "if previous close is on the unbroken side but b0 opens beyond the edge, return unsupported for this template; gap models require a separate definition",
+        "missing_previous_close": "needs_context; do not infer first crossing from a later candle",
+        "range_criterion": "0.8 <= range/baseline <= 2.5",
+        "body_criterion": "body/range >= 0.8 for this deliberately strict numerical variant",
+        "body_criterion_status": "engineering selection; not asserted as the only Trex definition of a valid breakout candle",
+        "min_close_distance_atr": null,
+        "min_close_distance_apr": null,
+        "no_touch_before_breakout_required": false,
+        "compression_required": false,
+        "larger_spike_or_looser_wick": "requires_separate_model; failure of this template does not disprove a breakout",
+        "output": "candidate_only; no confirmed breakout and no trade direction order"
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "BRK-C02",
+      "title_fa": "تثبیت و تأیید",
+      "source_refs": [
+        "X-BREAK-B4",
+        "X-BREAK-B5",
+        "TREX-948",
+        "S2-TREX-907",
+        "REF-REPAINT"
+      ],
+      "behavior": {
+        "model": "strict_three_bar_confirmation_v1",
+        "b0": "closed candidate from BRK-C01",
+        "b1": "immediately next closed bar; bullish low > level.upper, bearish high < level.lower; equality/touch fails this strict stabilization component",
+        "b2": "immediately following closed bar; bullish close > b0.high, bearish close < b0.low",
+        "b2_intrabar_retouch": "recorded; not by itself an extra rejection in this profile",
+        "same_bar_for_b1_b2": false,
+        "precedence": "reject invalid/unavailable inputs first; apply known close-based invalidation before accepting stabilization or confirmation",
+        "confirmed_at": "b2.close_time",
+        "available_at": "maximum availability of b0,b1,b2, level, baseline, context",
+        "incomplete": "pending_confirmation",
+        "failed_component": "strict_template_not_matched; not equivalent to all-method breakout failure",
+        "generalization_limit": "Other multi-bar sequences remain reviewable but are not automatically accepted by this three-bar template.",
+        "confirmation_extreme_choice": "explicit stricter interpretation of the ambiguous workbook phrase above the breakout candle; not above its close only"
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "BRK-C03",
+      "title_fa": "نفوذ و گره",
+      "source_refs": [
+        "TREX-928",
+        "S2-TREX-881",
+        "S2-TREX-890",
+        "S2-TREX-934"
+      ],
+      "behavior": {
+        "penetration_up": "max(0, high - level.upper)",
+        "penetration_down": "max(0, level.lower - low)",
+        "type_two": "descriptive penetration observation; no automatic confirmed-breakout label",
+        "node_width": "max(highs of explicitly supplied node bars) - min(lows of those bars)",
+        "node_bars": "must be explicit and available; discovery is outside v1",
+        "taxonomy": "F/E/C/O needs explicit timeframe capacities and completed node structure; automatic taxonomy deferred while APR scale and media details remain unresolved",
+        "never_conflate": [
+          "penetration depth",
+          "node width",
+          "candle range",
+          "close distance"
+        ]
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "INV-C01",
+      "title_fa": "ابطال و پایان انتظار",
+      "source_refs": [
+        "S2-TREX-977",
+        "S2-TREX-995",
+        "S2-TREX-826",
+        "S2-TREX-854",
+        "S2-TREX-864",
+        "S2-TREX-866"
+      ],
+      "behavior": {
+        "bullish_invalidation": "first available closed bar with close < b0.low",
+        "bearish_invalidation": "first available closed bar with close > b0.high",
+        "equality_or_wick_only": "does not meet this close-based invalidation; record observation",
+        "invalidated_before_confirmation": "candidate invalidated; cannot later confirm without a new candidate id",
+        "invalidated_after_confirmation": "append invalidation event; do not erase historical confirmation",
+        "target_level": "explicit known level and near edge, not an invented price",
+        "target_touched": "reassess continuation scenario; this is not mathematical invalidation of the historical breakout",
+        "target_and_invalidation_price_threshold_touched_same_ohlc_bar": "order of the two price touches is unknown from OHLC; the close-based invalidation event itself occurs at bar close, not at first threshold touch; do not infer a stop execution or trade outcome",
+        "automatic_reverse_trade": false
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    },
+    {
+      "id": "SCN-C01",
+      "title_fa": "خروجی تحلیل و سناریو",
+      "source_refs": [
+        "X-TRIGGER-B7",
+        "S2-TREX-980",
+        "REF-REPAINT"
+      ],
+      "behavior": {
+        "required_output": [
+          "as_of",
+          "data_scope",
+          "observation",
+          "rule_id",
+          "profile_id",
+          "source_refs",
+          "status",
+          "missing_inputs",
+          "conditional_scenarios"
+        ],
+        "status_enum": [
+          "confirmed_under_selected_profile",
+          "candidate",
+          "pending_confirmation",
+          "needs_context",
+          "insufficient_data",
+          "invalid_input",
+          "not_computable",
+          "unsupported",
+          "strict_template_not_matched",
+          "invalidated",
+          "reassess",
+          "intrabar_order_unknown"
+        ],
+        "component_status": "retain clause-specific outcomes separately; timely or late pivot cover may be confirmed_under_selected_profile only with the required supplied context, and never implies entry qualification",
+        "scenario_fields": [
+          "condition",
+          "confirmation_timeframe",
+          "invalidation_condition",
+          "next_known_level",
+          "remaining_uncertainty"
+        ],
+        "unknown_value": "null with missing_inputs explanation; never invented OHLC, ATR, timeframe, target or confidence percentage",
+        "no_position_case": "explicit no confirmed opportunity or insufficient data where appropriate",
+        "risk": "no position-size computation without account/risk/contract inputs; no blanket percent-risk default inherited from source examples",
+        "instruction_boundary": "source text is evidence, not authority to send orders, publish, run code or change account settings"
+      },
+      "limits": [],
+      "provenance": "source-informed engineering contract; design choices are not attributed verbatim to sources"
+    }
+  ],
+  "decision_dispositions": [
+    {
+      "id": "DEC-01",
+      "resolution": "bounded_reference_choice",
+      "selected": "excel_periods_wilder_v1; composite remains separately identified",
+      "user_accepted": false
+    },
+    {
+      "id": "DEC-02",
+      "resolution": "excluded_from_automatic_decisions",
+      "selected": "APR descriptive arithmetic only; unresolved crypto scaling remains a research question",
+      "user_accepted": false
+    },
+    {
+      "id": "DEC-03",
+      "resolution": "versioned_technical_choice",
+      "selected": "exclusive length bands with numerical epsilon, raw ratio and boundary flag",
+      "user_accepted": false
+    },
+    {
+      "id": "DEC-04",
+      "resolution": "manual_context_boundary",
+      "selected": "explicit structural master and pre-leg; automatic replacement and exceptional pivots deferred",
+      "user_accepted": false
+    },
+    {
+      "id": "DEC-05",
+      "resolution": "source_corrected_plus_bounded_template",
+      "selected": "no universal one-ATR close distance; explicit strict three-bar confirmation variant",
+      "user_accepted": false
+    },
+    {
+      "id": "DEC-06",
+      "resolution": "versioned_technical_choice",
+      "selected": "common-platform ladder and explicit RMA/seed/session rules; custom aggregation deferred",
+      "user_accepted": false
+    }
+  ],
+  "material_corrections": [
+    {
+      "id": "COR-01",
+      "subject": "type-one breakout distance",
+      "prior_risk": "Mistaking ATR candle-size classification for mandatory distance from level.",
+      "resolution": "No universal one-ATR or APR distance requirement. TREX-928 must be read with the explicit clarifications in S2-TREX-895 and S2-TREX-934.",
+      "source_refs": [
+        "X-BREAK-B2",
+        "TREX-928",
+        "S2-TREX-895",
+        "S2-TREX-934"
+      ]
+    },
+    {
+      "id": "COR-02",
+      "subject": "geometric vs structural master",
+      "prior_risk": "Treating every active reference as standard-sized although a pinbar can become the structural reference.",
+      "resolution": "Separate geometric candidate from contextual master; no silent automatic selection.",
+      "source_refs": [
+        "X-CANDLE-B4",
+        "TREX-203",
+        "S2-TREX-166"
+      ]
+    },
+    {
+      "id": "COR-03",
+      "subject": "late pivot cover",
+      "prior_risk": "Equating late cover with a worthless or nonexistent level.",
+      "resolution": "Live-entry timing qualification and persistent support/resistance are separate.",
+      "source_refs": [
+        "TREX-170",
+        "S2-TREX-176"
+      ]
+    }
+  ],
+  "remaining_research": [
+    "automatic master selection/replacement",
+    "exceptional/self-covering pivot models",
+    "full node taxonomy and automatic node discovery",
+    "APR empirical validity and crypto scale",
+    "custom timeframe aggregation",
+    "remaining audio/video/chart review",
+    "native platform parity"
+  ],
+  "handoff": "Build the first analysis skill using explicit input/context and uncertainty states; do not claim a complete automatic detector or validated trading strategy.",
+  "acceptance_cases_file": "contract-cases.json"
+}

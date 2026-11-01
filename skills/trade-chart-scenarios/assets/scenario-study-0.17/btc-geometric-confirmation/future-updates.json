@@ -1,0 +1,330 @@
+{
+  "case_id": "BTCUSDT-BTCUSDT-segment01-b748-up-27",
+  "fixed_levels_and_evidence": true,
+  "updates": [
+    {
+      "bars_after_candidate": 1,
+      "as_of": "2026-09-03T14:30:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "BTCUSDT-M5-1788445500",
+            "open_time": "2026-09-03T14:25:00Z",
+            "close_time": "2026-09-03T14:30:00Z",
+            "available_at": "2026-09-03T14:30:00Z",
+            "is_closed": true,
+            "open": "79376.00000000",
+            "high": "79678.77000000",
+            "low": "79370.94000000",
+            "close": "79664.01000000"
+          }
+        ],
+        "M15": [
+          {
+            "id": "BTCUSDT-M15-1788444900",
+            "open_time": "2026-09-03T14:15:00Z",
+            "close_time": "2026-09-03T14:30:00Z",
+            "available_at": "2026-09-03T14:30:00Z",
+            "is_closed": true,
+            "open": "78990.00000000",
+            "high": "79678.77000000",
+            "low": "78988.66000000",
+            "close": "79664.01000000"
+          }
+        ],
+        "H1": []
+      },
+      "selection_bar_id": "BTCUSDT-M5-1788445500"
+    },
+    {
+      "bars_after_candidate": 2,
+      "as_of": "2026-09-03T14:35:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "BTCUSDT-M5-1788445800",
+            "open_time": "2026-09-03T14:30:00Z",
+            "close_time": "2026-09-03T14:35:00Z",
+            "available_at": "2026-09-03T14:35:00Z",
+            "is_closed": true,
+            "open": "79664.00000000",
+            "high": "79872.98000000",
+            "low": "79605.73000000",
+            "close": "79760.05000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "BTCUSDT-M5-1788445800"
+    },
+    {
+      "bars_after_candidate": 3,
+      "as_of": "2026-09-03T14:40:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "BTCUSDT-M5-1788446100",
+            "open_time": "2026-09-03T14:35:00Z",
+            "close_time": "2026-09-03T14:40:00Z",
+            "available_at": "2026-09-03T14:40:00Z",
+            "is_closed": true,
+            "open": "79760.06000000",
+            "high": "79859.40000000",
+            "low": "79663.21000000",
+            "close": "79665.27000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "BTCUSDT-M5-1788446100"
+    },
+    {
+      "bars_after_candidate": 4,
+      "as_of": "2026-09-03T14:45:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "BTCUSDT-M5-1788446400",
+            "open_time": "2026-09-03T14:40:00Z",
+            "close_time": "2026-09-03T14:45:00Z",
+            "available_at": "2026-09-03T14:45:00Z",
+            "is_closed": true,
+            "open": "79665.27000000",
+            "high": "79875.00000000",
+            "low": "79599.99000000",
+            "close": "79764.72000000"
+          }
+        ],
+        "M15": [
+          {
+            "id": "BTCUSDT-M15-1788445800",
+            "open_time": "2026-09-03T14:30:00Z",
+            "close_time": "2026-09-03T14:45:00Z",
+            "available_at": "2026-09-03T14:45:00Z",
+            "is_closed": true,
+            "open": "79664.00000000",
+            "high": "79875.00000000",
+            "low": "79599.99000000",
+            "close": "79764.72000000"
+          }
+        ],
+        "H1": []
+      },
+      "selection_bar_id": "BTCUSDT-M5-1788446400"
+    },
+    {
+      "bars_after_candidate": 5,
+      "as_of": "2026-09-03T14:50:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "BTCUSDT-M5-1788446700",
+            "open_time": "2026-09-03T14:45:00Z",
+            "close_time": "2026-09-03T14:50:00Z",
+            "available_at": "2026-09-03T14:50:00Z",
+            "is_closed": true,
+            "open": "79764.71000000",
+            "high": "80500.00000000",
+            "low": "79760.45000000",
+            "close": "80360.00000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "BTCUSDT-M5-1788446700"
+    },
+    {
+      "bars_after_candidate": 6,
+      "as_of": "2026-09-03T14:55:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "BTCUSDT-M5-1788447000",
+            "open_time": "2026-09-03T14:50:00Z",
+            "close_time": "2026-09-03T14:55:00Z",
+            "available_at": "2026-09-03T14:55:00Z",
+            "is_closed": true,
+            "open": "80360.00000000",
+            "high": "80468.37000000",
+            "low": "80094.32000000",
+            "close": "80255.39000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "BTCUSDT-M5-1788447000"
+    },
+    {
+      "bars_after_candidate": 7,
+      "as_of": "2026-09-03T15:00:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "BTCUSDT-M5-1788447300",
+            "open_time": "2026-09-03T14:55:00Z",
+            "close_time": "2026-09-03T15:00:00Z",
+            "available_at": "2026-09-03T15:00:00Z",
+            "is_closed": true,
+            "open": "80255.39000000",
+            "high": "80561.00000000",
+            "low": "80130.97000000",
+            "close": "80549.97000000"
+          }
+        ],
+        "M15": [
+          {
+            "id": "BTCUSDT-M15-1788446700",
+            "open_time": "2026-09-03T14:45:00Z",
+            "close_time": "2026-09-03T15:00:00Z",
+            "available_at": "2026-09-03T15:00:00Z",
+            "is_closed": true,
+            "open": "79764.71000000",
+            "high": "80561.00000000",
+            "low": "79760.45000000",
+            "close": "80549.97000000"
+          }
+        ],
+        "H1": [
+          {
+            "id": "BTCUSDT-H1-1788444000",
+            "open_time": "2026-09-03T14:00:00Z",
+            "close_time": "2026-09-03T15:00:00Z",
+            "available_at": "2026-09-03T15:00:00Z",
+            "is_closed": true,
+            "open": "78840.52000000",
+            "high": "80561.00000000",
+            "low": "78704.00000000",
+            "close": "80549.97000000"
+          }
+        ]
+      },
+      "selection_bar_id": "BTCUSDT-M5-1788447300"
+    },
+    {
+      "bars_after_candidate": 8,
+      "as_of": "2026-09-03T15:05:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "BTCUSDT-M5-1788447600",
+            "open_time": "2026-09-03T15:00:00Z",
+            "close_time": "2026-09-03T15:05:00Z",
+            "available_at": "2026-09-03T15:05:00Z",
+            "is_closed": true,
+            "open": "80549.97000000",
+            "high": "80966.63000000",
+            "low": "80494.00000000",
+            "close": "80812.96000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "BTCUSDT-M5-1788447600"
+    },
+    {
+      "bars_after_candidate": 9,
+      "as_of": "2026-09-03T15:10:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "BTCUSDT-M5-1788447900",
+            "open_time": "2026-09-03T15:05:00Z",
+            "close_time": "2026-09-03T15:10:00Z",
+            "available_at": "2026-09-03T15:10:00Z",
+            "is_closed": true,
+            "open": "80812.96000000",
+            "high": "80882.40000000",
+            "low": "80548.78000000",
+            "close": "80586.96000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "BTCUSDT-M5-1788447900"
+    },
+    {
+      "bars_after_candidate": 10,
+      "as_of": "2026-09-03T15:15:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "BTCUSDT-M5-1788448200",
+            "open_time": "2026-09-03T15:10:00Z",
+            "close_time": "2026-09-03T15:15:00Z",
+            "available_at": "2026-09-03T15:15:00Z",
+            "is_closed": true,
+            "open": "80586.96000000",
+            "high": "80637.26000000",
+            "low": "80354.65000000",
+            "close": "80557.84000000"
+          }
+        ],
+        "M15": [
+          {
+            "id": "BTCUSDT-M15-1788447600",
+            "open_time": "2026-09-03T15:00:00Z",
+            "close_time": "2026-09-03T15:15:00Z",
+            "available_at": "2026-09-03T15:15:00Z",
+            "is_closed": true,
+            "open": "80549.97000000",
+            "high": "80966.63000000",
+            "low": "80354.65000000",
+            "close": "80557.84000000"
+          }
+        ],
+        "H1": []
+      },
+      "selection_bar_id": "BTCUSDT-M5-1788448200"
+    },
+    {
+      "bars_after_candidate": 11,
+      "as_of": "2026-09-03T15:20:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "BTCUSDT-M5-1788448500",
+            "open_time": "2026-09-03T15:15:00Z",
+            "close_time": "2026-09-03T15:20:00Z",
+            "available_at": "2026-09-03T15:20:00Z",
+            "is_closed": true,
+            "open": "80557.83000000",
+            "high": "80666.00000000",
+            "low": "80465.54000000",
+            "close": "80605.86000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "BTCUSDT-M5-1788448500"
+    },
+    {
+      "bars_after_candidate": 12,
+      "as_of": "2026-09-03T15:25:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "BTCUSDT-M5-1788448800",
+            "open_time": "2026-09-03T15:20:00Z",
+            "close_time": "2026-09-03T15:25:00Z",
+            "available_at": "2026-09-03T15:25:00Z",
+            "is_closed": true,
+            "open": "80605.87000000",
+            "high": "80778.00000000",
+            "low": "80540.00000000",
+            "close": "80748.00000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "BTCUSDT-M5-1788448800"
+    }
+  ]
+}

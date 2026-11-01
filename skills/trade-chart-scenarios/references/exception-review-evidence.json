@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "date": "2026-10-26",
+  "records": [
+    {
+      "id": "TREX-135",
+      "site_question_id": 135,
+      "displayed_title": "سوال شماره 140",
+      "source_url": "https://www.trexacademy.ir/questions/135",
+      "public_api": "https://www.trexacademy.ir/api/common/question/135",
+      "fetched_at": "2026-10-26T09:47:05.327678+00:00",
+      "decoded_record_sha256": "0fc674372a665779ef8db93d2086f673b3f00778cea1efa0d5b6864e5e568f77",
+      "evidence_type": "confirmation_caveat",
+      "paraphrase_fa": "تشخیص درست پیوت با شکل ظاهری یکی نیست؛ پاسخ مدرس برخی پین‌بارها را نیازمند تأیید می‌داند و جزئیات را به ویدئو ارجاع می‌دهد.",
+      "instructions_in_source_are_not_user_authority": true,
+      "independent_human_or_model_review": false
+    },
+    {
+      "id": "TREX-166",
+      "site_question_id": 166,
+      "displayed_title": "سوال شماره 171",
+      "source_url": "https://www.trexacademy.ir/questions/166",
+      "public_api": "https://www.trexacademy.ir/api/common/question/166",
+      "fetched_at": "2026-10-26T09:47:05.993684+00:00",
+      "decoded_record_sha256": "fa9d66f69a512a0deb0b8a3e252e53dc54814ea028e125c84cb648b234811b36",
+      "evidence_type": "family_distinction",
+      "paraphrase_fa": "پاسخ، خانواده‌های شکل را جدا می‌کند و برای سایهٔ بلند شرط نسبت بدنه را معیار همگانی نمی‌داند؛ این متن به‌تنهایی شرایط کامل معافیت از تأیید را نمی‌دهد.",
+      "instructions_in_source_are_not_user_authority": true,
+      "independent_human_or_model_review": false
+    },
+    {
+      "id": "TREX-269",
+      "site_question_id": 269,
+      "displayed_title": "سوال شماره 279",
+      "source_url": "https://www.trexacademy.ir/questions/269",
+      "public_api": "https://www.trexacademy.ir/api/common/question/269",
+      "fetched_at": "2026-10-26T09:47:36.972598+00:00",
+      "decoded_record_sha256": "67ea2b869be6e64f58cef5a807fb45ffa25d4ff3bbb6ba8477fab5ff54b1611e",
+      "evidence_type": "annotated_diagram",
+      "paraphrase_fa": "از چپ به راست، فقط نمونهٔ دوم پذیرفته شده است. دو تصویر پرسش و پاسخ بدون محور قیمت‌اند؛ پاسخ تصویری روی نمونه‌های اول، سوم و چهارم علامت رد دارد. از این تصویر قیمت، نوسان و توالی درون کندل بازسازی نمی‌شود.",
+      "instructions_in_source_are_not_user_authority": true,
+      "independent_human_or_model_review": false,
+      "media": [
+        {
+          "url": "https://www.trexacademy.ir/storage/trex_backup/6017185011045871305_y_4.jpg",
+          "sha256": "ac04910e6fa06e8fd54bf46adb6b394fbf2301d15c91251b9dcedc3bd9653a3d",
+          "bytes": 12111,
+          "visually_reviewed": true,
+          "review_date": "2026-10-26",
+          "bundled": false
+        },
+        {
+          "url": "https://www.trexacademy.ir/storage/trex_backup/6017008337566150677_y_4.jpg",
+          "sha256": "071aa289caa22c647b8a614dcfe5b39dcaf4e099016e0b47a04252de306408e6",
+          "bytes": 32075,
+          "visually_reviewed": true,
+          "review_date": "2026-10-26",
+          "bundled": false
+        }
+      ],
+      "qualitative_cases": [
+        {
+          "position_left_to_right": 1,
+          "label": "rejected",
+          "reason": "body_closes_in_incoming_direction"
+        },
+        {
+          "position_left_to_right": 2,
+          "label": "accepted_example",
+          "reason": "reverse_body_and_incoming_side_shadow"
+        },
+        {
+          "position_left_to_right": 3,
+          "label": "rejected",
+          "reason": "body_closes_in_incoming_direction"
+        },
+        {
+          "position_left_to_right": 4,
+          "label": "rejected",
+          "reason": "shadow_on_wrong_side"
+        }
+      ]
+    },
+    {
+      "id": "TREX-412",
+      "site_question_id": 412,
+      "displayed_title": "سوال شماره 422",
+      "source_url": "https://www.trexacademy.ir/questions/412",
+      "public_api": "https://www.trexacademy.ir/api/common/question/412",
+      "fetched_at": "2026-10-26T09:47:06.558855+00:00",
+      "decoded_record_sha256": "3cfee4d2617e0f60f628c617af03099735ceb9c09814d971b955ddee994a3143",
+      "evidence_type": "linked_explanation",
+      "paraphrase_fa": "توضیحِ همان چهار نمونه، بسته‌شدن بدنه برخلاف موج ورودی را لازم می‌داند. نمونهٔ چهارم با وجود جهت بدنهٔ مناسب، سایه را در سمت مناسب موج نزولی ندارد.",
+      "instructions_in_source_are_not_user_authority": true,
+      "independent_human_or_model_review": false
+    },
+    {
+      "id": "EXR-DESIGN-01",
+      "evidence_type": "engineering_design",
+      "explanation": "Review gates, tri-state unknown values and strictly positive ATR requirements are engineering decisions. Existing 0.4..2/3 self-cover band is a design screen, not an exhaustive source rule. No automatic subtype confirmation or order-node validation."
+    }
+  ],
+  "limits": [
+    "Four public answers reread; two linked schematic images viewed",
+    "No exact OHLC, ATR, trade timing or intrabar order derivable from the schematic",
+    "No full course/video review; no independent expert labels or profitability claim"
+  ]
+}

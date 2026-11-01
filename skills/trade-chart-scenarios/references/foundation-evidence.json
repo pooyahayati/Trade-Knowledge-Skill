@@ -1,0 +1,1471 @@
+{
+  "format_version": 1,
+  "review_date": "2026-10-25",
+  "scope": "first_text_grounded_foundation_batch",
+  "records": [
+    {
+      "id": "X-TRADE-B6",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "ترید",
+      "cell": "B6",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-TRADE-B7",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "ترید",
+      "cell": "B7",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-TRADE-B8",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "ترید",
+      "cell": "B8",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-TRADE-B9",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "ترید",
+      "cell": "B9",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-TRADE-B10",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "ترید",
+      "cell": "B10",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-CANDLE-B2",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "کندل",
+      "cell": "B2",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-CANDLE-B3",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "کندل",
+      "cell": "B3",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-CANDLE-B4",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "کندل",
+      "cell": "B4",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-CANDLE-B5",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "کندل",
+      "cell": "B5",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-CANDLE-B6",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "کندل",
+      "cell": "B6",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-CANDLE-B7",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "کندل",
+      "cell": "B7",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-CANDLE-B8",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "کندل",
+      "cell": "B8",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-CANDLE-B9",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "کندل",
+      "cell": "B9",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-CANDLE-B11",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "کندل",
+      "cell": "B11",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-CANDLE-B12",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "کندل",
+      "cell": "B12",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-CANDLE-B13",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "کندل",
+      "cell": "B13",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-CANDLE-B15",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "کندل",
+      "cell": "B15",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-TIME-B2",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "تایم فریم",
+      "cell": "B2",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-TIME-B3",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "تایم فریم",
+      "cell": "B3",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-TIME-B5",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "تایم فریم",
+      "cell": "B5",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-TIME-B6",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "تایم فریم",
+      "cell": "B6",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-TIME-B7",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "تایم فریم",
+      "cell": "B7",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-PIVOT-B3",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "پیوت",
+      "cell": "B3",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-PIVOT-B4",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "پیوت",
+      "cell": "B4",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-PIVOT-B7",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "پیوت",
+      "cell": "B7",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-PIVOT-B9",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "پیوت",
+      "cell": "B9",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-PIVOT-B10",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "پیوت",
+      "cell": "B10",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-BREAK-B2",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "شکست",
+      "cell": "B2",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-BREAK-B3",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "شکست",
+      "cell": "B3",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-BREAK-B4",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "شکست",
+      "cell": "B4",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-BREAK-B5",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "شکست",
+      "cell": "B5",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-GAP-B4",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "گپ",
+      "cell": "B4",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "X-TRIGGER-B5",
+      "parent_source_id": "H01",
+      "kind": "user_authored_workbook_note",
+      "sheet": "تریگر",
+      "cell": "B5",
+      "source_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "original_text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "interpretation_status": "source_note_not_automatically_validated_rule"
+    },
+    {
+      "id": "TREX-14",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/14",
+      "site_id": 14,
+      "original_question_number": 14,
+      "topic_fa": "زمان انتظار",
+      "summary_fa": "پاسخ، تعیین تعداد دقیق کندل‌های بعدی از چند دامنهٔ قبلی را رد می‌کند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr"
+      ]
+    },
+    {
+      "id": "TREX-19",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/19",
+      "site_id": 19,
+      "original_question_number": 19,
+      "topic_fa": "کندل جاری",
+      "summary_fa": "در محاسبهٔ شرح‌داده‌شده، کندل روز جاری کنار گذاشته می‌شود و پرشدن دامنهٔ روزانه الزام نیست.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "partial_conversation_context"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr"
+      ]
+    },
+    {
+      "id": "TREX-21",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/21",
+      "site_id": 21,
+      "original_question_number": 21,
+      "topic_fa": "تفکیک کمیت‌ها",
+      "summary_fa": "پاسخ، میانگین دامنهٔ روزانه، میانگین دامنهٔ واقعی و توان حرکتی اختصاصی را دارای فرمول‌های جدا معرفی می‌کند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr"
+      ]
+    },
+    {
+      "id": "TREX-22",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/22",
+      "site_id": 22,
+      "original_question_number": 22,
+      "topic_fa": "واحد طلا",
+      "summary_fa": "نمونهٔ عددی طلا به تعداد رقم و پیپ وابسته بیان شده؛ مشخصات قرارداد در متن کامل نیست.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "unit_unspecified",
+        "historical_example"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr"
+      ]
+    },
+    {
+      "id": "TREX-23",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/23",
+      "site_id": 23,
+      "original_question_number": 23,
+      "topic_fa": "فرضیهٔ تعادل",
+      "summary_fa": "متن، فرضیهٔ بازگشت نوسان به تعادل و مثال‌هایی از تعداد کندل‌ها دارد؛ پرسش و چند پاسخ در یک متن به هم چسبیده‌اند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "mixed_speaker_segments",
+        "hypothesis_not_validated"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr"
+      ]
+    },
+    {
+      "id": "TREX-25",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/25",
+      "site_id": 25,
+      "original_question_number": 25,
+      "topic_fa": "نمونه‌های توان حرکتی",
+      "summary_fa": "نمونه‌های یورو، ین و طلا ارائه شده‌اند. تبدیل واحد و حسابِ مثال طلا ناسازگار است؛ متن به فرمول عمومی قابل اجرا تبدیل نشده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "arithmetic_error",
+        "unit_ambiguity"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr"
+      ]
+    },
+    {
+      "id": "TREX-26",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/26",
+      "site_id": 26,
+      "original_question_number": 26,
+      "topic_fa": "مثال بیت‌کوین",
+      "summary_fa": "در پاسخ به مثال قیمت ۵۱۰۰ دلار، دامنهٔ روزانه حدود ۳۰۰۰ دلار تأیید شده است؛ این مقیاس با فرمول ۰٫۶۶ درصدی اکسل یکسان نیست.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "conflicts_with_workbook_scale",
+        "historical_example",
+        "empirical_claim_unverified"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr"
+      ]
+    },
+    {
+      "id": "TREX-30",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/30",
+      "site_id": 30,
+      "original_question_number": 30,
+      "topic_fa": "تعداد کندل نمونه",
+      "summary_fa": "پاسخ تصریح می‌کند اعداد ۹ و ۲۶ مثال بوده‌اند و تعداد دقیق، منظور قاعده نبوده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "remaining_mean_reversion_claim_is_hypothesis"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr"
+      ]
+    },
+    {
+      "id": "TREX-32",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/32",
+      "site_id": 32,
+      "original_question_number": 32,
+      "topic_fa": "تلورانس و توان حرکتی",
+      "summary_fa": "تلورانس ۲۰ درصد در روش و جدا بودن فرمول توان حرکتی بیان شده است؛ تناسب میان بازه‌ها ادعای روش است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "empirical_scaling_not_universal"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr"
+      ]
+    },
+    {
+      "id": "TREX-43",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/43",
+      "site_id": 43,
+      "original_question_number": 43,
+      "topic_fa": "بدنه و سایه",
+      "summary_fa": "تقسیم ثابت نصف بدنه و نصف سایه رد شده و برای ادعای آماری، بررسی مستقل درخواست شده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/2"
+      ]
+    },
+    {
+      "id": "TREX-45",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/45",
+      "site_id": 45,
+      "original_question_number": 45,
+      "topic_fa": "دوره و بازه",
+      "summary_fa": "در مقایسهٔ میانگین‌های کوتاه و بلند، بازهٔ کندل ثابت است و دورهٔ محاسبه تغییر می‌کند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "context_is_comparison_not_ban_on_all_mtf_analysis"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/2"
+      ]
+    },
+    {
+      "id": "TREX-52",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/52",
+      "site_id": 52,
+      "original_question_number": 52,
+      "topic_fa": "باقی‌ماندهٔ دامنه",
+      "summary_fa": "تکمیل مکانیکی فاصلهٔ مانده تا میانگین رد شده است؛ ادامهٔ متن چند گفتگو و تفسیر مشروط را مخلوط دارد.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "mixed_speaker_segments",
+        "images_not_reviewed"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/2"
+      ]
+    },
+    {
+      "id": "TREX-53",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/53",
+      "site_id": 53,
+      "original_question_number": 53,
+      "topic_fa": "خواندن اندیکاتور",
+      "summary_fa": "دو عدد متفاوت برای میانگین و توان حرکتی معرفی شده‌اند. این‌ها برچسب‌های متفاوت اندیکاتورند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "image_context_not_reviewed"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/2"
+      ]
+    },
+    {
+      "id": "TREX-55",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/55",
+      "site_id": 55,
+      "original_question_number": 55,
+      "topic_fa": "تقریب کاربردی",
+      "summary_fa": "منبع گاهی دو کمیت را در کاربرد نزدیک فرض می‌کند؛ این فرض، همانیِ ریاضی دو فرمول نیست.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "approximation_context",
+        "images_not_reviewed"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/2"
+      ]
+    },
+    {
+      "id": "TREX-61",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/61",
+      "site_id": 61,
+      "original_question_number": 62,
+      "topic_fa": "جهت از اختلاف دو عدد",
+      "summary_fa": "پاسخ، برداشت مستقیم جهت صعود یا نزول از اختلاف میانگین و توان حرکتی را رد می‌کند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/2"
+      ]
+    },
+    {
+      "id": "TREX-64",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/64",
+      "site_id": 64,
+      "original_question_number": 65,
+      "topic_fa": "کمبود تاریخچه",
+      "summary_fa": "محدودیت تاریخی دادهٔ هفتگی و ماهانه و استفاده از تقریب در اندیکاتور آموزشی توضیح داده شده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "historical_workaround_not_general_default"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/2"
+      ]
+    },
+    {
+      "id": "TREX-75",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/75",
+      "site_id": 75,
+      "original_question_number": 76,
+      "topic_fa": "نام دو فرمول",
+      "summary_fa": "دو تعریف جدا تأکید شده و کاربرد بیشتر میانگین دامنهٔ واقعی بیان شده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/2"
+      ]
+    },
+    {
+      "id": "TREX-84",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/84",
+      "site_id": 84,
+      "original_question_number": 85,
+      "topic_fa": "ضرایب بازه‌ای",
+      "summary_fa": "پاسخ صریحاً ضرایب روزانه به چهارساعته و سایر بازه‌ها را مربوط به توان حرکتی می‌داند، نه محاسبهٔ میانگین دامنهٔ واقعی.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/2"
+      ]
+    },
+    {
+      "id": "TREX-96",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/96",
+      "site_id": 96,
+      "original_question_number": 98,
+      "topic_fa": "تناسب بازه‌ها",
+      "summary_fa": "رابطهٔ افزایش چهاربرابری زمان و دوبرابری دامنه به‌عنوان مشاهدهٔ تجربی معرفی شده؛ علت اثبات‌شده ارائه نشده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "empirical_relationship"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/2"
+      ]
+    },
+    {
+      "id": "TREX-124",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/124",
+      "site_id": 124,
+      "original_question_number": 128,
+      "topic_fa": "کاربرد دو معیار",
+      "summary_fa": "میان انتظار کلی توان حرکتی و استفادهٔ محاسباتی از میانگین دامنهٔ واقعی تمایز گذاشته شده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "images_not_reviewed"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/3"
+      ]
+    },
+    {
+      "id": "TREX-129",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/129",
+      "site_id": 129,
+      "original_question_number": 133,
+      "topic_fa": "کاربرد و خطای حساب",
+      "summary_fa": "پاسخ دربارهٔ دو معیار توضیح می‌دهد؛ در مثال هدف، سه برابر ۱۳ به‌اشتباه ۴۹ نوشته شده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "arithmetic_error",
+        "context_dependent_tolerance"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/3"
+      ]
+    },
+    {
+      "id": "TREX-144",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/144",
+      "site_id": 144,
+      "original_question_number": 148,
+      "topic_fa": "مرزهای تقریبی کندل",
+      "summary_fa": "پاسخ حدود دسته‌بندی کندل‌ها را تقریبی می‌داند و مرزبندی کاملاً مطلق را توصیه نمی‌کند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "requires_explicit_software_policy"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/3"
+      ]
+    },
+    {
+      "id": "TREX-171",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/171",
+      "site_id": 171,
+      "original_question_number": 176,
+      "topic_fa": "نوسان اخیر و توان کلی",
+      "summary_fa": "منبع، میانگین دامنهٔ واقعی را برای وضعیت اخیر و توان حرکتی را برای دید کلی شرح می‌دهد.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "claimed_upper_bound_not_empirically_validated"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/3"
+      ]
+    },
+    {
+      "id": "TREX-262",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/262",
+      "site_id": 262,
+      "original_question_number": 272,
+      "topic_fa": "انتخاب معیار در لحظه",
+      "summary_fa": "برای تصمیم در لحظه، استفاده از میانگین دامنهٔ واقعی توصیه شده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "method_recommendation_not_performance_proof"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/3"
+      ]
+    },
+    {
+      "id": "TREX-305",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/305",
+      "site_id": 305,
+      "original_question_number": 307,
+      "topic_fa": "میانگین ترکیبی",
+      "summary_fa": "پاسخ یک ترکیب وزنی از دوره‌های متعدد و ترکیب تکمیلی روزانه را نشان می‌دهد. همهٔ فراخوانی‌های نمایش‌داده‌شده از کندل قبلی استفاده می‌کنند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text_with_code",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "source_code_not_executed",
+        "native_atr_smoothing_unverified",
+        "snippet_not_complete_program"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/3"
+      ]
+    },
+    {
+      "id": "TREX-373",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/373",
+      "site_id": 373,
+      "original_question_number": 378,
+      "topic_fa": "تاریخچهٔ ناکافی",
+      "summary_fa": "برای محاسبهٔ هفتگی و ماهانه، کمبود دادهٔ اندیکاتور آموزشی و راه‌حل‌های جایگزین ذکر شده‌اند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "historical_workaround_not_general_default"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/3"
+      ]
+    },
+    {
+      "id": "TREX-709",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/709",
+      "site_id": 709,
+      "original_question_number": 767,
+      "topic_fa": "کاربرد توان حرکتی در لگ",
+      "summary_fa": "پاسخ در زمینهٔ لگ، استفاده از توان حرکتی را می‌پذیرد و تلورانس آن را با میانگین یکی نمی‌داند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "context_specific",
+        "images_not_reviewed"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/3"
+      ]
+    },
+    {
+      "id": "TREX-839",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/839",
+      "site_id": 839,
+      "original_question_number": 904,
+      "topic_fa": "گام و توان حرکتی",
+      "summary_fa": "منبع مبنای اصلی گام را توان حرکتی معرفی می‌کند و استفاده از میانگین را وابسته به شرایط می‌داند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "no_global_substitution_rule"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/4"
+      ]
+    },
+    {
+      "id": "TREX-928",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/928",
+      "site_id": 928,
+      "original_question_number": 997,
+      "topic_fa": "اصلاح تعریف شکست",
+      "summary_fa": "پاسخ، انتساب بسته‌شدن کندل شکست به توان حرکتی را اشتباه گفتاری اعلام می‌کند؛ میان شکست نوع اول، نفوذ نوع دوم و گام‌های لول‌بندی تفکیک می‌کند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "partial_breakout_definition",
+        "explicit_source_correction"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/3/atr/page/4"
+      ]
+    },
+    {
+      "id": "TREX-131",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/131",
+      "site_id": 131,
+      "original_question_number": 135,
+      "topic_fa": "شناخت و ورود",
+      "summary_fa": "شناخت خانوادهٔ کندل با ستاپ معامله یکی نیست و آرایش داخلی و زمینه باید جدا بررسی شوند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "do_not_promote_question_geometry_to_answer"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/92/کندل"
+      ]
+    },
+    {
+      "id": "TREX-136",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/136",
+      "site_id": 136,
+      "original_question_number": 141,
+      "topic_fa": "بازهٔ کندل",
+      "summary_fa": "کندل معمولاً با میانگین بازه‌ای که در آن باز و بسته می‌شود دسته‌بندی می‌شود؛ برای سایهٔ بلند و حرکت بسیار تند استثناهای روشی مطرح شده‌اند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "exception_details_in_other_lessons"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/92/کندل"
+      ]
+    },
+    {
+      "id": "TREX-138",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/138",
+      "site_id": 138,
+      "original_question_number": 143,
+      "topic_fa": "زمان رفت و برگشت",
+      "summary_fa": "نسبت زمان رفت و برگشت به‌عنوان فرضیهٔ قابل بررسی مطرح شده و قطعیت صددرصدی رد شده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "hypothesis_not_validated",
+        "intrabar_data_required"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/92/کندل"
+      ]
+    },
+    {
+      "id": "TREX-170",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/170",
+      "site_id": 170,
+      "original_question_number": 175,
+      "topic_fa": "حداکثر دو کندل",
+      "summary_fa": "پوشش برای مسیر معامله در لحظه حداکثر دو کندل است؛ تأخیر بیشتر می‌تواند ناحیه را باقی بگذارد ولی همان مجوز ورود در لحظه را نمی‌دهد.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/92/کندل"
+      ]
+    },
+    {
+      "id": "TREX-172",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/172",
+      "site_id": 172,
+      "original_question_number": 177,
+      "topic_fa": "طول و نام کندل",
+      "summary_fa": "داشتن طولی برابر کندل بلند با نام‌گذاری معنایی آن به‌عنوان کندل بلند یکسان دانسته نشده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "length_class_and_interpretation_must_be_separate"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/92/کندل"
+      ]
+    },
+    {
+      "id": "TREX-177",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/177",
+      "site_id": 177,
+      "original_question_number": 182,
+      "topic_fa": "پوشش با بسته‌شدن",
+      "summary_fa": "پوشش کندل مرجع باید با بسته‌شدن بیرون انتهای سایهٔ آن باشد؛ نفوذ صرف سایه کافی نیست.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/132/مستر_کندل"
+      ]
+    },
+    {
+      "id": "TREX-189",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/189",
+      "site_id": 189,
+      "original_question_number": 194,
+      "topic_fa": "اولویت کندل مرجع",
+      "summary_fa": "پوشش کندل مرجع نسبت به روش خط فرضی اولویت دارد. این بخش به زمینهٔ تشخیص پیوت مربوط است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/92/کندل",
+        "https://www.trexacademy.ir/questions/tag/136/مستر"
+      ]
+    },
+    {
+      "id": "TREX-192",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/192",
+      "site_id": 192,
+      "original_question_number": 197,
+      "topic_fa": "تقریبی بودن آستانهٔ مرجع",
+      "summary_fa": "آستانهٔ ۸۰ درصد به‌صورت تقریبی توضیح داده شده است؛ استناد به یک نسبت عمومی، اعتبار تجربی معاملاتی آن را ثابت نمی‌کند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "heuristic_not_empirical_validation"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/92/کندل",
+        "https://www.trexacademy.ir/questions/tag/132/مستر_کندل"
+      ]
+    },
+    {
+      "id": "TREX-203",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/203",
+      "site_id": 203,
+      "original_question_number": 208,
+      "topic_fa": "جایگزین نکردن مرجع",
+      "summary_fa": "با وجود کندل مرجع، استفاده از خط فرضی به‌جای پوشش آن مجاز دانسته نشده است. مثال، تغییر کندل مرجع بعدی را هم مطرح می‌کند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "reference_replacement_details_need_definition"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/136/مستر"
+      ]
+    },
+    {
+      "id": "TREX-222",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/222",
+      "site_id": 222,
+      "original_question_number": 228,
+      "topic_fa": "توالی و نویز",
+      "summary_fa": "سه کندل هم‌جهت الزاماً متوالی نیستند؛ کندل مخالف با شرایط خاص می‌تواند نویز باشد.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "noise_filter_requires_pivot_definition"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/92/کندل"
+      ]
+    },
+    {
+      "id": "TREX-240",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/240",
+      "site_id": 240,
+      "original_question_number": 247,
+      "topic_fa": "زمینه و تصحیح مثال",
+      "summary_fa": "پاسخ، زمینهٔ قبل از کندل را مؤثر می‌داند و یک تشخیص تصویری قبلی را نیز تصحیح می‌کند.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "images_not_reviewed",
+        "do_not_generalize_unseen_chart"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/164/لانگبار"
+      ]
+    },
+    {
+      "id": "TREX-927",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/927",
+      "site_id": 927,
+      "original_question_number": 996,
+      "topic_fa": "زمان شناخت کندل",
+      "summary_fa": "کاربرد کندل آخرین تلاش در بازگشت بعدی به گره مطرح شده است؛ کاربرد آن پیش از حرکت اصلی تأیید نشده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "node_definition_pending"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/92/کندل"
+      ]
+    },
+    {
+      "id": "TREX-948",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/948",
+      "site_id": 948,
+      "original_question_number": 1018,
+      "topic_fa": "شکست تأییدشده",
+      "summary_fa": "تثبیت و تأیید پس از کندل شکست و وابستگی شمارش به بازهٔ ساختار توضیح داده شده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "mixed_chart_followups",
+        "images_not_reviewed"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/92/کندل"
+      ]
+    },
+    {
+      "id": "TREX-797",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/797",
+      "site_id": 797,
+      "original_question_number": 857,
+      "topic_fa": "مرجع تثبیت‌شده",
+      "summary_fa": "میان پیوتِ پیش‌تر تثبیت‌شده و پیوت زندهٔ در حال تشکیل تفاوت گذاشته شده است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "linked_video_not_reviewed"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/408/تایم_فریم"
+      ]
+    },
+    {
+      "id": "TREX-803",
+      "parent_source_id": "H02",
+      "canonical_url": "https://www.trexacademy.ir/questions/803",
+      "site_id": 803,
+      "original_question_number": 866,
+      "topic_fa": "بین دو بازه",
+      "summary_fa": "در مثالِ حرکت بین دو بازه، اولویت روش با بازهٔ بالاتر و لحاظ تلورانس است.",
+      "role": "site_attributed_answer",
+      "extraction_mode": "text",
+      "retrieval_method": "visible_browser_page_text",
+      "reviewed_on": "2026-10-25",
+      "published_on": null,
+      "caveats": [
+        "example_context",
+        "images_not_reviewed"
+      ],
+      "empirically_validated": false,
+      "observed_on_listings": [
+        "https://www.trexacademy.ir/questions/tag/408/تایم_فریم"
+      ]
+    },
+    {
+      "id": "REF-ATR",
+      "kind": "official_definition_reference",
+      "canonical_url": "https://www.tradingview.com/support/solutions/43000501823-average-true-range-atr/",
+      "summary_fa": "تعریف دامنهٔ واقعی و میانگین آن؛ اندازه‌گیری نوسان و وابستگی به روش هموارسازی.",
+      "reviewed_on": "2026-10-25",
+      "role": "reference_documentation"
+    },
+    {
+      "id": "REF-REPAINT",
+      "kind": "official_definition_reference",
+      "canonical_url": "https://www.tradingview.com/pine-script-docs/concepts/repainting/",
+      "summary_fa": "تمایز محاسبات کندل باز، دادهٔ تاریخی و بازترسیم؛ تأیید باید با زمان دسترسی سازگار باشد.",
+      "reviewed_on": "2026-10-25",
+      "role": "reference_documentation"
+    }
+  ],
+  "coverage": {
+    "reviewed_listing_pages": [
+      {
+        "url": "https://www.trexacademy.ir/questions/tag/3/atr",
+        "site_ids": [
+          3,
+          9,
+          11,
+          13,
+          14,
+          19,
+          21,
+          22,
+          23,
+          25,
+          26,
+          30,
+          32,
+          34,
+          38
+        ]
+      },
+      {
+        "url": "https://www.trexacademy.ir/questions/tag/3/atr/page/2",
+        "site_ids": [
+          41,
+          43,
+          45,
+          52,
+          53,
+          55,
+          58,
+          61,
+          63,
+          64,
+          66,
+          67,
+          75,
+          84,
+          96
+        ]
+      },
+      {
+        "url": "https://www.trexacademy.ir/questions/tag/3/atr/page/3",
+        "site_ids": [
+          106,
+          116,
+          118,
+          124,
+          127,
+          129,
+          144,
+          157,
+          171,
+          262,
+          305,
+          327,
+          373,
+          548,
+          709
+        ]
+      },
+      {
+        "url": "https://www.trexacademy.ir/questions/tag/3/atr/page/4",
+        "site_ids": [
+          839,
+          928
+        ]
+      },
+      {
+        "url": "https://www.trexacademy.ir/questions/tag/92/کندل",
+        "site_ids": [
+          131,
+          136,
+          137,
+          138,
+          154,
+          170,
+          172,
+          189,
+          192,
+          222,
+          747,
+          927,
+          948
+        ]
+      },
+      {
+        "url": "https://www.trexacademy.ir/questions/tag/164/لانگبار",
+        "site_ids": [
+          240,
+          274,
+          364,
+          531,
+          541,
+          617,
+          657,
+          727
+        ]
+      },
+      {
+        "url": "https://www.trexacademy.ir/questions/tag/136/مستر",
+        "site_ids": [
+          189,
+          198,
+          203
+        ]
+      },
+      {
+        "url": "https://www.trexacademy.ir/questions/tag/132/مستر_کندل",
+        "site_ids": [
+          177,
+          192
+        ]
+      },
+      {
+        "url": "https://www.trexacademy.ir/questions/tag/408/تایم_فریم",
+        "site_ids": [
+          760,
+          797,
+          803
+        ]
+      }
+    ],
+    "unique_visible_question_cards": 74,
+    "text_review_is_not_media_review": true,
+    "unreviewed_audio": [
+      {
+        "site_id": 3,
+        "durations_seconds": [
+          42
+        ]
+      },
+      {
+        "site_id": 9,
+        "durations_seconds": [
+          133
+        ]
+      },
+      {
+        "site_id": 13,
+        "durations_seconds": [
+          97
+        ]
+      },
+      {
+        "site_id": 34,
+        "durations_seconds": [
+          187
+        ]
+      },
+      {
+        "site_id": 66,
+        "durations_seconds": [
+          42,
+          49
+        ]
+      },
+      {
+        "site_id": 154,
+        "durations_seconds": [
+          79
+        ]
+      }
+    ],
+    "answer_text_empty_or_only_label": [
+      63,
+      198
+    ],
+    "source_images_not_reviewed_in_full": true,
+    "workbook_candle_images_visually_reviewed": [
+      {
+        "part": "xl/media/image4.png",
+        "sheet": "کندل",
+        "anchor_cell": "C2",
+        "anchor_order": 1
+      },
+      {
+        "part": "xl/media/image2.png",
+        "sheet": "کندل",
+        "anchor_cell": "C2",
+        "anchor_order": 2
+      },
+      {
+        "part": "xl/media/image5.png",
+        "sheet": "کندل",
+        "anchor_cell": "C7",
+        "anchor_order": 3
+      }
+    ],
+    "image_assessment_fa": "پوسترهای هندسهٔ الگوها هستند؛ نسبت نوسان و شرط تأیید عددی ندارند و به‌تنهایی سیگنال نیستند.",
+    "youtube_media_reviewed": false,
+    "full_site_review_complete": false
+  }
+}

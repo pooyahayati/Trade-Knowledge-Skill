@@ -1,0 +1,330 @@
+{
+  "case_id": "ETHUSDT-ETHUSDT-segment01-b588-down-549",
+  "fixed_levels_and_evidence": true,
+  "updates": [
+    {
+      "bars_after_candidate": 1,
+      "as_of": "2026-09-03T01:10:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "ETHUSDT-M5-1788397500",
+            "open_time": "2026-09-03T01:05:00Z",
+            "close_time": "2026-09-03T01:10:00Z",
+            "available_at": "2026-09-03T01:10:00Z",
+            "is_closed": true,
+            "open": "2377.02000000",
+            "high": "2387.90000000",
+            "low": "2377.02000000",
+            "close": "2385.32000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "ETHUSDT-M5-1788397500"
+    },
+    {
+      "bars_after_candidate": 2,
+      "as_of": "2026-09-03T01:15:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "ETHUSDT-M5-1788397800",
+            "open_time": "2026-09-03T01:10:00Z",
+            "close_time": "2026-09-03T01:15:00Z",
+            "available_at": "2026-09-03T01:15:00Z",
+            "is_closed": true,
+            "open": "2385.33000000",
+            "high": "2391.56000000",
+            "low": "2384.16000000",
+            "close": "2390.77000000"
+          }
+        ],
+        "M15": [
+          {
+            "id": "ETHUSDT-M15-1788397200",
+            "open_time": "2026-09-03T01:00:00Z",
+            "close_time": "2026-09-03T01:15:00Z",
+            "available_at": "2026-09-03T01:15:00Z",
+            "is_closed": true,
+            "open": "2379.82000000",
+            "high": "2391.56000000",
+            "low": "2370.14000000",
+            "close": "2390.77000000"
+          }
+        ],
+        "H1": []
+      },
+      "selection_bar_id": "ETHUSDT-M5-1788397800"
+    },
+    {
+      "bars_after_candidate": 3,
+      "as_of": "2026-09-03T01:20:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "ETHUSDT-M5-1788398100",
+            "open_time": "2026-09-03T01:15:00Z",
+            "close_time": "2026-09-03T01:20:00Z",
+            "available_at": "2026-09-03T01:20:00Z",
+            "is_closed": true,
+            "open": "2390.76000000",
+            "high": "2390.81000000",
+            "low": "2386.81000000",
+            "close": "2386.81000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "ETHUSDT-M5-1788398100"
+    },
+    {
+      "bars_after_candidate": 4,
+      "as_of": "2026-09-03T01:25:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "ETHUSDT-M5-1788398400",
+            "open_time": "2026-09-03T01:20:00Z",
+            "close_time": "2026-09-03T01:25:00Z",
+            "available_at": "2026-09-03T01:25:00Z",
+            "is_closed": true,
+            "open": "2386.81000000",
+            "high": "2391.65000000",
+            "low": "2386.11000000",
+            "close": "2389.86000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "ETHUSDT-M5-1788398400"
+    },
+    {
+      "bars_after_candidate": 5,
+      "as_of": "2026-09-03T01:30:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "ETHUSDT-M5-1788398700",
+            "open_time": "2026-09-03T01:25:00Z",
+            "close_time": "2026-09-03T01:30:00Z",
+            "available_at": "2026-09-03T01:30:00Z",
+            "is_closed": true,
+            "open": "2389.86000000",
+            "high": "2392.45000000",
+            "low": "2388.58000000",
+            "close": "2392.45000000"
+          }
+        ],
+        "M15": [
+          {
+            "id": "ETHUSDT-M15-1788398100",
+            "open_time": "2026-09-03T01:15:00Z",
+            "close_time": "2026-09-03T01:30:00Z",
+            "available_at": "2026-09-03T01:30:00Z",
+            "is_closed": true,
+            "open": "2390.76000000",
+            "high": "2392.45000000",
+            "low": "2386.11000000",
+            "close": "2392.45000000"
+          }
+        ],
+        "H1": []
+      },
+      "selection_bar_id": "ETHUSDT-M5-1788398700"
+    },
+    {
+      "bars_after_candidate": 6,
+      "as_of": "2026-09-03T01:35:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "ETHUSDT-M5-1788399000",
+            "open_time": "2026-09-03T01:30:00Z",
+            "close_time": "2026-09-03T01:35:00Z",
+            "available_at": "2026-09-03T01:35:00Z",
+            "is_closed": true,
+            "open": "2392.46000000",
+            "high": "2394.26000000",
+            "low": "2390.97000000",
+            "close": "2393.78000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "ETHUSDT-M5-1788399000"
+    },
+    {
+      "bars_after_candidate": 7,
+      "as_of": "2026-09-03T01:40:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "ETHUSDT-M5-1788399300",
+            "open_time": "2026-09-03T01:35:00Z",
+            "close_time": "2026-09-03T01:40:00Z",
+            "available_at": "2026-09-03T01:40:00Z",
+            "is_closed": true,
+            "open": "2393.78000000",
+            "high": "2394.61000000",
+            "low": "2387.67000000",
+            "close": "2391.39000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "ETHUSDT-M5-1788399300"
+    },
+    {
+      "bars_after_candidate": 8,
+      "as_of": "2026-09-03T01:45:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "ETHUSDT-M5-1788399600",
+            "open_time": "2026-09-03T01:40:00Z",
+            "close_time": "2026-09-03T01:45:00Z",
+            "available_at": "2026-09-03T01:45:00Z",
+            "is_closed": true,
+            "open": "2391.40000000",
+            "high": "2394.15000000",
+            "low": "2389.05000000",
+            "close": "2389.17000000"
+          }
+        ],
+        "M15": [
+          {
+            "id": "ETHUSDT-M15-1788399000",
+            "open_time": "2026-09-03T01:30:00Z",
+            "close_time": "2026-09-03T01:45:00Z",
+            "available_at": "2026-09-03T01:45:00Z",
+            "is_closed": true,
+            "open": "2392.46000000",
+            "high": "2394.61000000",
+            "low": "2387.67000000",
+            "close": "2389.17000000"
+          }
+        ],
+        "H1": []
+      },
+      "selection_bar_id": "ETHUSDT-M5-1788399600"
+    },
+    {
+      "bars_after_candidate": 9,
+      "as_of": "2026-09-03T01:50:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "ETHUSDT-M5-1788399900",
+            "open_time": "2026-09-03T01:45:00Z",
+            "close_time": "2026-09-03T01:50:00Z",
+            "available_at": "2026-09-03T01:50:00Z",
+            "is_closed": true,
+            "open": "2389.16000000",
+            "high": "2389.17000000",
+            "low": "2386.02000000",
+            "close": "2386.12000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "ETHUSDT-M5-1788399900"
+    },
+    {
+      "bars_after_candidate": 10,
+      "as_of": "2026-09-03T01:55:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "ETHUSDT-M5-1788400200",
+            "open_time": "2026-09-03T01:50:00Z",
+            "close_time": "2026-09-03T01:55:00Z",
+            "available_at": "2026-09-03T01:55:00Z",
+            "is_closed": true,
+            "open": "2386.12000000",
+            "high": "2391.53000000",
+            "low": "2384.69000000",
+            "close": "2388.84000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "ETHUSDT-M5-1788400200"
+    },
+    {
+      "bars_after_candidate": 11,
+      "as_of": "2026-09-03T02:00:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "ETHUSDT-M5-1788400500",
+            "open_time": "2026-09-03T01:55:00Z",
+            "close_time": "2026-09-03T02:00:00Z",
+            "available_at": "2026-09-03T02:00:00Z",
+            "is_closed": true,
+            "open": "2388.83000000",
+            "high": "2390.64000000",
+            "low": "2386.80000000",
+            "close": "2386.81000000"
+          }
+        ],
+        "M15": [
+          {
+            "id": "ETHUSDT-M15-1788399900",
+            "open_time": "2026-09-03T01:45:00Z",
+            "close_time": "2026-09-03T02:00:00Z",
+            "available_at": "2026-09-03T02:00:00Z",
+            "is_closed": true,
+            "open": "2389.16000000",
+            "high": "2391.53000000",
+            "low": "2384.69000000",
+            "close": "2386.81000000"
+          }
+        ],
+        "H1": [
+          {
+            "id": "ETHUSDT-H1-1788397200",
+            "open_time": "2026-09-03T01:00:00Z",
+            "close_time": "2026-09-03T02:00:00Z",
+            "available_at": "2026-09-03T02:00:00Z",
+            "is_closed": true,
+            "open": "2379.82000000",
+            "high": "2394.61000000",
+            "low": "2370.14000000",
+            "close": "2386.81000000"
+          }
+        ]
+      },
+      "selection_bar_id": "ETHUSDT-M5-1788400500"
+    },
+    {
+      "bars_after_candidate": 12,
+      "as_of": "2026-09-03T02:05:00Z",
+      "new_bars": {
+        "M5": [
+          {
+            "id": "ETHUSDT-M5-1788400800",
+            "open_time": "2026-09-03T02:00:00Z",
+            "close_time": "2026-09-03T02:05:00Z",
+            "available_at": "2026-09-03T02:05:00Z",
+            "is_closed": true,
+            "open": "2386.80000000",
+            "high": "2387.38000000",
+            "low": "2384.11000000",
+            "close": "2384.16000000"
+          }
+        ],
+        "M15": [],
+        "H1": []
+      },
+      "selection_bar_id": "ETHUSDT-M5-1788400800"
+    }
+  ]
+}

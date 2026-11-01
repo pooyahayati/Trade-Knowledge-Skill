@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-31",
+  "human_audio_verification": false,
+  "user_disposition": "User currently has no time to listen; retain workbook rules and explicit uncertainty.",
+  "changes_to_workbook_thresholds": false,
+  "items": [
+    {
+      "id": "OPEN-PIN-RATIO",
+      "topic": "pinbar numeric branches",
+      "status": "unresolved_source_rule",
+      "sources": ["X-CANDLE-B8", "MED16-AUDIO-165", "SR15-TREX-166"],
+      "audio_record": 165,
+      "original_seconds": [112, 178],
+      "known": "Body fractions refer to whole candle range; shadow/ATR is separate. Workbook B8 remains selected.",
+      "unknown": ["exact ATR branch thresholds", "boundary inclusivity", "complete third/quarter body conditions"],
+      "required_to_resolve": "Verified literal numbers, units and teacher context, with labeled positive and counterexamples.",
+      "forbidden_inference": "Do not substitute guessed ASR thresholds or average conflicting source profiles."
+    },
+    {
+      "id": "OPEN-SELF-COVER",
+      "topic": "universal self-cover definition",
+      "status": "unresolved_source_rule",
+      "sources": ["MED16-AUDIO-165", "TREX-269", "TREX-412", "TREX-179", "SR15-TREX-150"],
+      "audio_record": 165,
+      "original_seconds": [194, 245],
+      "known": "Recognized source-defined exceptions may be exempt; the current body band is only an engineering screen.",
+      "unknown": ["universal body/shadow ratio", "complete wave and subtype conditions"],
+      "required_to_resolve": "Whole-wave example and counterexample plus verified numerical wording.",
+      "forbidden_inference": "Shape match does not grant membership, confirmation exemption or entry permission."
+    },
+    {
+      "id": "OPEN-SINGLE-PIN-CONFIRM",
+      "topic": "single-pinbar confirmation subtype",
+      "status": "unresolved_source_rule",
+      "sources": ["PBC-TREX-135", "PBC-TREX-139", "PBC-TREX-160", "SR15-TREX-370"],
+      "known": "Zero and positive noise differ; shape, recognized pivot and entry trigger are separate.",
+      "unknown": ["subtype requiring another candle", "exact confirming close and timing"],
+      "required_to_resolve": "Teacher-labeled single-pinbar examples with and without confirmation; paired-candle answers cannot substitute.",
+      "forbidden_inference": "Neither zero noise nor a small positive wick alone proves exemption."
+    },
+    {
+      "id": "OPEN-VIRTUAL-LINE",
+      "topic": "virtual ATR line fallback",
+      "status": "unresolved_source_rule",
+      "sources": ["MED16-VIDEO-REFERENCE", "SR15-TREX-203"],
+      "video_seconds": [2015, 2140],
+      "known": "This contract gives an existing actual master precedence; a later small candle is not automatically a new master.",
+      "unknown": ["context when no actual master exists", "anchor and exact distance", "replacement and invalidation conditions"],
+      "required_to_resolve": "Continuous example showing prior wave, master status, line construction and confirmation; archive date does not prove source precedence.",
+      "forbidden_inference": "No automatic virtual fallback or silent replacement by a small candle."
+    }
+  ],
+  "automatic_exception_confirmation": false,
+  "entry_permission": false
+}

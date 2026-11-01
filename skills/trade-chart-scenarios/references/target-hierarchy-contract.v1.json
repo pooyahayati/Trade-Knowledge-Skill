@@ -1,0 +1,73 @@
+{
+  "contract_id": "own-timeframe-targets-v1",
+  "version": 1,
+  "created_on": "2026-10-26",
+  "extends": [
+    "levels-targets-contract.v1.json",
+    "structure-mtf-contract.v1.json",
+    "semantic-contract.v1.json"
+  ],
+  "input_activation": {
+    "target_hierarchy": {
+      "profile": "own_timeframe_targets_v1"
+    },
+    "requires": [
+      "structure_analysis",
+      "level_analysis.target_request"
+    ],
+    "evidence_location": "level_analysis.evidence; routed to level.timeframe"
+  },
+  "scope": "Ordinary pivot numerical consistency under supplied analyst context; no automatic master selection or full-method validation",
+  "clauses": [
+    {
+      "id": "TGT-M01",
+      "source_refs": [
+        "TGT-X-TRIGGER-B7",
+        "S2-TREX-891"
+      ],
+      "behavior": "Use closed available candles and prior ATR from each level own timeframe for evidence and original role breaks; require matching data identity and sufficient history."
+    },
+    {
+      "id": "TGT-M02",
+      "source_refs": [
+        "TGT-X-TF-B3",
+        "S2-TREX-866",
+        "DESIGN-TGT-HIERARCHY-01"
+      ],
+      "behavior": "Select nearest opposing supplied level and nearest structural-timeframe opposing supplied level separately; intermediate unknown or overlapping obstacles must not be skipped."
+    },
+    {
+      "id": "TGT-M03",
+      "source_refs": [
+        "S2-TREX-826",
+        "SEM-DESIGN-01",
+        "DESIGN-TGT-HIERARCHY-01"
+      ],
+      "behavior": "Freeze at scenario start open, or latest available trigger decision for a map. Use max declared and calculated effective availability; no future confirmations. A consumed nearest target or invalidated scenario cannot roll to farther levels."
+    },
+    {
+      "id": "TGT-M04",
+      "source_refs": [
+        "S2-TREX-218",
+        "S2-TREX-252"
+      ],
+      "behavior": "Preserve original timeframe and level identity; broken role requires a new evidenced identity; no automatic promotion, merging or reversal."
+    },
+    {
+      "id": "TGT-M05",
+      "source_refs": [
+        "TGT-TV-HTF",
+        "DESIGN-TGT-HIERARCHY-01"
+      ],
+      "behavior": "Target validation requires fresh aligned available three-timeframe data. Readiness also requires aligned direction, reviewed anchor, matching target, confirmed trigger, known-at-origin dependencies and a clear supplied path."
+    },
+    {
+      "id": "TGT-M06",
+      "source_refs": [
+        "USER-PIVOT-20261025",
+        "X-SEM-TIME-B3"
+      ],
+      "behavior": "Trex primary; MACD/Fibonacci auxiliary. structural_target_contract_consistent reports numerical consistency only. Preserve SEM-03: method_scope.structural_target_validated and full_method_validated remain false pending independent method adjudication. No exhaustive inventory, fill, risk or profitability inference."
+    }
+  ]
+}

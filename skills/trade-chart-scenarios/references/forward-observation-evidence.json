@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-26",
+  "records": [
+    {
+      "symbol": "BTCUSDT",
+      "decision_at": "2026-10-26T18:39:42.815947Z",
+      "target_open": "2026-10-26T18:40:00Z",
+      "target_close": "2026-10-26T18:41:00Z",
+      "outcome_received_at": "2026-10-26T18:41:05.398590Z",
+      "outcome_recorded_at": "2026-10-26T18:41:05.456148Z",
+      "lower": "80239.29000000",
+      "upper": "80316.99000000",
+      "observed_close": "80249.59000000",
+      "outcome": "within",
+      "decision_sha256": "0b58bbcc760057f0cc386b9b2ef0a2d8ee32663f7af239a2e5827dd148a62bfe",
+      "outcome_sha256": "74c8bdf32e062e55d78f9c0fe91e13ffdcb212097ab0efb19393fc2c7f0a0608",
+      "price_source_url": "https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1m&limit=1&startTime=1793040000000",
+      "entry_permission": false,
+      "pnl": null
+    },
+    {
+      "symbol": "ETHUSDT",
+      "decision_at": "2026-10-26T18:39:44.207477Z",
+      "target_open": "2026-10-26T18:40:00Z",
+      "target_close": "2026-10-26T18:41:00Z",
+      "outcome_received_at": "2026-10-26T18:41:06.885029Z",
+      "outcome_recorded_at": "2026-10-26T18:41:06.950581Z",
+      "lower": "2324.01000000",
+      "upper": "2327.76000000",
+      "observed_close": "2324.25000000",
+      "outcome": "within",
+      "decision_sha256": "0ead42d4644c53501d6c6ca4a807b0e29f389e5862779a8527ffc0ae2eaaeee7",
+      "outcome_sha256": "2634bd8aa4d66d33dd3a5afd5bebc943a00a8acfbae4b8d60cbea61905c8c7f9",
+      "price_source_url": "https://api.binance.com/api/v3/klines?symbol=ETHUSDT&interval=1m&limit=1&startTime=1793040000000",
+      "entry_permission": false,
+      "pnl": null
+    }
+  ],
+  "complete_forward_study": false,
+  "trades": 0,
+  "paper_fills": 0,
+  "profitability_validated": false,
+  "clock_authority": "Local system clock and provider HTTP date; no external timestamp notarization",
+  "observation_journal_sha256": "5570c623756d1bb102d5bd99a05d6b0cf5b466845a9aa1ea9717e7ebf493c553"
+}

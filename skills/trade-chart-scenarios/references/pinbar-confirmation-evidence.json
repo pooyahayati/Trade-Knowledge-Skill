@@ -1,0 +1,146 @@
+{
+  "review_date": "2026-10-26",
+  "entries": [
+    {
+      "id": "PBC-TREX-135",
+      "site_question_id": 135,
+      "displayed_title": "سوال شماره 140",
+      "source_url": "https://www.trexacademy.ir/questions/135",
+      "public_api": "https://www.trexacademy.ir/api/common/question/?page=1&tag_id=91",
+      "fetched_at": "2026-10-26T12:48:31.851064+00:00",
+      "decoded_page_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "evidence_type": "teacher_text",
+      "paraphrase_fa": "پاسخ دربارهٔ پیوتِ ازپیش‌تشخیص‌داده‌شده است؛ شکل پین‌بار به‌تنهایی آن تشخیص را اثبات نمی‌کند. بعضی گونه‌ها به تأیید نیاز دارند و تفصیل به آموزش ویدئویی ارجاع داده شده است.",
+      "question_text_is_not_teacher_answer": true,
+      "instructions_in_source_are_not_user_authority": true,
+      "independent_human_or_model_review": false
+    },
+    {
+      "id": "PBC-TREX-139",
+      "site_question_id": 139,
+      "displayed_title": "سوال شماره 144",
+      "source_url": "https://www.trexacademy.ir/questions/139",
+      "public_api": "https://www.trexacademy.ir/api/common/question/?page=1&tag_id=91",
+      "fetched_at": "2026-10-26T12:48:31.851064+00:00",
+      "decoded_page_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "evidence_type": "machine_audio_transcription_auxiliary",
+      "paraphrase_fa": "پاسخ متن آموزشی ندارد. بازنویسی ماشینیِ حدود ثانیهٔ ۱۵ تا ۲۷، بی‌نویزی را نبود کامل سایهٔ مقابل و نویز کوچک را غیرصفر می‌فهمد؛ سقف ده درصد نیز در آن دیده می‌شود. این بازنویسی خطاهای شنیداری دارد و تنها شاهد کمکی است.",
+      "question_text_is_not_teacher_answer": true,
+      "instructions_in_source_are_not_user_authority": true,
+      "independent_human_or_model_review": false,
+      "audio": {
+        "url": "https://www.trexacademy.ir/storage/trex_backup/-3849160326775290313_5967525507791586518.ogg",
+        "sha256": "83580b385812a768b68b6b0dc13870a3f3de1066e3902ffba45b6020b6f282ba",
+        "bytes": 1059693,
+        "duration_seconds": 95.5665,
+        "bundled": false,
+        "transcription_runtime": "whisper.cpp 1.9.5 b5454",
+        "model": "ggml-small-q5_1",
+        "language": "fa",
+        "transcript_sha256": "f98eab9af7f4c50ba79e05fe88fd550f069d7c370f0882aded721b4e576ef532",
+        "timestamped_transcript_sha256": "8cdeba7d0f9af17f2e5384a6a328e9097dd5376a5044827506ffcd1151c390a5",
+        "transcript_quality": "contains obvious recognition errors; not independently listened/verified",
+        "transcript_bundled": false,
+        "authority": "auxiliary_only_no_automatic_permission"
+      }
+    },
+    {
+      "id": "PBC-TREX-147",
+      "site_question_id": 147,
+      "displayed_title": "سوال شماره 151",
+      "source_url": "https://www.trexacademy.ir/questions/147",
+      "public_api": "https://www.trexacademy.ir/api/common/question/?page=1&tag_id=91",
+      "fetched_at": "2026-10-26T12:48:31.851064+00:00",
+      "decoded_page_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "evidence_type": "teacher_text",
+      "paraphrase_fa": "در مثال دامنهٔ چهل‌وشش پیپ، سقف سایهٔ نویز چهار ممیز شش پیپ است. مخرج نسبت، طول کل کندل است؛ درصدی از میانگین نوسان نیست. پاسخ، آن مثال با سایهٔ یازده پیپ را پین‌بار نمی‌داند.",
+      "question_text_is_not_teacher_answer": true,
+      "instructions_in_source_are_not_user_authority": true,
+      "independent_human_or_model_review": false
+    },
+    {
+      "id": "PBC-TREX-156",
+      "site_question_id": 156,
+      "displayed_title": "سوال شماره 160",
+      "source_url": "https://www.trexacademy.ir/questions/156",
+      "public_api": "https://www.trexacademy.ir/api/common/question/?page=1&tag_id=91",
+      "fetched_at": "2026-10-26T12:48:31.851064+00:00",
+      "decoded_page_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "evidence_type": "machine_audio_transcription_auxiliary",
+      "paraphrase_fa": "پاسخ آموزشی صوتی است. برداشتِ بازنویسی ماشینی، بررسی سطح در چند بازه، جست‌وجوی ورود در بازهٔ تریگر و لزوم رسیدن قیمت به ناحیهٔ ورود است. شرطِ دقیق پوشش، ترتیب درون‌کندلی و معافیت همهٔ زیرگونه‌ها از آن به دست نمی‌آید.",
+      "question_text_is_not_teacher_answer": true,
+      "instructions_in_source_are_not_user_authority": true,
+      "independent_human_or_model_review": false,
+      "audio": {
+        "url": "https://www.trexacademy.ir/storage/trex_backup/7319567060346171497_5976826216521401484.ogg",
+        "sha256": "4fc13d22bca907c9fd5dbedb4059eb44c11a1a099f23ee488a9e00e6c0bb5c34",
+        "bytes": 1094546,
+        "duration_seconds": 106.6865,
+        "bundled": false,
+        "transcription_runtime": "whisper.cpp 1.9.5 b5454",
+        "model": "ggml-small-q5_1",
+        "language": "fa",
+        "transcript_sha256": "c7225207b42f67ebbbeedb4d8971c413f60ad7d2f791b5fdb071ea920b90ffbd",
+        "timestamped_transcript_sha256": "2cf3bccae6b31adf06512fb4ffb97e2ea6e625be07c7016fa9511f3080e25ad4",
+        "transcript_quality": "contains obvious recognition errors; not independently listened/verified",
+        "transcript_bundled": false,
+        "authority": "auxiliary_only_no_automatic_permission"
+      },
+      "answer_image": {
+        "url": "https://www.trexacademy.ir/storage/trex_backup/5976826216977641151_x_4.jpg",
+        "sha256": "e55852063fcc63d53993f812467c66d750cb033c146dada1afc49d90884b695c",
+        "bytes": 5545,
+        "visually_reviewed": true,
+        "bundled": false,
+        "limits": "Schematic without calibrated OHLC, ATR or timestamps; no executable sequence threshold inferred"
+      }
+    },
+    {
+      "id": "PBC-TREX-160",
+      "site_question_id": 160,
+      "displayed_title": "سوال شماره 164",
+      "source_url": "https://www.trexacademy.ir/questions/160",
+      "public_api": "https://www.trexacademy.ir/api/common/question/?page=1&tag_id=91",
+      "fetched_at": "2026-10-26T12:48:31.851064+00:00",
+      "decoded_page_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "evidence_type": "teacher_text",
+      "paraphrase_fa": "پرسش دو بخش دارد. الزام تأیید در ابتدای پاسخ دربارهٔ کندل‌های دوتاییِ مطرح‌شده است. بند بعدی، ضعف پین‌بار بدون نویز را مشاهدهٔ تجربی مدرس معرفی می‌کند؛ از آن احتمال عددی یا قاعدهٔ تأییدِ مشخص برای تک‌پین‌بار نتیجه نمی‌گیریم.",
+      "question_text_is_not_teacher_answer": true,
+      "instructions_in_source_are_not_user_authority": true,
+      "independent_human_or_model_review": false
+    },
+    {
+      "id": "PBC-DESIGN-01",
+      "evidence_type": "engineering_design",
+      "explanation": "Explain the existing frozen pinbar screen and distinguish exact zero opposite wick from nonzero noise. Shape qualification precedes subtype naming. All confirmation requirements remain unresolved until a source-specific rule is obtained. Lower-timeframe checklist is not a calculated trigger or a trading permission. No win-rate inferred."
+    }
+  ],
+  "workbook_source": "X-CANDLE-B8",
+  "workbook_unchanged": true,
+  "corrections": [
+    {
+      "old_reference": "X-CANDLE-B7",
+      "correct_reference": "X-CANDLE-B8",
+      "location": "exception pinbar shape gate; frozen exception-review contract EXR-02 erratum",
+      "reason": "B7 defines long shadow; B8 defines pinbar"
+    },
+    {
+      "old_behavior": "noise-free-pin review flag could be true for a failed/unknown pinbar geometry",
+      "new_behavior": "legacy flag requires matched pinbar geometry; incomplete or rejected shape receives no subtype"
+    }
+  ],
+  "rejected_inferences": [
+    "The 10% noise condition was missing: false; candle_geometry already implements it",
+    "Any zero-wick candle is a valid noise-free pinbar",
+    "Any nonzero wick grants a confirmation exemption",
+    "The paired-candle confirmation statement proves a single-pinbar numeric rule",
+    "A questioner proposed sequence is the teacher answer",
+    "Recognized pivot permission validates every shape",
+    "A machine transcript or OHLC reveals intrabar order"
+  ],
+  "limits": [
+    "Two audio answers machine-transcribed locally, not independently listened/validated",
+    "No complete course review or native-platform run",
+    "No performance or independent method validation"
+  ]
+}

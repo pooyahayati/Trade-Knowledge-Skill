@@ -1,0 +1,3560 @@
+{
+  "case_id": "ETHUSDT-ETHUSDT-segment01-b588-down-549",
+  "selected_for": [
+    "candidate_geometry",
+    "anchor_review",
+    "nearest_obstacle_review",
+    "no_H1_target",
+    "origin_context",
+    "decision_context",
+    "stale_or_alignment",
+    "target_consumed_by_b0"
+  ],
+  "prefix_ready": false,
+  "prefix_blockers": [
+    "candidate_geometry",
+    "anchor_review",
+    "nearest_obstacle_review",
+    "no_H1_target",
+    "origin_context",
+    "decision_context",
+    "stale_or_alignment",
+    "target_consumed_by_b0"
+  ],
+  "prefix_gates": {
+    "candidate_range": false,
+    "candidate_body": false,
+    "no_gap": true,
+    "anchor_qualified": false,
+    "anchor_independent_path": true,
+    "nearest_exists": true,
+    "nearest_qualified": false,
+    "H1_target_exists": false,
+    "H1_target_qualified": false,
+    "no_intermediate_obstacles": true,
+    "origin_context_aligned": false,
+    "decision_context_aligned": false,
+    "fresh_context": false,
+    "nearest_not_consumed_by_b0": false
+  },
+  "anchor_review_reasons": [
+    "preleg_routes_not_met",
+    "newer_ordinary_master_requires_reselection",
+    "intervening_exception_requires_review"
+  ],
+  "nearest_obstacle_review_reasons": [
+    "preleg_routes_not_met",
+    "intervening_split_shadow_source_variant",
+    "intervening_exception_requires_review"
+  ],
+  "H1_target_review_reasons": null,
+  "fixed_target_map": {
+    "freeze_at": "2026-09-03T01:00:00Z",
+    "reference": "2377.77000000",
+    "known_pool_ids": [
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m66",
+      "ETHUSDT-ETHUSDT-segment01-M15-up-m22",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m28",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m139",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m116",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m124",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m132",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m112",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m190",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m188",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m366",
+      "ETHUSDT-ETHUSDT-segment01-M15-up-m117",
+      "ETHUSDT-ETHUSDT-segment01-M15-up-m105",
+      "ETHUSDT-ETHUSDT-segment01-M15-up-m116",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m398",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m464",
+      "ETHUSDT-ETHUSDT-segment01-M15-up-m154",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m447",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m470",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m488",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m534",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m500",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m557",
+      "ETHUSDT-ETHUSDT-segment01-M15-down-m185",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m553",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m552",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m549",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m565"
+    ],
+    "nearest_obstacle_id": "ETHUSDT-ETHUSDT-segment01-M5-down-m488",
+    "structural_target_id": null,
+    "nearest_qualified": false,
+    "structural_qualified": null,
+    "anchor_overlap_extensions": [],
+    "overlap_components": [
+      [
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m66",
+        "ETHUSDT-ETHUSDT-segment01-M15-up-m22",
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m28"
+      ],
+      [
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m139",
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m116",
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m124",
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m132",
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m112"
+      ],
+      [
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m190",
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m188"
+      ],
+      [
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m366",
+        "ETHUSDT-ETHUSDT-segment01-M15-up-m117",
+        "ETHUSDT-ETHUSDT-segment01-M15-up-m105",
+        "ETHUSDT-ETHUSDT-segment01-M15-up-m116"
+      ],
+      [
+        "ETHUSDT-ETHUSDT-segment01-M5-down-m398"
+      ],
+      [
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m464",
+        "ETHUSDT-ETHUSDT-segment01-M15-up-m154",
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m470"
+      ],
+      [
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m447"
+      ],
+      [
+        "ETHUSDT-ETHUSDT-segment01-M5-down-m488"
+      ],
+      [
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m534",
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m565"
+      ],
+      [
+        "ETHUSDT-ETHUSDT-segment01-M5-up-m500"
+      ],
+      [
+        "ETHUSDT-ETHUSDT-segment01-M5-down-m557",
+        "ETHUSDT-ETHUSDT-segment01-M15-down-m185",
+        "ETHUSDT-ETHUSDT-segment01-M5-down-m553",
+        "ETHUSDT-ETHUSDT-segment01-M5-down-m552",
+        "ETHUSDT-ETHUSDT-segment01-M5-down-m549"
+      ]
+    ],
+    "component_by_id": {
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m66": "ETHUSDT-ETHUSDT-segment01-M5-up-m28",
+      "ETHUSDT-ETHUSDT-segment01-M15-up-m22": "ETHUSDT-ETHUSDT-segment01-M5-up-m28",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m28": "ETHUSDT-ETHUSDT-segment01-M5-up-m28",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m139": "ETHUSDT-ETHUSDT-segment01-M5-up-m112",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m116": "ETHUSDT-ETHUSDT-segment01-M5-up-m112",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m124": "ETHUSDT-ETHUSDT-segment01-M5-up-m112",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m132": "ETHUSDT-ETHUSDT-segment01-M5-up-m112",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m112": "ETHUSDT-ETHUSDT-segment01-M5-up-m112",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m190": "ETHUSDT-ETHUSDT-segment01-M5-up-m188",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m188": "ETHUSDT-ETHUSDT-segment01-M5-up-m188",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m366": "ETHUSDT-ETHUSDT-segment01-M15-up-m105",
+      "ETHUSDT-ETHUSDT-segment01-M15-up-m117": "ETHUSDT-ETHUSDT-segment01-M15-up-m105",
+      "ETHUSDT-ETHUSDT-segment01-M15-up-m105": "ETHUSDT-ETHUSDT-segment01-M15-up-m105",
+      "ETHUSDT-ETHUSDT-segment01-M15-up-m116": "ETHUSDT-ETHUSDT-segment01-M15-up-m105",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m398": "ETHUSDT-ETHUSDT-segment01-M5-down-m398",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m464": "ETHUSDT-ETHUSDT-segment01-M15-up-m154",
+      "ETHUSDT-ETHUSDT-segment01-M15-up-m154": "ETHUSDT-ETHUSDT-segment01-M15-up-m154",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m470": "ETHUSDT-ETHUSDT-segment01-M15-up-m154",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m447": "ETHUSDT-ETHUSDT-segment01-M5-up-m447",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m488": "ETHUSDT-ETHUSDT-segment01-M5-down-m488",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m534": "ETHUSDT-ETHUSDT-segment01-M5-up-m565",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m565": "ETHUSDT-ETHUSDT-segment01-M5-up-m565",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m500": "ETHUSDT-ETHUSDT-segment01-M5-up-m500",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m557": "ETHUSDT-ETHUSDT-segment01-M15-down-m185",
+      "ETHUSDT-ETHUSDT-segment01-M15-down-m185": "ETHUSDT-ETHUSDT-segment01-M15-down-m185",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m553": "ETHUSDT-ETHUSDT-segment01-M15-down-m185",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m552": "ETHUSDT-ETHUSDT-segment01-M15-down-m185",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m549": "ETHUSDT-ETHUSDT-segment01-M15-down-m185"
+    },
+    "intermediate_obstacle_ids": [],
+    "ordered_opposing_ids": [
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m488",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m398"
+    ],
+    "excluded_broken_ids": [
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m19",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m40",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m62",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m104",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m104",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m132",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m228",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m239",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m242",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m259",
+      "ETHUSDT-ETHUSDT-segment01-M15-down-m89",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m268",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m253",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m342",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m332",
+      "ETHUSDT-ETHUSDT-segment01-M15-down-m116",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m354",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m352",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m366",
+      "ETHUSDT-ETHUSDT-segment01-M5-up-m401",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m470",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m511",
+      "ETHUSDT-ETHUSDT-segment01-M5-down-m536"
+    ]
+  },
+  "candidate_range_atr": "3.2956458384738861958987569875240930219389158672032",
+  "candidate_body_fraction": "0.25806451612903225806451612903225806451612903225806",
+  "candidate_geometry_pass": false,
+  "stabilization_pass": false,
+  "b2_confirmation_pass": false,
+  "invalidation_close_boundary": "2380.99000000",
+  "confirmation_snapshot": {
+    "bars_after_candidate": 2,
+    "as_of": "2026-09-03T01:15:00Z",
+    "strict_status": "invalidated",
+    "historical_confirmation": null,
+    "invalidation": {
+      "bar_id": "ETHUSDT-M5-1788397500",
+      "close_time": "2026-09-03T01:10:00Z",
+      "available_at": "2026-09-03T01:10:00Z",
+      "bars_after_candidate": 1
+    },
+    "target_events": {
+      "nearest_obstacle": {
+        "bar_id": "ETHUSDT-M5-1788397200",
+        "open_time": "2026-09-03T01:00:00Z",
+        "close_time": "2026-09-03T01:05:00Z",
+        "available_at": "2026-09-03T01:05:00Z",
+        "kind": "range_intersection",
+        "intrabar_time_known": false,
+        "bars_after_candidate": 0
+      }
+    },
+    "context_aligned_now": false,
+    "current_context": {
+      "time": "2026-09-03T01:15:00Z",
+      "roles": {
+        "M5": {
+          "state": "downtrend",
+          "direction": "down",
+          "underlying_direction": "down",
+          "stale": false,
+          "age_bars": 0,
+          "pending_ambiguity": false,
+          "guard": {
+            "kind": "high",
+            "price": "2395.09000000",
+            "bar_id": "ETHUSDT-M5-1788385200",
+            "origin_index": 548,
+            "confirmed_index": 550,
+            "available_at": "2026-09-02T21:55:00Z"
+          },
+          "driver": {
+            "kind": "low",
+            "price": "2370.14000000",
+            "bar_id": "ETHUSDT-M5-1788397200",
+            "origin_index": 588,
+            "confirmed_index": 590,
+            "available_at": "2026-09-03T01:15:00Z"
+          },
+          "break_index": 528,
+          "available_at": "2026-09-03T01:15:00Z",
+          "bar_id": "ETHUSDT-M5-1788397800",
+          "sequence": [
+            {
+              "kind": "high",
+              "price": "2395.41000000",
+              "bar_id": "ETHUSDT-M5-1788393600",
+              "origin_index": 576,
+              "confirmed_index": 578,
+              "available_at": "2026-09-03T00:15:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "2379.26000000",
+              "bar_id": "ETHUSDT-M5-1788395400",
+              "origin_index": 582,
+              "confirmed_index": 584,
+              "available_at": "2026-09-03T00:45:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "2385.81000000",
+              "bar_id": "ETHUSDT-M5-1788396000",
+              "origin_index": 584,
+              "confirmed_index": 586,
+              "available_at": "2026-09-03T00:55:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "origin_index": 588,
+              "confirmed_index": 590,
+              "available_at": "2026-09-03T01:15:00Z"
+            }
+          ],
+          "close_lag_seconds": 0.0,
+          "fresh": true
+        },
+        "M15": {
+          "state": "downtrend",
+          "direction": null,
+          "underlying_direction": "down",
+          "stale": true,
+          "age_bars": 55,
+          "pending_ambiguity": false,
+          "guard": {
+            "kind": "high",
+            "price": "2429.00000000",
+            "bar_id": "ETHUSDT-M15-1788332400",
+            "origin_index": 124,
+            "confirmed_index": 126,
+            "available_at": "2026-09-02T07:45:00Z"
+          },
+          "driver": {
+            "kind": "low",
+            "price": "2356.41000000",
+            "bar_id": "ETHUSDT-M15-1788345900",
+            "origin_index": 139,
+            "confirmed_index": 141,
+            "available_at": "2026-09-02T11:30:00Z"
+          },
+          "break_index": 50,
+          "available_at": "2026-09-03T01:15:00Z",
+          "bar_id": "ETHUSDT-M15-1788397200",
+          "sequence": [
+            {
+              "kind": "low",
+              "price": "2383.14000000",
+              "bar_id": "ETHUSDT-M15-1788377400",
+              "origin_index": 174,
+              "confirmed_index": 176,
+              "available_at": "2026-09-02T20:15:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "2399.74000000",
+              "bar_id": "ETHUSDT-M15-1788379200",
+              "origin_index": 176,
+              "confirmed_index": 178,
+              "available_at": "2026-09-02T20:45:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "2377.77000000",
+              "bar_id": "ETHUSDT-M15-1788390000",
+              "origin_index": 188,
+              "confirmed_index": 190,
+              "available_at": "2026-09-02T23:45:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "2395.41000000",
+              "bar_id": "ETHUSDT-M15-1788393600",
+              "origin_index": 192,
+              "confirmed_index": 194,
+              "available_at": "2026-09-03T00:45:00Z"
+            }
+          ],
+          "close_lag_seconds": 0.0,
+          "fresh": true
+        },
+        "H1": {
+          "state": "downtrend",
+          "direction": "down",
+          "underlying_direction": "down",
+          "stale": false,
+          "age_bars": 12,
+          "pending_ambiguity": false,
+          "guard": {
+            "kind": "high",
+            "price": "2429.00000000",
+            "bar_id": "ETHUSDT-H1-1788332400",
+            "origin_index": 31,
+            "confirmed_index": 33,
+            "available_at": "2026-09-02T10:00:00Z"
+          },
+          "driver": {
+            "kind": "low",
+            "price": "2356.41000000",
+            "bar_id": "ETHUSDT-H1-1788343200",
+            "origin_index": 34,
+            "confirmed_index": 36,
+            "available_at": "2026-09-02T13:00:00Z"
+          },
+          "break_index": null,
+          "available_at": "2026-09-03T01:00:00Z",
+          "bar_id": "ETHUSDT-H1-1788393600",
+          "sequence": [
+            {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "2419.72000000",
+              "bar_id": "ETHUSDT-H1-1788354000",
+              "origin_index": 37,
+              "confirmed_index": 39,
+              "available_at": "2026-09-02T16:00:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "2372.55000000",
+              "bar_id": "ETHUSDT-H1-1788368400",
+              "origin_index": 41,
+              "confirmed_index": 43,
+              "available_at": "2026-09-02T20:00:00Z"
+            }
+          ],
+          "close_lag_seconds": 900.0,
+          "fresh": true
+        }
+      },
+      "data_reasons": [
+        "M15_stale_structure"
+      ]
+    },
+    "scenario_ready": false,
+    "analytical_status": "scenario_invalidated"
+  },
+  "missing_confirmation_bars": 0,
+  "fixed_horizon_bars_after_candidate": 12,
+  "available_horizon_bars_after_candidate": 12,
+  "missing_horizon_bars": 0,
+  "steps": [
+    {
+      "bars_after_candidate": 0,
+      "as_of": "2026-09-03T01:05:00Z",
+      "strict_status": "strict_template_not_matched",
+      "historical_confirmation": null,
+      "invalidation": null,
+      "target_events": {
+        "nearest_obstacle": {
+          "bar_id": "ETHUSDT-M5-1788397200",
+          "open_time": "2026-09-03T01:00:00Z",
+          "close_time": "2026-09-03T01:05:00Z",
+          "available_at": "2026-09-03T01:05:00Z",
+          "kind": "range_intersection",
+          "intrabar_time_known": false,
+          "bars_after_candidate": 0
+        }
+      },
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T01:05:00Z",
+        "roles": {
+          "M5": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 22,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2395.09000000",
+              "bar_id": "ETHUSDT-M5-1788385200",
+              "origin_index": 548,
+              "confirmed_index": 550,
+              "available_at": "2026-09-02T21:55:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2377.77000000",
+              "bar_id": "ETHUSDT-M5-1788390000",
+              "origin_index": 564,
+              "confirmed_index": 566,
+              "available_at": "2026-09-02T23:15:00Z"
+            },
+            "break_index": 528,
+            "available_at": "2026-09-03T01:05:00Z",
+            "bar_id": "ETHUSDT-M5-1788397200",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2383.33000000",
+                "bar_id": "ETHUSDT-M5-1788392400",
+                "origin_index": 572,
+                "confirmed_index": 574,
+                "available_at": "2026-09-02T23:55:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M5-1788393600",
+                "origin_index": 576,
+                "confirmed_index": 578,
+                "available_at": "2026-09-03T00:15:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2379.26000000",
+                "bar_id": "ETHUSDT-M5-1788395400",
+                "origin_index": 582,
+                "confirmed_index": 584,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2385.81000000",
+                "bar_id": "ETHUSDT-M5-1788396000",
+                "origin_index": 584,
+                "confirmed_index": 586,
+                "available_at": "2026-09-03T00:55:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "downtrend",
+            "direction": null,
+            "underlying_direction": "down",
+            "stale": true,
+            "age_bars": 54,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-M15-1788332400",
+              "origin_index": 124,
+              "confirmed_index": 126,
+              "available_at": "2026-09-02T07:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-M15-1788345900",
+              "origin_index": 139,
+              "confirmed_index": 141,
+              "available_at": "2026-09-02T11:30:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T01:00:00Z",
+            "bar_id": "ETHUSDT-M15-1788396300",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2383.14000000",
+                "bar_id": "ETHUSDT-M15-1788377400",
+                "origin_index": 174,
+                "confirmed_index": 176,
+                "available_at": "2026-09-02T20:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2399.74000000",
+                "bar_id": "ETHUSDT-M15-1788379200",
+                "origin_index": 176,
+                "confirmed_index": 178,
+                "available_at": "2026-09-02T20:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2377.77000000",
+                "bar_id": "ETHUSDT-M15-1788390000",
+                "origin_index": 188,
+                "confirmed_index": 190,
+                "available_at": "2026-09-02T23:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M15-1788393600",
+                "origin_index": 192,
+                "confirmed_index": 194,
+                "available_at": "2026-09-03T00:45:00Z"
+              }
+            ],
+            "close_lag_seconds": 300.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 12,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": null,
+            "available_at": "2026-09-03T01:00:00Z",
+            "bar_id": "ETHUSDT-H1-1788393600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2429.00000000",
+                "bar_id": "ETHUSDT-H1-1788332400",
+                "origin_index": 31,
+                "confirmed_index": 33,
+                "available_at": "2026-09-02T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2356.41000000",
+                "bar_id": "ETHUSDT-H1-1788343200",
+                "origin_index": 34,
+                "confirmed_index": 36,
+                "available_at": "2026-09-02T13:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2419.72000000",
+                "bar_id": "ETHUSDT-H1-1788354000",
+                "origin_index": 37,
+                "confirmed_index": 39,
+                "available_at": "2026-09-02T16:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2372.55000000",
+                "bar_id": "ETHUSDT-H1-1788368400",
+                "origin_index": 41,
+                "confirmed_index": 43,
+                "available_at": "2026-09-02T20:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 300.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": [
+          "M15_stale_structure"
+        ]
+      },
+      "scenario_ready": false,
+      "analytical_status": "strict_template_not_matched"
+    },
+    {
+      "bars_after_candidate": 1,
+      "as_of": "2026-09-03T01:10:00Z",
+      "strict_status": "invalidated",
+      "historical_confirmation": null,
+      "invalidation": {
+        "bar_id": "ETHUSDT-M5-1788397500",
+        "close_time": "2026-09-03T01:10:00Z",
+        "available_at": "2026-09-03T01:10:00Z",
+        "bars_after_candidate": 1
+      },
+      "target_events": {
+        "nearest_obstacle": {
+          "bar_id": "ETHUSDT-M5-1788397200",
+          "open_time": "2026-09-03T01:00:00Z",
+          "close_time": "2026-09-03T01:05:00Z",
+          "available_at": "2026-09-03T01:05:00Z",
+          "kind": "range_intersection",
+          "intrabar_time_known": false,
+          "bars_after_candidate": 0
+        }
+      },
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T01:10:00Z",
+        "roles": {
+          "M5": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 23,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2395.09000000",
+              "bar_id": "ETHUSDT-M5-1788385200",
+              "origin_index": 548,
+              "confirmed_index": 550,
+              "available_at": "2026-09-02T21:55:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2377.77000000",
+              "bar_id": "ETHUSDT-M5-1788390000",
+              "origin_index": 564,
+              "confirmed_index": 566,
+              "available_at": "2026-09-02T23:15:00Z"
+            },
+            "break_index": 528,
+            "available_at": "2026-09-03T01:10:00Z",
+            "bar_id": "ETHUSDT-M5-1788397500",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2383.33000000",
+                "bar_id": "ETHUSDT-M5-1788392400",
+                "origin_index": 572,
+                "confirmed_index": 574,
+                "available_at": "2026-09-02T23:55:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M5-1788393600",
+                "origin_index": 576,
+                "confirmed_index": 578,
+                "available_at": "2026-09-03T00:15:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2379.26000000",
+                "bar_id": "ETHUSDT-M5-1788395400",
+                "origin_index": 582,
+                "confirmed_index": 584,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2385.81000000",
+                "bar_id": "ETHUSDT-M5-1788396000",
+                "origin_index": 584,
+                "confirmed_index": 586,
+                "available_at": "2026-09-03T00:55:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "downtrend",
+            "direction": null,
+            "underlying_direction": "down",
+            "stale": true,
+            "age_bars": 54,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-M15-1788332400",
+              "origin_index": 124,
+              "confirmed_index": 126,
+              "available_at": "2026-09-02T07:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-M15-1788345900",
+              "origin_index": 139,
+              "confirmed_index": 141,
+              "available_at": "2026-09-02T11:30:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T01:00:00Z",
+            "bar_id": "ETHUSDT-M15-1788396300",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2383.14000000",
+                "bar_id": "ETHUSDT-M15-1788377400",
+                "origin_index": 174,
+                "confirmed_index": 176,
+                "available_at": "2026-09-02T20:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2399.74000000",
+                "bar_id": "ETHUSDT-M15-1788379200",
+                "origin_index": 176,
+                "confirmed_index": 178,
+                "available_at": "2026-09-02T20:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2377.77000000",
+                "bar_id": "ETHUSDT-M15-1788390000",
+                "origin_index": 188,
+                "confirmed_index": 190,
+                "available_at": "2026-09-02T23:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M15-1788393600",
+                "origin_index": 192,
+                "confirmed_index": 194,
+                "available_at": "2026-09-03T00:45:00Z"
+              }
+            ],
+            "close_lag_seconds": 600.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 12,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": null,
+            "available_at": "2026-09-03T01:00:00Z",
+            "bar_id": "ETHUSDT-H1-1788393600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2429.00000000",
+                "bar_id": "ETHUSDT-H1-1788332400",
+                "origin_index": 31,
+                "confirmed_index": 33,
+                "available_at": "2026-09-02T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2356.41000000",
+                "bar_id": "ETHUSDT-H1-1788343200",
+                "origin_index": 34,
+                "confirmed_index": 36,
+                "available_at": "2026-09-02T13:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2419.72000000",
+                "bar_id": "ETHUSDT-H1-1788354000",
+                "origin_index": 37,
+                "confirmed_index": 39,
+                "available_at": "2026-09-02T16:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2372.55000000",
+                "bar_id": "ETHUSDT-H1-1788368400",
+                "origin_index": 41,
+                "confirmed_index": 43,
+                "available_at": "2026-09-02T20:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 600.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": [
+          "M15_stale_structure"
+        ]
+      },
+      "scenario_ready": false,
+      "analytical_status": "scenario_invalidated"
+    },
+    {
+      "bars_after_candidate": 2,
+      "as_of": "2026-09-03T01:15:00Z",
+      "strict_status": "invalidated",
+      "historical_confirmation": null,
+      "invalidation": {
+        "bar_id": "ETHUSDT-M5-1788397500",
+        "close_time": "2026-09-03T01:10:00Z",
+        "available_at": "2026-09-03T01:10:00Z",
+        "bars_after_candidate": 1
+      },
+      "target_events": {
+        "nearest_obstacle": {
+          "bar_id": "ETHUSDT-M5-1788397200",
+          "open_time": "2026-09-03T01:00:00Z",
+          "close_time": "2026-09-03T01:05:00Z",
+          "available_at": "2026-09-03T01:05:00Z",
+          "kind": "range_intersection",
+          "intrabar_time_known": false,
+          "bars_after_candidate": 0
+        }
+      },
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T01:15:00Z",
+        "roles": {
+          "M5": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 0,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2395.09000000",
+              "bar_id": "ETHUSDT-M5-1788385200",
+              "origin_index": 548,
+              "confirmed_index": 550,
+              "available_at": "2026-09-02T21:55:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "origin_index": 588,
+              "confirmed_index": 590,
+              "available_at": "2026-09-03T01:15:00Z"
+            },
+            "break_index": 528,
+            "available_at": "2026-09-03T01:15:00Z",
+            "bar_id": "ETHUSDT-M5-1788397800",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M5-1788393600",
+                "origin_index": 576,
+                "confirmed_index": 578,
+                "available_at": "2026-09-03T00:15:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2379.26000000",
+                "bar_id": "ETHUSDT-M5-1788395400",
+                "origin_index": 582,
+                "confirmed_index": 584,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2385.81000000",
+                "bar_id": "ETHUSDT-M5-1788396000",
+                "origin_index": 584,
+                "confirmed_index": 586,
+                "available_at": "2026-09-03T00:55:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M5-1788397200",
+                "origin_index": 588,
+                "confirmed_index": 590,
+                "available_at": "2026-09-03T01:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "downtrend",
+            "direction": null,
+            "underlying_direction": "down",
+            "stale": true,
+            "age_bars": 55,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-M15-1788332400",
+              "origin_index": 124,
+              "confirmed_index": 126,
+              "available_at": "2026-09-02T07:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-M15-1788345900",
+              "origin_index": 139,
+              "confirmed_index": 141,
+              "available_at": "2026-09-02T11:30:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T01:15:00Z",
+            "bar_id": "ETHUSDT-M15-1788397200",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2383.14000000",
+                "bar_id": "ETHUSDT-M15-1788377400",
+                "origin_index": 174,
+                "confirmed_index": 176,
+                "available_at": "2026-09-02T20:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2399.74000000",
+                "bar_id": "ETHUSDT-M15-1788379200",
+                "origin_index": 176,
+                "confirmed_index": 178,
+                "available_at": "2026-09-02T20:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2377.77000000",
+                "bar_id": "ETHUSDT-M15-1788390000",
+                "origin_index": 188,
+                "confirmed_index": 190,
+                "available_at": "2026-09-02T23:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M15-1788393600",
+                "origin_index": 192,
+                "confirmed_index": 194,
+                "available_at": "2026-09-03T00:45:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 12,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": null,
+            "available_at": "2026-09-03T01:00:00Z",
+            "bar_id": "ETHUSDT-H1-1788393600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2429.00000000",
+                "bar_id": "ETHUSDT-H1-1788332400",
+                "origin_index": 31,
+                "confirmed_index": 33,
+                "available_at": "2026-09-02T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2356.41000000",
+                "bar_id": "ETHUSDT-H1-1788343200",
+                "origin_index": 34,
+                "confirmed_index": 36,
+                "available_at": "2026-09-02T13:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2419.72000000",
+                "bar_id": "ETHUSDT-H1-1788354000",
+                "origin_index": 37,
+                "confirmed_index": 39,
+                "available_at": "2026-09-02T16:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2372.55000000",
+                "bar_id": "ETHUSDT-H1-1788368400",
+                "origin_index": 41,
+                "confirmed_index": 43,
+                "available_at": "2026-09-02T20:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 900.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": [
+          "M15_stale_structure"
+        ]
+      },
+      "scenario_ready": false,
+      "analytical_status": "scenario_invalidated"
+    },
+    {
+      "bars_after_candidate": 3,
+      "as_of": "2026-09-03T01:20:00Z",
+      "strict_status": "invalidated",
+      "historical_confirmation": null,
+      "invalidation": {
+        "bar_id": "ETHUSDT-M5-1788397500",
+        "close_time": "2026-09-03T01:10:00Z",
+        "available_at": "2026-09-03T01:10:00Z",
+        "bars_after_candidate": 1
+      },
+      "target_events": {
+        "nearest_obstacle": {
+          "bar_id": "ETHUSDT-M5-1788397200",
+          "open_time": "2026-09-03T01:00:00Z",
+          "close_time": "2026-09-03T01:05:00Z",
+          "available_at": "2026-09-03T01:05:00Z",
+          "kind": "range_intersection",
+          "intrabar_time_known": false,
+          "bars_after_candidate": 0
+        }
+      },
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T01:20:00Z",
+        "roles": {
+          "M5": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 1,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2395.09000000",
+              "bar_id": "ETHUSDT-M5-1788385200",
+              "origin_index": 548,
+              "confirmed_index": 550,
+              "available_at": "2026-09-02T21:55:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "origin_index": 588,
+              "confirmed_index": 590,
+              "available_at": "2026-09-03T01:15:00Z"
+            },
+            "break_index": 528,
+            "available_at": "2026-09-03T01:20:00Z",
+            "bar_id": "ETHUSDT-M5-1788398100",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M5-1788393600",
+                "origin_index": 576,
+                "confirmed_index": 578,
+                "available_at": "2026-09-03T00:15:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2379.26000000",
+                "bar_id": "ETHUSDT-M5-1788395400",
+                "origin_index": 582,
+                "confirmed_index": 584,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2385.81000000",
+                "bar_id": "ETHUSDT-M5-1788396000",
+                "origin_index": 584,
+                "confirmed_index": 586,
+                "available_at": "2026-09-03T00:55:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M5-1788397200",
+                "origin_index": 588,
+                "confirmed_index": 590,
+                "available_at": "2026-09-03T01:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "downtrend",
+            "direction": null,
+            "underlying_direction": "down",
+            "stale": true,
+            "age_bars": 55,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-M15-1788332400",
+              "origin_index": 124,
+              "confirmed_index": 126,
+              "available_at": "2026-09-02T07:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-M15-1788345900",
+              "origin_index": 139,
+              "confirmed_index": 141,
+              "available_at": "2026-09-02T11:30:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T01:15:00Z",
+            "bar_id": "ETHUSDT-M15-1788397200",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2383.14000000",
+                "bar_id": "ETHUSDT-M15-1788377400",
+                "origin_index": 174,
+                "confirmed_index": 176,
+                "available_at": "2026-09-02T20:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2399.74000000",
+                "bar_id": "ETHUSDT-M15-1788379200",
+                "origin_index": 176,
+                "confirmed_index": 178,
+                "available_at": "2026-09-02T20:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2377.77000000",
+                "bar_id": "ETHUSDT-M15-1788390000",
+                "origin_index": 188,
+                "confirmed_index": 190,
+                "available_at": "2026-09-02T23:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M15-1788393600",
+                "origin_index": 192,
+                "confirmed_index": 194,
+                "available_at": "2026-09-03T00:45:00Z"
+              }
+            ],
+            "close_lag_seconds": 300.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 12,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": null,
+            "available_at": "2026-09-03T01:00:00Z",
+            "bar_id": "ETHUSDT-H1-1788393600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2429.00000000",
+                "bar_id": "ETHUSDT-H1-1788332400",
+                "origin_index": 31,
+                "confirmed_index": 33,
+                "available_at": "2026-09-02T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2356.41000000",
+                "bar_id": "ETHUSDT-H1-1788343200",
+                "origin_index": 34,
+                "confirmed_index": 36,
+                "available_at": "2026-09-02T13:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2419.72000000",
+                "bar_id": "ETHUSDT-H1-1788354000",
+                "origin_index": 37,
+                "confirmed_index": 39,
+                "available_at": "2026-09-02T16:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2372.55000000",
+                "bar_id": "ETHUSDT-H1-1788368400",
+                "origin_index": 41,
+                "confirmed_index": 43,
+                "available_at": "2026-09-02T20:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 1200.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": [
+          "M15_stale_structure"
+        ]
+      },
+      "scenario_ready": false,
+      "analytical_status": "scenario_invalidated"
+    },
+    {
+      "bars_after_candidate": 4,
+      "as_of": "2026-09-03T01:25:00Z",
+      "strict_status": "invalidated",
+      "historical_confirmation": null,
+      "invalidation": {
+        "bar_id": "ETHUSDT-M5-1788397500",
+        "close_time": "2026-09-03T01:10:00Z",
+        "available_at": "2026-09-03T01:10:00Z",
+        "bars_after_candidate": 1
+      },
+      "target_events": {
+        "nearest_obstacle": {
+          "bar_id": "ETHUSDT-M5-1788397200",
+          "open_time": "2026-09-03T01:00:00Z",
+          "close_time": "2026-09-03T01:05:00Z",
+          "available_at": "2026-09-03T01:05:00Z",
+          "kind": "range_intersection",
+          "intrabar_time_known": false,
+          "bars_after_candidate": 0
+        }
+      },
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T01:25:00Z",
+        "roles": {
+          "M5": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 2,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2395.09000000",
+              "bar_id": "ETHUSDT-M5-1788385200",
+              "origin_index": 548,
+              "confirmed_index": 550,
+              "available_at": "2026-09-02T21:55:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "origin_index": 588,
+              "confirmed_index": 590,
+              "available_at": "2026-09-03T01:15:00Z"
+            },
+            "break_index": 528,
+            "available_at": "2026-09-03T01:25:00Z",
+            "bar_id": "ETHUSDT-M5-1788398400",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M5-1788393600",
+                "origin_index": 576,
+                "confirmed_index": 578,
+                "available_at": "2026-09-03T00:15:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2379.26000000",
+                "bar_id": "ETHUSDT-M5-1788395400",
+                "origin_index": 582,
+                "confirmed_index": 584,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2385.81000000",
+                "bar_id": "ETHUSDT-M5-1788396000",
+                "origin_index": 584,
+                "confirmed_index": 586,
+                "available_at": "2026-09-03T00:55:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M5-1788397200",
+                "origin_index": 588,
+                "confirmed_index": 590,
+                "available_at": "2026-09-03T01:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "downtrend",
+            "direction": null,
+            "underlying_direction": "down",
+            "stale": true,
+            "age_bars": 55,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-M15-1788332400",
+              "origin_index": 124,
+              "confirmed_index": 126,
+              "available_at": "2026-09-02T07:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-M15-1788345900",
+              "origin_index": 139,
+              "confirmed_index": 141,
+              "available_at": "2026-09-02T11:30:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T01:15:00Z",
+            "bar_id": "ETHUSDT-M15-1788397200",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2383.14000000",
+                "bar_id": "ETHUSDT-M15-1788377400",
+                "origin_index": 174,
+                "confirmed_index": 176,
+                "available_at": "2026-09-02T20:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2399.74000000",
+                "bar_id": "ETHUSDT-M15-1788379200",
+                "origin_index": 176,
+                "confirmed_index": 178,
+                "available_at": "2026-09-02T20:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2377.77000000",
+                "bar_id": "ETHUSDT-M15-1788390000",
+                "origin_index": 188,
+                "confirmed_index": 190,
+                "available_at": "2026-09-02T23:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M15-1788393600",
+                "origin_index": 192,
+                "confirmed_index": 194,
+                "available_at": "2026-09-03T00:45:00Z"
+              }
+            ],
+            "close_lag_seconds": 600.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 12,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": null,
+            "available_at": "2026-09-03T01:00:00Z",
+            "bar_id": "ETHUSDT-H1-1788393600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2429.00000000",
+                "bar_id": "ETHUSDT-H1-1788332400",
+                "origin_index": 31,
+                "confirmed_index": 33,
+                "available_at": "2026-09-02T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2356.41000000",
+                "bar_id": "ETHUSDT-H1-1788343200",
+                "origin_index": 34,
+                "confirmed_index": 36,
+                "available_at": "2026-09-02T13:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2419.72000000",
+                "bar_id": "ETHUSDT-H1-1788354000",
+                "origin_index": 37,
+                "confirmed_index": 39,
+                "available_at": "2026-09-02T16:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2372.55000000",
+                "bar_id": "ETHUSDT-H1-1788368400",
+                "origin_index": 41,
+                "confirmed_index": 43,
+                "available_at": "2026-09-02T20:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 1500.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": [
+          "M15_stale_structure"
+        ]
+      },
+      "scenario_ready": false,
+      "analytical_status": "scenario_invalidated"
+    },
+    {
+      "bars_after_candidate": 5,
+      "as_of": "2026-09-03T01:30:00Z",
+      "strict_status": "invalidated",
+      "historical_confirmation": null,
+      "invalidation": {
+        "bar_id": "ETHUSDT-M5-1788397500",
+        "close_time": "2026-09-03T01:10:00Z",
+        "available_at": "2026-09-03T01:10:00Z",
+        "bars_after_candidate": 1
+      },
+      "target_events": {
+        "nearest_obstacle": {
+          "bar_id": "ETHUSDT-M5-1788397200",
+          "open_time": "2026-09-03T01:00:00Z",
+          "close_time": "2026-09-03T01:05:00Z",
+          "available_at": "2026-09-03T01:05:00Z",
+          "kind": "range_intersection",
+          "intrabar_time_known": false,
+          "bars_after_candidate": 0
+        }
+      },
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T01:30:00Z",
+        "roles": {
+          "M5": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 3,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2395.09000000",
+              "bar_id": "ETHUSDT-M5-1788385200",
+              "origin_index": 548,
+              "confirmed_index": 550,
+              "available_at": "2026-09-02T21:55:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "origin_index": 588,
+              "confirmed_index": 590,
+              "available_at": "2026-09-03T01:15:00Z"
+            },
+            "break_index": 528,
+            "available_at": "2026-09-03T01:30:00Z",
+            "bar_id": "ETHUSDT-M5-1788398700",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M5-1788393600",
+                "origin_index": 576,
+                "confirmed_index": 578,
+                "available_at": "2026-09-03T00:15:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2379.26000000",
+                "bar_id": "ETHUSDT-M5-1788395400",
+                "origin_index": 582,
+                "confirmed_index": 584,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2385.81000000",
+                "bar_id": "ETHUSDT-M5-1788396000",
+                "origin_index": 584,
+                "confirmed_index": 586,
+                "available_at": "2026-09-03T00:55:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M5-1788397200",
+                "origin_index": 588,
+                "confirmed_index": 590,
+                "available_at": "2026-09-03T01:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "downtrend",
+            "direction": null,
+            "underlying_direction": "down",
+            "stale": true,
+            "age_bars": 56,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-M15-1788332400",
+              "origin_index": 124,
+              "confirmed_index": 126,
+              "available_at": "2026-09-02T07:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-M15-1788345900",
+              "origin_index": 139,
+              "confirmed_index": 141,
+              "available_at": "2026-09-02T11:30:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T01:30:00Z",
+            "bar_id": "ETHUSDT-M15-1788398100",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2383.14000000",
+                "bar_id": "ETHUSDT-M15-1788377400",
+                "origin_index": 174,
+                "confirmed_index": 176,
+                "available_at": "2026-09-02T20:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2399.74000000",
+                "bar_id": "ETHUSDT-M15-1788379200",
+                "origin_index": 176,
+                "confirmed_index": 178,
+                "available_at": "2026-09-02T20:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2377.77000000",
+                "bar_id": "ETHUSDT-M15-1788390000",
+                "origin_index": 188,
+                "confirmed_index": 190,
+                "available_at": "2026-09-02T23:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M15-1788393600",
+                "origin_index": 192,
+                "confirmed_index": 194,
+                "available_at": "2026-09-03T00:45:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 12,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": null,
+            "available_at": "2026-09-03T01:00:00Z",
+            "bar_id": "ETHUSDT-H1-1788393600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2429.00000000",
+                "bar_id": "ETHUSDT-H1-1788332400",
+                "origin_index": 31,
+                "confirmed_index": 33,
+                "available_at": "2026-09-02T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2356.41000000",
+                "bar_id": "ETHUSDT-H1-1788343200",
+                "origin_index": 34,
+                "confirmed_index": 36,
+                "available_at": "2026-09-02T13:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2419.72000000",
+                "bar_id": "ETHUSDT-H1-1788354000",
+                "origin_index": 37,
+                "confirmed_index": 39,
+                "available_at": "2026-09-02T16:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2372.55000000",
+                "bar_id": "ETHUSDT-H1-1788368400",
+                "origin_index": 41,
+                "confirmed_index": 43,
+                "available_at": "2026-09-02T20:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 1800.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": [
+          "M15_stale_structure"
+        ]
+      },
+      "scenario_ready": false,
+      "analytical_status": "scenario_invalidated"
+    },
+    {
+      "bars_after_candidate": 6,
+      "as_of": "2026-09-03T01:35:00Z",
+      "strict_status": "invalidated",
+      "historical_confirmation": null,
+      "invalidation": {
+        "bar_id": "ETHUSDT-M5-1788397500",
+        "close_time": "2026-09-03T01:10:00Z",
+        "available_at": "2026-09-03T01:10:00Z",
+        "bars_after_candidate": 1
+      },
+      "target_events": {
+        "nearest_obstacle": {
+          "bar_id": "ETHUSDT-M5-1788397200",
+          "open_time": "2026-09-03T01:00:00Z",
+          "close_time": "2026-09-03T01:05:00Z",
+          "available_at": "2026-09-03T01:05:00Z",
+          "kind": "range_intersection",
+          "intrabar_time_known": false,
+          "bars_after_candidate": 0
+        }
+      },
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T01:35:00Z",
+        "roles": {
+          "M5": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 4,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2395.09000000",
+              "bar_id": "ETHUSDT-M5-1788385200",
+              "origin_index": 548,
+              "confirmed_index": 550,
+              "available_at": "2026-09-02T21:55:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "origin_index": 588,
+              "confirmed_index": 590,
+              "available_at": "2026-09-03T01:15:00Z"
+            },
+            "break_index": 528,
+            "available_at": "2026-09-03T01:35:00Z",
+            "bar_id": "ETHUSDT-M5-1788399000",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M5-1788393600",
+                "origin_index": 576,
+                "confirmed_index": 578,
+                "available_at": "2026-09-03T00:15:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2379.26000000",
+                "bar_id": "ETHUSDT-M5-1788395400",
+                "origin_index": 582,
+                "confirmed_index": 584,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2385.81000000",
+                "bar_id": "ETHUSDT-M5-1788396000",
+                "origin_index": 584,
+                "confirmed_index": 586,
+                "available_at": "2026-09-03T00:55:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M5-1788397200",
+                "origin_index": 588,
+                "confirmed_index": 590,
+                "available_at": "2026-09-03T01:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "downtrend",
+            "direction": null,
+            "underlying_direction": "down",
+            "stale": true,
+            "age_bars": 56,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-M15-1788332400",
+              "origin_index": 124,
+              "confirmed_index": 126,
+              "available_at": "2026-09-02T07:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-M15-1788345900",
+              "origin_index": 139,
+              "confirmed_index": 141,
+              "available_at": "2026-09-02T11:30:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T01:30:00Z",
+            "bar_id": "ETHUSDT-M15-1788398100",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2383.14000000",
+                "bar_id": "ETHUSDT-M15-1788377400",
+                "origin_index": 174,
+                "confirmed_index": 176,
+                "available_at": "2026-09-02T20:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2399.74000000",
+                "bar_id": "ETHUSDT-M15-1788379200",
+                "origin_index": 176,
+                "confirmed_index": 178,
+                "available_at": "2026-09-02T20:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2377.77000000",
+                "bar_id": "ETHUSDT-M15-1788390000",
+                "origin_index": 188,
+                "confirmed_index": 190,
+                "available_at": "2026-09-02T23:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M15-1788393600",
+                "origin_index": 192,
+                "confirmed_index": 194,
+                "available_at": "2026-09-03T00:45:00Z"
+              }
+            ],
+            "close_lag_seconds": 300.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 12,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": null,
+            "available_at": "2026-09-03T01:00:00Z",
+            "bar_id": "ETHUSDT-H1-1788393600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2429.00000000",
+                "bar_id": "ETHUSDT-H1-1788332400",
+                "origin_index": 31,
+                "confirmed_index": 33,
+                "available_at": "2026-09-02T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2356.41000000",
+                "bar_id": "ETHUSDT-H1-1788343200",
+                "origin_index": 34,
+                "confirmed_index": 36,
+                "available_at": "2026-09-02T13:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2419.72000000",
+                "bar_id": "ETHUSDT-H1-1788354000",
+                "origin_index": 37,
+                "confirmed_index": 39,
+                "available_at": "2026-09-02T16:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2372.55000000",
+                "bar_id": "ETHUSDT-H1-1788368400",
+                "origin_index": 41,
+                "confirmed_index": 43,
+                "available_at": "2026-09-02T20:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 2100.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": [
+          "M15_stale_structure"
+        ]
+      },
+      "scenario_ready": false,
+      "analytical_status": "scenario_invalidated"
+    },
+    {
+      "bars_after_candidate": 7,
+      "as_of": "2026-09-03T01:40:00Z",
+      "strict_status": "invalidated",
+      "historical_confirmation": null,
+      "invalidation": {
+        "bar_id": "ETHUSDT-M5-1788397500",
+        "close_time": "2026-09-03T01:10:00Z",
+        "available_at": "2026-09-03T01:10:00Z",
+        "bars_after_candidate": 1
+      },
+      "target_events": {
+        "nearest_obstacle": {
+          "bar_id": "ETHUSDT-M5-1788397200",
+          "open_time": "2026-09-03T01:00:00Z",
+          "close_time": "2026-09-03T01:05:00Z",
+          "available_at": "2026-09-03T01:05:00Z",
+          "kind": "range_intersection",
+          "intrabar_time_known": false,
+          "bars_after_candidate": 0
+        }
+      },
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T01:40:00Z",
+        "roles": {
+          "M5": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 5,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2395.09000000",
+              "bar_id": "ETHUSDT-M5-1788385200",
+              "origin_index": 548,
+              "confirmed_index": 550,
+              "available_at": "2026-09-02T21:55:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "origin_index": 588,
+              "confirmed_index": 590,
+              "available_at": "2026-09-03T01:15:00Z"
+            },
+            "break_index": 528,
+            "available_at": "2026-09-03T01:40:00Z",
+            "bar_id": "ETHUSDT-M5-1788399300",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M5-1788393600",
+                "origin_index": 576,
+                "confirmed_index": 578,
+                "available_at": "2026-09-03T00:15:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2379.26000000",
+                "bar_id": "ETHUSDT-M5-1788395400",
+                "origin_index": 582,
+                "confirmed_index": 584,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2385.81000000",
+                "bar_id": "ETHUSDT-M5-1788396000",
+                "origin_index": 584,
+                "confirmed_index": 586,
+                "available_at": "2026-09-03T00:55:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M5-1788397200",
+                "origin_index": 588,
+                "confirmed_index": 590,
+                "available_at": "2026-09-03T01:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "downtrend",
+            "direction": null,
+            "underlying_direction": "down",
+            "stale": true,
+            "age_bars": 56,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-M15-1788332400",
+              "origin_index": 124,
+              "confirmed_index": 126,
+              "available_at": "2026-09-02T07:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-M15-1788345900",
+              "origin_index": 139,
+              "confirmed_index": 141,
+              "available_at": "2026-09-02T11:30:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T01:30:00Z",
+            "bar_id": "ETHUSDT-M15-1788398100",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2383.14000000",
+                "bar_id": "ETHUSDT-M15-1788377400",
+                "origin_index": 174,
+                "confirmed_index": 176,
+                "available_at": "2026-09-02T20:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2399.74000000",
+                "bar_id": "ETHUSDT-M15-1788379200",
+                "origin_index": 176,
+                "confirmed_index": 178,
+                "available_at": "2026-09-02T20:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2377.77000000",
+                "bar_id": "ETHUSDT-M15-1788390000",
+                "origin_index": 188,
+                "confirmed_index": 190,
+                "available_at": "2026-09-02T23:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M15-1788393600",
+                "origin_index": 192,
+                "confirmed_index": 194,
+                "available_at": "2026-09-03T00:45:00Z"
+              }
+            ],
+            "close_lag_seconds": 600.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 12,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": null,
+            "available_at": "2026-09-03T01:00:00Z",
+            "bar_id": "ETHUSDT-H1-1788393600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2429.00000000",
+                "bar_id": "ETHUSDT-H1-1788332400",
+                "origin_index": 31,
+                "confirmed_index": 33,
+                "available_at": "2026-09-02T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2356.41000000",
+                "bar_id": "ETHUSDT-H1-1788343200",
+                "origin_index": 34,
+                "confirmed_index": 36,
+                "available_at": "2026-09-02T13:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2419.72000000",
+                "bar_id": "ETHUSDT-H1-1788354000",
+                "origin_index": 37,
+                "confirmed_index": 39,
+                "available_at": "2026-09-02T16:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2372.55000000",
+                "bar_id": "ETHUSDT-H1-1788368400",
+                "origin_index": 41,
+                "confirmed_index": 43,
+                "available_at": "2026-09-02T20:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 2400.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": [
+          "M15_stale_structure"
+        ]
+      },
+      "scenario_ready": false,
+      "analytical_status": "scenario_invalidated"
+    },
+    {
+      "bars_after_candidate": 8,
+      "as_of": "2026-09-03T01:45:00Z",
+      "strict_status": "invalidated",
+      "historical_confirmation": null,
+      "invalidation": {
+        "bar_id": "ETHUSDT-M5-1788397500",
+        "close_time": "2026-09-03T01:10:00Z",
+        "available_at": "2026-09-03T01:10:00Z",
+        "bars_after_candidate": 1
+      },
+      "target_events": {
+        "nearest_obstacle": {
+          "bar_id": "ETHUSDT-M5-1788397200",
+          "open_time": "2026-09-03T01:00:00Z",
+          "close_time": "2026-09-03T01:05:00Z",
+          "available_at": "2026-09-03T01:05:00Z",
+          "kind": "range_intersection",
+          "intrabar_time_known": false,
+          "bars_after_candidate": 0
+        }
+      },
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T01:45:00Z",
+        "roles": {
+          "M5": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 6,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2395.09000000",
+              "bar_id": "ETHUSDT-M5-1788385200",
+              "origin_index": 548,
+              "confirmed_index": 550,
+              "available_at": "2026-09-02T21:55:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "origin_index": 588,
+              "confirmed_index": 590,
+              "available_at": "2026-09-03T01:15:00Z"
+            },
+            "break_index": 528,
+            "available_at": "2026-09-03T01:45:00Z",
+            "bar_id": "ETHUSDT-M5-1788399600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M5-1788393600",
+                "origin_index": 576,
+                "confirmed_index": 578,
+                "available_at": "2026-09-03T00:15:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2379.26000000",
+                "bar_id": "ETHUSDT-M5-1788395400",
+                "origin_index": 582,
+                "confirmed_index": 584,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2385.81000000",
+                "bar_id": "ETHUSDT-M5-1788396000",
+                "origin_index": 584,
+                "confirmed_index": 586,
+                "available_at": "2026-09-03T00:55:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M5-1788397200",
+                "origin_index": 588,
+                "confirmed_index": 590,
+                "available_at": "2026-09-03T01:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "downtrend",
+            "direction": null,
+            "underlying_direction": "down",
+            "stale": true,
+            "age_bars": 57,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-M15-1788332400",
+              "origin_index": 124,
+              "confirmed_index": 126,
+              "available_at": "2026-09-02T07:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-M15-1788345900",
+              "origin_index": 139,
+              "confirmed_index": 141,
+              "available_at": "2026-09-02T11:30:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T01:45:00Z",
+            "bar_id": "ETHUSDT-M15-1788399000",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2399.74000000",
+                "bar_id": "ETHUSDT-M15-1788379200",
+                "origin_index": 176,
+                "confirmed_index": 178,
+                "available_at": "2026-09-02T20:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2377.77000000",
+                "bar_id": "ETHUSDT-M15-1788390000",
+                "origin_index": 188,
+                "confirmed_index": 190,
+                "available_at": "2026-09-02T23:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M15-1788393600",
+                "origin_index": 192,
+                "confirmed_index": 194,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M15-1788397200",
+                "origin_index": 196,
+                "confirmed_index": 198,
+                "available_at": "2026-09-03T01:45:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 12,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": null,
+            "available_at": "2026-09-03T01:00:00Z",
+            "bar_id": "ETHUSDT-H1-1788393600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2429.00000000",
+                "bar_id": "ETHUSDT-H1-1788332400",
+                "origin_index": 31,
+                "confirmed_index": 33,
+                "available_at": "2026-09-02T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2356.41000000",
+                "bar_id": "ETHUSDT-H1-1788343200",
+                "origin_index": 34,
+                "confirmed_index": 36,
+                "available_at": "2026-09-02T13:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2419.72000000",
+                "bar_id": "ETHUSDT-H1-1788354000",
+                "origin_index": 37,
+                "confirmed_index": 39,
+                "available_at": "2026-09-02T16:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2372.55000000",
+                "bar_id": "ETHUSDT-H1-1788368400",
+                "origin_index": 41,
+                "confirmed_index": 43,
+                "available_at": "2026-09-02T20:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 2700.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": [
+          "M15_stale_structure"
+        ]
+      },
+      "scenario_ready": false,
+      "analytical_status": "scenario_invalidated"
+    },
+    {
+      "bars_after_candidate": 9,
+      "as_of": "2026-09-03T01:50:00Z",
+      "strict_status": "invalidated",
+      "historical_confirmation": null,
+      "invalidation": {
+        "bar_id": "ETHUSDT-M5-1788397500",
+        "close_time": "2026-09-03T01:10:00Z",
+        "available_at": "2026-09-03T01:10:00Z",
+        "bars_after_candidate": 1
+      },
+      "target_events": {
+        "nearest_obstacle": {
+          "bar_id": "ETHUSDT-M5-1788397200",
+          "open_time": "2026-09-03T01:00:00Z",
+          "close_time": "2026-09-03T01:05:00Z",
+          "available_at": "2026-09-03T01:05:00Z",
+          "kind": "range_intersection",
+          "intrabar_time_known": false,
+          "bars_after_candidate": 0
+        }
+      },
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T01:50:00Z",
+        "roles": {
+          "M5": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 7,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2395.09000000",
+              "bar_id": "ETHUSDT-M5-1788385200",
+              "origin_index": 548,
+              "confirmed_index": 550,
+              "available_at": "2026-09-02T21:55:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "origin_index": 588,
+              "confirmed_index": 590,
+              "available_at": "2026-09-03T01:15:00Z"
+            },
+            "break_index": 528,
+            "available_at": "2026-09-03T01:50:00Z",
+            "bar_id": "ETHUSDT-M5-1788399900",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2379.26000000",
+                "bar_id": "ETHUSDT-M5-1788395400",
+                "origin_index": 582,
+                "confirmed_index": 584,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2385.81000000",
+                "bar_id": "ETHUSDT-M5-1788396000",
+                "origin_index": 584,
+                "confirmed_index": 586,
+                "available_at": "2026-09-03T00:55:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M5-1788397200",
+                "origin_index": 588,
+                "confirmed_index": 590,
+                "available_at": "2026-09-03T01:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2394.61000000",
+                "bar_id": "ETHUSDT-M5-1788399300",
+                "origin_index": 595,
+                "confirmed_index": 597,
+                "available_at": "2026-09-03T01:50:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "downtrend",
+            "direction": null,
+            "underlying_direction": "down",
+            "stale": true,
+            "age_bars": 57,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-M15-1788332400",
+              "origin_index": 124,
+              "confirmed_index": 126,
+              "available_at": "2026-09-02T07:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-M15-1788345900",
+              "origin_index": 139,
+              "confirmed_index": 141,
+              "available_at": "2026-09-02T11:30:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T01:45:00Z",
+            "bar_id": "ETHUSDT-M15-1788399000",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2399.74000000",
+                "bar_id": "ETHUSDT-M15-1788379200",
+                "origin_index": 176,
+                "confirmed_index": 178,
+                "available_at": "2026-09-02T20:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2377.77000000",
+                "bar_id": "ETHUSDT-M15-1788390000",
+                "origin_index": 188,
+                "confirmed_index": 190,
+                "available_at": "2026-09-02T23:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M15-1788393600",
+                "origin_index": 192,
+                "confirmed_index": 194,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M15-1788397200",
+                "origin_index": 196,
+                "confirmed_index": 198,
+                "available_at": "2026-09-03T01:45:00Z"
+              }
+            ],
+            "close_lag_seconds": 300.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 12,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": null,
+            "available_at": "2026-09-03T01:00:00Z",
+            "bar_id": "ETHUSDT-H1-1788393600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2429.00000000",
+                "bar_id": "ETHUSDT-H1-1788332400",
+                "origin_index": 31,
+                "confirmed_index": 33,
+                "available_at": "2026-09-02T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2356.41000000",
+                "bar_id": "ETHUSDT-H1-1788343200",
+                "origin_index": 34,
+                "confirmed_index": 36,
+                "available_at": "2026-09-02T13:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2419.72000000",
+                "bar_id": "ETHUSDT-H1-1788354000",
+                "origin_index": 37,
+                "confirmed_index": 39,
+                "available_at": "2026-09-02T16:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2372.55000000",
+                "bar_id": "ETHUSDT-H1-1788368400",
+                "origin_index": 41,
+                "confirmed_index": 43,
+                "available_at": "2026-09-02T20:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 3000.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": [
+          "M15_stale_structure"
+        ]
+      },
+      "scenario_ready": false,
+      "analytical_status": "scenario_invalidated"
+    },
+    {
+      "bars_after_candidate": 10,
+      "as_of": "2026-09-03T01:55:00Z",
+      "strict_status": "invalidated",
+      "historical_confirmation": null,
+      "invalidation": {
+        "bar_id": "ETHUSDT-M5-1788397500",
+        "close_time": "2026-09-03T01:10:00Z",
+        "available_at": "2026-09-03T01:10:00Z",
+        "bars_after_candidate": 1
+      },
+      "target_events": {
+        "nearest_obstacle": {
+          "bar_id": "ETHUSDT-M5-1788397200",
+          "open_time": "2026-09-03T01:00:00Z",
+          "close_time": "2026-09-03T01:05:00Z",
+          "available_at": "2026-09-03T01:05:00Z",
+          "kind": "range_intersection",
+          "intrabar_time_known": false,
+          "bars_after_candidate": 0
+        }
+      },
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T01:55:00Z",
+        "roles": {
+          "M5": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 8,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2395.09000000",
+              "bar_id": "ETHUSDT-M5-1788385200",
+              "origin_index": 548,
+              "confirmed_index": 550,
+              "available_at": "2026-09-02T21:55:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "origin_index": 588,
+              "confirmed_index": 590,
+              "available_at": "2026-09-03T01:15:00Z"
+            },
+            "break_index": 528,
+            "available_at": "2026-09-03T01:55:00Z",
+            "bar_id": "ETHUSDT-M5-1788400200",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2379.26000000",
+                "bar_id": "ETHUSDT-M5-1788395400",
+                "origin_index": 582,
+                "confirmed_index": 584,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2385.81000000",
+                "bar_id": "ETHUSDT-M5-1788396000",
+                "origin_index": 584,
+                "confirmed_index": 586,
+                "available_at": "2026-09-03T00:55:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M5-1788397200",
+                "origin_index": 588,
+                "confirmed_index": 590,
+                "available_at": "2026-09-03T01:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2394.61000000",
+                "bar_id": "ETHUSDT-M5-1788399300",
+                "origin_index": 595,
+                "confirmed_index": 597,
+                "available_at": "2026-09-03T01:50:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "downtrend",
+            "direction": null,
+            "underlying_direction": "down",
+            "stale": true,
+            "age_bars": 57,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-M15-1788332400",
+              "origin_index": 124,
+              "confirmed_index": 126,
+              "available_at": "2026-09-02T07:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-M15-1788345900",
+              "origin_index": 139,
+              "confirmed_index": 141,
+              "available_at": "2026-09-02T11:30:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T01:45:00Z",
+            "bar_id": "ETHUSDT-M15-1788399000",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2399.74000000",
+                "bar_id": "ETHUSDT-M15-1788379200",
+                "origin_index": 176,
+                "confirmed_index": 178,
+                "available_at": "2026-09-02T20:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2377.77000000",
+                "bar_id": "ETHUSDT-M15-1788390000",
+                "origin_index": 188,
+                "confirmed_index": 190,
+                "available_at": "2026-09-02T23:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M15-1788393600",
+                "origin_index": 192,
+                "confirmed_index": 194,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M15-1788397200",
+                "origin_index": 196,
+                "confirmed_index": 198,
+                "available_at": "2026-09-03T01:45:00Z"
+              }
+            ],
+            "close_lag_seconds": 600.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 12,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": null,
+            "available_at": "2026-09-03T01:00:00Z",
+            "bar_id": "ETHUSDT-H1-1788393600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2429.00000000",
+                "bar_id": "ETHUSDT-H1-1788332400",
+                "origin_index": 31,
+                "confirmed_index": 33,
+                "available_at": "2026-09-02T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2356.41000000",
+                "bar_id": "ETHUSDT-H1-1788343200",
+                "origin_index": 34,
+                "confirmed_index": 36,
+                "available_at": "2026-09-02T13:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2419.72000000",
+                "bar_id": "ETHUSDT-H1-1788354000",
+                "origin_index": 37,
+                "confirmed_index": 39,
+                "available_at": "2026-09-02T16:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2372.55000000",
+                "bar_id": "ETHUSDT-H1-1788368400",
+                "origin_index": 41,
+                "confirmed_index": 43,
+                "available_at": "2026-09-02T20:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 3300.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": [
+          "M15_stale_structure"
+        ]
+      },
+      "scenario_ready": false,
+      "analytical_status": "scenario_invalidated"
+    },
+    {
+      "bars_after_candidate": 11,
+      "as_of": "2026-09-03T02:00:00Z",
+      "strict_status": "invalidated",
+      "historical_confirmation": null,
+      "invalidation": {
+        "bar_id": "ETHUSDT-M5-1788397500",
+        "close_time": "2026-09-03T01:10:00Z",
+        "available_at": "2026-09-03T01:10:00Z",
+        "bars_after_candidate": 1
+      },
+      "target_events": {
+        "nearest_obstacle": {
+          "bar_id": "ETHUSDT-M5-1788397200",
+          "open_time": "2026-09-03T01:00:00Z",
+          "close_time": "2026-09-03T01:05:00Z",
+          "available_at": "2026-09-03T01:05:00Z",
+          "kind": "range_intersection",
+          "intrabar_time_known": false,
+          "bars_after_candidate": 0
+        }
+      },
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T02:00:00Z",
+        "roles": {
+          "M5": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 9,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2395.09000000",
+              "bar_id": "ETHUSDT-M5-1788385200",
+              "origin_index": 548,
+              "confirmed_index": 550,
+              "available_at": "2026-09-02T21:55:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "origin_index": 588,
+              "confirmed_index": 590,
+              "available_at": "2026-09-03T01:15:00Z"
+            },
+            "break_index": 528,
+            "available_at": "2026-09-03T02:00:00Z",
+            "bar_id": "ETHUSDT-M5-1788400500",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2379.26000000",
+                "bar_id": "ETHUSDT-M5-1788395400",
+                "origin_index": 582,
+                "confirmed_index": 584,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2385.81000000",
+                "bar_id": "ETHUSDT-M5-1788396000",
+                "origin_index": 584,
+                "confirmed_index": 586,
+                "available_at": "2026-09-03T00:55:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M5-1788397200",
+                "origin_index": 588,
+                "confirmed_index": 590,
+                "available_at": "2026-09-03T01:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2394.61000000",
+                "bar_id": "ETHUSDT-M5-1788399300",
+                "origin_index": 595,
+                "confirmed_index": 597,
+                "available_at": "2026-09-03T01:50:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "downtrend",
+            "direction": null,
+            "underlying_direction": "down",
+            "stale": true,
+            "age_bars": 58,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-M15-1788332400",
+              "origin_index": 124,
+              "confirmed_index": 126,
+              "available_at": "2026-09-02T07:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-M15-1788345900",
+              "origin_index": 139,
+              "confirmed_index": 141,
+              "available_at": "2026-09-02T11:30:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T02:00:00Z",
+            "bar_id": "ETHUSDT-M15-1788399900",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2399.74000000",
+                "bar_id": "ETHUSDT-M15-1788379200",
+                "origin_index": 176,
+                "confirmed_index": 178,
+                "available_at": "2026-09-02T20:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2377.77000000",
+                "bar_id": "ETHUSDT-M15-1788390000",
+                "origin_index": 188,
+                "confirmed_index": 190,
+                "available_at": "2026-09-02T23:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M15-1788393600",
+                "origin_index": 192,
+                "confirmed_index": 194,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M15-1788397200",
+                "origin_index": 196,
+                "confirmed_index": 198,
+                "available_at": "2026-09-03T01:45:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 13,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": null,
+            "available_at": "2026-09-03T02:00:00Z",
+            "bar_id": "ETHUSDT-H1-1788397200",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2429.00000000",
+                "bar_id": "ETHUSDT-H1-1788332400",
+                "origin_index": 31,
+                "confirmed_index": 33,
+                "available_at": "2026-09-02T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2356.41000000",
+                "bar_id": "ETHUSDT-H1-1788343200",
+                "origin_index": 34,
+                "confirmed_index": 36,
+                "available_at": "2026-09-02T13:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2419.72000000",
+                "bar_id": "ETHUSDT-H1-1788354000",
+                "origin_index": 37,
+                "confirmed_index": 39,
+                "available_at": "2026-09-02T16:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2372.55000000",
+                "bar_id": "ETHUSDT-H1-1788368400",
+                "origin_index": 41,
+                "confirmed_index": 43,
+                "available_at": "2026-09-02T20:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": [
+          "M15_stale_structure"
+        ]
+      },
+      "scenario_ready": false,
+      "analytical_status": "scenario_invalidated"
+    },
+    {
+      "bars_after_candidate": 12,
+      "as_of": "2026-09-03T02:05:00Z",
+      "strict_status": "invalidated",
+      "historical_confirmation": null,
+      "invalidation": {
+        "bar_id": "ETHUSDT-M5-1788397500",
+        "close_time": "2026-09-03T01:10:00Z",
+        "available_at": "2026-09-03T01:10:00Z",
+        "bars_after_candidate": 1
+      },
+      "target_events": {
+        "nearest_obstacle": {
+          "bar_id": "ETHUSDT-M5-1788397200",
+          "open_time": "2026-09-03T01:00:00Z",
+          "close_time": "2026-09-03T01:05:00Z",
+          "available_at": "2026-09-03T01:05:00Z",
+          "kind": "range_intersection",
+          "intrabar_time_known": false,
+          "bars_after_candidate": 0
+        }
+      },
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T02:05:00Z",
+        "roles": {
+          "M5": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 10,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2395.09000000",
+              "bar_id": "ETHUSDT-M5-1788385200",
+              "origin_index": 548,
+              "confirmed_index": 550,
+              "available_at": "2026-09-02T21:55:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "origin_index": 588,
+              "confirmed_index": 590,
+              "available_at": "2026-09-03T01:15:00Z"
+            },
+            "break_index": 528,
+            "available_at": "2026-09-03T02:05:00Z",
+            "bar_id": "ETHUSDT-M5-1788400800",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "2379.26000000",
+                "bar_id": "ETHUSDT-M5-1788395400",
+                "origin_index": 582,
+                "confirmed_index": 584,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2385.81000000",
+                "bar_id": "ETHUSDT-M5-1788396000",
+                "origin_index": 584,
+                "confirmed_index": 586,
+                "available_at": "2026-09-03T00:55:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M5-1788397200",
+                "origin_index": 588,
+                "confirmed_index": 590,
+                "available_at": "2026-09-03T01:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2394.61000000",
+                "bar_id": "ETHUSDT-M5-1788399300",
+                "origin_index": 595,
+                "confirmed_index": 597,
+                "available_at": "2026-09-03T01:50:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "downtrend",
+            "direction": null,
+            "underlying_direction": "down",
+            "stale": true,
+            "age_bars": 58,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-M15-1788332400",
+              "origin_index": 124,
+              "confirmed_index": 126,
+              "available_at": "2026-09-02T07:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-M15-1788345900",
+              "origin_index": 139,
+              "confirmed_index": 141,
+              "available_at": "2026-09-02T11:30:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T02:00:00Z",
+            "bar_id": "ETHUSDT-M15-1788399900",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2399.74000000",
+                "bar_id": "ETHUSDT-M15-1788379200",
+                "origin_index": 176,
+                "confirmed_index": 178,
+                "available_at": "2026-09-02T20:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2377.77000000",
+                "bar_id": "ETHUSDT-M15-1788390000",
+                "origin_index": 188,
+                "confirmed_index": 190,
+                "available_at": "2026-09-02T23:45:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2395.41000000",
+                "bar_id": "ETHUSDT-M15-1788393600",
+                "origin_index": 192,
+                "confirmed_index": 194,
+                "available_at": "2026-09-03T00:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2370.14000000",
+                "bar_id": "ETHUSDT-M15-1788397200",
+                "origin_index": 196,
+                "confirmed_index": 198,
+                "available_at": "2026-09-03T01:45:00Z"
+              }
+            ],
+            "close_lag_seconds": 300.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "downtrend",
+            "direction": "down",
+            "underlying_direction": "down",
+            "stale": false,
+            "age_bars": 13,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": null,
+            "available_at": "2026-09-03T02:00:00Z",
+            "bar_id": "ETHUSDT-H1-1788397200",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "2429.00000000",
+                "bar_id": "ETHUSDT-H1-1788332400",
+                "origin_index": 31,
+                "confirmed_index": 33,
+                "available_at": "2026-09-02T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2356.41000000",
+                "bar_id": "ETHUSDT-H1-1788343200",
+                "origin_index": 34,
+                "confirmed_index": 36,
+                "available_at": "2026-09-02T13:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "2419.72000000",
+                "bar_id": "ETHUSDT-H1-1788354000",
+                "origin_index": 37,
+                "confirmed_index": 39,
+                "available_at": "2026-09-02T16:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "2372.55000000",
+                "bar_id": "ETHUSDT-H1-1788368400",
+                "origin_index": 41,
+                "confirmed_index": 43,
+                "available_at": "2026-09-02T20:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 300.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": [
+          "M15_stale_structure"
+        ]
+      },
+      "scenario_ready": false,
+      "analytical_status": "scenario_invalidated"
+    }
+  ],
+  "final": {
+    "bars_after_candidate": 12,
+    "as_of": "2026-09-03T02:05:00Z",
+    "strict_status": "invalidated",
+    "historical_confirmation": null,
+    "invalidation": {
+      "bar_id": "ETHUSDT-M5-1788397500",
+      "close_time": "2026-09-03T01:10:00Z",
+      "available_at": "2026-09-03T01:10:00Z",
+      "bars_after_candidate": 1
+    },
+    "target_events": {
+      "nearest_obstacle": {
+        "bar_id": "ETHUSDT-M5-1788397200",
+        "open_time": "2026-09-03T01:00:00Z",
+        "close_time": "2026-09-03T01:05:00Z",
+        "available_at": "2026-09-03T01:05:00Z",
+        "kind": "range_intersection",
+        "intrabar_time_known": false,
+        "bars_after_candidate": 0
+      }
+    },
+    "context_aligned_now": false,
+    "current_context": {
+      "time": "2026-09-03T02:05:00Z",
+      "roles": {
+        "M5": {
+          "state": "downtrend",
+          "direction": "down",
+          "underlying_direction": "down",
+          "stale": false,
+          "age_bars": 10,
+          "pending_ambiguity": false,
+          "guard": {
+            "kind": "high",
+            "price": "2395.09000000",
+            "bar_id": "ETHUSDT-M5-1788385200",
+            "origin_index": 548,
+            "confirmed_index": 550,
+            "available_at": "2026-09-02T21:55:00Z"
+          },
+          "driver": {
+            "kind": "low",
+            "price": "2370.14000000",
+            "bar_id": "ETHUSDT-M5-1788397200",
+            "origin_index": 588,
+            "confirmed_index": 590,
+            "available_at": "2026-09-03T01:15:00Z"
+          },
+          "break_index": 528,
+          "available_at": "2026-09-03T02:05:00Z",
+          "bar_id": "ETHUSDT-M5-1788400800",
+          "sequence": [
+            {
+              "kind": "low",
+              "price": "2379.26000000",
+              "bar_id": "ETHUSDT-M5-1788395400",
+              "origin_index": 582,
+              "confirmed_index": 584,
+              "available_at": "2026-09-03T00:45:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "2385.81000000",
+              "bar_id": "ETHUSDT-M5-1788396000",
+              "origin_index": 584,
+              "confirmed_index": 586,
+              "available_at": "2026-09-03T00:55:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "origin_index": 588,
+              "confirmed_index": 590,
+              "available_at": "2026-09-03T01:15:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "2394.61000000",
+              "bar_id": "ETHUSDT-M5-1788399300",
+              "origin_index": 595,
+              "confirmed_index": 597,
+              "available_at": "2026-09-03T01:50:00Z"
+            }
+          ],
+          "close_lag_seconds": 0.0,
+          "fresh": true
+        },
+        "M15": {
+          "state": "downtrend",
+          "direction": null,
+          "underlying_direction": "down",
+          "stale": true,
+          "age_bars": 58,
+          "pending_ambiguity": false,
+          "guard": {
+            "kind": "high",
+            "price": "2429.00000000",
+            "bar_id": "ETHUSDT-M15-1788332400",
+            "origin_index": 124,
+            "confirmed_index": 126,
+            "available_at": "2026-09-02T07:45:00Z"
+          },
+          "driver": {
+            "kind": "low",
+            "price": "2356.41000000",
+            "bar_id": "ETHUSDT-M15-1788345900",
+            "origin_index": 139,
+            "confirmed_index": 141,
+            "available_at": "2026-09-02T11:30:00Z"
+          },
+          "break_index": 50,
+          "available_at": "2026-09-03T02:00:00Z",
+          "bar_id": "ETHUSDT-M15-1788399900",
+          "sequence": [
+            {
+              "kind": "high",
+              "price": "2399.74000000",
+              "bar_id": "ETHUSDT-M15-1788379200",
+              "origin_index": 176,
+              "confirmed_index": 178,
+              "available_at": "2026-09-02T20:45:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "2377.77000000",
+              "bar_id": "ETHUSDT-M15-1788390000",
+              "origin_index": 188,
+              "confirmed_index": 190,
+              "available_at": "2026-09-02T23:45:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "2395.41000000",
+              "bar_id": "ETHUSDT-M15-1788393600",
+              "origin_index": 192,
+              "confirmed_index": 194,
+              "available_at": "2026-09-03T00:45:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "2370.14000000",
+              "bar_id": "ETHUSDT-M15-1788397200",
+              "origin_index": 196,
+              "confirmed_index": 198,
+              "available_at": "2026-09-03T01:45:00Z"
+            }
+          ],
+          "close_lag_seconds": 300.0,
+          "fresh": true
+        },
+        "H1": {
+          "state": "downtrend",
+          "direction": "down",
+          "underlying_direction": "down",
+          "stale": false,
+          "age_bars": 13,
+          "pending_ambiguity": false,
+          "guard": {
+            "kind": "high",
+            "price": "2429.00000000",
+            "bar_id": "ETHUSDT-H1-1788332400",
+            "origin_index": 31,
+            "confirmed_index": 33,
+            "available_at": "2026-09-02T10:00:00Z"
+          },
+          "driver": {
+            "kind": "low",
+            "price": "2356.41000000",
+            "bar_id": "ETHUSDT-H1-1788343200",
+            "origin_index": 34,
+            "confirmed_index": 36,
+            "available_at": "2026-09-02T13:00:00Z"
+          },
+          "break_index": null,
+          "available_at": "2026-09-03T02:00:00Z",
+          "bar_id": "ETHUSDT-H1-1788397200",
+          "sequence": [
+            {
+              "kind": "high",
+              "price": "2429.00000000",
+              "bar_id": "ETHUSDT-H1-1788332400",
+              "origin_index": 31,
+              "confirmed_index": 33,
+              "available_at": "2026-09-02T10:00:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "2356.41000000",
+              "bar_id": "ETHUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "2419.72000000",
+              "bar_id": "ETHUSDT-H1-1788354000",
+              "origin_index": 37,
+              "confirmed_index": 39,
+              "available_at": "2026-09-02T16:00:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "2372.55000000",
+              "bar_id": "ETHUSDT-H1-1788368400",
+              "origin_index": 41,
+              "confirmed_index": 43,
+              "available_at": "2026-09-02T20:00:00Z"
+            }
+          ],
+          "close_lag_seconds": 300.0,
+          "fresh": true
+        }
+      },
+      "data_reasons": [
+        "M15_stale_structure"
+      ]
+    },
+    "scenario_ready": false,
+    "analytical_status": "scenario_invalidated"
+  },
+  "scope": {
+    "engineering_subset_only": true,
+    "full_method_validated": false,
+    "trade_executed": false,
+    "profitability_validated": false
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-26",
+  "source_version": "0.12.0",
+  "package_version": "0.12.0",
+  "environment": "TradingView authenticated web chart; temporary drafts, no Save/Publish",
+  "foundation_sha256": "1da649e84b3503c20910630d9f872ff9fa1aaf912d117607936654c064d3afe2",
+  "compilation_verified": true,
+  "fixed_data_harness": {
+    "fixtures": 35,
+    "rows": 1468,
+    "field_comparisons": 22020,
+    "mismatches": 0,
+    "runs": [
+      {
+        "title": "TK 0.12 suite 1 of 9",
+        "source_sha256": "d541ec971422c4605deccdb4ba8f82154e66978a05c744e9d50358e983a688db",
+        "observed_at": "2026-10-26T17:50:43.014Z",
+        "rows": 180,
+        "mismatches": 0,
+        "fixtures": 1,
+        "comparisons": 2700
+      },
+      {
+        "title": "TK 0.12 suite 2 of 9",
+        "source_sha256": "610665e74ce90d3d64e20bfcec89a8b52548ddca9499950a48a0c4af72f81e8e",
+        "observed_at": "2026-10-26T17:52:17.731Z",
+        "rows": 155,
+        "mismatches": 0,
+        "fixtures": 2,
+        "comparisons": 2325
+      },
+      {
+        "title": "TK 0.12 suite 3 of 9",
+        "source_sha256": "8f167a3b8c9ec222bae9de3b0ca46681a5826827cd1f6a393c8c8a1a560a1c92",
+        "observed_at": "2026-10-26T17:52:51.523Z",
+        "rows": 180,
+        "mismatches": 0,
+        "fixtures": 1,
+        "comparisons": 2700
+      },
+      {
+        "title": "TK 0.12 suite 4 of 9",
+        "source_sha256": "853952d10baff37c805930e664771e8cf21e1c7186d4dd6b4af217655d67e63d",
+        "observed_at": "2026-10-26T17:54:41.179Z",
+        "rows": 155,
+        "mismatches": 0,
+        "fixtures": 2,
+        "comparisons": 2325
+      },
+      {
+        "title": "TK 0.12 suite 5 of 9",
+        "source_sha256": "c9c5403b9d6b5e4299a2a9467abfe105b68e38b1cdf817688dad5ef851df4336",
+        "observed_at": "2026-10-26T17:55:59.325Z",
+        "rows": 180,
+        "mismatches": 0,
+        "fixtures": 1,
+        "comparisons": 2700
+      },
+      {
+        "title": "TK 0.12 suite 6 of 9",
+        "source_sha256": "7b47df204ef3282f32f06f464c576a814d7ff4c249b8f5a5668cdf647f91fd4a",
+        "observed_at": "2026-10-26T18:00:21.581Z",
+        "rows": 170,
+        "mismatches": 0,
+        "fixtures": 2,
+        "comparisons": 2550
+      },
+      {
+        "title": "TK 0.12 suite 7 of 9",
+        "source_sha256": "697958900731d0e3c692f5ea97acc3fa82aa4eb615f21b3819110cd6f623223f",
+        "observed_at": "2026-10-26T18:13:40.444Z",
+        "rows": 180,
+        "mismatches": 0,
+        "fixtures": 1,
+        "comparisons": 2700
+      },
+      {
+        "title": "TK 0.12 suite 8 of 9",
+        "source_sha256": "8419ee091791c594799534f345604a244185bb5e22fe13fa882f9439128e2ce0",
+        "observed_at": "2026-10-26T18:15:26.457Z",
+        "rows": 198,
+        "mismatches": 0,
+        "fixtures": 9,
+        "comparisons": 2970
+      },
+      {
+        "title": "TK 0.12 suite 9 of 9",
+        "source_sha256": "1e4eedef64d61908f46a7696878c6280675509ac3759deeeaeaf81c78413513c",
+        "observed_at": "2026-10-26T18:16:38.878Z",
+        "rows": 70,
+        "mismatches": 0,
+        "fixtures": 16,
+        "comparisons": 1050
+      }
+    ],
+    "fields": "12 numeric and 3 categorical fields; fixed eligible input; native quote receipt times are outside this test"
+  },
+  "lifecycle": {
+    "probe_sha256": "edb6a75ffe9951642c38d76ad41e23022491296270c0f3e26e39475021d4f5f6",
+    "probe_changes": [
+      "test title",
+      "explicit anchor default",
+      "explicit M1 ATR period default",
+      "visible diagnostics only"
+    ],
+    "forex": {
+      "symbol": "FX:EURUSD",
+      "timeframe": "M1",
+      "anchor": "2026-10-26T17:00:00Z",
+      "atr_period": 2,
+      "first": {
+        "current": "2026-10-26T18:26:00Z",
+        "last_committed": "2026-10-26T18:25:00Z",
+        "current_confirmed": false,
+        "current_output_empty": true
+      },
+      "second": {
+        "current": "2026-10-26T18:27:00Z",
+        "last_committed": "2026-10-26T18:26:00Z",
+        "committed_bars": 87,
+        "current_confirmed": false,
+        "current_output_empty": true
+      },
+      "evidence": [
+        "forex-live-1.png",
+        "forex-live-2.png"
+      ]
+    },
+    "crypto": {
+      "symbol": "BINANCE:BTCUSDT",
+      "timeframe": "M1",
+      "anchor": "2026-10-26T17:00:00Z",
+      "atr_period": 2,
+      "first": {
+        "current": "2026-10-26T18:34:00Z",
+        "last_committed": "2026-10-26T18:33:00Z",
+        "committed_bars": 94,
+        "current_confirmed": false,
+        "current_output_empty": true
+      },
+      "second": {
+        "current": "2026-10-26T18:35:00Z",
+        "last_committed": "2026-10-26T18:34:00Z",
+        "committed_bars": 95,
+        "current_confirmed": false,
+        "current_output_empty": true
+      },
+      "evidence": [
+        "crypto-live-1.png",
+        "crypto-live-2.png"
+      ]
+    },
+    "interpretation": "Short observed live transition only; not a guarantee against all feed revisions or historical data repairs"
+  },
+  "rebuild_check": {
+    "observed_at": "2026-10-26T18:32:06.629Z",
+    "before_clock": "generic: 18:32:05 UTC",
+    "after_clock": "generic: 18:32:06 UTC",
+    "same_minute": true,
+    "before": [
+      "    - generic \"Previous closed ATR\": \"0.78350387e-4\"",
+      "    - generic \"Candle range\": \"0.3e-4\""
+    ],
+    "after": [
+      "    - generic \"Previous closed ATR\": \"0.78350387e-4\"",
+      "    - generic \"Candle range\": \"0.3e-4\""
+    ],
+    "equal": true,
+    "settled_after_clock": "18:32:37 UTC",
+    "settled_after_values": [
+      "    - generic \"Previous closed ATR\": \"0.78350387e-4\"",
+      "    - generic \"Candle range\": \"0.3e-4\""
+    ],
+    "settled_equal": true,
+    "visual_ready_evidence": "forex-rebuild-ready.png",
+    "initial_screenshot_was_transient": true
+  },
+  "mt4_native_verified": false,
+  "mt5_native_verified": false,
+  "metatrader_disposition": "User deferred installation; host compatibility and local temporal checks only",
+  "complete_trex_classifier": false,
+  "profitability_validated": false,
+  "limitations": [
+    "Live probe uses explicit test period 2, not a trading parameter recommendation",
+    "No synchronized independent tick/feed audit, deliberate late-feed injection, live MTF engine, or complete-course validation",
+    "Native comparisons establish arithmetic equality on fixed rows, not independent validation of strategy premise"
+  ]
+}

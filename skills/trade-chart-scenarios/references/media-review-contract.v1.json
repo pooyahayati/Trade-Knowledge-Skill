@@ -1,0 +1,44 @@
+{
+  "contract_id": "teacher-media-review-v1",
+  "version": 1,
+  "date": "2026-10-31",
+  "activation": "source_linked_pivots_v1",
+  "evidence_file": "media-review-evidence.json",
+  "frozen_workbook_and_native_core_unchanged": true,
+  "independent_human_listening": false,
+  "clauses": [
+    {
+      "id": "MED-01",
+      "source_refs": ["MED16-VIDEO-MASTER", "MED16-DESIGN"],
+      "rule": "The 2017 video depicts a standard master with shadows on both sides. The strict legacy single-component geometry is not exhaustive. A standard-range candle with two positive shadows, combined fraction near or above 0.8 under the existing numerical comparison, and no legacy dominant component is a diagnostic split-shadow candidate. Flag selected or intervening candidates for source-variant review; never silently discard them, automatically select them, or grant confirmation. The inclusive boundary is engineering policy, not newly verified teacher wording."
+    },
+    {
+      "id": "MED-02",
+      "source_refs": ["MED16-AUDIO-165", "X-CANDLE-B7", "X-CANDLE-B8"],
+      "rule": "Separate shadow-length review, which ignores the body as a shape condition, from pinbar-family review, which adds a body condition. Body fractions refer to whole candle range; shadow/ATR is a different ratio. Keep workbook thresholds unchanged. The new audio does not establish exact ATR branch boundaries, equality rules or a universal self-cover ratio."
+    },
+    {
+      "id": "MED-03",
+      "source_refs": ["MED16-VIDEO-WAVE", "MED16-VIDEO-DISPLACEMENT", "MED16-DESIGN"],
+      "rule": "A counter-colour bar is not automatically a new wave; no-pivot or bypass context remains required. The video shows a two-bar distance alternative. Do not equate minimum three directional standard bars with a universal raw bar count. The existing fixed three-ATR comparison remains a bounded engineering profile; approximate examples do not establish universal new thresholds. A cover of a split-shadow diagnostic candidate makes a no-pivot assertion require review."
+    },
+    {
+      "id": "MED-04",
+      "source_refs": ["MED16-VIDEO-REFERENCE", "SR15-TREX-203"],
+      "rule": "A small candle does not automatically replace an existing master. This contract follows the archived written answer's precedence of an actual master over a virtual line; this is not a verified chronological supersession. The archive timestamp does not establish when the answer was spoken or written. The old video's virtual-line example has unresolved context; do not merge the two into a universal fallback algorithm."
+    },
+    {
+      "id": "MED-05",
+      "source_refs": ["MED16-AUDIO-139", "MED16-AUDIO-156", "PBC-TREX-135"],
+      "rule": "Exact zero noise differs from small positive noise. Recognized exception-pivot exemption and membership of a fresh shape remain distinct. A pivot does not establish a reached entry area or a closed trigger setup; unreached entry areas do not produce trades. Single-pinbar confirmation subtype remains unresolved."
+    },
+    {
+      "id": "MED-06",
+      "source_refs": ["MED16-AUDIO-152", "MED16-AUDIO-164", "MED16-DESIGN"],
+      "rule": "Archive attachment links, displayed question numbers, internal record IDs and spoken content are separate evidence. The audio attached to records 152 and 164 differs in topic from adjacent written answers; do not call those texts transcripts or use the question number to settle ambiguous audio. ASR repetition is not independent listening."
+    }
+  ],
+  "automatic_exception_confirmation": false,
+  "entry_permission": false,
+  "profitability_validated": false
+}

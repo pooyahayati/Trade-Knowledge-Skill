@@ -1,0 +1,108 @@
+{
+  "evidence_id": "indicator-conformance-evidence-v1",
+  "date": "2026-10-26",
+  "market_sources": [
+    {
+      "symbol": "EURUSD",
+      "data_file": "data/EURUSD.json",
+      "data_sha256": "d8956bf85368ba7afcb9820e0e6394feec402456e4d22eb65f2ce7e3fc3eb477",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/QuantConnect/Lean/master/Data/forex/fxcm/hour/eurusd.zip",
+          "sha256": "65eebb6fd18e1a3f20ef5b6e0d16664395aa9e3d8af3de1ba3c005ff6ad95eb2",
+          "retrieved_at": "2026-10-25T00:54:43.381089+00:00"
+        }
+      ]
+    },
+    {
+      "symbol": "NZDUSD",
+      "data_file": "data/NZDUSD.json",
+      "data_sha256": "e8a5e09792fd470a56205ae0a6c119b42a77ec2c295edc402128ad2f01105ea6",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/QuantConnect/Lean/master/Data/forex/fxcm/hour/nzdusd.zip",
+          "sha256": "42e6bee9ed4a92bd447165f784751b411fe63268628b9c982052946d439ae21a",
+          "retrieved_at": "2026-10-25T00:54:43.124418+00:00"
+        }
+      ]
+    },
+    {
+      "symbol": "BTCUSDT",
+      "data_file": "data/BTCUSDT.json",
+      "data_sha256": "a64fd0edb099f82f2ba901ea24b0cd387e37390f7dda1bb68b410e5adf176142",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1h/BTCUSDT-1h-2020-01.zip",
+          "sha256": "4ef7fa698b6821493f4c8317bc616d48bcdf5951d32fe6e40aaa7608886e51ca",
+          "retrieved_at": "2026-10-25T00:52:40.749928+00:00"
+        },
+        {
+          "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1h/BTCUSDT-1h-2019-12.zip",
+          "sha256": "87267b84d9f0e64ec94799d62de6730825c6a44f154ada5ed8c2dd267df78481",
+          "retrieved_at": "2026-10-25T12:48:33.487382+00:00"
+        },
+        {
+          "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1h/BTCUSDT-1h-2020-02.zip",
+          "sha256": "0189065a1b789825448530cb3fdddcefa45ca13b0a6bca181f358c72d3a6d5e6",
+          "retrieved_at": "2026-10-25T12:48:35.768408+00:00"
+        }
+      ]
+    },
+    {
+      "symbol": "ETHUSDT",
+      "data_file": "data/ETHUSDT.json",
+      "data_sha256": "afa5c6046ae76368c69356a36a3502babf45218eb351b8234b686d7c57d23e99",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2020-01.zip",
+          "sha256": "9e0ca4d30bcb22d5c876b912b3160445d2410634d09e9584060f592c30a06402",
+          "retrieved_at": "2026-10-25T00:52:42.143316+00:00"
+        },
+        {
+          "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2019-12.zip",
+          "sha256": "c7734b09fafca18a99f4906ba33b34a37cb96b8c0f866e6b92f9e951f99f5b8d",
+          "retrieved_at": "2026-10-25T12:48:37.196820+00:00"
+        },
+        {
+          "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2020-02.zip",
+          "sha256": "1cf8a5b129d16bed072c46e158b5914247007ec7e00b489880f422c80c73afbe",
+          "retrieved_at": "2026-10-25T12:48:38.667725+00:00"
+        }
+      ]
+    }
+  ],
+  "official_references": [
+    {
+      "url": "https://www.tradingview.com/pine-script-docs/concepts/bar-states/",
+      "fact": "Confirmed is historical or realtime closing update; not a higher-timeframe confirmation proof inside request.security."
+    },
+    {
+      "url": "https://www.tradingview.com/pine-script-docs/language/built-ins/",
+      "fact": "ta.tr true-range variable versus ta.tr(true) missing-previous-close fallback differ; custom contract requires null first TR."
+    },
+    {
+      "url": "https://docs.mql4.com/en/series/bufferdirection",
+      "fact": "Timeseries index zero is current; explicitly set array direction."
+    },
+    {
+      "url": "https://www.mql5.com/en/docs/series/copyrates",
+      "fact": "Position zero is current; oldest copied element is at start of physical memory."
+    },
+    {
+      "url": "https://docs.mql4.com/indicators/iatr",
+      "fact": "Returns value with shift parameter."
+    },
+    {
+      "url": "https://www.mql5.com/en/docs/indicators/iatr",
+      "fact": "Returns indicator handle; one buffer."
+    }
+  ],
+  "verified_on": "2026-10-26",
+  "native_platform_execution_verified": false,
+  "oracle": "tests/conformance_oracle.py, independent Fraction arithmetic",
+  "notes": [
+    "Source availability simulated at bar close; not observed receipt",
+    "Archive decimal precision is not guaranteed tradable instrument tick",
+    "Input and expected rows bundled; external origin files are reproducibility references only"
+  ]
+}

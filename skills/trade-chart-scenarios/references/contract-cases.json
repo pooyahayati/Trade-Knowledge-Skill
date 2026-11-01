@@ -1,0 +1,1100 @@
+{
+  "format_version": 1,
+  "contract_id": "trade_knowledge_reference_v1",
+  "status": "acceptance_specifications_not_product_test_results",
+  "fixture_scope": "Component-level synthetic acceptance specifications; omitted irrelevant fields are not permission to bypass DATA-01 in production. Full instrument/feed/session fixtures must be supplied when implementing end-to-end tests.",
+  "cases": [
+    {
+      "id": "AC-01",
+      "clause_ids": [
+        "DATA-01"
+      ],
+      "scenario_fa": "دادهٔ قیمتی ناسازگار",
+      "given": {
+        "O": "111",
+        "H": "110",
+        "L": "100",
+        "C": "108"
+      },
+      "expected": {
+        "status": "invalid_input"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-02",
+      "clause_ids": [
+        "DATA-02"
+      ],
+      "scenario_fa": "کندل باز تأیید نمی‌دهد",
+      "given": {
+        "is_closed": false,
+        "last_price": "105",
+        "level": "100"
+      },
+      "expected": {
+        "status": "pending_confirmation",
+        "confirmed_event": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-03",
+      "clause_ids": [
+        "DATA-02"
+      ],
+      "scenario_fa": "دادهٔ بسته‌شده با تأخیر رسیده است",
+      "given": {
+        "close_time": "2026-10-25T08:00:00Z",
+        "available_at": "2026-10-25T08:00:02Z",
+        "as_of": "2026-10-25T08:00:01Z"
+      },
+      "expected": {
+        "usable_for_confirmation": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-04",
+      "clause_ids": [
+        "DATA-01"
+      ],
+      "scenario_fa": "تبدیل پیپ فقط با واحد معلوم",
+      "given": {
+        "price_distance": "0.0085338",
+        "pip_size": "0.0001"
+      },
+      "expected": {
+        "pips": "85.338"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-05",
+      "clause_ids": [
+        "DATA-01"
+      ],
+      "scenario_fa": "اندازهٔ پیپ موجود نیست",
+      "given": {
+        "price_distance": "0.0085338",
+        "pip_size": null,
+        "display_digits": 5
+      },
+      "expected": {
+        "pips": null,
+        "missing_inputs": [
+          "pip_size"
+        ]
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-06",
+      "clause_ids": [
+        "VOL-C01"
+      ],
+      "scenario_fa": "دامنهٔ واقعی با فاصلهٔ قیمت",
+      "given": {
+        "H": "105",
+        "L": "100",
+        "previous_close": "98"
+      },
+      "expected": {
+        "range": "5",
+        "true_range": "7"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-07",
+      "clause_ids": [
+        "VOL-C01"
+      ],
+      "scenario_fa": "شروع و تکرار میانگین",
+      "given": {
+        "N": 3,
+        "true_ranges": [
+          "6",
+          "9",
+          "12",
+          "15",
+          "9"
+        ]
+      },
+      "expected": {
+        "atr": [
+          null,
+          null,
+          "9",
+          "11",
+          "31/3"
+        ]
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-08",
+      "clause_ids": [
+        "VOL-C01"
+      ],
+      "scenario_fa": "تاریخچهٔ کمتر از دوره",
+      "given": {
+        "N": 3,
+        "true_ranges": [
+          "6",
+          "9"
+        ]
+      },
+      "expected": {
+        "status": "not_computable"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-09",
+      "clause_ids": [
+        "VOL-C01"
+      ],
+      "scenario_fa": "نبود بسته‌شدن پیش از نخستین کندل",
+      "given": {
+        "N": 3,
+        "previous_close_for_first_bar": null,
+        "ranges": [
+          "6",
+          "9",
+          "12"
+        ]
+      },
+      "expected": {
+        "valid_tr_count": 2,
+        "status": "not_computable",
+        "first_range_used_as_tr": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-10",
+      "clause_ids": [
+        "VOL-C01",
+        "VOL-C02"
+      ],
+      "scenario_fa": "خود کندل وارد معیار سنجش نمی‌شود",
+      "given": {
+        "N": 3,
+        "true_ranges_before_target": [
+          "6",
+          "9",
+          "12"
+        ],
+        "target_range": "15",
+        "target_tr": "15"
+      },
+      "expected": {
+        "target_baseline": "9",
+        "target_ratio": "5/3",
+        "atr_after_target": "11"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-11",
+      "clause_ids": [
+        "CND-C01"
+      ],
+      "scenario_fa": "هندسهٔ کندل",
+      "given": {
+        "O": "108",
+        "H": "110",
+        "L": "100",
+        "C": "109"
+      },
+      "expected": {
+        "range": "10",
+        "body": "1",
+        "upper_wick": "1",
+        "lower_wick": "8"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-12",
+      "clause_ids": [
+        "CND-C01"
+      ],
+      "scenario_fa": "دامنهٔ صفر",
+      "given": {
+        "O": "100",
+        "H": "100",
+        "L": "100",
+        "C": "100",
+        "baseline": "10"
+      },
+      "expected": {
+        "class": "flat_bar",
+        "body_fraction": null,
+        "close_location": null
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-13",
+      "clause_ids": [
+        "CND-C01"
+      ],
+      "scenario_fa": "مبنای نوسان صفر",
+      "given": {
+        "range": "10",
+        "baseline": "0"
+      },
+      "expected": {
+        "geometry_available": true,
+        "length_class": "not_computable"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-14",
+      "clause_ids": [
+        "CND-C01"
+      ],
+      "scenario_fa": "مرز ردهٔ طول",
+      "given": {
+        "ratio": "0.7999"
+      },
+      "expected": {
+        "length_class": "short"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-15",
+      "clause_ids": [
+        "CND-C01"
+      ],
+      "scenario_fa": "مرز ردهٔ طول",
+      "given": {
+        "ratio": "0.8"
+      },
+      "expected": {
+        "length_class": "standard"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-16",
+      "clause_ids": [
+        "CND-C01"
+      ],
+      "scenario_fa": "مرز ردهٔ طول",
+      "given": {
+        "ratio": "1.2"
+      },
+      "expected": {
+        "length_class": "standard"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-17",
+      "clause_ids": [
+        "CND-C01"
+      ],
+      "scenario_fa": "مرز ردهٔ طول",
+      "given": {
+        "ratio": "1.2001"
+      },
+      "expected": {
+        "length_class": "long_range"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-18",
+      "clause_ids": [
+        "CND-C01"
+      ],
+      "scenario_fa": "مرز ردهٔ طول",
+      "given": {
+        "ratio": "2.5"
+      },
+      "expected": {
+        "length_class": "long_range"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-19",
+      "clause_ids": [
+        "CND-C01"
+      ],
+      "scenario_fa": "مرز ردهٔ طول",
+      "given": {
+        "ratio": "2.5001"
+      },
+      "expected": {
+        "length_class": "very_long_range"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-20",
+      "clause_ids": [
+        "CND-C01"
+      ],
+      "scenario_fa": "خطای بسیار کوچک محاسباتی در مرز",
+      "given": {
+        "raw_ratio": "1.2000000001",
+        "epsilon": "0.000000001"
+      },
+      "expected": {
+        "comparison_ratio": "1.2",
+        "length_class": "standard",
+        "boundary_flag": true
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-21",
+      "clause_ids": [
+        "CND-C01",
+        "CND-C02"
+      ],
+      "scenario_fa": "نامزد هندسی به‌تنهایی مرجع ساختاری نیست",
+      "given": {
+        "O": "100",
+        "H": "110",
+        "L": "100",
+        "C": "109",
+        "baseline": "10",
+        "master_annotation": null
+      },
+      "expected": {
+        "standard_dominant_candidate": true,
+        "structural_master_status": "needs_context"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-22",
+      "clause_ids": [
+        "CND-C02"
+      ],
+      "scenario_fa": "مرجع ساختاریِ استثنایی از ردهٔ استاندارد جداست",
+      "given": {
+        "structural_master_annotated_as_pinbar": true,
+        "range_ratio": "1.5",
+        "request": "auto_confirm_self_covering_pivot_without_following_bar"
+      },
+      "expected": {
+        "standard_dominant_candidate": false,
+        "requested_exceptional_detector_status": "unsupported",
+        "exceptional_master_not_declared_invalid": true
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-23",
+      "clause_ids": [
+        "PIV-C01"
+      ],
+      "scenario_fa": "سایه مرجع را پوشانده ولی بسته‌شدن هنوز داخل است",
+      "given": {
+        "valid_context": true,
+        "master_low": "100",
+        "following_bar": 1,
+        "L": "99",
+        "C": "101",
+        "is_closed": true
+      },
+      "expected": {
+        "cover_confirmed": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-24",
+      "clause_ids": [
+        "PIV-C01"
+      ],
+      "scenario_fa": "پوشش با بسته‌شدن کندل دوم",
+      "given": {
+        "valid_context": true,
+        "master_low": "100",
+        "first_cover_bar": 2,
+        "C": "99",
+        "is_closed": true
+      },
+      "expected": {
+        "status": "cover_confirmed_timely",
+        "entry_signal": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-25",
+      "clause_ids": [
+        "PIV-C01"
+      ],
+      "scenario_fa": "پوشش دیرهنگام سطح را حذف نمی‌کند",
+      "given": {
+        "valid_context": true,
+        "master_low": "100",
+        "first_cover_bar": 3,
+        "C": "99",
+        "is_closed": true
+      },
+      "expected": {
+        "status": "cover_confirmed_late",
+        "live_entry_qualified": false,
+        "level_automatically_erased": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-26",
+      "clause_ids": [
+        "PIV-C01"
+      ],
+      "scenario_fa": "برابری با انتهای مرجع عبور نیست",
+      "given": {
+        "valid_context": true,
+        "master_low": "100",
+        "C": "100",
+        "is_closed": true
+      },
+      "expected": {
+        "cover_confirmed": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-27",
+      "clause_ids": [
+        "PIV-C01"
+      ],
+      "scenario_fa": "زمینهٔ حرکت نامعلوم است",
+      "given": {
+        "master_id": "m1",
+        "pre_leg_qualification": null,
+        "C": "99",
+        "master_low": "100"
+      },
+      "expected": {
+        "status": "needs_context",
+        "confirmed_pivot": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-28",
+      "clause_ids": [
+        "LVL-C01"
+      ],
+      "scenario_fa": "دو روش ناحیه نباید مخلوط شوند",
+      "given": {
+        "side": "support",
+        "O": "103",
+        "H": "108",
+        "L": "100",
+        "C": "106",
+        "frozen_atr": "10"
+      },
+      "expected": {
+        "wick_to_body": [
+          "100",
+          "103"
+        ],
+        "half_atr": [
+          "100",
+          "105"
+        ],
+        "auto_merged": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-29",
+      "clause_ids": [
+        "LVL-C01"
+      ],
+      "scenario_fa": "مرز دور ناحیه برای شکست",
+      "given": {
+        "zone": [
+          "99",
+          "100"
+        ],
+        "direction": "up"
+      },
+      "expected": {
+        "breakout_edge": "100"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-30",
+      "clause_ids": [
+        "BRK-C01"
+      ],
+      "scenario_fa": "بسته‌شدن نزدیک سطح، شرط فاصلهٔ یک واحد ندارد",
+      "given": {
+        "level_upper": "100",
+        "previous_close": "92",
+        "O": "92",
+        "H": "104",
+        "L": "92",
+        "C": "103",
+        "baseline": "10",
+        "is_closed": true,
+        "correct_timeframe": true
+      },
+      "expected": {
+        "range_ratio": "1.2",
+        "body_fraction": "11/12",
+        "close_distance_atr": "0.3",
+        "candidate": true,
+        "confirmed": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-31",
+      "clause_ids": [
+        "BRK-C01"
+      ],
+      "scenario_fa": "نفوذ سایه بدون بسته‌شدن پشت سطح",
+      "given": {
+        "level_upper": "100",
+        "previous_close": "92",
+        "O": "92",
+        "H": "104",
+        "L": "92",
+        "C": "99",
+        "baseline": "10",
+        "is_closed": true
+      },
+      "expected": {
+        "candidate": false,
+        "all_method_breakout_failure_proved": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-32",
+      "clause_ids": [
+        "BRK-C01",
+        "BRK-C02"
+      ],
+      "scenario_fa": "توالی کامل و زمان تأیید",
+      "given": {
+        "zone": [
+          "99",
+          "100"
+        ],
+        "baseline": "10",
+        "previous_close": "92",
+        "level_and_context_available_before_b0": true,
+        "bars": [
+          {
+            "id": "b0",
+            "O": "92",
+            "H": "104",
+            "L": "92",
+            "C": "103",
+            "close_time": "2026-10-25T01:00:00Z",
+            "available_at": "2026-10-25T01:00:00Z",
+            "is_closed": true
+          },
+          {
+            "id": "b1",
+            "O": "103",
+            "H": "106",
+            "L": "101",
+            "C": "103.5",
+            "close_time": "2026-10-25T02:00:00Z",
+            "available_at": "2026-10-25T02:00:00Z",
+            "is_closed": true
+          },
+          {
+            "id": "b2",
+            "O": "103.5",
+            "H": "107",
+            "L": "103",
+            "C": "105",
+            "close_time": "2026-10-25T03:00:00Z",
+            "available_at": "2026-10-25T03:00:02Z",
+            "is_closed": true
+          }
+        ],
+        "as_of": "2026-10-25T03:00:02Z"
+      },
+      "expected": {
+        "after_b0": "candidate",
+        "after_b1": "pending_confirmation",
+        "after_b2": "confirmed_under_selected_profile",
+        "confirmed_at": "2026-10-25T03:00:00Z",
+        "available_at": "2026-10-25T03:00:02Z",
+        "entry_order": null
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-33",
+      "clause_ids": [
+        "BRK-C02"
+      ],
+      "scenario_fa": "تثبیتِ سخت‌گیرانه با لمس سطح رد می‌شود",
+      "given": {
+        "bullish": true,
+        "level_upper": "100",
+        "b1_low": "100",
+        "b1_close": "103"
+      },
+      "expected": {
+        "stabilization": false,
+        "status": "strict_template_not_matched",
+        "all_method_breakout_failure_proved": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-34",
+      "clause_ids": [
+        "BRK-C02"
+      ],
+      "scenario_fa": "بالاتر از بسته‌شدن با بالاتر از بیشینه فرق دارد",
+      "given": {
+        "b0_high": "104",
+        "b0_close": "103",
+        "b2_close": "103.5",
+        "is_closed": true
+      },
+      "expected": {
+        "confirmation": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-35",
+      "clause_ids": [
+        "BRK-C02",
+        "DATA-02"
+      ],
+      "scenario_fa": "بازپخش پیش از رسیدن تأیید",
+      "given": {
+        "case_ref": "AC-32",
+        "as_of": "2026-10-25T02:30:00Z"
+      },
+      "expected": {
+        "status": "pending_confirmation",
+        "use_future_b2_high_low_close": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-36",
+      "clause_ids": [
+        "INV-C01"
+      ],
+      "scenario_fa": "سایهٔ عبوری به‌تنهایی ابطالِ مبتنی بر بسته‌شدن نیست",
+      "given": {
+        "bullish": true,
+        "b0_low": "92",
+        "later_low": "91",
+        "later_close": "93",
+        "is_closed": true
+      },
+      "expected": {
+        "invalidation": false,
+        "wick_breach_observed": true
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-37",
+      "clause_ids": [
+        "INV-C01"
+      ],
+      "scenario_fa": "ابطال پس از تأیید تاریخچه را پاک نمی‌کند",
+      "given": {
+        "prior_confirmed_event": true,
+        "bullish": true,
+        "b0_low": "92",
+        "later_close": "91",
+        "is_closed": true
+      },
+      "expected": {
+        "status": "invalidated",
+        "prior_confirmation_retained": true,
+        "automatic_reverse_order": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-38",
+      "clause_ids": [
+        "INV-C01"
+      ],
+      "scenario_fa": "ترتیب لمس دو قیمت از زمان ابطال با بسته‌شدن جداست",
+      "given": {
+        "target": "110",
+        "invalidation_level": "92",
+        "O": "105",
+        "H": "112",
+        "L": "90",
+        "C": "91",
+        "evaluation_scope": "price_touch_order; close-based invalidation tracked separately"
+      },
+      "expected": {
+        "status": "intrabar_order_unknown",
+        "close_based_invalidation_at": "bar_close",
+        "target_touch_no_later_than_close_invalidation": true,
+        "trade_pnl": null
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-39",
+      "clause_ids": [
+        "INV-C01",
+        "SCN-C01"
+      ],
+      "scenario_fa": "سطح پیش رو قبلاً دیده شده است",
+      "given": {
+        "next_level_near_edge": "110",
+        "b0_high": "112",
+        "target_touched_before_confirmation": true
+      },
+      "expected": {
+        "scenario_status": "reassess",
+        "automatic_fresh_entry": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-40",
+      "clause_ids": [
+        "TF-C01"
+      ],
+      "scenario_fa": "سه بازهٔ مشخص",
+      "given": {
+        "structure": "D1"
+      },
+      "expected": {
+        "pattern": "H4",
+        "trigger": "H1"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-41",
+      "clause_ids": [
+        "TF-C01"
+      ],
+      "scenario_fa": "بازهٔ سفارشی گرد نمی‌شود",
+      "given": {
+        "structure": "M16"
+      },
+      "expected": {
+        "status": "unsupported",
+        "silently_replace_with": "never"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-42",
+      "clause_ids": [
+        "TF-C01"
+      ],
+      "scenario_fa": "پلهٔ کافی برای تریگر وجود ندارد",
+      "given": {
+        "structure": "M5"
+      },
+      "expected": {
+        "pattern": "M1",
+        "trigger": null,
+        "status": "unsupported"
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-43",
+      "clause_ids": [
+        "VOL-C03"
+      ],
+      "scenario_fa": "اختلاف صدبرابری توان حرکتی همچنان فرضیه است",
+      "given": {
+        "reference_price": "5100",
+        "workbook_factor": "0.0066",
+        "conflicting_site_factor": "0.66"
+      },
+      "expected": {
+        "workbook_math": "33.66",
+        "site_math": "3366",
+        "factor_ratio": "100",
+        "automatic_prediction_enabled": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-44",
+      "clause_ids": [
+        "SCN-C01"
+      ],
+      "scenario_fa": "تصویر بدون دادهٔ خوانا عدد تولید نمی‌کند",
+      "given": {
+        "image_has_readable_prices": false,
+        "ohlc": null,
+        "atr": null
+      },
+      "expected": {
+        "status": "insufficient_data",
+        "exact_entry": null,
+        "exact_stop": null,
+        "exact_target": null
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-45",
+      "clause_ids": [
+        "LVL-C01"
+      ],
+      "scenario_fa": "شکست زمان سطح را عوض نمی‌کند",
+      "given": {
+        "original_level_timeframe": "H4",
+        "level_broken": true,
+        "incoming_move_timeframe": "D1"
+      },
+      "expected": {
+        "original_level_timeframe": "H4",
+        "new_version_requires_new_structure": true
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-46",
+      "clause_ids": [
+        "BRK-C03"
+      ],
+      "scenario_fa": "نفوذ، فاصلهٔ بسته‌شدن و عرض گره فرق دارند",
+      "given": {
+        "level_upper": "100",
+        "penetrating_high": "108",
+        "penetrating_close": "99",
+        "node_high": "108",
+        "node_low": "96"
+      },
+      "expected": {
+        "penetration": "8",
+        "signed_close_distance": "-1",
+        "node_width": "12",
+        "confirmed_breakout": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-47",
+      "clause_ids": [
+        "BRK-C01",
+        "BRK-C02"
+      ],
+      "scenario_fa": "همان قواعد در جهت نزولی",
+      "given": {
+        "zone": [
+          "100",
+          "101"
+        ],
+        "baseline": "10",
+        "previous_close": "108",
+        "level_and_context_available_before_b0": true,
+        "bars": [
+          {
+            "O": "108",
+            "H": "108",
+            "L": "96",
+            "C": "97"
+          },
+          {
+            "O": "97",
+            "H": "99",
+            "L": "94",
+            "C": "96.5"
+          },
+          {
+            "O": "96.5",
+            "H": "97",
+            "L": "93",
+            "C": "95"
+          }
+        ],
+        "all_bars_closed_available_and_consecutive": true
+      },
+      "expected": {
+        "candidate": true,
+        "stabilized": true,
+        "confirmed_under_selected_profile": true
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-48",
+      "clause_ids": [
+        "VOL-C01",
+        "DATA-02"
+      ],
+      "scenario_fa": "افزودن آینده نباید گذشته را تغییر دهد",
+      "given": {
+        "prefix_true_ranges": [
+          "6",
+          "9",
+          "12",
+          "15"
+        ],
+        "N": 3,
+        "appended_future_tr": "300"
+      },
+      "expected": {
+        "prefix_atr": [
+          null,
+          null,
+          "9",
+          "11"
+        ],
+        "prefix_unchanged": true
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-49",
+      "clause_ids": [
+        "VOL-C01"
+      ],
+      "scenario_fa": "دورهٔ بازهٔ ثبت‌نشده حدس زده نمی‌شود",
+      "given": {
+        "timeframe": "M15",
+        "profile": "excel_periods_wilder_v1",
+        "explicit_period": null
+      },
+      "expected": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "period"
+        ]
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-50",
+      "clause_ids": [
+        "DATA-02"
+      ],
+      "scenario_fa": "شکاف ناشناخته با کندل مصنوعی پر نمی‌شود",
+      "given": {
+        "unexpected_missing_expected_bar": true,
+        "session_closure": false
+      },
+      "expected": {
+        "segment_status": "not_computable",
+        "synthetic_candle_created": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-51",
+      "clause_ids": [
+        "BRK-C01"
+      ],
+      "scenario_fa": "کندلِ پس از عبور، شکست تازه نیست",
+      "given": {
+        "level_upper": "100",
+        "previous_close": "102",
+        "O": "102",
+        "H": "112",
+        "L": "102",
+        "C": "111",
+        "baseline": "10",
+        "is_closed": true
+      },
+      "expected": {
+        "candidate": false,
+        "fresh_crossing": false
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    },
+    {
+      "id": "AC-52",
+      "clause_ids": [
+        "BRK-C01"
+      ],
+      "scenario_fa": "عبور با شکاف، مدل جدا لازم دارد",
+      "given": {
+        "level_upper": "100",
+        "previous_close": "99",
+        "O": "102",
+        "H": "112",
+        "L": "102",
+        "C": "111",
+        "baseline": "10",
+        "is_closed": true
+      },
+      "expected": {
+        "candidate": false,
+        "status": "unsupported",
+        "gap_model_required": true
+      },
+      "data_kind": "synthetic",
+      "verification_status": "specified_not_run_against_product"
+    }
+  ]
+}

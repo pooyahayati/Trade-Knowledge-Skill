@@ -1,0 +1,36 @@
+{
+  "id": "MARKET-RESEARCH-20261026",
+  "status": "engineering_research_not_full_method_or_profitability",
+  "protocol_file": "market-research-protocol.json",
+  "protocol_sha256": "b9584ff5e86c2eb69162232aeeec668d6c6925d81764884395941521a2116987",
+  "example_file": "../assets/market-research-example.json",
+  "example_sha256": "8100fb2b9288bde7b866f3541d6f51f3246b809cbfc37242bb16aa221465e4b8",
+  "example": {
+    "symbol": "BTCUSDT",
+    "bars": 250,
+    "first_open": "2017-11-06T00:00:00Z",
+    "last_close": "2017-11-16T10:00:00Z",
+    "parent_file": "tests/market_adaptation/data/BTCUSDT-0.json",
+    "parent_sha256": "53a8390f8a098e4fb0616d9e498b9b9afb11df6ead47a12e4e7988591b5aefb3",
+    "provenance": "tests/market_adaptation/provenance.json",
+    "price_source": "Binance official monthly spot archives; first 250 retained bars",
+    "prices_real_historical": true,
+    "costs_real_historical": false,
+    "receipt_availability_simulated": true
+  },
+  "results": {
+    "instruments": 4,
+    "usable_blocks": 6,
+    "usable_bars": 4512,
+    "candidates": 6,
+    "temporal_checks": 24,
+    "all_selection_groups": "insufficient_selection_sample",
+    "profitability_validated": false
+  },
+  "review_scope": "Independent model API/cost/lifecycle review and a raw-input skill behavior test, followed by explicit follow-up; not independent teacher annotation",
+  "source_links": [
+    "https://github.com/binance/binance-public-data",
+    "https://raw.githubusercontent.com/QuantConnect/Lean/master/Data/forex/fxcm/hour/eurusd.zip",
+    "https://raw.githubusercontent.com/QuantConnect/Lean/master/Data/forex/fxcm/hour/nzdusd.zip"
+  ]
+}

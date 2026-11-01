@@ -1,0 +1,86 @@
+{
+  "contract_id": "exception-review-diagnostics-v1",
+  "version": 1,
+  "date": "2026-10-26",
+  "profile": "exception_review_v1",
+  "extends": [
+    "pivot-review-contract.v1.json",
+    "exception-shadow-contract.v1.json"
+  ],
+  "input_unchanged": true,
+  "output_extension": "level_analysis.levels[].validation.exception_review",
+  "clauses": [
+    {
+      "id": "EXR-01",
+      "source_refs": [
+        "TREX-269",
+        "TREX-412",
+        "TREX-179",
+        "PIV-DESIGN-01"
+      ],
+      "rule": "Expose reverse body, incoming shadow and individual screen ratio checks. Failure rejects only the selected descriptive profile. A match does not prove a Trex subtype or intrabar price path."
+    },
+    {
+      "id": "EXR-02",
+      "source_refs": [
+        "TREX-166",
+        "X-CANDLE-B7",
+        "PIV-DESIGN-01"
+      ],
+      "rule": "Keep pinbar, long-shadow and self-cover family checks separate. Do not require a reverse body or body fraction in the long-shadow screen."
+    },
+    {
+      "id": "EXR-03",
+      "source_refs": [
+        "EXR-DESIGN-01"
+      ],
+      "rule": "ATR-relative wave and shape qualification needs a known strictly positive baseline. A zero or unavailable denominator is insufficient evidence, never a threshold of zero or automatic shape match. Ordinary legacy arithmetic also rejects zero baseline."
+    },
+    {
+      "id": "EXR-04",
+      "source_refs": [
+        "PIV-TREX-178",
+        "PIV-TREX-222",
+        "PIV-TREX-246",
+        "TREX-256",
+        "EXR-DESIGN-01"
+      ],
+      "rule": "Report shape, wave, construction, timing, level kind and method confirmation independently. A counter bar lacking context is unresolved; a measured failed wave route or contradicted annotation is failed."
+    },
+    {
+      "id": "EXR-05",
+      "source_refs": [
+        "TREX-135",
+        "TREX-166",
+        "EXR-DESIGN-01"
+      ],
+      "rule": "Method-confirmation gate always remains unresolved in this version. Require source-defined subtype, its confirmation rule and structural timeframe review before inferring a confirmation exemption. No automatic entry or order-node detection."
+    },
+    {
+      "id": "EXR-06",
+      "source_refs": [
+        "EXR-DESIGN-01"
+      ],
+      "rule": "Withhold geometry when the own-timeframe closed event or contextual evidence is unavailable. Future prices and future annotations cannot pass a past gate. Preserve known obstacle time independently from later qualification reviews."
+    }
+  ],
+  "decisions": {
+    "selected_profile_not_met": "At least one evaluated condition fails; this is not a rejection of every Trex pivot or an opposite trade signal.",
+    "insufficient_evidence": "No known failed gate, but required available data or a positive numerical baseline is absent.",
+    "needs_context_review": "Local data is evaluable, but supplied wave or level-role context is unresolved.",
+    "needs_method_confirmation": "All implemented local prerequisites pass; subtype/confirmation and structural context still need method evidence."
+  },
+  "precedence": [
+    "selected_profile_not_met",
+    "insufficient_evidence",
+    "needs_context_review",
+    "needs_method_confirmation"
+  ],
+  "compatibility": {
+    "shape_checks": "ATR-dependent checks may now be null when not computable; do not coerce null to false or true.",
+    "legacy_status": "needs_exception_review remains unchanged for exceptional candidates",
+    "ordinary_zero_atr": "Rejected even when legacy arithmetic would previously have accepted positive distance against zero."
+  },
+  "automatic_confirmation": false,
+  "profitability_validated": false
+}

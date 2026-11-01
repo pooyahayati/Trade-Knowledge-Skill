@@ -1,0 +1,118 @@
+{
+  "review_date": "2026-10-25",
+  "source_priority": "User workbook central; Trex high priority; priority is not empirical truth",
+  "records": [
+    {
+      "id": "X-TREND-B2",
+      "source_id": "H01",
+      "sheet": "روند",
+      "cell": "B2",
+      "text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "review": "Text from previously extracted workbook; current original SHA256 reverified. Embedded figures not reinterpreted."
+    },
+    {
+      "id": "X-TREND-B3",
+      "source_id": "H01",
+      "sheet": "روند",
+      "cell": "B3",
+      "text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "review": "Text from previously extracted workbook; current original SHA256 reverified. Embedded figures not reinterpreted."
+    },
+    {
+      "id": "X-TREND-B4",
+      "source_id": "H01",
+      "sheet": "روند",
+      "cell": "B4",
+      "text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "review": "Text from previously extracted workbook; current original SHA256 reverified. Embedded figures not reinterpreted."
+    },
+    {
+      "id": "X-TREND-B5",
+      "source_id": "H01",
+      "sheet": "روند",
+      "cell": "B5",
+      "text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "review": "Text from previously extracted workbook; current original SHA256 reverified. Embedded figures not reinterpreted."
+    },
+    {
+      "id": "X-TREND-B7",
+      "source_id": "H01",
+      "sheet": "روند",
+      "cell": "B7",
+      "text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "review": "Text from previously extracted workbook; current original SHA256 reverified. Embedded figures not reinterpreted."
+    },
+    {
+      "id": "X-TREND-B8",
+      "source_id": "H01",
+      "sheet": "روند",
+      "cell": "B8",
+      "text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "review": "Text from previously extracted workbook; current original SHA256 reverified. Embedded figures not reinterpreted."
+    },
+    {
+      "id": "DESIGN-STRUCTURE-01",
+      "kind": "engineering_design",
+      "text": "Strict alternating local extrema, protected-reference state machine, four post-break pivots, bounded range candidate, explicit age budgets, input identity/aggregation checks and continuation gating. Parameters are transparent test settings, not source quotations or calibrated trade rules."
+    },
+    {
+      "id": "REF-MTF-CLOCK",
+      "kind": "official_documentation",
+      "url": "https://www.tradingview.com/pine-script-docs/concepts/other-timeframes-and-data/",
+      "review_date": "2026-10-25",
+      "text": "Context includes symbol, timeframe and modifications such as session settings. Higher-timeframe requests can leak future values or repaint unless confirmation and availability are handled. The local helper uses explicit timestamps rather than implementing Pine requests."
+    }
+  ],
+  "reused_refs": [
+    "X-TIME-B2",
+    "X-TIME-B3",
+    "X-TIME-B6",
+    "X-TIME-B7",
+    "S2-TREX-252"
+  ],
+  "reused_evidence_files": [
+    "foundation-evidence.json",
+    "contract-evidence.json"
+  ],
+  "trex_review": "252 uses retained reviewed text; current web fetch unavailable. No claim of new audio/video or chart review.",
+  "corrections_proposed": [
+    {
+      "cells": [
+        "روند!B2",
+        "روند!B3"
+      ],
+      "issue": "Three directional standard candles or a 2.5 ATR move are not sufficient proof of a swing-defined trend; 2.5 ATR movement and 3 ATR leg are different hypotheses.",
+      "proposal": "Separate movement, leg, local extrema and protected structural trend; define a threshold profile before calibration.",
+      "disposition": "separated in this engineering extension; original workbook unchanged"
+    },
+    {
+      "cells": [
+        "روند!B3",
+        "روند!B5"
+      ],
+      "issue": "Visual degree angles vary with zoom, aspect ratio and linear/log price scaling.",
+      "proposal": "Use time-indexed, volatility-normalized slope if quantified strength is later needed; do not treat 45 degrees as scale-invariant balance.",
+      "disposition": "angle-based strength not implemented"
+    },
+    {
+      "cells": [
+        "روند!B4",
+        "روند!B7"
+      ],
+      "issue": "Three times range depth and 80 percent ranging are unverified generalizations.",
+      "proposal": "Label as hypotheses, define range and sampling method, then test out of sample with costs.",
+      "disposition": "no automatic target multiple or probability"
+    },
+    {
+      "cells": [
+        "تایم فریم!B6"
+      ],
+      "issue": "Four stalled candles alone cannot establish a higher-timeframe identity.",
+      "proposal": "Review source timeframe and its own closed structure; retain original level identity.",
+      "disposition": "no automatic reassignment"
+    }
+  ],
+  "full_source_review_complete": false,
+  "independent_expert_review": false,
+  "trading_performance_validated": false
+}

@@ -1,0 +1,242 @@
+{
+  "skill_version": "0.11.0",
+  "snapshot_date": "2026-10-26",
+  "source_priority_is_not_truth": true,
+  "contract_flags_describe_the_frozen_definition_stage": true,
+  "snapshots": [
+    {
+      "file": "rule-contract.v1.json",
+      "sha256": "704b8165dd103ccbede2e25f1eddd189456ebf989c9605b54977b3c48587d1b6",
+      "source": "knowledge/rule-contract.v1.json"
+    },
+    {
+      "file": "foundation-evidence.json",
+      "sha256": "f1e532ba998004feab0d108b4c7c9cdfcec78104ff04b1874156fc30e1e8d645",
+      "source": "knowledge/foundation-evidence.json",
+      "original_recorded_sha256": "98adcf003540889ee83b6cd223108e69f47d14174badb94166ea6b8f620f57b4",
+      "private_source_sha256_at_publication": "98adcf003540889ee83b6cd223108e69f47d14174badb94166ea6b8f620f57b4",
+      "sha256_scope": "current_public_copy",
+      "historical_record_matches_private_source_at_publication": true
+    },
+    {
+      "file": "contract-evidence.json",
+      "sha256": "6c363926c3b8fae5332da6ed2014bdc8b9d65ddb60a331f313f15ee6eac8acbd",
+      "source": "knowledge/contract-evidence.json",
+      "original_recorded_sha256": "492231be5a2ad17ff1fbf8a36ef99e153969216d33816a07eda6f244e26c07ac",
+      "private_source_sha256_at_publication": "492231be5a2ad17ff1fbf8a36ef99e153969216d33816a07eda6f244e26c07ac",
+      "sha256_scope": "current_public_copy",
+      "historical_record_matches_private_source_at_publication": true
+    },
+    {
+      "file": "contract-cases.json",
+      "sha256": "9e7dc1a790ab8d4790538d1db69b7d157d03c02d930f62b6cbdecbe8bf79f0e3",
+      "source": "knowledge/contract-cases.json"
+    },
+    {
+      "file": "levels-targets-contract.v1.json",
+      "sha256": "d0edfe31fa76f30ff5689f08c57402cf8cb24a0c8db9c126d33b1d190f699e48",
+      "source": "knowledge/levels-targets-contract.v1.json"
+    },
+    {
+      "file": "levels-targets-evidence.json",
+      "sha256": "aad789f507d649bd55841ea6ae6bac685c0757e87b2d62147dd60c223c545bcb",
+      "source": "knowledge/levels-targets-evidence.json"
+    },
+    {
+      "file": "structure-mtf-contract.v1.json",
+      "sha256": "a0316d93c5464fd6ca1301e5d00cdecd3051fe2ac8355b64a79ff6f124e3fe80",
+      "source": "knowledge/structure-mtf-contract.v1.json"
+    },
+    {
+      "file": "structure-mtf-evidence.json",
+      "sha256": "3bcb312ee44d1d4f1c3cbb7f805b777034800fbc8e27f94421c0e34e6315193a",
+      "source": "knowledge/structure-mtf-evidence.json",
+      "original_recorded_sha256": "8b8a5612a69928a5c3c92cd70cd7aa385ee0ea4c483ab7482e10854d8e450ec9",
+      "private_source_sha256_at_publication": "8b8a5612a69928a5c3c92cd70cd7aa385ee0ea4c483ab7482e10854d8e450ec9",
+      "sha256_scope": "current_public_copy",
+      "historical_record_matches_private_source_at_publication": true
+    },
+    {
+      "file": "semantic-contract.v1.json",
+      "sha256": "3584de18c04a85f6aa96794c9877ca7eadeab3c174c2d925d5ae38a0e2ee75ff",
+      "source": "knowledge/semantic-contract.v1.json"
+    },
+    {
+      "file": "semantic-evidence.json",
+      "sha256": "da5d08c0c1d66ef1c410596b0a53cb0984fa5dc5f94700d0855bf6f4597d4919",
+      "source": "knowledge/semantic-evidence.json",
+      "original_recorded_sha256": "84d2b8d19fa1871729acf16e29df3a89ac257666bfa79290d49d2f332b3a34dc",
+      "private_source_sha256_at_publication": "84d2b8d19fa1871729acf16e29df3a89ac257666bfa79290d49d2f332b3a34dc",
+      "sha256_scope": "current_public_copy",
+      "historical_record_matches_private_source_at_publication": true
+    },
+    {
+      "file": "target-hierarchy-contract.v1.json",
+      "sha256": "34ff8f8f3a43b11f4a609d0f523dcb8052d3a2300451aeb2f60fce68def9dec4",
+      "source": "knowledge/target-hierarchy-contract.v1.json"
+    },
+    {
+      "file": "target-hierarchy-evidence.json",
+      "sha256": "aaa9eba5a7e3078796adb48797bad81967660f33312d8f6285c01f3489b48111",
+      "source": "knowledge/target-hierarchy-evidence.json"
+    },
+    {
+      "file": "pivot-review-contract.v1.json",
+      "sha256": "95b8d4095db2e07fa2f9f02d915f070f79985b3f965d5f9cf108f7439888e270",
+      "source": "knowledge/pivot-review-contract.v1.json"
+    },
+    {
+      "file": "pivot-review-evidence.json",
+      "sha256": "0b697ea61511cc467c029cae443accca6ae4bc2437d1dc81149b65662fc6b77b",
+      "source": "knowledge/pivot-review-evidence.json"
+    },
+    {
+      "file": "exception-shadow-contract.v1.json",
+      "sha256": "d5107605f771ef9ee99660a3127eebb5b860a6fb1731af26744599beb6a2f6d7",
+      "source": "knowledge/exception-shadow-contract.v1.json"
+    },
+    {
+      "file": "exception-shadow-evidence.json",
+      "sha256": "32d28c2dd24c1069bb87cc52d623eb5ca4e513b7a409361a0c3645ff88264487",
+      "source": "knowledge/exception-shadow-evidence.json"
+    },
+    {
+      "file": "indicator-conformance-contract.v1.json",
+      "sha256": "07d20eb6dd62f26f36278bb4831b65fb64679dc3ccf4302765ba1c00f6eefa07",
+      "source": "knowledge/indicator-conformance-contract.v1.json"
+    },
+    {
+      "file": "indicator-conformance-evidence.json",
+      "sha256": "192de7884d44eb4a4ff03211af59d8d51b93097b56cfabbac63be710e143b58e",
+      "source": "knowledge/indicator-conformance-evidence.json"
+    },
+    {
+      "file": "native-indicators-contract.v1.json",
+      "sha256": "44b0117d71385d5c9ff9a11b6ab5517b244c29c95eda315e32209ccbb6378908",
+      "source": "knowledge/native-indicators-contract.v1.json"
+    },
+    {
+      "file": "native-indicators-evidence.json",
+      "sha256": "b7f5359f704e86b48d9453061cf033599c2a1c17dd0f98679de8892eaffdc6b2",
+      "source": "knowledge/native-indicators-evidence.json"
+    },
+    {
+      "file": "exception-review-contract.v1.json",
+      "sha256": "bde16aded5f388b09c6d736a076aa07243fb77eba2d1afdc0c7fca05d4c0e3af",
+      "source": "knowledge/exception-review-contract.v1.json"
+    },
+    {
+      "file": "exception-review-evidence.json",
+      "sha256": "8b3d28ce0589cefd0459275fc8ef0aa4a139caa5cf8dce0bd1b96869e93e3f9a",
+      "source": "knowledge/exception-review-evidence.json"
+    },
+    {
+      "file": "pinbar-confirmation-contract.v1.json",
+      "sha256": "f683ef5e569b122e122de6cc2244cef97cbedcd83b8391682214b75f9111d311",
+      "source": "knowledge/pinbar-confirmation-contract.v1.json"
+    },
+    {
+      "file": "pinbar-confirmation-evidence.json",
+      "sha256": "2e6ccd0c5aacd920b7631c052d93fb949401b3becf1d8b279bac3ee8c38456fc",
+      "source": "knowledge/pinbar-confirmation-evidence.json"
+    },
+    {
+      "file": "market-research-protocol.json",
+      "sha256": "b9584ff5e86c2eb69162232aeeec668d6c6925d81764884395941521a2116987",
+      "source": "tests/market_adaptation/protocol.json"
+    },
+    {
+      "file": "market-research-evidence.json",
+      "sha256": "c9bff38224f12cc98727371b33583e402a9b2a1377c489c0631c36403d24ffbf",
+      "source": "stage14 derived evidence"
+    },
+    {
+      "file": "native-runtime-validation.json",
+      "sha256": "52502cfe603d4dd5bb31d641df93d33bfe76b8048327072cb49debf10e8fd2cf",
+      "source": "observed TradingView browser UI",
+      "original_recorded_sha256": "dbce369e3db8b855236241ceeeef4c670647ccabef23c219bcf167aa276d73e6",
+      "private_source_sha256_at_publication": "52502cfe603d4dd5bb31d641df93d33bfe76b8048327072cb49debf10e8fd2cf",
+      "sha256_scope": "current_public_copy",
+      "historical_record_matches_private_source_at_publication": false
+    }
+  ],
+  "implementation_review": "Instrument/cost profile, causal research and explicit analysis bridge; previous analyzer and native sources unchanged",
+  "helper_sha256": "6deb91bcf0a2a67bb210372c8f69aa24020a541ae3ed58ea446203a16eae2c71",
+  "helper_files_sha256": {
+    "analyze.py": "6deb91bcf0a2a67bb210372c8f69aa24020a541ae3ed58ea446203a16eae2c71",
+    "conformance.py": "e44436a19700f5fadd5cc15a55f9fba1b829476cf7e2018f727900d12d87fa16",
+    "market_profiles.py": "60d6c71f7914254e5a244e39be1b2059cd02660de1edc0a14c4953d3526a1c02",
+    "native_harness.py": "8af990798b81873f8797cf4f95bd0a7f7ce8e3175ef8f2111ed3412f23d2922b",
+    "pivots.py": "19211919ee9a9e985eed85948b8410f813b7e17f97ac11ec954e25204c74d4fd",
+    "research.py": "146c8127424b0175e6970fd70d42d7270d7cbad5584c165b363360c53b74aa4f",
+    "structure.py": "af3082885b01d4284059944f3a7276269c040d70e13d92c15f6ebd2ec75dc808"
+  },
+  "semantic_review": "knowledge/SEMANTIC_REVIEW.fa.md",
+  "semantic_benchmark": "tests/semantic_reference/cases.json",
+  "full_method_validated": false,
+  "source_images_in_package": false,
+  "user_decisions": [
+    "USER-PIVOT-20261025"
+  ],
+  "semantic_review_scope": "same-agent source review and retained development regressions; not blind labels or profitability",
+  "target_hierarchy_review": "knowledge/TARGET_HIERARCHY_REVIEW.fa.md",
+  "target_hierarchy_cases": "tests/target_market/cases.json",
+  "structural_target_selection_implemented": true,
+  "structural_target_validated": false,
+  "pivot_review": "knowledge/PIVOT_REVIEW.fa.md",
+  "pivot_review_cases": "tests/pivot_market/cases.json",
+  "pivot_qualification_required_for_new_skill_analyses": true,
+  "exception_confirmation_exemptions_implemented": false,
+  "indicator_conformance_review": "knowledge/INDICATOR_CONFORMANCE_REVIEW.fa.md",
+  "indicator_conformance_cases": "assets/conformance/index.json",
+  "independent_arithmetic_oracle": true,
+  "independent_human_or_model_review": true,
+  "native_runtime_execution_verified": false,
+  "packaged_native_indicators": true,
+  "conformance_rows": 1468,
+  "conformance_fixtures": 35,
+  "reference_engine_version": "0.10.0",
+  "native_indicators_review": "knowledge/NATIVE_INDICATORS_REVIEW.fa.md",
+  "native_compilation_verified": false,
+  "packaged_native_indicator_form": "source_only",
+  "local_native_source_fixture_count": 51,
+  "local_native_source_row_count": 1535,
+  "native_source_files_sha256": {
+    "assets/native/common/TradeKnowledgeChart.mqh": "13497df27a021518fb2f7c71e10cf2ce87e62c77adfb7d7800f26485cf465c08",
+    "assets/native/common/TradeKnowledgeCore.mqh": "bb0ab34b7dea015150db1ac59d799312d9c60e4219ccc860aec01f7e258dd2c8",
+    "assets/native/harness/zero-seed-gap-flat.mq4": "7f4e6873fa9cdc27f05fb6e35e413d119d75c4b7affc13ee85ed50b4a19dd2d9",
+    "assets/native/harness/zero-seed-gap-flat.mq5": "7f4e6873fa9cdc27f05fb6e35e413d119d75c4b7affc13ee85ed50b4a19dd2d9",
+    "assets/native/harness/zero-seed-gap-flat.pine": "53c38bc4e4e9ac2b4d0d2a7984e2ea0452c1991b7d054b9964db2eed95ccd524",
+    "assets/native/mql4/TradeKnowledgeFoundation.mq4": "e6df7fbfcc1f8be38d0b3ce3fb56724324d46cf920a0cfb021e3ca51d8b41ed5",
+    "assets/native/mql5/TradeKnowledgeFoundation.mq5": "bf7045acacfba07255605fa91dafa832f7693c0b3bad270b72ac030fd62ed0b5",
+    "assets/native/pine/TradeKnowledgeFoundation.pine": "8e7e9e9317bf7a5edc71228bdb1710f11219b59131d00ad0f3575dfba8f928fd"
+  },
+  "third_party_test_runtime_shipped": false,
+  "exception_review": "knowledge/EXCEPTION_REVIEW.fa.md",
+  "exception_review_cases": "tests/exception_review/cases.json",
+  "pinbar_confirmation_review": "knowledge/PINBAR_CONFIRMATION_REVIEW.fa.md",
+  "pinbar_confirmation_cases": "tests/pinbar_confirmation/cases.json",
+  "single_pinbar_confirmation_rule_implemented": false,
+  "audio_transcriptions_reviewed": 3,
+  "audio_transcriptions_independently_verified": false,
+  "independent_review_scope": "API/cost/replay review plus raw-input skill behavior evaluation; not independent teacher annotations or financial validation",
+  "market_research_review": "knowledge/COMPLETION_AUDIT.fa.md",
+  "market_research_cases": "tests/market_adaptation/provenance.json",
+  "market_research_protocol_sha256": "b9584ff5e86c2eb69162232aeeec668d6c6925d81764884395941521a2116987",
+  "market_research_prices_real": true,
+  "market_research_costs_real": false,
+  "native_aggregate_flags_mean": "all three targets verified; partial Pine evidence recorded separately",
+  "native_verified_targets": [
+    "pine_v6"
+  ],
+  "native_runtime_evidence_file": "native-runtime-validation.json",
+  "native_runtime_evidence_sha256": "dbce369e3db8b855236241ceeeef4c670647ccabef23c219bcf167aa276d73e6",
+  "native_pine_scope": "foundation on BTC H1/H4 and FXCM EURUSD H1/H4; four fixed-input self-checks, 369 rows, 5535 comparisons; no native_export",
+  "latest_audio_review_scope": "2017 lesson 2, selective windows and three frames; repetitive machine transcript, not a verified whole lesson",
+  "profitability_validated": false,
+  "forward_observations": 0,
+  "distribution_variant": "public",
+  "public_conformance_fixtures": 29,
+  "historical_validation_counts_are_not_public_test_counts": true,
+  "private_source_provenance_sha256": "682be3339267fdd0c91946bb60f56d009152bd09f5c5a103656ba1f7f690faf4"
+}
