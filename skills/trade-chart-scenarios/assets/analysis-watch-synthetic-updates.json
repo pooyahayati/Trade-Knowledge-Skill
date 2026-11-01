@@ -1,0 +1,137 @@
+{
+  "series": [
+    {
+      "symbol": "TEST",
+      "market": "forex",
+      "feed_id": "synthetic",
+      "price_basis": "bid",
+      "timeframe": "M1",
+      "chart_type": "standard_ohlc",
+      "tick_size": "0.1",
+      "atr_period": 2,
+      "session_definition": "UTC continuous test",
+      "source_timezone": "UTC",
+      "availability_basis": "simulated_bar_close",
+      "bars": [
+        {
+          "id": "178",
+          "open_time": "2020-01-01T02:58:00Z",
+          "close_time": "2020-01-01T02:59:00Z",
+          "available_at": "2020-01-01T02:59:00Z",
+          "open": "103",
+          "high": "106",
+          "low": "101",
+          "close": "103.5",
+          "is_closed": true
+        },
+        {
+          "id": "179",
+          "open_time": "2020-01-01T02:59:00Z",
+          "close_time": "2020-01-01T03:00:00Z",
+          "available_at": "2020-01-01T03:00:00Z",
+          "open": "103.5",
+          "high": "107",
+          "low": "103",
+          "close": "105",
+          "is_closed": true
+        },
+        {
+          "id": "180",
+          "open_time": "2020-01-01T03:00:00Z",
+          "close_time": "2020-01-01T03:01:00Z",
+          "available_at": "2020-01-01T03:01:00Z",
+          "is_closed": true,
+          "open": "105",
+          "high": "108",
+          "low": "104",
+          "close": "106"
+        },
+        {
+          "id": "181",
+          "open_time": "2020-01-01T03:01:00Z",
+          "close_time": "2020-01-01T03:02:00Z",
+          "available_at": "2020-01-01T03:02:00Z",
+          "is_closed": true,
+          "open": "105",
+          "high": "108",
+          "low": "104",
+          "close": "106"
+        },
+        {
+          "id": "182",
+          "open_time": "2020-01-01T03:02:00Z",
+          "close_time": "2020-01-01T03:03:00Z",
+          "available_at": "2020-01-01T03:03:00Z",
+          "is_closed": true,
+          "open": "105",
+          "high": "108",
+          "low": "104",
+          "close": "106"
+        },
+        {
+          "id": "183",
+          "open_time": "2020-01-01T03:03:00Z",
+          "close_time": "2020-01-01T03:04:00Z",
+          "available_at": "2020-01-01T03:04:00Z",
+          "is_closed": true,
+          "open": "105",
+          "high": "108",
+          "low": "104",
+          "close": "106"
+        }
+      ]
+    },
+    {
+      "symbol": "TEST",
+      "market": "forex",
+      "feed_id": "synthetic",
+      "price_basis": "bid",
+      "timeframe": "M15",
+      "chart_type": "standard_ohlc",
+      "tick_size": "0.1",
+      "atr_period": 2,
+      "session_definition": "UTC continuous test",
+      "source_timezone": "UTC",
+      "availability_basis": "simulated_bar_close",
+      "bars": [
+        {
+          "id": "165",
+          "open_time": "2020-01-01T02:45:00Z",
+          "close_time": "2020-01-01T03:00:00Z",
+          "available_at": "2020-01-01T03:00:00Z",
+          "is_closed": true,
+          "open": "106",
+          "high": "108",
+          "low": "84",
+          "close": "105"
+        }
+      ]
+    },
+    {
+      "symbol": "TEST",
+      "market": "forex",
+      "feed_id": "synthetic",
+      "price_basis": "bid",
+      "timeframe": "M5",
+      "chart_type": "standard_ohlc",
+      "tick_size": "0.1",
+      "atr_period": 2,
+      "session_definition": "UTC continuous test",
+      "source_timezone": "UTC",
+      "availability_basis": "simulated_bar_close",
+      "bars": [
+        {
+          "id": "175",
+          "open_time": "2020-01-01T02:55:00Z",
+          "close_time": "2020-01-01T03:00:00Z",
+          "available_at": "2020-01-01T03:00:00Z",
+          "is_closed": true,
+          "open": "98",
+          "high": "107",
+          "low": "89",
+          "close": "105"
+        }
+      ]
+    }
+  ]
+}

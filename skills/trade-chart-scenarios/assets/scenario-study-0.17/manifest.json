@@ -1,0 +1,51 @@
+{
+  "version": "0.17.0",
+  "data_attribution": "Binance public spot kline data; transformed to exact Decimal OHLC and complete same-source MTF bars; independent labels added.",
+  "data_license": "CC BY-NC-SA 4.0",
+  "data_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "provider_terms_url": "https://github.com/binance/binance-public-data/blob/master/TERMS_AND_CONDITIONS.md",
+  "provider_terms_blob": "d47bf55acfd83456d6fe57b31f400b42bda83c19",
+  "selection": "Illustrations only: first BTC selected case with strict confirmation and first ETH selected case without it. Selected after frozen60-case study for documentation; not a performance sample or fresh blind test.",
+  "all_60_expected_sha256": "016ace38387cecbb9b1be998ee217557be2d44d78dc9063f400f2a34170d2c73",
+  "prefix_selection_sha256": "654da914c3afa1e377da73c6bfab6d4b0ba5298acda61152968a5e041c59a39a",
+  "availability_basis": "simulated_bar_close",
+  "price_basis": "last",
+  "entry_permission": false,
+  "cases": [
+    {
+      "id": "btc-geometric-confirmation",
+      "original_case_id": "BTCUSDT-BTCUSDT-segment01-b748-up-27",
+      "files": {
+        "prefix-input.json": "6b3f8d36a5e960c44b3e5812cb45a3ea6bc8df253cdbacf370630ffd35f003a1",
+        "confirmation-input.json": "b89f76dc60240e15762aa60db3503914b61296b1c14f124df54e4ab35dbd1870",
+        "horizon-input.json": "93ec30f54882399d96c8de5bb4b61b75113cc751c9d81d48dc47ae0dcfc4b967",
+        "future-updates.json": "dc2473b5261dd5074bb859a98c1af44183e316e3083a5a0e00597d28e1ba9b59",
+        "expected.json": "e73ea4d0df0b3f5f7a8cd8048b27f29ef77c792df45f67ed63f9020e200df5f6"
+      },
+      "source_url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2026-09.zip",
+      "raw_zip_sha256": "4106fc73698fd1851b1821cd0293adc6304f86f0c2e72244e15c41f63c2bde08",
+      "strict_confirmation": true,
+      "full_ready": false
+    },
+    {
+      "id": "eth-geometric-rejection",
+      "original_case_id": "ETHUSDT-ETHUSDT-segment01-b588-down-549",
+      "files": {
+        "prefix-input.json": "9dafe72390afd7105f6c997b65b80b559bb23136cf027a53e70215638ca9d24c",
+        "confirmation-input.json": "73b454f88d811a57123428ddd4a61e1327c58d81a26414870f9692ceaae215f7",
+        "horizon-input.json": "9a2cec7e5371c16c23fed1b7c00348ea61aa1d24ebcc9559a587ebd150e31ce6",
+        "future-updates.json": "050a558704ba6f74b102710725a36050944902eaf83ae42631a17b24a8a440c1",
+        "expected.json": "4c7001e9aecfbb61006b36522f5de4bab196feb45540050ccd48a0db1e9b1899"
+      },
+      "source_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2026-09.zip",
+      "raw_zip_sha256": "83cf3f7302d0d252898b9fc3175123c7337c796662a58ef24a452024164da92c",
+      "strict_confirmation": false,
+      "full_ready": false
+    }
+  ],
+  "postfreeze_adjudication": {
+    "file": "lifecycle-adjudication.json",
+    "sha256": "ea2021aa4099265a689935b628a41b4d3fbce290a2ed3df058315ea686c0797e",
+    "original_expected_preserved": true
+  }
+}

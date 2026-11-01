@@ -1,0 +1,6 @@
+interface:
+  display_name: "تحلیل نمودار و سناریوی معاملاتی"
+  short_description: "تحلیل نمودار، اعتبارسنجی سطح و هدف و سناریوی مشروط معاملاتی"
+  default_prompt: "با مهارت `$trade-chart-scenarios` این نمودار را تحلیل کن و مشاهده، وضعیت تأیید، سناریوهای مشروط و محدودیت داده را جدا توضیح بده."
+policy:
+  allow_implicit_invocation: true

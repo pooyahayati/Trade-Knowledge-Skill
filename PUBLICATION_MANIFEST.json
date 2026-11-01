@@ -1,0 +1,2192 @@
+{
+  "schema_version": 1,
+  "version": "0.17.0",
+  "status": "public_distribution",
+  "distribution_variant": "rights_constrained_public",
+  "created_at": "2026-11-01T09:16:19.751359+00:00",
+  "source_originals_modified": false,
+  "original_source_files": {
+    "skills/trade-chart-scenarios/SKILL.md": {
+      "sha256": "ce34413747fb3b7b3c1e135dd055a9692eb40f6ea88030a241ff5eb904dd4ecb",
+      "bytes": 24043
+    },
+    "skills/trade-chart-scenarios/agents/openai.yaml": {
+      "sha256": "8a3940ba0020d2b585aaffcfd0570fa1d16a83b322c00684370940ec3321956a",
+      "bytes": 495
+    },
+    "skills/trade-chart-scenarios/assets/analysis-watch-synthetic-input.json": {
+      "sha256": "3921dfcf29f2e3ab8d6426e748c33fae1d1562998185c9884e7ccd965d4d1582",
+      "bytes": 117707
+    },
+    "skills/trade-chart-scenarios/assets/analysis-watch-synthetic-updates.json": {
+      "sha256": "ab3bc4fc70f2828879a65ed8b48331b02cb3f8eeec503b836f1ec2b6149a8321",
+      "bytes": 3860
+    },
+    "skills/trade-chart-scenarios/assets/conformance-export-example.json": {
+      "sha256": "fbe0391d21929f916aa4f68ef705bb4686c5353b62eb76c994942d8f4284b9d9",
+      "bytes": 4981
+    },
+    "skills/trade-chart-scenarios/assets/conformance/BTCUSDT-D1.json": {
+      "sha256": "79b47d6c666e81d3c159a50e3794963d503a9a2f9ad13fd7c8f95cd611e7b107",
+      "bytes": 86530
+    },
+    "skills/trade-chart-scenarios/assets/conformance/BTCUSDT-H1.json": {
+      "sha256": "c586d26be47c122317368b2b7a349aba9db43db259b1f2fc17f7c36e51e45248",
+      "bytes": 280416
+    },
+    "skills/trade-chart-scenarios/assets/conformance/BTCUSDT-H4.json": {
+      "sha256": "d1744dac2cedb20d2b169199c7b50ab534760a65d7ca492d8524d3be4f5e6a6a",
+      "bytes": 166431
+    },
+    "skills/trade-chart-scenarios/assets/conformance/ETHUSDT-D1.json": {
+      "sha256": "ad99c2a5b04aa4b4cff791f807873e58c499faaf393ac2e618cdecbd9bc6743b",
+      "bytes": 85136
+    },
+    "skills/trade-chart-scenarios/assets/conformance/ETHUSDT-H1.json": {
+      "sha256": "6c897969cdcc6cde91113fc097025867f884e78fb69105b4e855eecfade05f35",
+      "bytes": 277006
+    },
+    "skills/trade-chart-scenarios/assets/conformance/ETHUSDT-H4.json": {
+      "sha256": "c598fd59adece49b41d213d06b9d6196974c50c1a9e8e801f4ea2b0e9ead7332",
+      "bytes": 164639
+    },
+    "skills/trade-chart-scenarios/assets/conformance/delayed-receipt.json": {
+      "sha256": "9221d7dba690a00287e45a08dd061eeea5a9df84b872100960678099e9623056",
+      "bytes": 8875
+    },
+    "skills/trade-chart-scenarios/assets/conformance/doji.json": {
+      "sha256": "1d6256d8bd076d8e773a8aa8181b8fd2c0a24dda21f7e3015543e14a1e2db81f",
+      "bytes": 4861
+    },
+    "skills/trade-chart-scenarios/assets/conformance/index.json": {
+      "sha256": "4f7f67ce7d0ae7d0ebfae72280fadf0f83c32612250ba9806921d992c1c1fa8e",
+      "bytes": 8044
+    },
+    "skills/trade-chart-scenarios/assets/conformance/open-tail.json": {
+      "sha256": "c9e30d36f303d33fb98e5efdaea79c07f078ca640cf12cf9df5d2ab4e8508abe",
+      "bytes": 7904
+    },
+    "skills/trade-chart-scenarios/assets/conformance/pin-lower.json": {
+      "sha256": "f5c5ce05486ab0f52be1180165138024d9e0e2da1e1bdadfa35148d83eb0c5ff",
+      "bytes": 4876
+    },
+    "skills/trade-chart-scenarios/assets/conformance/pin-opposite-too-large.json": {
+      "sha256": "753425dae2e0297ea35e833848a2b329bec018c529a1ddc8b4c5131a9a911584",
+      "bytes": 5032
+    },
+    "skills/trade-chart-scenarios/assets/conformance/pin-upper.json": {
+      "sha256": "976a36a365f97a75c273301dfdf021faba6e71f0b11eacb0674946ef99d9490c",
+      "bytes": 4876
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-12-exact.json": {
+      "sha256": "33d4339baa47b7c042d47b23e0232a05c270775f4f57619b717125d8e15f4276",
+      "bytes": 4878
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-12-near-above.json": {
+      "sha256": "2c74ae55c7b89a22890db15db34b9a03a978694b61c2903bcd78a299cff6b69e",
+      "bytes": 4968
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-12-near-below.json": {
+      "sha256": "9d605b853f40aa1757753a70143d26d4ee0bc5016a14288119defc03dc7ab4f3",
+      "bytes": 4968
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-12-outside-above.json": {
+      "sha256": "8345f0f74f18056a39d72e1b7340be9bcb0ed1b34b0f0dd50d433c76b6d88916",
+      "bytes": 4957
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-12-outside-below.json": {
+      "sha256": "74fafac1cbd5f2e8caa80c507ea8ffd5bfbf85102bee45efde6a65b4e1f5f02c",
+      "bytes": 4954
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-25-exact.json": {
+      "sha256": "317a8ad485bbd94aaf9aaa36f6e3de5448f527183f15ba3a0a22a7878294ab18",
+      "bytes": 4880
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-25-near-above.json": {
+      "sha256": "4c1b70f5ae92e561100d98a91f809c4a8cb251e96b1d16d1ddf75edc1dfc875d",
+      "bytes": 4972
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-25-near-below.json": {
+      "sha256": "3816793c27768aef5fb844506bc1d8c358f2d672cdcdfce23afa111643291e99",
+      "bytes": 4972
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-25-outside-above.json": {
+      "sha256": "9e2fdd6c67b89bc64dab585a3e0890343529e5d047224a1c390c587063a4c8b9",
+      "bytes": 4963
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-25-outside-below.json": {
+      "sha256": "3d33156261110c8bd410818c329349d03c34b81163fb1999d3b61ff91fe5b00a",
+      "bytes": 4958
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-8-exact.json": {
+      "sha256": "5971816f3994d78d5ec1857ebb3505d8fd2b3ca47fe0dd31ec36a12fd5f9a793",
+      "bytes": 4874
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-8-near-above.json": {
+      "sha256": "143ffab6634e5207ead799d9bc310f128b1aa44f8fb4fbb20bfbea6b4e17dcaa",
+      "bytes": 4964
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-8-near-below.json": {
+      "sha256": "f4fe2a1741d0498398f1e1ec9e235d3a96f4d56010da40e932d7146c70f85a92",
+      "bytes": 4941
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-8-outside-above.json": {
+      "sha256": "eaa5c2b18f5a644b9620764839a654957efc252a219d3d808801c3f3255dfc16",
+      "bytes": 4950
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-8-outside-below.json": {
+      "sha256": "692665fb3ae8ca01b414d01dec5203498c4cf48a5e94d9b61eb4040db6dcfa5d",
+      "bytes": 4931
+    },
+    "skills/trade-chart-scenarios/assets/conformance/unavailable-middle.json": {
+      "sha256": "53029d67404aa45af72957d44fee01bfdaf1efd85c920b6aeb19929d6096e4a3",
+      "bytes": 5990
+    },
+    "skills/trade-chart-scenarios/assets/conformance/zero-seed-gap-flat.json": {
+      "sha256": "71e070cd94bc48248262eba05f7972d803a30da74eeacd35cd0b99b33c856605",
+      "bytes": 5848
+    },
+    "skills/trade-chart-scenarios/assets/example-input.json": {
+      "sha256": "c442e1b3ae730622d190c113a72fafee145a7e03908699b9af34078e062145fd",
+      "bytes": 3681
+    },
+    "skills/trade-chart-scenarios/assets/exception-example-input.json": {
+      "sha256": "97bff02846e3fc38d5374d51778a71edfaadbccd80f2d7264e6ea9333eafe80d",
+      "bytes": 3829
+    },
+    "skills/trade-chart-scenarios/assets/exception-shadow-example-input.json": {
+      "sha256": "859ddee556dc09f223d3a6dc34e2e501386f976aba47e697c81220447d18a96a",
+      "bytes": 3912
+    },
+    "skills/trade-chart-scenarios/assets/levels-example-input.json": {
+      "sha256": "1ed59f4cd7abb471cc7e45d275c39c8cf1acad3847692533f76ab68bc8886cb8",
+      "bytes": 3917
+    },
+    "skills/trade-chart-scenarios/assets/market-research-example.json": {
+      "sha256": "8100fb2b9288bde7b866f3541d6f51f3246b809cbfc37242bb16aa221465e4b8",
+      "bytes": 92682
+    },
+    "skills/trade-chart-scenarios/assets/native/common/TradeKnowledgeChart.mqh": {
+      "sha256": "4339c90a22deb7c5ccc9449e235aabc073c00c119997141b4cb360782e9f90d4",
+      "bytes": 4816
+    },
+    "skills/trade-chart-scenarios/assets/native/common/TradeKnowledgeCore.mqh": {
+      "sha256": "22e8e84dee3961c86efc38b82d5bfc6d45b148ebf4c31d85617ac07f7befb219",
+      "bytes": 4631
+    },
+    "skills/trade-chart-scenarios/assets/native/harness/zero-seed-gap-flat.mq4": {
+      "sha256": "29117083a0de607a0631d69a2f505126334943f0c168f10f7c3c84615d1d852d",
+      "bytes": 6965
+    },
+    "skills/trade-chart-scenarios/assets/native/harness/zero-seed-gap-flat.mq5": {
+      "sha256": "29117083a0de607a0631d69a2f505126334943f0c168f10f7c3c84615d1d852d",
+      "bytes": 6965
+    },
+    "skills/trade-chart-scenarios/assets/native/harness/zero-seed-gap-flat.pine": {
+      "sha256": "63f45edca0de9ea7c45700e91b98ed2dca2268ebd3f1feb2fb3102c872de4972",
+      "bytes": 6853
+    },
+    "skills/trade-chart-scenarios/assets/native/mql4/TradeKnowledgeFoundation.mq4": {
+      "sha256": "4b15d11cca01859bf9c6d221b3b355abb0b6accc8410ebbc552f04b19ed2b16a",
+      "bytes": 275
+    },
+    "skills/trade-chart-scenarios/assets/native/mql5/TradeKnowledgeFoundation.mq5": {
+      "sha256": "0b9703758d751351f4ff4980b73ee8f1c5b838b5e61d7672019b98d0155843b2",
+      "bytes": 303
+    },
+    "skills/trade-chart-scenarios/assets/native/pine/TradeKnowledgeFoundation.pine": {
+      "sha256": "1da649e84b3503c20910630d9f872ff9fa1aaf912d117607936654c064d3afe2",
+      "bytes": 5661
+    },
+    "skills/trade-chart-scenarios/assets/pinbar-example-input.json": {
+      "sha256": "8f1d5927fd49cabbfecce8fc509a50069f9470fa9ee1457d31f1947c2d26ede7",
+      "bytes": 3831
+    },
+    "skills/trade-chart-scenarios/assets/pivot-example-input.json": {
+      "sha256": "016b4841f44af38feed44321b0e3e51a687e24472e27854143154e62b4c98d13",
+      "bytes": 4446
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/confirmation-input.json": {
+      "sha256": "b89f76dc60240e15762aa60db3503914b61296b1c14f124df54e4ab35dbd1870",
+      "bytes": 495082
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/expected.json": {
+      "sha256": "e73ea4d0df0b3f5f7a8cd8048b27f29ef77c792df45f67ed63f9020e200df5f6",
+      "bytes": 111564
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/future-updates.json": {
+      "sha256": "dc2473b5261dd5074bb859a98c1af44183e316e3083a5a0e00597d28e1ba9b59",
+      "bytes": 10018
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/horizon-input.json": {
+      "sha256": "93ec30f54882399d96c8de5bb4b61b75113cc751c9d81d48dc47ae0dcfc4b967",
+      "bytes": 500413
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/prefix-input.json": {
+      "sha256": "6b3f8d36a5e960c44b3e5812cb45a3ea6bc8df253cdbacf370630ffd35f003a1",
+      "bytes": 493933
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/confirmation-input.json": {
+      "sha256": "73b454f88d811a57123428ddd4a61e1327c58d81a26414870f9692ceaae215f7",
+      "bytes": 373331
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/expected.json": {
+      "sha256": "4c7001e9aecfbb61006b36522f5de4bab196feb45540050ccd48a0db1e9b1899",
+      "bytes": 125894
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/future-updates.json": {
+      "sha256": "050a558704ba6f74b102710725a36050944902eaf83ae42631a17b24a8a440c1",
+      "bytes": 9953
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/horizon-input.json": {
+      "sha256": "9a2cec7e5371c16c23fed1b7c00348ea61aa1d24ebcc9559a587ebd150e31ce6",
+      "bytes": 378606
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/prefix-input.json": {
+      "sha256": "9dafe72390afd7105f6c997b65b80b559bb23136cf027a53e70215638ca9d24c",
+      "bytes": 372194
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/lifecycle-adjudication.json": {
+      "sha256": "ea2021aa4099265a689935b628a41b4d3fbce290a2ed3df058315ea686c0797e",
+      "bytes": 22410
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/manifest.json": {
+      "sha256": "696832f0e8836cb294bb02b1e4d958fe3704444a2c9e8a688496fbc7c7034d11",
+      "bytes": 3059
+    },
+    "skills/trade-chart-scenarios/assets/structure-example-input.json": {
+      "sha256": "216a3b563ed8cf154d815c151e8990b5b18ff725aea2bec77c85c43fdc8a6eca",
+      "bytes": 73254
+    },
+    "skills/trade-chart-scenarios/assets/target-example-input.json": {
+      "sha256": "bfa2b34bdc71cb5b690a9ef316bf611f663827ce7ae0f91a6b248ac88db1e357",
+      "bytes": 75510
+    },
+    "skills/trade-chart-scenarios/references/analysis-watch-contract.v1.json": {
+      "sha256": "b88ee9752fcaa9ff58803f822486ce7529fef067f3bf06fc416485f83f0dad49",
+      "bytes": 2680
+    },
+    "skills/trade-chart-scenarios/references/analysis-watch.fa.md": {
+      "sha256": "0f01cf5fc8358ca95dac9c4f9a1f840df34af78ad7e20550b03b96bc3926a366",
+      "bytes": 7914
+    },
+    "skills/trade-chart-scenarios/references/chart-workflow.fa.md": {
+      "sha256": "d9679f7faee815b9f3eb6d76a7179a69de58af5bec077d626bfe9f2046d37854",
+      "bytes": 7614
+    },
+    "skills/trade-chart-scenarios/references/completion-gates.fa.md": {
+      "sha256": "f23f047e67a59362d1f0cfc39d831cc82261c767f4b17306e0398f0ef0aea356",
+      "bytes": 5769
+    },
+    "skills/trade-chart-scenarios/references/contract-cases.json": {
+      "sha256": "9e7dc1a790ab8d4790538d1db69b7d157d03c02d930f62b6cbdecbe8bf79f0e3",
+      "bytes": 29333
+    },
+    "skills/trade-chart-scenarios/references/contract-evidence.json": {
+      "sha256": "492231be5a2ad17ff1fbf8a36ef99e153969216d33816a07eda6f244e26c07ac",
+      "bytes": 36593
+    },
+    "skills/trade-chart-scenarios/references/exception-review-contract.v1.json": {
+      "sha256": "bde16aded5f388b09c6d736a076aa07243fb77eba2d1afdc0c7fca05d4c0e3af",
+      "bytes": 3704
+    },
+    "skills/trade-chart-scenarios/references/exception-review-evidence.json": {
+      "sha256": "8b3d28ce0589cefd0459275fc8ef0aa4a139caa5cf8dce0bd1b96869e93e3f9a",
+      "bytes": 5631
+    },
+    "skills/trade-chart-scenarios/references/exception-review.fa.md": {
+      "sha256": "f0c9fb34190902ab8036200236b0866ab32318693b93a1fa7052caf2b02b6b7d",
+      "bytes": 8688
+    },
+    "skills/trade-chart-scenarios/references/exception-shadow-contract.v1.json": {
+      "sha256": "d5107605f771ef9ee99660a3127eebb5b860a6fb1731af26744599beb6a2f6d7",
+      "bytes": 1624
+    },
+    "skills/trade-chart-scenarios/references/exception-shadow-evidence.json": {
+      "sha256": "32d28c2dd24c1069bb87cc52d623eb5ca4e513b7a409361a0c3645ff88264487",
+      "bytes": 6414
+    },
+    "skills/trade-chart-scenarios/references/forward-observation-evidence.json": {
+      "sha256": "177c9de1c9c8d91b038ba15c4b27f8139ed9ea1a405464f3a96edb3045d7b971",
+      "bytes": 1996
+    },
+    "skills/trade-chart-scenarios/references/forward-observation-template.json": {
+      "sha256": "6a86c640a940937b6ae9310098c925bc6057e5d1d2066c3c78abd9e6ccc2b957",
+      "bytes": 971
+    },
+    "skills/trade-chart-scenarios/references/forward-observation.fa.md": {
+      "sha256": "585930b5b25f535cae852658baa8aac9bf8011a656656395742adb1fa143fccf",
+      "bytes": 5105
+    },
+    "skills/trade-chart-scenarios/references/foundation-evidence.json": {
+      "sha256": "98adcf003540889ee83b6cd223108e69f47d14174badb94166ea6b8f620f57b4",
+      "bytes": 71243
+    },
+    "skills/trade-chart-scenarios/references/indicator-conformance-contract.v1.json": {
+      "sha256": "07d20eb6dd62f26f36278bb4831b65fb64679dc3ccf4302765ba1c00f6eefa07",
+      "bytes": 4089
+    },
+    "skills/trade-chart-scenarios/references/indicator-conformance-evidence.json": {
+      "sha256": "192de7884d44eb4a4ff03211af59d8d51b93097b56cfabbac63be710e143b58e",
+      "bytes": 4705
+    },
+    "skills/trade-chart-scenarios/references/indicator-conformance.fa.md": {
+      "sha256": "a23af755f8a9c9350131d82251aad25aed44025924be13cabc0c02d1ba6f2fde",
+      "bytes": 10250
+    },
+    "skills/trade-chart-scenarios/references/levels-targets-contract.v1.json": {
+      "sha256": "d0edfe31fa76f30ff5689f08c57402cf8cb24a0c8db9c126d33b1d190f699e48",
+      "bytes": 7641
+    },
+    "skills/trade-chart-scenarios/references/levels-targets-evidence.json": {
+      "sha256": "aad789f507d649bd55841ea6ae6bac685c0757e87b2d62147dd60c223c545bcb",
+      "bytes": 3280
+    },
+    "skills/trade-chart-scenarios/references/levels-targets.fa.md": {
+      "sha256": "b57c8e1f4bf4bb66ef8491c8d14ad83579ed17ece872dc68d633485f3f569fb5",
+      "bytes": 16274
+    },
+    "skills/trade-chart-scenarios/references/market-research-evidence.json": {
+      "sha256": "c9bff38224f12cc98727371b33583e402a9b2a1377c489c0631c36403d24ffbf",
+      "bytes": 1677
+    },
+    "skills/trade-chart-scenarios/references/market-research-protocol.json": {
+      "sha256": "b9584ff5e86c2eb69162232aeeec668d6c6925d81764884395941521a2116987",
+      "bytes": 2872
+    },
+    "skills/trade-chart-scenarios/references/market-research.fa.md": {
+      "sha256": "5d470f7c20316a691937d52466a6c5753dc48a596e4e21491eefa20a0eb77bda",
+      "bytes": 13505
+    },
+    "skills/trade-chart-scenarios/references/media-review-contract.v1.json": {
+      "sha256": "45ffb881379d4f2781d2e0d570e12d1111514d7515aa412f56ef58e8f90408ff",
+      "bytes": 3602
+    },
+    "skills/trade-chart-scenarios/references/media-review-evidence.json": {
+      "sha256": "2ecefabc33f1fa822068d08b33fcf50d3d4d3626c9478ee2bb6cd108f146bb02",
+      "bytes": 20536
+    },
+    "skills/trade-chart-scenarios/references/media-review.fa.md": {
+      "sha256": "e15ed46edab9ddfb04e41b2662ae84a80e638dfbf13d4ee2e9374d026a5571b5",
+      "bytes": 6586
+    },
+    "skills/trade-chart-scenarios/references/native-indicators-contract.v1.json": {
+      "sha256": "44b0117d71385d5c9ff9a11b6ab5517b244c29c95eda315e32209ccbb6378908",
+      "bytes": 3916
+    },
+    "skills/trade-chart-scenarios/references/native-indicators-evidence.json": {
+      "sha256": "b7f5359f704e86b48d9453061cf033599c2a1c17dd0f98679de8892eaffdc6b2",
+      "bytes": 2710
+    },
+    "skills/trade-chart-scenarios/references/native-indicators.fa.md": {
+      "sha256": "5b19310b2f9881c8054955b4f27c3179964eaa111750376033b1774f694f2e24",
+      "bytes": 13278
+    },
+    "skills/trade-chart-scenarios/references/native-runtime-validation.json": {
+      "sha256": "52502cfe603d4dd5bb31d641df93d33bfe76b8048327072cb49debf10e8fd2cf",
+      "bytes": 6571
+    },
+    "skills/trade-chart-scenarios/references/numeric-input.fa.md": {
+      "sha256": "af14ccdc57408f6e5c26bcc46c2fe09f3c7aee5c500922eb1239924f2a434716",
+      "bytes": 18807
+    },
+    "skills/trade-chart-scenarios/references/pinbar-confirmation-contract.v1.json": {
+      "sha256": "f683ef5e569b122e122de6cc2244cef97cbedcd83b8391682214b75f9111d311",
+      "bytes": 3545
+    },
+    "skills/trade-chart-scenarios/references/pinbar-confirmation-evidence.json": {
+      "sha256": "2e6ccd0c5aacd920b7631c052d93fb949401b3becf1d8b279bac3ee8c38456fc",
+      "bytes": 9205
+    },
+    "skills/trade-chart-scenarios/references/pinbar-confirmation.fa.md": {
+      "sha256": "1a8ce934c9a9ac434db39dba45386f6a107184132307ce9230a28454c3b717d4",
+      "bytes": 9615
+    },
+    "skills/trade-chart-scenarios/references/pivot-review-contract.v1.json": {
+      "sha256": "95b8d4095db2e07fa2f9f02d915f070f79985b3f965d5f9cf108f7439888e270",
+      "bytes": 5249
+    },
+    "skills/trade-chart-scenarios/references/pivot-review-evidence.json": {
+      "sha256": "0b697ea61511cc467c029cae443accca6ae4bc2437d1dc81149b65662fc6b77b",
+      "bytes": 15224
+    },
+    "skills/trade-chart-scenarios/references/pivot-review.fa.md": {
+      "sha256": "98dc323c095453f9e5210c44bcd6a996cf38ccfdb36f059047eedf7d64df36ac",
+      "bytes": 13008
+    },
+    "skills/trade-chart-scenarios/references/provenance.json": {
+      "sha256": "682be3339267fdd0c91946bb60f56d009152bd09f5c5a103656ba1f7f690faf4",
+      "bytes": 10857
+    },
+    "skills/trade-chart-scenarios/references/reference-bank.fa.md": {
+      "sha256": "85cdd4401c38c4b9b9df578966b6ad4bcaa2027eb5afe20f8add419704392275",
+      "bytes": 3121
+    },
+    "skills/trade-chart-scenarios/references/response-guide.fa.md": {
+      "sha256": "361ef0da1da594faa25a442b271aea240ac984f47e76aaf7100e3ba92b6f6538",
+      "bytes": 7961
+    },
+    "skills/trade-chart-scenarios/references/rule-contract.v1.json": {
+      "sha256": "704b8165dd103ccbede2e25f1eddd189456ebf989c9605b54977b3c48587d1b6",
+      "bytes": 27523
+    },
+    "skills/trade-chart-scenarios/references/rule-stabilization.fa.md": {
+      "sha256": "497cc69f578502123bd392fc71d3a0394789fcd08caf529713189a0a810632e7",
+      "bytes": 3105
+    },
+    "skills/trade-chart-scenarios/references/rule-uncertainty.v1.json": {
+      "sha256": "b48d026267648873cca15d99ae7131c68d98e4257ed9410d0dc90206546ff4a9",
+      "bytes": 3231
+    },
+    "skills/trade-chart-scenarios/references/scenario-observation.fa.md": {
+      "sha256": "5c889f9cc8c3c6b0696fb5f4e213ba2642ac0cd382f1c31b2dc566a8a364917c",
+      "bytes": 4950
+    },
+    "skills/trade-chart-scenarios/references/semantic-contract.v1.json": {
+      "sha256": "3584de18c04a85f6aa96794c9877ca7eadeab3c174c2d925d5ae38a0e2ee75ff",
+      "bytes": 3126
+    },
+    "skills/trade-chart-scenarios/references/semantic-evidence.json": {
+      "sha256": "84d2b8d19fa1871729acf16e29df3a89ac257666bfa79290d49d2f332b3a34dc",
+      "bytes": 7268
+    },
+    "skills/trade-chart-scenarios/references/semantic-review.fa.md": {
+      "sha256": "5a9769da968a36af17ce18721000875168b48f62fea0186642a8fed7ab50a626",
+      "bytes": 6305
+    },
+    "skills/trade-chart-scenarios/references/source-resolution-evidence.json": {
+      "sha256": "249e2eb43a54206b1da6fc5612d088e35df01d89e465e4d57c9cda26d04e1d9b",
+      "bytes": 34609
+    },
+    "skills/trade-chart-scenarios/references/source-resolution.fa.md": {
+      "sha256": "c5a1c8d88eb7aef609430980bfcb27cd14f5765d48ef39a1538745ea6559bafd",
+      "bytes": 7462
+    },
+    "skills/trade-chart-scenarios/references/structure-mtf-contract.v1.json": {
+      "sha256": "a0316d93c5464fd6ca1301e5d00cdecd3051fe2ac8355b64a79ff6f124e3fe80",
+      "bytes": 7226
+    },
+    "skills/trade-chart-scenarios/references/structure-mtf-evidence.json": {
+      "sha256": "8b8a5612a69928a5c3c92cd70cd7aa385ee0ea4c483ab7482e10854d8e450ec9",
+      "bytes": 10500
+    },
+    "skills/trade-chart-scenarios/references/structure-mtf.fa.md": {
+      "sha256": "4da47776947fc8ec4695ec4ec4de338010005425efff31e87590baddebbf5a6f",
+      "bytes": 14353
+    },
+    "skills/trade-chart-scenarios/references/target-hierarchy-contract.v1.json": {
+      "sha256": "34ff8f8f3a43b11f4a609d0f523dcb8052d3a2300451aeb2f60fce68def9dec4",
+      "bytes": 2889
+    },
+    "skills/trade-chart-scenarios/references/target-hierarchy-evidence.json": {
+      "sha256": "aaa9eba5a7e3078796adb48797bad81967660f33312d8f6285c01f3489b48111",
+      "bytes": 2039
+    },
+    "skills/trade-chart-scenarios/references/target-hierarchy.fa.md": {
+      "sha256": "ef52ebf264a1d5fded647688a1d3e18d91ad3054ce7d89cb2c4c0ea43b81b472",
+      "bytes": 8899
+    },
+    "skills/trade-chart-scenarios/references/validation-0.12.fa.md": {
+      "sha256": "300de265d3ef32a40b4dddcb4fe9ec1e6ea0a9f28f0f94b30125f81cefbd7179",
+      "bytes": 4363
+    },
+    "skills/trade-chart-scenarios/references/validation-0.13.fa.md": {
+      "sha256": "c6aa58700343b9c418268ad7d0109744c5cb086bf33268175cb02aa3c8b29b9e",
+      "bytes": 4227
+    },
+    "skills/trade-chart-scenarios/references/validation-0.14.fa.md": {
+      "sha256": "ea6f63814c5bb47a433a998f8476640e305bee01203ade781e4825e11580becf",
+      "bytes": 3946
+    },
+    "skills/trade-chart-scenarios/references/validation-0.15.fa.md": {
+      "sha256": "644cc30ed7e0aa86a2237f7099d23cf4cf8f360daf8711ed426b80cacccb5184",
+      "bytes": 5453
+    },
+    "skills/trade-chart-scenarios/references/validation-0.16.fa.md": {
+      "sha256": "64826d81192f268bf8b99bd1d757cf9313bd440d7e0f75bdda27019d312a64f4",
+      "bytes": 8522
+    },
+    "skills/trade-chart-scenarios/references/validation-0.17.fa.md": {
+      "sha256": "6f252c350cacaaa9d1da588cb43497720d71f44303856bb6a6c02a3ff4e78d53",
+      "bytes": 6633
+    },
+    "skills/trade-chart-scenarios/scripts/analysis_watch.py": {
+      "sha256": "dd3d104e8a2a3bb9f1f594cb1021ab3ba9931814c0635fc45b092cb97b209769",
+      "bytes": 18981
+    },
+    "skills/trade-chart-scenarios/scripts/analyze.py": {
+      "sha256": "88cb0e59f3d981d5b04a09825af2b40499bfc938d230f7119d2d19fe9ed1e556",
+      "bytes": 82533
+    },
+    "skills/trade-chart-scenarios/scripts/conformance.py": {
+      "sha256": "e44436a19700f5fadd5cc15a55f9fba1b829476cf7e2018f727900d12d87fa16",
+      "bytes": 9287
+    },
+    "skills/trade-chart-scenarios/scripts/market_profiles.py": {
+      "sha256": "b7c14ec85e8beefb90fbdf6f585b2e76a28ab2f4a201b6b460e183fcc84ad274",
+      "bytes": 7339
+    },
+    "skills/trade-chart-scenarios/scripts/native_harness.py": {
+      "sha256": "8af990798b81873f8797cf4f95bd0a7f7ce8e3175ef8f2111ed3412f23d2922b",
+      "bytes": 7177
+    },
+    "skills/trade-chart-scenarios/scripts/observation_journal.py": {
+      "sha256": "5570c623756d1bb102d5bd99a05d6b0cf5b466845a9aa1ea9717e7ebf493c553",
+      "bytes": 8896
+    },
+    "skills/trade-chart-scenarios/scripts/pivots.py": {
+      "sha256": "ec27dd38d2870aa5edd547886e2b401b935d806766185ed905532c9a9923fcea",
+      "bytes": 29851
+    },
+    "skills/trade-chart-scenarios/scripts/research.py": {
+      "sha256": "dd1386a3ecef6c75114bb54206a66aa1a2cbba3d5109051a9bc044dce493ac09",
+      "bytes": 18592
+    },
+    "skills/trade-chart-scenarios/scripts/scenario_journal.py": {
+      "sha256": "f5325b9a4fac4bcf07c670af9f64b84a192ff1e700f4bd894baadcf0db6f8ac1",
+      "bytes": 13175
+    },
+    "skills/trade-chart-scenarios/scripts/structure.py": {
+      "sha256": "af3082885b01d4284059944f3a7276269c040d70e13d92c15f6ebd2ec75dc808",
+      "bytes": 11911
+    },
+    "tests/conformance_oracle.py": {
+      "sha256": "4087befa042e926baaadf6f86cf7a359e9ea0cca3d3ca06a8fbc71749d13b935",
+      "bytes": 2958
+    },
+    "tests/expanded_market/fetch.py": {
+      "sha256": "bcec72b93535a657bb7783fa3d36488b59c8bcf785b6d25a94278fb894d6fc6b",
+      "bytes": 6826
+    },
+    "tests/structure_market/data/ETHUSDT.json": {
+      "sha256": "afa5c6046ae76368c69356a36a3502babf45218eb351b8234b686d7c57d23e99",
+      "bytes": 791245
+    },
+    "tests/test_analysis.py": {
+      "sha256": "7ef115cb524c0c195dc42b8f116daac3c69e8c236923e3cd11d72b5c3c2081a9",
+      "bytes": 16097
+    },
+    "tests/test_analysis_watch.py": {
+      "sha256": "5bd3e698c36ed3e3aaadbf8915b62e3f4b52bf5b06a4a22d9043b0bd632199c5",
+      "bytes": 11882
+    },
+    "tests/test_exception_diagnostics.py": {
+      "sha256": "6a07c0cfe8c9281fb1c2e42b2f3ba5133dc3709577515354afb3e327c9c4ff45",
+      "bytes": 8911
+    },
+    "tests/test_exception_shadow.py": {
+      "sha256": "41c7d2767ce5bcf368f3a9c8587816e11fa7ddb18e0c61496e47495a59300a14",
+      "bytes": 4757
+    },
+    "tests/test_extended_scenarios.py": {
+      "sha256": "b789ef77f1a50c5c8d4cc25c37000a8c7a09740a18ec2749d865dbb5bd845342",
+      "bytes": 3056
+    },
+    "tests/test_indicator_conformance.py": {
+      "sha256": "84e5f53d023ccf31d3338b38cfe8814a01b40d30f508025cca8e42909ac165c4",
+      "bytes": 9673
+    },
+    "tests/test_level_inventory_limits.py": {
+      "sha256": "6e566d8a4c0e905f1dbd90aae2251c68252586771d02ae326776a336081563df",
+      "bytes": 2853
+    },
+    "tests/test_levels_targets.py": {
+      "sha256": "3076f47a99e5305214e65643d9b343b4790886b6dc28e3cc36912725111421bd",
+      "bytes": 15563
+    },
+    "tests/test_market_research.py": {
+      "sha256": "f41dd9e1d783b00729ebcbd1d0f2320730a4d0f08ef0dbf99a8797f9d71d94de",
+      "bytes": 14784
+    },
+    "tests/test_media_revision.py": {
+      "sha256": "b3b4eca53edd1572e59e8bcde7f7e803866e129908663cd8db0984b9e6b9ae23",
+      "bytes": 6411
+    },
+    "tests/test_native_harness.py": {
+      "sha256": "2ef7dc5c43d9c10d2590e976e7d9c314e109621ddd4c64d9e03b72e0cdf768a0",
+      "bytes": 4968
+    },
+    "tests/test_observation_journal.py": {
+      "sha256": "d1b3274f70a7a18c14151ae905f20ca43ee08c197465dc05093bb8560445f251",
+      "bytes": 5303
+    },
+    "tests/test_pinbar_confirmation.py": {
+      "sha256": "e59e3b6bcde3daa60d9f80eb5078f41d3813a8d88a8f82a17bf249948d5780a5",
+      "bytes": 7383
+    },
+    "tests/test_pivot_review.py": {
+      "sha256": "751817fbff9f5a9b6a93823d9c557a6d6077b47abc41c667323257dc95306e5e",
+      "bytes": 12436
+    },
+    "tests/test_public_download.py": {
+      "sha256": "001ddb5a002f2d54462ca24e453698acf0218f8370fcd6b45b515bc543e4c2bb",
+      "bytes": 2348
+    },
+    "tests/test_scenario_journal.py": {
+      "sha256": "14bd44e1a136b4b1a073f6f962920545db1833bcbac3958313807e4620e09e4a",
+      "bytes": 8875
+    },
+    "tests/test_semantic_reference.py": {
+      "sha256": "0408c9db7a5871a3f829f64d2d31d367b2a8b11c5bcd9a8decb4491c761e777a",
+      "bytes": 5356
+    },
+    "tests/test_source_scope.py": {
+      "sha256": "259439e0791f22b3cc011332b843620c93c677b56a46a2c27db53885e22fd841",
+      "bytes": 2931
+    },
+    "tests/test_structure.py": {
+      "sha256": "5157104922a88e6d700f23d947e1a98d91b8038d34ce69df58275600fcdd71ab",
+      "bytes": 14116
+    },
+    "tests/test_target_hierarchy.py": {
+      "sha256": "0d17a0db9ce1257d089d911c10286f1991399f6649e76b1aa10488c8488572d6",
+      "bytes": 15917
+    }
+  },
+  "public_files": {
+    ".gitattributes": {
+      "sha256": "7409ac43e37db8bbebe4b6907de06d6524d74e9f49f8e18a920cfa65c81fb4b4",
+      "bytes": 68
+    },
+    ".github/workflows/validate.yml": {
+      "sha256": "cdf830ed14ba6194e271515c20a9f5fa54218b045225f524638f3019a3dcc995",
+      "bytes": 936
+    },
+    ".gitignore": {
+      "sha256": "1c920b3a04e0a56816d542202595abd117f9550e2382eb23148912949fa8d62d",
+      "bytes": 92
+    },
+    "LICENSING.md": {
+      "sha256": "2e8d8d00e68e83b0e720b9c96a0db5be721d377a74452cf667cca55fb7271db3",
+      "bytes": 635
+    },
+    "README.md": {
+      "sha256": "016eb6b30e043f77642a29c425bfaef7afae08100eaf98729011a2c5c31eeda1",
+      "bytes": 2227
+    },
+    "skills/trade-chart-scenarios/agents/openai.yaml": {
+      "sha256": "8a3940ba0020d2b585aaffcfd0570fa1d16a83b322c00684370940ec3321956a",
+      "bytes": 495
+    },
+    "skills/trade-chart-scenarios/assets/analysis-watch-synthetic-input.json": {
+      "sha256": "3921dfcf29f2e3ab8d6426e748c33fae1d1562998185c9884e7ccd965d4d1582",
+      "bytes": 117707
+    },
+    "skills/trade-chart-scenarios/assets/analysis-watch-synthetic-updates.json": {
+      "sha256": "ab3bc4fc70f2828879a65ed8b48331b02cb3f8eeec503b836f1ec2b6149a8321",
+      "bytes": 3860
+    },
+    "skills/trade-chart-scenarios/assets/conformance/BTCUSDT-D1.json": {
+      "sha256": "79b47d6c666e81d3c159a50e3794963d503a9a2f9ad13fd7c8f95cd611e7b107",
+      "bytes": 86530
+    },
+    "skills/trade-chart-scenarios/assets/conformance/BTCUSDT-H1.json": {
+      "sha256": "c586d26be47c122317368b2b7a349aba9db43db259b1f2fc17f7c36e51e45248",
+      "bytes": 280416
+    },
+    "skills/trade-chart-scenarios/assets/conformance/BTCUSDT-H4.json": {
+      "sha256": "d1744dac2cedb20d2b169199c7b50ab534760a65d7ca492d8524d3be4f5e6a6a",
+      "bytes": 166431
+    },
+    "skills/trade-chart-scenarios/assets/conformance/delayed-receipt.json": {
+      "sha256": "9221d7dba690a00287e45a08dd061eeea5a9df84b872100960678099e9623056",
+      "bytes": 8875
+    },
+    "skills/trade-chart-scenarios/assets/conformance/doji.json": {
+      "sha256": "1d6256d8bd076d8e773a8aa8181b8fd2c0a24dda21f7e3015543e14a1e2db81f",
+      "bytes": 4861
+    },
+    "skills/trade-chart-scenarios/assets/conformance/ETHUSDT-D1.json": {
+      "sha256": "ad99c2a5b04aa4b4cff791f807873e58c499faaf393ac2e618cdecbd9bc6743b",
+      "bytes": 85136
+    },
+    "skills/trade-chart-scenarios/assets/conformance/ETHUSDT-H1.json": {
+      "sha256": "6c897969cdcc6cde91113fc097025867f884e78fb69105b4e855eecfade05f35",
+      "bytes": 277006
+    },
+    "skills/trade-chart-scenarios/assets/conformance/ETHUSDT-H4.json": {
+      "sha256": "c598fd59adece49b41d213d06b9d6196974c50c1a9e8e801f4ea2b0e9ead7332",
+      "bytes": 164639
+    },
+    "skills/trade-chart-scenarios/assets/conformance/index.json": {
+      "sha256": "1de249bbcc243560931661ea16b5acb2ab27ea75f8f421e8db55b2eb67c2e4db",
+      "bytes": 6946
+    },
+    "skills/trade-chart-scenarios/assets/conformance/open-tail.json": {
+      "sha256": "c9e30d36f303d33fb98e5efdaea79c07f078ca640cf12cf9df5d2ab4e8508abe",
+      "bytes": 7904
+    },
+    "skills/trade-chart-scenarios/assets/conformance/pin-lower.json": {
+      "sha256": "f5c5ce05486ab0f52be1180165138024d9e0e2da1e1bdadfa35148d83eb0c5ff",
+      "bytes": 4876
+    },
+    "skills/trade-chart-scenarios/assets/conformance/pin-opposite-too-large.json": {
+      "sha256": "753425dae2e0297ea35e833848a2b329bec018c529a1ddc8b4c5131a9a911584",
+      "bytes": 5032
+    },
+    "skills/trade-chart-scenarios/assets/conformance/pin-upper.json": {
+      "sha256": "976a36a365f97a75c273301dfdf021faba6e71f0b11eacb0674946ef99d9490c",
+      "bytes": 4876
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-12-exact.json": {
+      "sha256": "33d4339baa47b7c042d47b23e0232a05c270775f4f57619b717125d8e15f4276",
+      "bytes": 4878
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-12-near-above.json": {
+      "sha256": "2c74ae55c7b89a22890db15db34b9a03a978694b61c2903bcd78a299cff6b69e",
+      "bytes": 4968
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-12-near-below.json": {
+      "sha256": "9d605b853f40aa1757753a70143d26d4ee0bc5016a14288119defc03dc7ab4f3",
+      "bytes": 4968
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-12-outside-above.json": {
+      "sha256": "8345f0f74f18056a39d72e1b7340be9bcb0ed1b34b0f0dd50d433c76b6d88916",
+      "bytes": 4957
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-12-outside-below.json": {
+      "sha256": "74fafac1cbd5f2e8caa80c507ea8ffd5bfbf85102bee45efde6a65b4e1f5f02c",
+      "bytes": 4954
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-25-exact.json": {
+      "sha256": "317a8ad485bbd94aaf9aaa36f6e3de5448f527183f15ba3a0a22a7878294ab18",
+      "bytes": 4880
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-25-near-above.json": {
+      "sha256": "4c1b70f5ae92e561100d98a91f809c4a8cb251e96b1d16d1ddf75edc1dfc875d",
+      "bytes": 4972
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-25-near-below.json": {
+      "sha256": "3816793c27768aef5fb844506bc1d8c358f2d672cdcdfce23afa111643291e99",
+      "bytes": 4972
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-25-outside-above.json": {
+      "sha256": "9e2fdd6c67b89bc64dab585a3e0890343529e5d047224a1c390c587063a4c8b9",
+      "bytes": 4963
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-25-outside-below.json": {
+      "sha256": "3d33156261110c8bd410818c329349d03c34b81163fb1999d3b61ff91fe5b00a",
+      "bytes": 4958
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-8-exact.json": {
+      "sha256": "5971816f3994d78d5ec1857ebb3505d8fd2b3ca47fe0dd31ec36a12fd5f9a793",
+      "bytes": 4874
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-8-near-above.json": {
+      "sha256": "143ffab6634e5207ead799d9bc310f128b1aa44f8fb4fbb20bfbea6b4e17dcaa",
+      "bytes": 4964
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-8-near-below.json": {
+      "sha256": "f4fe2a1741d0498398f1e1ec9e235d3a96f4d56010da40e932d7146c70f85a92",
+      "bytes": 4941
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-8-outside-above.json": {
+      "sha256": "eaa5c2b18f5a644b9620764839a654957efc252a219d3d808801c3f3255dfc16",
+      "bytes": 4950
+    },
+    "skills/trade-chart-scenarios/assets/conformance/range-8-outside-below.json": {
+      "sha256": "692665fb3ae8ca01b414d01dec5203498c4cf48a5e94d9b61eb4040db6dcfa5d",
+      "bytes": 4931
+    },
+    "skills/trade-chart-scenarios/assets/conformance/unavailable-middle.json": {
+      "sha256": "53029d67404aa45af72957d44fee01bfdaf1efd85c920b6aeb19929d6096e4a3",
+      "bytes": 5990
+    },
+    "skills/trade-chart-scenarios/assets/conformance/zero-seed-gap-flat.json": {
+      "sha256": "71e070cd94bc48248262eba05f7972d803a30da74eeacd35cd0b99b33c856605",
+      "bytes": 5848
+    },
+    "skills/trade-chart-scenarios/assets/conformance-export-example.json": {
+      "sha256": "fbe0391d21929f916aa4f68ef705bb4686c5353b62eb76c994942d8f4284b9d9",
+      "bytes": 4981
+    },
+    "skills/trade-chart-scenarios/assets/example-input.json": {
+      "sha256": "c442e1b3ae730622d190c113a72fafee145a7e03908699b9af34078e062145fd",
+      "bytes": 3681
+    },
+    "skills/trade-chart-scenarios/assets/exception-example-input.json": {
+      "sha256": "97bff02846e3fc38d5374d51778a71edfaadbccd80f2d7264e6ea9333eafe80d",
+      "bytes": 3829
+    },
+    "skills/trade-chart-scenarios/assets/exception-shadow-example-input.json": {
+      "sha256": "859ddee556dc09f223d3a6dc34e2e501386f976aba47e697c81220447d18a96a",
+      "bytes": 3912
+    },
+    "skills/trade-chart-scenarios/assets/levels-example-input.json": {
+      "sha256": "1ed59f4cd7abb471cc7e45d275c39c8cf1acad3847692533f76ab68bc8886cb8",
+      "bytes": 3917
+    },
+    "skills/trade-chart-scenarios/assets/market-research-example.json": {
+      "sha256": "8100fb2b9288bde7b866f3541d6f51f3246b809cbfc37242bb16aa221465e4b8",
+      "bytes": 92682
+    },
+    "skills/trade-chart-scenarios/assets/native/common/TradeKnowledgeChart.mqh": {
+      "sha256": "4339c90a22deb7c5ccc9449e235aabc073c00c119997141b4cb360782e9f90d4",
+      "bytes": 4816
+    },
+    "skills/trade-chart-scenarios/assets/native/common/TradeKnowledgeCore.mqh": {
+      "sha256": "22e8e84dee3961c86efc38b82d5bfc6d45b148ebf4c31d85617ac07f7befb219",
+      "bytes": 4631
+    },
+    "skills/trade-chart-scenarios/assets/native/harness/zero-seed-gap-flat.mq4": {
+      "sha256": "29117083a0de607a0631d69a2f505126334943f0c168f10f7c3c84615d1d852d",
+      "bytes": 6965
+    },
+    "skills/trade-chart-scenarios/assets/native/harness/zero-seed-gap-flat.mq5": {
+      "sha256": "29117083a0de607a0631d69a2f505126334943f0c168f10f7c3c84615d1d852d",
+      "bytes": 6965
+    },
+    "skills/trade-chart-scenarios/assets/native/harness/zero-seed-gap-flat.pine": {
+      "sha256": "63f45edca0de9ea7c45700e91b98ed2dca2268ebd3f1feb2fb3102c872de4972",
+      "bytes": 6853
+    },
+    "skills/trade-chart-scenarios/assets/native/mql4/TradeKnowledgeFoundation.mq4": {
+      "sha256": "4b15d11cca01859bf9c6d221b3b355abb0b6accc8410ebbc552f04b19ed2b16a",
+      "bytes": 275
+    },
+    "skills/trade-chart-scenarios/assets/native/mql5/TradeKnowledgeFoundation.mq5": {
+      "sha256": "0b9703758d751351f4ff4980b73ee8f1c5b838b5e61d7672019b98d0155843b2",
+      "bytes": 303
+    },
+    "skills/trade-chart-scenarios/assets/native/pine/TradeKnowledgeFoundation.pine": {
+      "sha256": "1da649e84b3503c20910630d9f872ff9fa1aaf912d117607936654c064d3afe2",
+      "bytes": 5661
+    },
+    "skills/trade-chart-scenarios/assets/pinbar-example-input.json": {
+      "sha256": "8f1d5927fd49cabbfecce8fc509a50069f9470fa9ee1457d31f1947c2d26ede7",
+      "bytes": 3831
+    },
+    "skills/trade-chart-scenarios/assets/pivot-example-input.json": {
+      "sha256": "016b4841f44af38feed44321b0e3e51a687e24472e27854143154e62b4c98d13",
+      "bytes": 4446
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/confirmation-input.json": {
+      "sha256": "b89f76dc60240e15762aa60db3503914b61296b1c14f124df54e4ab35dbd1870",
+      "bytes": 495082
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/expected.json": {
+      "sha256": "e73ea4d0df0b3f5f7a8cd8048b27f29ef77c792df45f67ed63f9020e200df5f6",
+      "bytes": 111564
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/future-updates.json": {
+      "sha256": "dc2473b5261dd5074bb859a98c1af44183e316e3083a5a0e00597d28e1ba9b59",
+      "bytes": 10018
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/horizon-input.json": {
+      "sha256": "93ec30f54882399d96c8de5bb4b61b75113cc751c9d81d48dc47ae0dcfc4b967",
+      "bytes": 500413
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/prefix-input.json": {
+      "sha256": "6b3f8d36a5e960c44b3e5812cb45a3ea6bc8df253cdbacf370630ffd35f003a1",
+      "bytes": 493933
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/confirmation-input.json": {
+      "sha256": "73b454f88d811a57123428ddd4a61e1327c58d81a26414870f9692ceaae215f7",
+      "bytes": 373331
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/expected.json": {
+      "sha256": "4c7001e9aecfbb61006b36522f5de4bab196feb45540050ccd48a0db1e9b1899",
+      "bytes": 125894
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/future-updates.json": {
+      "sha256": "050a558704ba6f74b102710725a36050944902eaf83ae42631a17b24a8a440c1",
+      "bytes": 9953
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/horizon-input.json": {
+      "sha256": "9a2cec7e5371c16c23fed1b7c00348ea61aa1d24ebcc9559a587ebd150e31ce6",
+      "bytes": 378606
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/prefix-input.json": {
+      "sha256": "9dafe72390afd7105f6c997b65b80b559bb23136cf027a53e70215638ca9d24c",
+      "bytes": 372194
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/lifecycle-adjudication.json": {
+      "sha256": "ea2021aa4099265a689935b628a41b4d3fbce290a2ed3df058315ea686c0797e",
+      "bytes": 22410
+    },
+    "skills/trade-chart-scenarios/assets/scenario-study-0.17/manifest.json": {
+      "sha256": "696832f0e8836cb294bb02b1e4d958fe3704444a2c9e8a688496fbc7c7034d11",
+      "bytes": 3059
+    },
+    "skills/trade-chart-scenarios/assets/structure-example-input.json": {
+      "sha256": "216a3b563ed8cf154d815c151e8990b5b18ff725aea2bec77c85c43fdc8a6eca",
+      "bytes": 73254
+    },
+    "skills/trade-chart-scenarios/assets/target-example-input.json": {
+      "sha256": "bfa2b34bdc71cb5b690a9ef316bf611f663827ce7ae0f91a6b248ac88db1e357",
+      "bytes": 75510
+    },
+    "skills/trade-chart-scenarios/references/analysis-watch-contract.v1.json": {
+      "sha256": "b88ee9752fcaa9ff58803f822486ce7529fef067f3bf06fc416485f83f0dad49",
+      "bytes": 2680
+    },
+    "skills/trade-chart-scenarios/references/analysis-watch.fa.md": {
+      "sha256": "0f01cf5fc8358ca95dac9c4f9a1f840df34af78ad7e20550b03b96bc3926a366",
+      "bytes": 7914
+    },
+    "skills/trade-chart-scenarios/references/chart-workflow.fa.md": {
+      "sha256": "d9679f7faee815b9f3eb6d76a7179a69de58af5bec077d626bfe9f2046d37854",
+      "bytes": 7614
+    },
+    "skills/trade-chart-scenarios/references/completion-gates.fa.md": {
+      "sha256": "f23f047e67a59362d1f0cfc39d831cc82261c767f4b17306e0398f0ef0aea356",
+      "bytes": 5769
+    },
+    "skills/trade-chart-scenarios/references/contract-cases.json": {
+      "sha256": "9e7dc1a790ab8d4790538d1db69b7d157d03c02d930f62b6cbdecbe8bf79f0e3",
+      "bytes": 29333
+    },
+    "skills/trade-chart-scenarios/references/contract-evidence.json": {
+      "sha256": "6c363926c3b8fae5332da6ed2014bdc8b9d65ddb60a331f313f15ee6eac8acbd",
+      "bytes": 30048
+    },
+    "skills/trade-chart-scenarios/references/DATA-LICENSE.md": {
+      "sha256": "ed752437df75d1547a408d206b95bbac64045e95d892b6c06fc4e35c1b69c40f",
+      "bytes": 1556
+    },
+    "skills/trade-chart-scenarios/references/DATA-PROVENANCE.json": {
+      "sha256": "4d3bfc781d65fbf85307fb0ace807bdf42375103bf415939a639926a72da0b97",
+      "bytes": 8852
+    },
+    "skills/trade-chart-scenarios/references/exception-review-contract.v1.json": {
+      "sha256": "bde16aded5f388b09c6d736a076aa07243fb77eba2d1afdc0c7fca05d4c0e3af",
+      "bytes": 3704
+    },
+    "skills/trade-chart-scenarios/references/exception-review-evidence.json": {
+      "sha256": "8b3d28ce0589cefd0459275fc8ef0aa4a139caa5cf8dce0bd1b96869e93e3f9a",
+      "bytes": 5631
+    },
+    "skills/trade-chart-scenarios/references/exception-review.fa.md": {
+      "sha256": "f0c9fb34190902ab8036200236b0866ab32318693b93a1fa7052caf2b02b6b7d",
+      "bytes": 8688
+    },
+    "skills/trade-chart-scenarios/references/exception-shadow-contract.v1.json": {
+      "sha256": "d5107605f771ef9ee99660a3127eebb5b860a6fb1731af26744599beb6a2f6d7",
+      "bytes": 1624
+    },
+    "skills/trade-chart-scenarios/references/exception-shadow-evidence.json": {
+      "sha256": "32d28c2dd24c1069bb87cc52d623eb5ca4e513b7a409361a0c3645ff88264487",
+      "bytes": 6414
+    },
+    "skills/trade-chart-scenarios/references/forward-observation-evidence.json": {
+      "sha256": "177c9de1c9c8d91b038ba15c4b27f8139ed9ea1a405464f3a96edb3045d7b971",
+      "bytes": 1996
+    },
+    "skills/trade-chart-scenarios/references/forward-observation-template.json": {
+      "sha256": "6a86c640a940937b6ae9310098c925bc6057e5d1d2066c3c78abd9e6ccc2b957",
+      "bytes": 971
+    },
+    "skills/trade-chart-scenarios/references/forward-observation.fa.md": {
+      "sha256": "585930b5b25f535cae852658baa8aac9bf8011a656656395742adb1fa143fccf",
+      "bytes": 5105
+    },
+    "skills/trade-chart-scenarios/references/foundation-evidence.json": {
+      "sha256": "f1e532ba998004feab0d108b4c7c9cdfcec78104ff04b1874156fc30e1e8d645",
+      "bytes": 58536
+    },
+    "skills/trade-chart-scenarios/references/indicator-conformance-contract.v1.json": {
+      "sha256": "07d20eb6dd62f26f36278bb4831b65fb64679dc3ccf4302765ba1c00f6eefa07",
+      "bytes": 4089
+    },
+    "skills/trade-chart-scenarios/references/indicator-conformance-evidence.json": {
+      "sha256": "192de7884d44eb4a4ff03211af59d8d51b93097b56cfabbac63be710e143b58e",
+      "bytes": 4705
+    },
+    "skills/trade-chart-scenarios/references/indicator-conformance.fa.md": {
+      "sha256": "a27596abc71b372d03badc2cde3ec85780ced971c965ef2095c25b033077868a",
+      "bytes": 10300
+    },
+    "skills/trade-chart-scenarios/references/levels-targets-contract.v1.json": {
+      "sha256": "d0edfe31fa76f30ff5689f08c57402cf8cb24a0c8db9c126d33b1d190f699e48",
+      "bytes": 7641
+    },
+    "skills/trade-chart-scenarios/references/levels-targets-evidence.json": {
+      "sha256": "aad789f507d649bd55841ea6ae6bac685c0757e87b2d62147dd60c223c545bcb",
+      "bytes": 3280
+    },
+    "skills/trade-chart-scenarios/references/levels-targets.fa.md": {
+      "sha256": "b57c8e1f4bf4bb66ef8491c8d14ad83579ed17ece872dc68d633485f3f569fb5",
+      "bytes": 16274
+    },
+    "skills/trade-chart-scenarios/references/market-research-evidence.json": {
+      "sha256": "c9bff38224f12cc98727371b33583e402a9b2a1377c489c0631c36403d24ffbf",
+      "bytes": 1677
+    },
+    "skills/trade-chart-scenarios/references/market-research-protocol.json": {
+      "sha256": "b9584ff5e86c2eb69162232aeeec668d6c6925d81764884395941521a2116987",
+      "bytes": 2872
+    },
+    "skills/trade-chart-scenarios/references/market-research.fa.md": {
+      "sha256": "5d470f7c20316a691937d52466a6c5753dc48a596e4e21491eefa20a0eb77bda",
+      "bytes": 13505
+    },
+    "skills/trade-chart-scenarios/references/media-review-contract.v1.json": {
+      "sha256": "45ffb881379d4f2781d2e0d570e12d1111514d7515aa412f56ef58e8f90408ff",
+      "bytes": 3602
+    },
+    "skills/trade-chart-scenarios/references/media-review-evidence.json": {
+      "sha256": "2861a368bf7ea707df644841d9f5ccfa499cef7536fa9e42c73efdc730a6d149",
+      "bytes": 16476
+    },
+    "skills/trade-chart-scenarios/references/media-review.fa.md": {
+      "sha256": "e15ed46edab9ddfb04e41b2662ae84a80e638dfbf13d4ee2e9374d026a5571b5",
+      "bytes": 6586
+    },
+    "skills/trade-chart-scenarios/references/native-indicators-contract.v1.json": {
+      "sha256": "44b0117d71385d5c9ff9a11b6ab5517b244c29c95eda315e32209ccbb6378908",
+      "bytes": 3916
+    },
+    "skills/trade-chart-scenarios/references/native-indicators-evidence.json": {
+      "sha256": "b7f5359f704e86b48d9453061cf033599c2a1c17dd0f98679de8892eaffdc6b2",
+      "bytes": 2710
+    },
+    "skills/trade-chart-scenarios/references/native-indicators.fa.md": {
+      "sha256": "8141632a84f6cbc7aa91b9661b0fad6bd07e872e287a87b0968ed5f3625174c2",
+      "bytes": 13279
+    },
+    "skills/trade-chart-scenarios/references/native-runtime-validation.json": {
+      "sha256": "52502cfe603d4dd5bb31d641df93d33bfe76b8048327072cb49debf10e8fd2cf",
+      "bytes": 6571
+    },
+    "skills/trade-chart-scenarios/references/numeric-input.fa.md": {
+      "sha256": "af14ccdc57408f6e5c26bcc46c2fe09f3c7aee5c500922eb1239924f2a434716",
+      "bytes": 18807
+    },
+    "skills/trade-chart-scenarios/references/pinbar-confirmation-contract.v1.json": {
+      "sha256": "f683ef5e569b122e122de6cc2244cef97cbedcd83b8391682214b75f9111d311",
+      "bytes": 3545
+    },
+    "skills/trade-chart-scenarios/references/pinbar-confirmation-evidence.json": {
+      "sha256": "2e6ccd0c5aacd920b7631c052d93fb949401b3becf1d8b279bac3ee8c38456fc",
+      "bytes": 9205
+    },
+    "skills/trade-chart-scenarios/references/pinbar-confirmation.fa.md": {
+      "sha256": "1a8ce934c9a9ac434db39dba45386f6a107184132307ce9230a28454c3b717d4",
+      "bytes": 9615
+    },
+    "skills/trade-chart-scenarios/references/pivot-review-contract.v1.json": {
+      "sha256": "95b8d4095db2e07fa2f9f02d915f070f79985b3f965d5f9cf108f7439888e270",
+      "bytes": 5249
+    },
+    "skills/trade-chart-scenarios/references/pivot-review-evidence.json": {
+      "sha256": "0b697ea61511cc467c029cae443accca6ae4bc2437d1dc81149b65662fc6b77b",
+      "bytes": 15224
+    },
+    "skills/trade-chart-scenarios/references/pivot-review.fa.md": {
+      "sha256": "98dc323c095453f9e5210c44bcd6a996cf38ccfdb36f059047eedf7d64df36ac",
+      "bytes": 13008
+    },
+    "skills/trade-chart-scenarios/references/provenance.json": {
+      "sha256": "4face702c05f984aa34f2cfc81fcd1ecbd254c47d5f8abfcf8fe3b3b594d08d9",
+      "bytes": 12546
+    },
+    "skills/trade-chart-scenarios/references/public-distribution.fa.md": {
+      "sha256": "e5912d2aa5657ae748b7d405c73e01d67815f51811c830edc01f200aca4a8fbe",
+      "bytes": 3086
+    },
+    "skills/trade-chart-scenarios/references/reference-bank.fa.md": {
+      "sha256": "c1fc54f4a2f0e6edf0e44ef07351cfd5a7f1690c11a4b7682f403bf6afa0176b",
+      "bytes": 4038
+    },
+    "skills/trade-chart-scenarios/references/response-guide.fa.md": {
+      "sha256": "361ef0da1da594faa25a442b271aea240ac984f47e76aaf7100e3ba92b6f6538",
+      "bytes": 7961
+    },
+    "skills/trade-chart-scenarios/references/rule-contract.v1.json": {
+      "sha256": "704b8165dd103ccbede2e25f1eddd189456ebf989c9605b54977b3c48587d1b6",
+      "bytes": 27523
+    },
+    "skills/trade-chart-scenarios/references/rule-stabilization.fa.md": {
+      "sha256": "497cc69f578502123bd392fc71d3a0394789fcd08caf529713189a0a810632e7",
+      "bytes": 3105
+    },
+    "skills/trade-chart-scenarios/references/rule-uncertainty.v1.json": {
+      "sha256": "b48d026267648873cca15d99ae7131c68d98e4257ed9410d0dc90206546ff4a9",
+      "bytes": 3231
+    },
+    "skills/trade-chart-scenarios/references/scenario-observation.fa.md": {
+      "sha256": "5c889f9cc8c3c6b0696fb5f4e213ba2642ac0cd382f1c31b2dc566a8a364917c",
+      "bytes": 4950
+    },
+    "skills/trade-chart-scenarios/references/semantic-contract.v1.json": {
+      "sha256": "3584de18c04a85f6aa96794c9877ca7eadeab3c174c2d925d5ae38a0e2ee75ff",
+      "bytes": 3126
+    },
+    "skills/trade-chart-scenarios/references/semantic-evidence.json": {
+      "sha256": "da5d08c0c1d66ef1c410596b0a53cb0984fa5dc5f94700d0855bf6f4597d4919",
+      "bytes": 4076
+    },
+    "skills/trade-chart-scenarios/references/semantic-review.fa.md": {
+      "sha256": "5a9769da968a36af17ce18721000875168b48f62fea0186642a8fed7ab50a626",
+      "bytes": 6305
+    },
+    "skills/trade-chart-scenarios/references/source-resolution-evidence.json": {
+      "sha256": "249e2eb43a54206b1da6fc5612d088e35df01d89e465e4d57c9cda26d04e1d9b",
+      "bytes": 34609
+    },
+    "skills/trade-chart-scenarios/references/source-resolution.fa.md": {
+      "sha256": "c5a1c8d88eb7aef609430980bfcb27cd14f5765d48ef39a1538745ea6559bafd",
+      "bytes": 7462
+    },
+    "skills/trade-chart-scenarios/references/structure-mtf-contract.v1.json": {
+      "sha256": "a0316d93c5464fd6ca1301e5d00cdecd3051fe2ac8355b64a79ff6f124e3fe80",
+      "bytes": 7226
+    },
+    "skills/trade-chart-scenarios/references/structure-mtf-evidence.json": {
+      "sha256": "3bcb312ee44d1d4f1c3cbb7f805b777034800fbc8e27f94421c0e34e6315193a",
+      "bytes": 5440
+    },
+    "skills/trade-chart-scenarios/references/structure-mtf.fa.md": {
+      "sha256": "4da47776947fc8ec4695ec4ec4de338010005425efff31e87590baddebbf5a6f",
+      "bytes": 14353
+    },
+    "skills/trade-chart-scenarios/references/target-hierarchy-contract.v1.json": {
+      "sha256": "34ff8f8f3a43b11f4a609d0f523dcb8052d3a2300451aeb2f60fce68def9dec4",
+      "bytes": 2889
+    },
+    "skills/trade-chart-scenarios/references/target-hierarchy-evidence.json": {
+      "sha256": "aaa9eba5a7e3078796adb48797bad81967660f33312d8f6285c01f3489b48111",
+      "bytes": 2039
+    },
+    "skills/trade-chart-scenarios/references/target-hierarchy.fa.md": {
+      "sha256": "ef52ebf264a1d5fded647688a1d3e18d91ad3054ce7d89cb2c4c0ea43b81b472",
+      "bytes": 8899
+    },
+    "skills/trade-chart-scenarios/references/validation-0.12.fa.md": {
+      "sha256": "300de265d3ef32a40b4dddcb4fe9ec1e6ea0a9f28f0f94b30125f81cefbd7179",
+      "bytes": 4363
+    },
+    "skills/trade-chart-scenarios/references/validation-0.13.fa.md": {
+      "sha256": "29045ca484f9d69d4153dcbdf6aa60e939a3945cedc0a5435dc1dba4bc77f98c",
+      "bytes": 4850
+    },
+    "skills/trade-chart-scenarios/references/validation-0.14.fa.md": {
+      "sha256": "344aedf264e6b68e73cc1d429072bc0562347b5ea23e6941b4dfc238c7196234",
+      "bytes": 4553
+    },
+    "skills/trade-chart-scenarios/references/validation-0.15.fa.md": {
+      "sha256": "8cf065fe1275a11f0c69cc4527085b61578c4c318b247c7a85e2412e263a4f4e",
+      "bytes": 6073
+    },
+    "skills/trade-chart-scenarios/references/validation-0.16.fa.md": {
+      "sha256": "222d360bdf0cdc09b172cb9ebb7245cc146dab934b1ed003d1391d41c06e9cf5",
+      "bytes": 9288
+    },
+    "skills/trade-chart-scenarios/references/validation-0.17.fa.md": {
+      "sha256": "5525847675e76214580a952a30d3d6bf50ae9e433fea57104bb0ed72432f9085",
+      "bytes": 7992
+    },
+    "skills/trade-chart-scenarios/scripts/analysis_watch.py": {
+      "sha256": "dd3d104e8a2a3bb9f1f594cb1021ab3ba9931814c0635fc45b092cb97b209769",
+      "bytes": 18981
+    },
+    "skills/trade-chart-scenarios/scripts/analyze.py": {
+      "sha256": "89a1a7e98b3011cdbe08b58d668e1137dc3949dbe5fee62f70d763f93a387c42",
+      "bytes": 82702
+    },
+    "skills/trade-chart-scenarios/scripts/conformance.py": {
+      "sha256": "e44436a19700f5fadd5cc15a55f9fba1b829476cf7e2018f727900d12d87fa16",
+      "bytes": 9287
+    },
+    "skills/trade-chart-scenarios/scripts/market_profiles.py": {
+      "sha256": "b7c14ec85e8beefb90fbdf6f585b2e76a28ab2f4a201b6b460e183fcc84ad274",
+      "bytes": 7339
+    },
+    "skills/trade-chart-scenarios/scripts/native_harness.py": {
+      "sha256": "8af990798b81873f8797cf4f95bd0a7f7ce8e3175ef8f2111ed3412f23d2922b",
+      "bytes": 7177
+    },
+    "skills/trade-chart-scenarios/scripts/observation_journal.py": {
+      "sha256": "5570c623756d1bb102d5bd99a05d6b0cf5b466845a9aa1ea9717e7ebf493c553",
+      "bytes": 8896
+    },
+    "skills/trade-chart-scenarios/scripts/pivots.py": {
+      "sha256": "ec27dd38d2870aa5edd547886e2b401b935d806766185ed905532c9a9923fcea",
+      "bytes": 29851
+    },
+    "skills/trade-chart-scenarios/scripts/research.py": {
+      "sha256": "dd1386a3ecef6c75114bb54206a66aa1a2cbba3d5109051a9bc044dce493ac09",
+      "bytes": 18592
+    },
+    "skills/trade-chart-scenarios/scripts/scenario_journal.py": {
+      "sha256": "f5325b9a4fac4bcf07c670af9f64b84a192ff1e700f4bd894baadcf0db6f8ac1",
+      "bytes": 13175
+    },
+    "skills/trade-chart-scenarios/scripts/structure.py": {
+      "sha256": "af3082885b01d4284059944f3a7276269c040d70e13d92c15f6ebd2ec75dc808",
+      "bytes": 11911
+    },
+    "skills/trade-chart-scenarios/SKILL.md": {
+      "sha256": "7dabc439612c1625aed2c59fb5317ddc8d4eec052db0cfdb5e723dbe1710b463",
+      "bytes": 24028
+    },
+    "tests/conformance_oracle.py": {
+      "sha256": "4087befa042e926baaadf6f86cf7a359e9ea0cca3d3ca06a8fbc71749d13b935",
+      "bytes": 2958
+    },
+    "tests/expanded_market/fetch.py": {
+      "sha256": "e514c42536ca1eb735923e28963fe1c6722f09ade31793e45d8dee0a34962bab",
+      "bytes": 6729
+    },
+    "tests/market_adaptation/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tests/structure_market/data/ETHUSDT.json": {
+      "sha256": "afa5c6046ae76368c69356a36a3502babf45218eb351b8234b686d7c57d23e99",
+      "bytes": 791245
+    },
+    "tests/test_analysis.py": {
+      "sha256": "7ef115cb524c0c195dc42b8f116daac3c69e8c236923e3cd11d72b5c3c2081a9",
+      "bytes": 16097
+    },
+    "tests/test_analysis_watch.py": {
+      "sha256": "d2ed1271a559fe79e74b2af0356df0bdc0e74ba290426954efd4b9a24b292859",
+      "bytes": 13478
+    },
+    "tests/test_exception_diagnostics.py": {
+      "sha256": "6a07c0cfe8c9281fb1c2e42b2f3ba5133dc3709577515354afb3e327c9c4ff45",
+      "bytes": 8911
+    },
+    "tests/test_exception_shadow.py": {
+      "sha256": "41c7d2767ce5bcf368f3a9c8587816e11fa7ddb18e0c61496e47495a59300a14",
+      "bytes": 4757
+    },
+    "tests/test_extended_scenarios.py": {
+      "sha256": "b789ef77f1a50c5c8d4cc25c37000a8c7a09740a18ec2749d865dbb5bd845342",
+      "bytes": 3056
+    },
+    "tests/test_indicator_conformance.py": {
+      "sha256": "88e76ff06846d877a0fad20dab8c2715804431c7d685109d2268a4f503570acb",
+      "bytes": 9681
+    },
+    "tests/test_level_inventory_limits.py": {
+      "sha256": "6e566d8a4c0e905f1dbd90aae2251c68252586771d02ae326776a336081563df",
+      "bytes": 2853
+    },
+    "tests/test_levels_targets.py": {
+      "sha256": "3076f47a99e5305214e65643d9b343b4790886b6dc28e3cc36912725111421bd",
+      "bytes": 15563
+    },
+    "tests/test_market_research.py": {
+      "sha256": "f41dd9e1d783b00729ebcbd1d0f2320730a4d0f08ef0dbf99a8797f9d71d94de",
+      "bytes": 14784
+    },
+    "tests/test_media_revision.py": {
+      "sha256": "b3b4eca53edd1572e59e8bcde7f7e803866e129908663cd8db0984b9e6b9ae23",
+      "bytes": 6411
+    },
+    "tests/test_native_harness.py": {
+      "sha256": "2ef7dc5c43d9c10d2590e976e7d9c314e109621ddd4c64d9e03b72e0cdf768a0",
+      "bytes": 4968
+    },
+    "tests/test_observation_journal.py": {
+      "sha256": "d1b3274f70a7a18c14151ae905f20ca43ee08c197465dc05093bb8560445f251",
+      "bytes": 5303
+    },
+    "tests/test_pinbar_confirmation.py": {
+      "sha256": "e59e3b6bcde3daa60d9f80eb5078f41d3813a8d88a8f82a17bf249948d5780a5",
+      "bytes": 7383
+    },
+    "tests/test_pivot_review.py": {
+      "sha256": "751817fbff9f5a9b6a93823d9c557a6d6077b47abc41c667323257dc95306e5e",
+      "bytes": 12436
+    },
+    "tests/test_public_download.py": {
+      "sha256": "001ddb5a002f2d54462ca24e453698acf0218f8370fcd6b45b515bc543e4c2bb",
+      "bytes": 2348
+    },
+    "tests/test_scenario_journal.py": {
+      "sha256": "14bd44e1a136b4b1a073f6f962920545db1833bcbac3958313807e4620e09e4a",
+      "bytes": 8875
+    },
+    "tests/test_semantic_reference.py": {
+      "sha256": "0408c9db7a5871a3f829f64d2d31d367b2a8b11c5bcd9a8decb4491c761e777a",
+      "bytes": 5356
+    },
+    "tests/test_source_scope.py": {
+      "sha256": "259439e0791f22b3cc011332b843620c93c677b56a46a2c27db53885e22fd841",
+      "bytes": 2931
+    },
+    "tests/test_structure.py": {
+      "sha256": "5157104922a88e6d700f23d947e1a98d91b8038d34ce69df58275600fcdd71ab",
+      "bytes": 14116
+    },
+    "tests/test_target_hierarchy.py": {
+      "sha256": "0d17a0db9ce1257d089d911c10286f1991399f6649e76b1aa10488c8488572d6",
+      "bytes": 15917
+    },
+    "tools/run_tests.py": {
+      "sha256": "16f09871a73d5e158aa8cd6b4a2801d332d84ee074b7adbe7653dfcb9e57d822",
+      "bytes": 632
+    },
+    "tools/verify_public.py": {
+      "sha256": "d018b660dd5982a206647664efc5f735494108d0b95ddff8fb8a1f013f5abc29",
+      "bytes": 2176
+    },
+    "VALIDATION.fa.md": {
+      "sha256": "3d0b3a53c30c2fbae8b685607f485bb9b8c108e830768602cca37c8928bf3756",
+      "bytes": 4158
+    }
+  },
+  "field_omissions": [
+    {
+      "file": "skills/trade-chart-scenarios/references/contract-evidence.json",
+      "pointer": "/records/0/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "6a711412ed1f3e4948c984194fcc4e3984e04e1ec27666c0908b178731e43b57"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/contract-evidence.json",
+      "pointer": "/records/1/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "cc67983d82b07f1043018b049af434bc233c60586e03c04d6ffcb64cade7dafc"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/contract-evidence.json",
+      "pointer": "/records/2/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "d81499b9343bfca3c5377a50aeece834a220ec379b22a884a9bc4a05e81d8f3e"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/contract-evidence.json",
+      "pointer": "/records/3/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "7b7991a2e3084d196332f38bdd128435cb226550d2b4f0bcfc031ddc87ed73a1"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/contract-evidence.json",
+      "pointer": "/records/4/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "e646899b409a6f44a4fadf54010c128769e933b501f7440d76ce2fac9b0305a8"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/contract-evidence.json",
+      "pointer": "/records/5/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "c4289817c5f4e3ea547cbe87f6c09d64714068d8b0e6268b3281a90a2ffd3723"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/contract-evidence.json",
+      "pointer": "/records/6/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "467d8b216b5d54d7f4292475805d4bd71000953b061fb3c2b46395c0a00b5e20"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/contract-evidence.json",
+      "pointer": "/records/7/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "9e48ca0b8a633bd3857d538faea4b6ecc8b10223c73c21fc3a391e0c05d18a79"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/contract-evidence.json",
+      "pointer": "/records/8/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "64294fabe2404c712ae9c9b923c6d503a88c3cfc39908eb8052f5c6816598450"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/0/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "df1e1ea2933c34251b59783f899159455aa99435f9783a5b701eec363bd848a4"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/1/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "f71a878adfdb22c63c3e194e4e8542f789e85055273b414bb7acbb57400fec7a"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/2/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "b4a35d0dac1b171c002448dee46c8dd7d6ef135e84ecf3000184487ca3644bf5"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/3/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "c1968ed85fe6de5a9565f4a2976347e71a120d0f9012614fbaedc5236ebbd3c9"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/4/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "8b417b14d7f5d2307e31f01c52b5858d87c1e659084449587c4e697a68b66dfb"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/5/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "9aff2a67c096fee1cbecc9ff54369ae55385ef04a9bd0d6d07b23a294d5d40cb"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/6/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "9f7826c4390f51294c9eb95a7662cde950b6208942324fdf869d8f6eecfb7d50"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/7/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "9160ee7230e5915de03adad6a694c7a760122e1dd7ad0f89a43ca986a5ae59b6"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/8/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "7f3cd1994591f6bfe0265eddf4490063b4eeecb6b86dd5e7f6e798af4ac39c46"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/9/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "4c6ca3977ec5135968b233d75813c073d2435fad566032683cd4e26e41963d98"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/10/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "caf803e913e489dfec8cb2bd69a1863b221c8d13b27f0840a65d9d1c4b3e05c1"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/11/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "49b466e8e90a37ab9b1724e6dfdd612008c18e12610117fe845fc1d5d73f50e7"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/12/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "9d61b15d917516b0f257d4fad07ccfa5e4fb1c2096e45faa4da1713062398d49"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/13/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "32ea230c20c4001c013bb93b655abddf58b68184a1daad2804607590816042ef"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/14/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "d13a740553727a3e4771617aad363e814c2da1a386a352f684a20bd529bf1fe6"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/15/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "80b037f73b7b8f6724d273b5180d61d07da3d8ea5f8f9d033a4455ea7cdf0acb"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/16/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "ff2bb5c8118a8d7abe637bf8f3fbe48f12d5560e1d9e9fd5c60ffeca0a8b7f50"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/17/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "ff61ce947683342b6d0538c6f93625a666396203d1a340e5fc00f37e5a16d3e9"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/18/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "c0bd7df31c3a8105b63cd8ce4093c718427e7aca90bcd7d7e0c048fca95fde1e"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/19/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "75510766c5bd69226d4a3bce0a5a85bf862610ac2e81c6b6d96ff1e6b5e5af4a"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/20/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "d3b94dc7351337f18dfaf5d8890b2d7087cd9bc2cc61608d98ec5127a74bf553"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/21/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "373021a161e19b8518a608501358935a89eda29de3a493eac7c02e9c6d29670a"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/22/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "62a047adcf8265f32d047c9c247af6b0cc6d56e564545eb37aed11b90e153b35"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/23/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "5219b9d328c3d8da326f621a520fb4d61638e209f6dc60fc0a6fea6980ac3752"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/24/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "9ba57573e164ab660ce3da12ca77e9e52defbc5066edd9ec74ed77c5ab69d644"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/25/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "6f5a2f85438e7381e96a50a2b88192332728b834a7c0e33e8b0d9ece15806780"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/26/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "ae431e2c30694f0c89ea80065f8b5e9c3b05b74f86e80779dce1991911faf572"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/27/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "c3bbb3b3f476daacc550b0f1c375f19c175f2992eb6a4cf256588ef67f0fe076"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/28/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "72dbc2f7794ef032a5323f8cc01363bf1650d8561f8b9851c7dc5830b5e5e3f8"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/29/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "07bc6a50a7f35f2918eb8a613de2db03af637cb011399c419544ae8267c8600d"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/30/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "49778b20b61d75aa359aed8cd54417dfce1139cc65da4459e9769d3fe083c5c1"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/31/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "3903e1310152b9a9d93cdef8d7f176a7de87656f90c4507d0abc3f22bcd83219"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/foundation-evidence.json",
+      "pointer": "/records/32/original_text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "eb94bf78f38bee9e56162c1e1f909eb370f1b465aeab84d641b93037861f82f4"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/0/record/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "3664e62e806fc07466b721681b815dbefc2262bf0ac9ec9472c5f13230bc90f5"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/0/media/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "f5741939ab49d8eead47740a7a2d249ef707a66ab7dc2496923053aed5fb1037"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/0/transcript/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "d97e2d3d01f31e6802f5a8deef9d054895211e4280d15248e906bdc64bd34b89"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/0/transcription_receipt/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "04a1d9992b9d070524d70673135d3d00c3fb9bbfff710cbdee40f598bfb35b5d"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/1/record/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "1174c3f47e7720c6d54a2c5a98bb22bdbd307f17fece287a8951ff0a18d2d33d"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/1/media/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "124af0d34e7f087fccb9a3ede7e95c802b30a7e0c4beb0335758b270c8aae7cb"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/1/transcript/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "530d6db2cfd54e819da674f195c951c93e784de6f9f13e52b1a630b3062fb23d"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/1/transcription_receipt/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "fa72dc7b9dab9dba6cf25db479941c35d9a2dba888d5243f290c3e7e1e68e609"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/2/record/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "65ea7fcd6fc49aa4f976d569b0d6509edce44952c3a868a91f0e4ceb41c852e1"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/2/media/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "fcdffd757a372ad7174501b3170b156969bc4ecf97f8de27675bf324bdd1ba44"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/2/transcript/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "3af3d251cc8f2d51a0893168cf49e7e30ded7fd45ad47db238ab9542a2144cb2"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/2/transcription_receipt/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "02a5eff10b2bf817fe350c93b0d1b59562bbd2767ad56f6b5f1dd8830daf8418"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/3/record/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "48c19bb0286fdb68724090e8959ef969f9c335d6ac3a5f21dcd995388dd196f2"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/3/media/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "4c9211d4522a94bcfe462861f102f0d672b2f789b5537387c57d2041ea70496c"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/3/transcript/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "4fa51e2ca1a1ed7a9877eb7c361bb42bf20a8bdbda726338fa5cab6750321da9"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/3/transcription_receipt/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "cb9735d2ec44e6916a81024a1844c8a31dcbf0c42b3087a8722b2893202a587d"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/4/record/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "e84a112ce4594694331a5a8345ba50dd6c110e2f9497187f341546f107d7a06d"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/4/media/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "fe6fd18ca32bf21efadac508b6cd5eb0dab635648406960abed920ccbeec60c3"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/4/transcript/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "dde9c25bd483415a88343ca790f8d5ad1b190975f789e93556c025a67dc9b08c"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/4/transcription_receipt/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "e0c9ba4e8339ff7ced7549979a17114c7ef2f856926c0c0929df357c42e11793"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/5/media/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "c1957e869f052274ea8562d99dafe04505c5cfa5909e3ae8416fa3edef4eba84"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/5/transcript/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "d8016d92198aa3a8eed919818cecab5f1d6238cbdc41e37e723d4d9c89a094cd"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/5/transcription_receipt/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "d6a9da22d107219f4f3c36a5c6ee3d5a4728cd904515c634fa6f6dd23f2b2d74"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/6/media/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "c1957e869f052274ea8562d99dafe04505c5cfa5909e3ae8416fa3edef4eba84"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/6/transcript/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "d8016d92198aa3a8eed919818cecab5f1d6238cbdc41e37e723d4d9c89a094cd"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/6/transcription_receipt/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "d6a9da22d107219f4f3c36a5c6ee3d5a4728cd904515c634fa6f6dd23f2b2d74"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/7/media/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "c1957e869f052274ea8562d99dafe04505c5cfa5909e3ae8416fa3edef4eba84"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/7/transcript/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "be83927940eafae1c6c1c29eb0daa049583199e282875457c820fe6f89062c86"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/7/transcription_receipt/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "e52c24f8e29f7c997a3b9aa6fa11adae3b0329270036b95d1df269d3676a6e28"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/8/media/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "c1957e869f052274ea8562d99dafe04505c5cfa5909e3ae8416fa3edef4eba84"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/8/transcript/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "c82c8834e1521e83bc1c0779071b1479de559a8ec703c26ec837451f82b49bdf"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/sources/8/transcription_receipt/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "100e4be68929ceeda4c81f1e7e265d4425efdbaa4f1eb1506e995fa168bc28d2"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/independent_review/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "f03939c04b305fa133dfa1f65130841988441c43dc8406ba778281c99e226670"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/media-review-evidence.json",
+      "pointer": "/targeted_audio_recheck/path",
+      "reason": "absolute_private_locator",
+      "original_value_sha256": "4825f463aaa4f4e0da7355cc4ceeb88778c50378c8a852bed22db26c1633cb78"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/semantic-evidence.json",
+      "pointer": "/records/0/text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "62a047adcf8265f32d047c9c247af6b0cc6d56e564545eb37aed11b90e153b35"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/semantic-evidence.json",
+      "pointer": "/records/1/text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "7675b769920687f3762f2c096a5852895ce339155138fc4bf0a8a36ffed6f1a2"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/semantic-evidence.json",
+      "pointer": "/records/2/text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "b1cf467d94a18785a01d7b5bfed4a5edf0b9faf501b90f9da5c8321ff3620731"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/semantic-evidence.json",
+      "pointer": "/records/3/text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "c0bd7df31c3a8105b63cd8ce4093c718427e7aca90bcd7d7e0c048fca95fde1e"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/semantic-evidence.json",
+      "pointer": "/records/4/text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "d3b94dc7351337f18dfaf5d8890b2d7087cd9bc2cc61608d98ec5127a74bf553"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/semantic-evidence.json",
+      "pointer": "/records/5/text_fa",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "53fb3555c9fb4396ba7aefab87899f8095cdf7c729f24ed30a1c8033aaa2ec2b"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/structure-mtf-evidence.json",
+      "pointer": "/records/0/text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "7675b769920687f3762f2c096a5852895ce339155138fc4bf0a8a36ffed6f1a2"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/structure-mtf-evidence.json",
+      "pointer": "/records/1/text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "988ceafaf31974ad5b6fc5223eb6c90aef3bb113c0edf7a4315a238a4bace07d"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/structure-mtf-evidence.json",
+      "pointer": "/records/2/text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "b53dc8c46411f07a0149bb42c74669aefce8577dae10e0eb1bc3933019b741a2"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/structure-mtf-evidence.json",
+      "pointer": "/records/3/text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "13acdff69ff6eeef58f63cccfccdbee3e6ae9b91dbec2003952b59970a6d735e"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/structure-mtf-evidence.json",
+      "pointer": "/records/4/text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "f47786aa747874832363c82ef32a10384f1d6282a575fd5258e72d32eefdbd29"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/structure-mtf-evidence.json",
+      "pointer": "/records/5/text",
+      "reason": "private_verbatim_source_or_decision",
+      "original_value_sha256": "b1cf467d94a18785a01d7b5bfed4a5edf0b9faf501b90f9da5c8321ff3620731"
+    }
+  ],
+  "text_code_adaptations": [
+    {
+      "file": "skills/trade-chart-scenarios/references/indicator-conformance.fa.md",
+      "reason": "public_scope_links_commands_and_historical_local_distinction"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/native-indicators.fa.md",
+      "reason": "public_scope_links_commands_and_historical_local_distinction"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/reference-bank.fa.md",
+      "reason": "public_scope_links_commands_and_historical_local_distinction"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/validation-0.13.fa.md",
+      "reason": "public_scope_links_commands_and_historical_local_distinction"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/validation-0.14.fa.md",
+      "reason": "public_scope_links_commands_and_historical_local_distinction"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/validation-0.15.fa.md",
+      "reason": "public_scope_links_commands_and_historical_local_distinction"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/references/validation-0.16.fa.md",
+      "reason": "public_scope_links_commands_and_historical_local_distinction"
+    },
+    {
+      "file": "tests/test_indicator_conformance.py",
+      "reason": "licensed_BTC_fixture_default_and_effective_timezone_mismatch"
+    },
+    {
+      "file": "tests/expanded_market/fetch.py",
+      "reason": "portable_local_cache_default_no_network_at_import"
+    }
+  ],
+  "omitted_skill_files": [
+    {
+      "file": "skills/trade-chart-scenarios/assets/conformance/EURUSD-D1.json",
+      "private_original_sha256": "592a2d04938aa21a7576ab933edf63e8475d18f91f04d68656ddc858045e401a",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/conformance/EURUSD-H1.json",
+      "private_original_sha256": "a52cf82ce83c749600e856140d2b2d4fd361817cf7029118a4d7cda612b1f656",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/conformance/EURUSD-H4.json",
+      "private_original_sha256": "fc2255210a4a5651ea57ebbb7a4ec038c6babc408c36f81c9cd7237c89589a37",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/conformance/NZDUSD-D1.json",
+      "private_original_sha256": "9e86802e6bb58443658eab1599601dc5061e285be2664eb15923b97bf7dc0e9a",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/conformance/NZDUSD-H1.json",
+      "private_original_sha256": "a55d263fa21171ad6012728108922194f978aeb572cb25a95220e3c987cbc5f0",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/conformance/NZDUSD-H4.json",
+      "private_original_sha256": "c4ee0ded815fd352e2c388a39f23bed3e859ea865a622191266d61778b09a8fb",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/fresh-0.13/BTCUSD-limited-history.json",
+      "private_original_sha256": "8548593eb3a216d3da74d22d0e2b7a471e96bdb9dcc571662f4279947ee069cc",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/fresh-0.13/PROVENANCE.json",
+      "private_original_sha256": "5bac81633cf1f8e9f0c6947bfaa87793acf09a69e1d3232169434244c7e91e3a",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/holdout-0.15/evidence-summary.json",
+      "private_original_sha256": "e920ef0fe0711046410ebae68ccdcea1bd95b80bdc6a851eca71c83997c3c42a",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/holdout-0.15/fixed-real-cases.png",
+      "private_original_sha256": "59020452ef40069d126c2bbf96e3174e3b0a12f1d83c31f97b307042276d0090",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/case-bank.json",
+      "private_original_sha256": "4d36cfbd6ff3f54833588814c94490313df99f38ffeac9f62d9f36847d846404",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/BTCUSD-negative/confirmation-input.json",
+      "private_original_sha256": "2d4c02048239cf639d316480e92e35bbd051c72ba6201d8e367adfadc38c9756",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/BTCUSD-negative/expected.json",
+      "private_original_sha256": "dd01d75628ed5ff28f8d3f9329bbbfb173dec10f1853e8ab22af89691162690a",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/BTCUSD-negative/input.json",
+      "private_original_sha256": "06e19f559947a6ad25dd4afa5c96d8706d8d04769c9199d2c805a82a337a5060",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/BTCUSD-negative/updates.json",
+      "private_original_sha256": "097e0c05cf6b91c2761a3473506595b641cff6a06a426fd0ede97b702fa142c1",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/BTCUSD-positive/confirmation-input.json",
+      "private_original_sha256": "58201d7d7eafc6cee8a3704a5540f233431c31d88a3c12ce99c0eea04158cdca",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/BTCUSD-positive/expected.json",
+      "private_original_sha256": "b5b8b09a8b8f4849405d0660f568c9f575930bb8faa4061329e9781f0c711eea",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/BTCUSD-positive/input.json",
+      "private_original_sha256": "87537334efb7490760d727b1b84d3eeaf7795b4526869ac4c10554851c56dd9d",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/BTCUSD-positive/updates.json",
+      "private_original_sha256": "79367b0ccb4a53de3e2854233237d2e3f3bbe95b018040a8502e83cd48075aa4",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/ETHUSD-negative/confirmation-input.json",
+      "private_original_sha256": "1b7ead14b444350cabad47efca30784fd365da4b6ed14bc438e0af6e9833e809",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/ETHUSD-negative/expected.json",
+      "private_original_sha256": "9c547521da9401ff810d360c9695ae8683680eb69450c22fe6336f5a304ed7ff",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/ETHUSD-negative/input.json",
+      "private_original_sha256": "97111fc923886941782d39e006f3d815ce0a7f5b37222fcd5c52ed3de39a9fc4",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/ETHUSD-negative/updates.json",
+      "private_original_sha256": "afc550f4ae5cd02d34db8c15fdafddd2c04c3226035f0cfb1227b824f34acfd0",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/ETHUSD-positive/confirmation-input.json",
+      "private_original_sha256": "6e69d56e2f8c18270cac4694951529c103df742c417ab6f6ebd8e66350abc6ef",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/ETHUSD-positive/expected.json",
+      "private_original_sha256": "426eb4aaf4bb8f58097b06c730c9738c101f273fc306440b7d1cfcdbc3abfd70",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/ETHUSD-positive/input.json",
+      "private_original_sha256": "d23a1263238a455d46e2a443a3a1bfbde52971901b039cb9a2ff9bb694baeb29",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/ETHUSD-positive/updates.json",
+      "private_original_sha256": "83ed9192f02c953581f3fc6d8d50a8f22bc819905c08f740d4e8526d3118a45b",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/EURUSD-negative/confirmation-input.json",
+      "private_original_sha256": "e32410ddc786aba836d9d97c6837152c55cd8e27671ed0dfa81cc4cad3a3a0bf",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/EURUSD-negative/expected.json",
+      "private_original_sha256": "4b172b9714ee01a49c3168d64a2068c363ed3182a03c59a1c449ff565f54d32e",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/EURUSD-negative/input.json",
+      "private_original_sha256": "233bf5b7e0a415d8e865d64bee98638c43432b79cd27d1e003d4b74af80869be",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/EURUSD-negative/updates.json",
+      "private_original_sha256": "40819eaa5d13679fa2574b28a860b0b5e648269f240760ad43516b1fe121e4aa",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/EURUSD-positive/confirmation-input.json",
+      "private_original_sha256": "e5c9341b0288e0f98769ec0eaf62d739647332fba4af8ff60c18778668b63764",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/EURUSD-positive/expected.json",
+      "private_original_sha256": "0e149191372ccd2c085b74707719571421d3049adebb25fb94e5474e29e7a082",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/EURUSD-positive/input.json",
+      "private_original_sha256": "80365a289efc02c5b22dd88b1c7195c042662dd115bc92e7785302e7e80dcfce",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/EURUSD-positive/updates.json",
+      "private_original_sha256": "286b0d7c3150b00dc2217dae1c6035e62ec339047d01d5c84398336f4a94398c",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/USDJPY-negative/confirmation-input.json",
+      "private_original_sha256": "f25af33df03ccef42ec660637dc8a6455be6e5855922ecb94d4688f6f5d30ab6",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/USDJPY-negative/expected.json",
+      "private_original_sha256": "4e4c32f4f8bf73f097895324768fa2097681d7f70dd979f9500b893071d29a47",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/USDJPY-negative/input.json",
+      "private_original_sha256": "5cc495c45245aec36b5b0bc5f9fb920144e619b14a23de53225738361856cd77",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/USDJPY-negative/updates.json",
+      "private_original_sha256": "6028c421675fcdaecb7da16878c4687a29ec289f2f08c9c90cb20a2e3a0a769f",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/USDJPY-positive/confirmation-input.json",
+      "private_original_sha256": "6f7869da96722df889c307072460fe5c7788dd23e58d6be1028ce84136367177",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/USDJPY-positive/expected.json",
+      "private_original_sha256": "daccbec5dd970b019e0ced72661cb4626158bad3d44b4289c224a1054ab81f04",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/USDJPY-positive/input.json",
+      "private_original_sha256": "54d3c1ae01cf8911f15a71733e176e6dc4b5d8846a3dc5b8e324c2200930c517",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/cases/USDJPY-positive/updates.json",
+      "private_original_sha256": "dca9b1bbd63506e07754794231570fc021bc240687f0c0fb92a8cb5f1be3e379",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/context-review/BTCUSD-intervening-pinbar-input.json",
+      "private_original_sha256": "17bb7debb5d6ec5c6c96600d15a9a289ff47a23247b14496acd7906fcc97a844",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/context-review/ETHUSD-intervening-self-cover-input.json",
+      "private_original_sha256": "98c5610a110814af0b31571ef7839da82b666cb8f8fc7b9d75dcb0c810036f8d",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/context-review/provenance.json",
+      "private_original_sha256": "9e8fbf09789a5f922c4f163d3831d3a6069bccb9aa7afb6d7abb20b9382ee99a",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/real-setups-0.16/real-positive-negative.png",
+      "private_original_sha256": "12e68937e5f9e4b251fb96e27825e255e7b67a95c812605b42a7e435d2617f0f",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/reference-bank-0.14/freeze-receipt.json",
+      "private_original_sha256": "297ddf6f7f4fc3fba8f964496fb1d8ceed2839e131e96e78427884b5f6c6cc44",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/reference-bank-0.14/frozen-labels.json",
+      "private_original_sha256": "b2acb922ab68cfb76e27dabbfa6f25148bccaa9b23290cba2a487b2e21a297a3",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/reference-bank-0.14/reference-examples.png",
+      "private_original_sha256": "6544cb249cb9ee4ab526f744748584aaa6e6e12aec467936e853a73faa35c95a",
+      "reason": "not_in_public_data_rights_allowlist"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/reference-bank-0.14/selection-protocol.json",
+      "private_original_sha256": "69c86b4174654fde597fd3a3dc51ba618cc2fb3d85241c293496b5db159544f6",
+      "reason": "not_in_public_data_rights_allowlist"
+    }
+  ],
+  "omitted_test_files": {
+    "test_fresh_media_regressions.py": {
+      "methods": 4,
+      "reason": "Yahoo historical fixtures: redistribution permission unverified"
+    },
+    "test_real_setup_cases.py": {
+      "methods": 4,
+      "reason": "Yahoo direct/aggregate real setup fixtures: redistribution permission unverified"
+    },
+    "test_real_market_regressions.py": {
+      "methods": 9,
+      "reason": "Mixed FXCM/Binance historical fixture dependency; original mixed-source test kept private"
+    }
+  },
+  "historical_0_16_local_unit_count": 328,
+  "historical_0_16_public_unit_count": 311,
+  "planned_public_test_methods": 319,
+  "test_execution_status": "not_run_by_packager",
+  "conformance_fixtures": 29,
+  "conformance_rows": 798,
+  "price_or_numeric_rule_changes": false,
+  "code_license_grant": null,
+  "note": "Hashes exclude this manifest and Git metadata. Historical evidence, current private source and sanitized public copy have explicitly different scopes. Publication and merge are recorded by Git history and GitHub checks.",
+  "manifest_updated_at": "2026-11-01T09:28:50.692718+00:00",
+  "current_local_unit_count": 337,
+  "current_public_unit_count": 320,
+  "root_added_checks": [
+    "long-history complete inventory, bounds and nearest obstacle",
+    "cross-process frozen-decision validation with three distinct hash seeds",
+    "two licensed original-price study examples with explicit post-freeze lifecycle adjudication",
+    "portable exact-tree verification",
+    "offline regression runner",
+    "read-only pinned GitHub Actions Windows/Linux matrix"
+  ],
+  "original_source_files_scope": "Private inputs at initial public preparation. Subsequent root-owned implementation/documentation corrections are reflected by public_files and Git history."
+}

@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-25T01:45:02Z",
+  "series": {
+    "symbol": "SYNTHETIC",
+    "market": "forex",
+    "feed_id": "synthetic-example",
+    "price_basis": "mid",
+    "timeframe": "M15",
+    "chart_type": "standard_ohlc",
+    "tick_size": "0.5",
+    "session_definition": "synthetic continuous session",
+    "source_timezone": "UTC",
+    "atr_period": 3,
+    "bars": [
+      {
+        "id": "w0",
+        "open_time": "2026-10-25T00:00:00Z",
+        "close_time": "2026-10-25T00:15:00Z",
+        "available_at": "2026-10-25T00:15:00Z",
+        "is_closed": true,
+        "open": "92",
+        "high": "97",
+        "low": "87",
+        "close": "92"
+      },
+      {
+        "id": "w1",
+        "open_time": "2026-10-25T00:15:00Z",
+        "close_time": "2026-10-25T00:30:00Z",
+        "available_at": "2026-10-25T00:30:00Z",
+        "is_closed": true,
+        "open": "92",
+        "high": "97",
+        "low": "87",
+        "close": "92"
+      },
+      {
+        "id": "w2",
+        "open_time": "2026-10-25T00:30:00Z",
+        "close_time": "2026-10-25T00:45:00Z",
+        "available_at": "2026-10-25T00:45:00Z",
+        "is_closed": true,
+        "open": "92",
+        "high": "97",
+        "low": "87",
+        "close": "92"
+      },
+      {
+        "id": "w3",
+        "open_time": "2026-10-25T00:45:00Z",
+        "close_time": "2026-10-25T01:00:00Z",
+        "available_at": "2026-10-25T01:00:00Z",
+        "is_closed": true,
+        "open": "92",
+        "high": "97",
+        "low": "87",
+        "close": "92"
+      },
+      {
+        "id": "b0",
+        "open_time": "2026-10-25T01:00:00Z",
+        "close_time": "2026-10-25T01:15:00Z",
+        "available_at": "2026-10-25T01:15:00Z",
+        "is_closed": true,
+        "open": "92",
+        "high": "104",
+        "low": "92",
+        "close": "103"
+      },
+      {
+        "id": "b1",
+        "open_time": "2026-10-25T01:15:00Z",
+        "close_time": "2026-10-25T01:30:00Z",
+        "available_at": "2026-10-25T01:30:00Z",
+        "is_closed": true,
+        "open": "103",
+        "high": "106",
+        "low": "101",
+        "close": "103.5"
+      },
+      {
+        "id": "b2",
+        "open_time": "2026-10-25T01:30:00Z",
+        "close_time": "2026-10-25T01:45:00Z",
+        "available_at": "2026-10-25T01:45:02Z",
+        "is_closed": true,
+        "open": "103.5",
+        "high": "107",
+        "low": "103",
+        "close": "105"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "resistance-100",
+      "kind": "pivot_zone",
+      "side": "resistance",
+      "timeframe": "M15",
+      "lower": "99",
+      "upper": "100",
+      "origin_at": "2026-10-24T12:00:00Z",
+      "available_at": "2026-10-24T12:00:00Z",
+      "source_refs": [
+        "input:synthetic-manual-annotation"
+      ],
+      "construction_method": "explicit_synthetic_zone"
+    },
+    {
+      "id": "target-120",
+      "kind": "pivot_zone",
+      "side": "resistance",
+      "timeframe": "M15",
+      "lower": "120",
+      "upper": "121",
+      "origin_at": "2026-10-24T12:00:00Z",
+      "available_at": "2026-10-24T12:00:00Z",
+      "source_refs": [
+        "input:synthetic-manual-annotation"
+      ],
+      "construction_method": "explicit_synthetic_zone"
+    }
+  ],
+  "assessment": {
+    "model": "strict_three_bar_confirmation_v1",
+    "candidate_bar_id": "b0",
+    "direction": "up",
+    "level_id": "resistance-100",
+    "context_available_at": "2026-10-24T12:00:00Z",
+    "context_source_ref": "input:synthetic-reviewed-context",
+    "target_level_id": "target-120"
+  },
+  "level_analysis": {
+    "profile": "levels_targets_v1",
+    "target_request": {
+      "direction": "up",
+      "selection_bar_id": "b2",
+      "anchor_level_id": "resistance-100",
+      "scenario_start_bar_id": "b0"
+    }
+  }
+}

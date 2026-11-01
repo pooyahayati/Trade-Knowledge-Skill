@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-26",
+  "contract_id": "native_foundation_sources_v1",
+  "sources": [
+    {"id":"PLATFORM-PINE-TYPES","url":"https://www.tradingview.com/pine-script-docs/language/type-system/","use":"Float comparison rounding and non-nullable bool; use integer-sign comparisons and explicit unknown state"},
+    {"id":"PLATFORM-PINE-CLOSE","url":"https://www.tradingview.com/pine-script-docs/concepts/bar-states/","use":"Confirmed-chart-bar gate; no multi-timeframe confirmation claim"},
+    {"id":"PLATFORM-PINE-EXECUTION","url":"https://www.tradingview.com/pine-script-docs/language/execution-model/","use":"Realtime rollback and persistent state; real-time execution remains untested"},
+    {"id":"PLATFORM-MQL4-HISTORY","url":"https://docs.mql4.com/basis/function/events","use":"OnCalculate signature and prev_calculated zero after history changes"},
+    {"id":"PLATFORM-MQL5-HISTORY","url":"https://www.mql5.com/en/book/applications/indicators_make/indicators_oncalculate","use":"History recalculation and return semantics"},
+    {"id":"PLATFORM-MQL-INCLUDE","url":"https://www.mql5.com/en/docs/basis/preprosessor/include","use":"Main-source-relative quoted include paths; both headers included explicitly by each wrapper"},
+    {"id":"LOCAL-PINETS","url":"https://github.com/LuxAlgo/PineTS","version":"0.13.0","use":"Development-only execution of exact Pine source, not native TradingView validation"},
+    {"id":"LOCAL-PINETS-PRECISION","url":"https://luxalgo.github.io/PineTS/architecture/runtime/context/","use":"Default ten-place rounding observed; raw-double adapter explicitly applied in test process"}
+  ],
+  "local_runtime": {
+    "host_cpp": "g++ 13.3.0, Ubuntu WSL, C++17",
+    "node": "24.19.0",
+    "pinets_version": "0.13.0",
+    "pinets_license": "AGPL-3.0-only",
+    "pinets_bundle_sha256": "cc097e5012508e020f152681781af5bbde8254a4fce3c4d48b83e6b4fe543d47",
+    "pinets_osv_query": "No listed vulnerabilities returned for exact version at review time",
+    "pinets_modified_vendor_bundle": false,
+    "pinets_test_adapter": "Context.prototype.precision returns the raw input number",
+    "third_party_runtime_packaged_with_skill": false
+  },
+  "test_evidence": "tests/native_indicators/verification",
+  "arithmetic_sources": "Same delivered kernels; existing frozen oracle vectors plus additional rational-oracle cases",
+  "independent_human_or_model_review": false,
+  "native_execution_verified": false,
+  "design_choices": ["Explicit anchor", "Price-grid difference restoration", "Native price/quantum precision ceiling", "Conservative exclusion of MetaTrader index zero"],
+  "source_priority_changed": false,
+  "new_trex_trading_rules_added": false
+}

@@ -1,0 +1,115 @@
+{
+  "contract_id": "levels-targets-extension-v1",
+  "version": 1,
+  "date": "2026-10-25",
+  "extends": "rule-contract.v1.json",
+  "base_contract_unchanged": true,
+  "implementation": "skill 0.2.0; optional level_analysis; legacy arithmetic assessment retained",
+  "clauses": [
+    {
+      "id": "LVL-E01",
+      "topic": "Evidence and construction",
+      "source_refs": [
+        "X-PIVOT-B4",
+        "X-PIVOT-B5",
+        "X-PIVOT-B7",
+        "X-PIVOT-B9",
+        "S2-TREX-173",
+        "S2-TREX-176",
+        "S2-TREX-178"
+      ],
+      "rules": [
+        "Keep source, symbol/feed/price basis, timeframe, origin, confirmation and availability separate. Supplied levels are unverified annotations until evidence is checked.",
+        "Ordinary profile requires explicit master, extreme, context reference and context availability; validate one preleg route, strict close cover and selected exact construction. Arithmetic consistency does not independently certify analyst context or highest valid timeframe.",
+        "Three-standard-bars route: at least three ordered distinct known bars of standard range, directional toward the pivot, ending by the master. Intervening noise remains contextual.",
+        "Length alternative: explicitly supplied start/end, ATR snapshot bar and positive threshold. Engineering distance is start open to end directional extreme; ATR is the baseline before atr_bar_id. Never silently require both routes.",
+        "First closed bar strictly across master extreme confirms cover; first two are timely, later is late without erasing the level. Extreme must belong to the preleg-start through cover interval.",
+        "Wick-to-body uses selected extreme candle; half-ATR uses frozen prior-bar ATR at that extreme. No method union, price rounding, arbitrary tolerance or silent timeframe reassignment.",
+        "Zero-width wick requires construction review. Unusual width relative to ATR is a review flag, not an invented numerical rejection threshold.",
+        "Order nodes, exceptional/self-cover pivots and dynamic trendlines need separate evidence and remain outside automated structural validation."
+      ]
+    },
+    {
+      "id": "LVL-E02",
+      "topic": "Optional candidate discovery",
+      "source_refs": [
+        "DESIGN-SWING-01",
+        "X-PIVOT-B5"
+      ],
+      "rules": [
+        "Explicit left/right windows 1..20; default is no discovery. Test profile is 2/2, not a calibrated trading parameter.",
+        "Strict low below or high above every neighboring bar; equal extrema are unresolved plateaus. Candidate becomes available only after all right-side bars close and dependencies are available.",
+        "Swing geometry is not a Trex pivot, a structural master, an inferred institution/order pool or an entry signal. Output always needs structural review unless separate ordinary evidence is supplied.",
+        "No backdating availability to extreme candle; no selection using future prices."
+      ]
+    },
+    {
+      "id": "LVL-E03",
+      "topic": "Lifecycle and overlap",
+      "source_refs": [
+        "X-LEVEL-B3",
+        "X-LEVEL-B4",
+        "S2-TREX-218",
+        "S2-TREX-252",
+        "DESIGN-LIFECYCLE-01"
+      ],
+      "rules": [
+        "Touch means observed OHLC range intersects zone; consecutive touching full bars are one descriptive episode. Formation bars are excluded; partial availability is explicitly ambiguous.",
+        "Closed price beyond far edge ends active original role for this conservative selection profile; wick penetration or equality does not. This close-through flag is not the strict three-bar breakout model.",
+        "Original identity/timeframe remain; no automatic opposite role or restoration after a return. New role needs new context and identity/version.",
+        "Overlapping/touching intervals are identity groups, not merged price bounds or multiple independent confirmations. Connected chains are disclosed without widening an original zone.",
+        "Touch counts, age, departure speed/size, round numbers, volume source and higher timeframe are review descriptors, not automatic scores or probability decay. Forex volume is feed-specific."
+      ]
+    },
+    {
+      "id": "TGT-E01",
+      "topic": "Selection and independence",
+      "source_refs": [
+        "X-LEVEL-B4",
+        "S2-TREX-826",
+        "S2-TREX-871",
+        "DESIGN-TARGET-01"
+      ],
+      "rules": [
+        "Use opposing original-role levels ahead in direction. Long uses resistance near/lower edge; short uses support near/upper edge. Exact zone bounds persist.",
+        "Scenario pool freezes at scenario-start bar open; anchor must already be known and not broken. A map without scenario uses selection-bar availability and last close.",
+        "Nearest independent obstacle comes first, including unreviewed candidates. Never skip it to select a farther validated target or to improve reward/risk.",
+        "Overlapping anchor components extending into the path and zones containing reference require zone review; do not label same area an independent target.",
+        "Levels with a broken original role before freeze are excluded but retained in audit. Levels discovered after freeze cannot be backfilled into that scenario.",
+        "Cross-timeframe/source comparisons require properly closed aligned evidence; this single-series helper cannot clear higher-timeframe obstacles or verify another feed.",
+        "No known target means no known target; no invented projection, automatic ATR multiplier or confidence."
+      ]
+    },
+    {
+      "id": "TGT-E02",
+      "topic": "Consumption and scenario gate",
+      "source_refs": [
+        "S2-TREX-826",
+        "X-TRADE-B10",
+        "DESIGN-TARGET-01"
+      ],
+      "rules": [
+        "Track selected frozen target from scenario-start through selection close. If reached before confirmation, the original scenario needs reassessment. Do not silently roll to a farther target.",
+        "Price gap beyond zone consumes room for this profile but does not prove a traded touch, order execution or fill. OHLC does not reveal exact intrabar order.",
+        "Historical scenario invalidation takes priority; target review must not overwrite invalidated status or create events after termination.",
+        "Legacy template status remains geometric. When level_analysis is requested, continuation additionally requires ordinary anchor consistency, conditional nearest target, matching anchor/direction/start/current selection/target IDs. It still requires higher timeframe, entry and risk review.",
+        "Projected targets from Excel trade B10 (3/7 trigger ATR or structure-minus-trigger ATR) remain hypotheses. Anchor price, safety offset, timeframe alignment and empirical validation are unresolved; never assert high reversal probability or guaranteed range.",
+        "Risk/reward cannot be inferred from level distance alone; entry/stop/execution costs and instrument specifications are required. No trading orders or sizing."
+      ]
+    }
+  ],
+  "engineering_assumptions": [
+    "Strict swing windows",
+    "start-open to end-extreme displacement measurement with explicit threshold",
+    "close-through conservative lifecycle",
+    "inclusive overlap identity grouping",
+    "freeze at scenario start and nearest obstacle veto"
+  ],
+  "not_empirically_validated": [
+    "success probabilities",
+    "20 percent decay per touch",
+    "ATR target multiples",
+    "highest timeframe automatic discovery",
+    "institutional activity inferred from OHLC"
+  ]
+}

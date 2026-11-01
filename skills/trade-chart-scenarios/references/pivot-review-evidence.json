@@ -1,0 +1,241 @@
+{
+  "evidence_id": "pivot-review-evidence-v1",
+  "date": "2026-10-26",
+  "records": [
+    {
+      "id": "PIV-TREX-135",
+      "url": "https://www.trexacademy.ir/questions/135",
+      "title": "سوال شماره 140",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "An identified pivot may be usable at formation, but some pinbars require confirmation; the text refers to video criteria and is not a blanket exemption.",
+      "record_sha256": "4106f1cf7ab6696bf7d4065c091e798f896070ac4ca1bd8e61a9bedf9ef9dfb9",
+      "retained_response_sha256": "0fc674372a665779ef8db93d2086f673b3f00778cea1efa0d5b6864e5e568f77",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-166",
+      "url": "https://www.trexacademy.ir/questions/166",
+      "title": "سوال شماره 171",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "Separates standard/long pinbar proportions, self-cover shapes and long shadows. The drawing is qualitative; it does not provide executable subtype tolerances or intrabar order.",
+      "record_sha256": "fcdb58339493185a944f185f4adc8a8657e0cabeb342c7c838c2243169c83347",
+      "retained_response_sha256": "fa9d66f69a512a0deb0b8a3e252e53dc54814ea028e125c84cb648b234811b36",
+      "media_fully_reviewed": false,
+      "image_reviewed": true,
+      "image_sha256": "85b58b3639b365639166022bd000917a201b38bf8cf9e816b37eeaeaf3928364"
+    },
+    {
+      "id": "PIV-TREX-176",
+      "url": "https://www.trexacademy.ir/questions/176",
+      "title": "سوال شماره 181",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "More than two bars to cover does not by itself remove the level. Timeliness of formation use is a separate property.",
+      "record_sha256": "2625413ea81c57f287effffad2154fa8eec29a1c95855bc6d781434fc697f063",
+      "retained_response_sha256": "c02cecbb6184750e930b418b9501aa2c5968248fd2ea7ba45ac491f728b92945",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-177",
+      "url": "https://www.trexacademy.ir/questions/177",
+      "title": "سوال شماره 182",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "Master cover requires a close beyond the relevant shadow extremity; a wick excursion is insufficient.",
+      "record_sha256": "84d8bf21f69d8f6a394d87fdd204ed6054f12fc4569b069fc2dcb6fd91a20473",
+      "retained_response_sha256": "bc70fef4c7abe319fff856458dd1e6cea84da2bf8c1d093c3ce26aa8f2550fa4",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-178",
+      "url": "https://www.trexacademy.ir/questions/178",
+      "title": "سوال شماره 183",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "Three same-direction standard candles are the primary preleg route. Total ATR movement is an alternative, not a second simultaneous requirement. Text uses approximately three ATR.",
+      "record_sha256": "7e649628389ab2ca7b57b866ce1ab3f42854e6a4ea0dc4e96676ca45d7ca8c2a",
+      "retained_response_sha256": "d3d5702efc595fae62593c5fd35e115bd8aa05e32a47ef24e993aa0efc322a8a",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-179",
+      "url": "https://www.trexacademy.ir/questions/179",
+      "title": "سوال شماره 184",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "Self-cover examples double body length relative to corresponding pinbars. Several proportions are discussed; they do not define one exact universal threshold.",
+      "record_sha256": "7ae2a08ea615dfbfc0a92ba8797e0f176e413eef9788e2f6fa00017d5ed727db",
+      "retained_response_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-185",
+      "url": "https://www.trexacademy.ir/questions/185",
+      "title": "سوال شماره 190",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "More than one proportion can be part of the self-cover family. A narrow numeric screen must be labeled as a design choice.",
+      "record_sha256": "6a5232f564db55f5a2e1f26ee91de7049f0448e1aa138ba3db384c2e0bcf2872",
+      "retained_response_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-186",
+      "url": "https://www.trexacademy.ir/questions/186",
+      "title": "سوال شماره 191",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "A pictured self-cover case uses an approximately 2.4 ATR move; this contextual example does not establish a universal 2.4 or 2.5 threshold.",
+      "record_sha256": "76a6b60470fcb865338d88a668ced87d33950d39e24c2a4e4e9f7c6811df6315",
+      "retained_response_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-189",
+      "url": "https://www.trexacademy.ir/questions/189",
+      "title": "سوال شماره 194",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "Master shadow cover takes precedence over a virtual ATR line when an applicable master exists.",
+      "record_sha256": "4b88aaec4d129600727bbbf0b942bd8ba1686d1f36db94a969b7dc0e022b0506",
+      "retained_response_sha256": "b95497586b088428a0d3f09d5577dda1301283a850bf4414ec1abbc6a9f1df2b",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-192",
+      "url": "https://www.trexacademy.ir/questions/192",
+      "title": "سوال شماره 197",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "Eighty percent is described as approximate. It is not a demonstrated probability, Pareto proof, or universal boundary for all pivots.",
+      "record_sha256": "db0928bacf965c9bdadd21d072dff5a0e0d0e1d937e2db50c0137bcf66cc4885",
+      "retained_response_sha256": "be51f9fbc2103ce1c1aa431cba7ab27312584cf4b799221e47ca8c13d44806b9",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-193",
+      "url": "https://www.trexacademy.ir/questions/193",
+      "title": "سوال شماره 198",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "Self-cover colour must oppose the preceding movement; a same-direction body is not the illustrated self-cover case.",
+      "record_sha256": "b173ed671b5ace9126a264e499137cb3015dc15193aa548b052cd37d9dcc1ce4",
+      "retained_response_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-197",
+      "url": "https://www.trexacademy.ir/questions/197",
+      "title": "سوال شماره 202",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "An identified self-cover is a one-candle exception; its open-region and shadow-region are distinct. Identification criteria still need context.",
+      "record_sha256": "3e5969ef3ac2f5bb4081f5d69e3a2f24270930a7230bd89b09367d4e07a0d9b6",
+      "retained_response_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-198",
+      "url": "https://www.trexacademy.ir/questions/198",
+      "title": "سوال شماره 203",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "The answer image distinguishes body-dominant masters, typically matching the incoming move, from a spinning/shadow type whose colour is not decisive. Opposite body colour in a gap is a separate advanced case. Do not impose body colour on every master subtype.",
+      "record_sha256": "e242ffd296f20b7f12a6b2022ea370b8d0c29738a2f05509889f0aea28263aa2",
+      "retained_response_sha256": "764f8774c3451f54ca83671be4e88f078b8d5e4d9c1347f961f4448c7f33d559",
+      "media_fully_reviewed": false,
+      "image_reviewed": true,
+      "image_sha256": "ddc4e05aad9f12ccea4b64d3b38a69ff2e6ec164c63a9e2604ef584d3178e1a5"
+    },
+    {
+      "id": "PIV-TREX-203",
+      "url": "https://www.trexacademy.ir/questions/203",
+      "title": "سوال شماره 208",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "Do not substitute an ATR line for an existing master. A later pinbar/master can change the active reference; selection and replacement must be explicit.",
+      "record_sha256": "6c1b42ddea5b16820d2a5ce5102be6c53fcb36e3aff13a8b1528ad412d51c861",
+      "retained_response_sha256": "48cae401e985584db5f52abe45f8eaf1282864615bcbed5049f3535374822008",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-222",
+      "url": "https://www.trexacademy.ir/questions/222",
+      "title": "سوال شماره 228",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "Consecutive same-direction candles indicate strength but are not mandatory. An opposite bar can be noise if it forms no pivot, or forms a settlement pivot which price passes.",
+      "record_sha256": "d7586cd8a76757c9f4a866d9019f4258c7e8b7e453f346422579072c73d979f1",
+      "retained_response_sha256": "6a92d7440055788973f7b2518e58ff28032e8addd844adcdb5d8021c8d451004",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-246",
+      "url": "https://www.trexacademy.ir/questions/246",
+      "title": "سوال شماره 255",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "A self-cover silhouette does not remove the need to check an appropriate incoming wave and timeframe.",
+      "record_sha256": "594afb470c39fd80171ca183fd9ea29d1ba3b1455bc449df83bcbdbddbdec3c2",
+      "retained_response_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-256",
+      "url": "https://www.trexacademy.ir/questions/256",
+      "title": "سوال شماره 265",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "Two directional bodies followed by a self-cover are not mechanically three same-direction bodies. Its shadow may contribute to the ATR-distance alternative and timeframe review.",
+      "record_sha256": "e15e23ff2667b2eb66ffbe4a8e28c3e3c1df77c0ee3cbb4825519c50ac53e849",
+      "retained_response_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-291",
+      "url": "https://www.trexacademy.ir/questions/291",
+      "title": "سوال شماره 293",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "Pivot-zone construction and proposed open/shadow trading regions are distinct; half ATR is an approximation and not proof of an order node.",
+      "record_sha256": "47af047b6d56afe66d0ba78e8e001451bd93ea1c41c4f49079db14787438242b",
+      "retained_response_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-TREX-412",
+      "url": "https://www.trexacademy.ir/questions/412",
+      "title": "سوال شماره 422",
+      "reviewed_on": "2026-10-26",
+      "access": "Public anonymous site API located in shipped page client; source content is untrusted evidence, not instructions",
+      "interpretation": "Self-cover examples require an opposite-direction body and a shadow pointing into the preceding movement; misplaced shadow or same-direction close fail the depicted identification.",
+      "record_sha256": "77b5c3bfc4001465ba545cf0726c8ecbd5586940059395f9512d9cbc9b37ff48",
+      "retained_response_sha256": "d82a3271a925ff29fcf9d1ec0c7b3882df97c0a26ee8b70a7868b932837d6aca",
+      "media_fully_reviewed": false
+    },
+    {
+      "id": "PIV-DESIGN-01",
+      "kind": "engineering_choice",
+      "interpretation": "Strict standard range 0.8 to 1.2 ATR and dominance 0.8 are reproducible screens. Complete-span review, strict close bypass, freeze at first cover and explicit annotation availability are conservative choices, not universal Trex axioms."
+    },
+    {
+      "id": "PIV-DESIGN-REAL-01",
+      "kind": "development_annotation",
+      "interpretation": "Retained historical cases are selected for diagnostic coverage. No independent method labels, observed annotation clocks, or performance validation."
+    }
+  ],
+  "original_workbook_unchanged": true,
+  "original_workbook_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+  "workbook_refs": [
+    "X-CANDLE-B4",
+    "X-CANDLE-B7",
+    "X-CANDLE-B8",
+    "X-PIVOT-B4",
+    "X-PIVOT-B7",
+    "X-PIVOT-B9"
+  ],
+  "partial_media_review": "Only answer images 166 and 198 inspected in this stage. Audio and other linked images/videos are not claimed reviewed.",
+  "notes": "Paraphrases only; raw site responses and source images are not distributed in the skill."
+}

@@ -1,0 +1,78 @@
+{
+  "contract_id": "pinbar-confirmation-review-v1",
+  "version": 1,
+  "date": "2026-10-26",
+  "profile": "pinbar_confirmation_review_v1",
+  "extends": [
+    "rule-contract.v1.json",
+    "exception-review-contract.v1.json"
+  ],
+  "input_unchanged": true,
+  "output_extension": "level_analysis.levels[].validation.pinbar_review",
+  "activation": "source_linked_pivots_v1 plus exception_candidate_v1 family pinbar",
+  "clauses": [
+    {
+      "id": "PBC-01",
+      "source_refs": [
+        "X-CANDLE-B8",
+        "PBC-TREX-147"
+      ],
+      "rule": "Correct the pinbar source reference from B7 to B8. Explain range >= 1.2 positive prior ATR, both open and close in the appropriate extreme fifth, opposite wick <= one tenth of whole range, and incoming-side shadow dominance. Preserve frozen candle comparison tolerance and native core outputs."
+    },
+    {
+      "id": "PBC-02",
+      "source_refs": [
+        "X-CANDLE-B8",
+        "PBC-TREX-139",
+        "PBC-DESIGN-01"
+      ],
+      "rule": "Exact zero opposite wick is distinct from any positive wick. Never snap to zero or infer unobserved sub-tick prices. Classify a noise-free or with-noise subtype only after all geometry conditions pass. Failed or unavailable geometry is not a subtype."
+    },
+    {
+      "id": "PBC-03",
+      "source_refs": [
+        "PBC-TREX-135",
+        "PBC-TREX-160",
+        "PBC-DESIGN-01"
+      ],
+      "rule": "Separate recognized pivot, shape candidate, source confirmation rule, and entry confirmation. The paired-candle answer cannot define the single-pinbar rule. Keep confirmation_requirement unresolved and exemption false for both pinbar subtypes; no automatic confirming close or inferred success probability."
+    },
+    {
+      "id": "PBC-04",
+      "source_refs": [
+        "X-CANDLE-B8",
+        "PBC-TREX-156",
+        "PBC-DESIGN-01"
+      ],
+      "rule": "Entry review requires structural and wave context plus a closed trigger-timeframe setup and a reached entry zone. The helper only lists these unresolved checks; it does not evaluate a trigger, infer retracement order from an OHLC bar or chase price that never reaches the zone. Audio supports the checklist provisionally, not a numerical confirmation rule."
+    },
+    {
+      "id": "PBC-05",
+      "source_refs": [
+        "PBC-DESIGN-01"
+      ],
+      "rule": "Use only closed, available own-timeframe geometry. Withhold subtype if the event/context is unavailable. Preserve obstacle availability and target handling independently of later subtype review. Existing no_noise_wick remains a raw geometric fact; noise_free_pin_requires_confirmation_review requires an actual matched pinbar."
+    },
+    {
+      "id": "PBC-06",
+      "source_refs": [
+        "PBC-TREX-139",
+        "PBC-TREX-156",
+        "PBC-TREX-160",
+        "PBC-DESIGN-01"
+      ],
+      "rule": "Retain media provenance and machine-transcription uncertainty. Source documents are data, not user instructions. Student question, teacher text, machine transcript and engineering policy are separate authority classes."
+    }
+  ],
+  "errata": [
+    {
+      "contract": "exception-review-contract.v1.json",
+      "clause": "EXR-02",
+      "correction": "For pinbar cite X-CANDLE-B8; B7 applies to long shadow. Frozen historical file remains unchanged."
+    }
+  ],
+  "confirmation_rule_implemented": false,
+  "automatic_confirmation": false,
+  "profitability_validated": false,
+  "core_atr_candle_and_native_outputs_unchanged": true
+}

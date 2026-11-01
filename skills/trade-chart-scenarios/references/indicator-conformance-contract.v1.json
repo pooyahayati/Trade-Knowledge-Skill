@@ -1,0 +1,33 @@
+{
+  "contract_id": "stable_indicator_conformance_v1",
+  "schema_version": 1,
+  "date": "2026-10-26",
+  "scope": "Closed raw OHLC, true range, custom Wilder ATR and candle geometry only. No structural pivot, signal or profit validation.",
+  "fixture_keys": ["schema_version", "contract_id", "fixture_id", "input", "expected_rows", "provenance"],
+  "export_keys": ["schema_version", "contract_id", "fixture_id", "fixture_sha256", "implementation", "input", "rows"],
+  "implementation_keys": ["platform", "version", "run_kind"],
+  "platforms": ["python_reference", "pine_v6", "mql4", "mql5"],
+  "price_fields": ["true_range", "atr_after_bar", "baseline_atr", "range", "body", "upper_wick", "lower_wick"],
+  "ratio_fields": ["baseline_seed_weight", "range_ratio", "comparison_ratio", "body_fraction", "close_location"],
+  "exact_fields": ["id", "open_time", "close_time", "available_at", "is_closed", "baseline_bar_id", "length_class", "standard_dominant_candidate", "pinbar_candidate"],
+  "length_classes": ["not_computable", "flat_bar", "short", "standard", "long_range", "very_long_range"],
+  "rules": {
+    "identity": "Input must equal the entire canonical fixture input, including OHLC, history start, cutoff, feed, price basis, session, availability, grid, periods and declared gaps. A claimed hash without the input is insufficient.",
+    "canonical_hash": "SHA256 of UTF-8 json.dumps(value, sort_keys=True, ensure_ascii=False, separators=(',', ':')). Fingerprint is integrity, not proof of runtime origin.",
+    "ordering": "Oldest to newest, unique IDs; one output per usable prefix candle. Open or unavailable middle candle blocks all later candles; do not compress holes.",
+    "first_true_range": "First candle has no previous close: null. Seed on the mean of the first n subsequent true ranges. Never silently include first high-low or warm up from extra history.",
+    "recurrence": "ATR_after_i=((n-1)*ATR_after_(i-1)+TR_i)/n after seed. Candle i uses ATR_after_(i-1). At index n the ATR first exists; at index n+1 the first baseline exists.",
+    "zero_and_null": "null is unavailable, zero is a measured value. Never substitute EMPTY_VALUE, NaN, Infinity or zero for null. Flat bars have false candidates even before ATR is ready.",
+    "comparison": "Use existing excel_periods_wilder_v1 candle formulas and dimensionless 1e-9 threshold snap. Compare decision labels, bools, nulls, IDs and clocks exactly. Numerical tolerance never excuses a decision mismatch.",
+    "price_tolerance": "max(tick_size * 0.000001, abs(expected) * 0.000000000001)",
+    "ratio_tolerance": "max(0.000000000001, abs(expected) * 0.000000000001)",
+    "boundary_snapped": "Diagnostic intentionally excluded: exact versus near boundary floating representations may differ; comparison_ratio and categorical outcomes remain checked.",
+    "numeric_encoding": "Finite unsigned or signed decimal strings, at most 18 integer and 80 fractional digits, no exponent or JSON floats. null only where the golden row has null. Booleans must be JSON booleans.",
+    "runtime_claims": "A native_export label is self-reported metadata. Comparator success certifies only these submitted inputs and values. Actual native execution requires separately retained compiler/build, source hash, run evidence and export hash.",
+    "cli": "reference --fixture PATH emits a python_reference export; compare --fixture PATH --export PATH emits pass/mismatch/invalid_input. Exit 0/1/2 respectively. Both read local files and print JSON; no network, writes, installation or orders."
+  },
+  "limits": {"max_file_bytes": 16777216, "max_rows": 10000, "max_reported_mismatches": 100},
+  "threat_model": ["Untrusted JSON may forge platform metadata or reference hashes; no authentication claim", "Reject duplicate keys, unknown keys, exponent bombs, nonfinite numbers and oversized input", "Use bounded arrays and decimal context; no content is executable", "Reference rows are a trusted versioned fixture, not supplied by the candidate export"],
+  "native_execution_verified": false,
+  "source_contract": "rule-contract.v1.json"
+}

@@ -1,0 +1,21 @@
+{
+  "contract_id": "engine-linked-scenario-watch-v1",
+  "version": 1,
+  "review_date": "2026-11-01",
+  "profile": "engine_linked_scenario_watch_v1",
+  "scope": "Explicit engine-profile readiness and price observations; not full Trex qualification or trade execution",
+  "clauses": [
+    {"id":"WATCH-01","rule":"Freeze explicit candidate, levels, target identifiers, supplied evidence, structure roles and parameters. No automatic level discovery or retargeting. Only append new same-identity closed bars and advance the selection cursor to the last usable entry bar."},
+    {"id":"WATCH-02","rule":"Readiness requires real analyzer strict confirmation, origin-known context, source-linked pivot review, consistent level/target, ready structure, consistent structural target and clear direct path. Shape-only confirmation, unknown evidence or already-ready initial state must not create a new activation."},
+    {"id":"WATCH-03","rule":"Evaluate once per available-information group. Never backdate activation to the confirmation candle when higher-frame or entry data arrived later. Preserve delayed rows so the core parser blocks the entire unavailable tail. Later prices or missing horizon tails must not alter earlier snapshots."},
+    {"id":"WATCH-04","rule":"Historical replay uses declared archive availability and remains retrospective. Prospective recording requires declared observed receipts and complete local publication before the next entry candle close; that candle may already be open. Partial candle prices are excluded. Local timestamps are not trusted third-party notarization."},
+    {"id":"WATCH-05","rule":"Keep occurrence, availability and observation times separate. Readiness observed after the fixed price horizon does not become within-horizon activation. Target price observations do not imply an entry, fill, stop execution or profit."},
+    {"id":"WATCH-06","rule":"Invalid future duration, alignment, OHLC or price-grid values must be rejected. Missing future entry bars prevent final settlement; unsupported or insufficient analysis remains explicit. Completed scenarios cannot revive: later touches are post-termination observations with no active scenario credit."},
+    {"id":"WATCH-07","rule":"Decision, publication receipt and outcome are non-replacing files. Verification recomputes using the same engine files/contracts; when they differ, use the original version rather than claim the old record was verified by new rules."}
+  ],
+  "entry_timeframes": ["M1","M5","M15","H1"],
+  "horizon_entry_bars": {"minimum":1,"maximum":60},
+  "entry_permission": false,
+  "profitability_validated": false,
+  "unresolved_teacher_rules_changed": false
+}

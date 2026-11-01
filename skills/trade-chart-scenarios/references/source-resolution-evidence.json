@@ -1,0 +1,700 @@
+{
+  "audit_id": "stage15-independent-source-audit",
+  "created_at": "2026-10-26T17:01:58.419510+00:00",
+  "reviewer": "source_audit model subagent",
+  "independent_model_pass": true,
+  "blind": false,
+  "inherited_prior_context": true,
+  "human_expert_validation": false,
+  "product_files_modified": false,
+  "live_source_refresh": false,
+  "source_scope": "35 retained public Trex Q&A records; three cached answer/example images; local source contracts and workbook-extract evidence. No complete-course review.",
+  "canonical_record_hash_method": "SHA256 of UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "records": [
+    {
+      "site_question_id": 131,
+      "displayed_title": "سوال شماره 135",
+      "source_url": "https://www.trexacademy.ir/questions/131",
+      "cache_file": "stage13-pinbar-page1-decoded.json",
+      "cache_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "canonical_record_sha256": "b1c5a6d48c0356b0e8b6af116a748cb1464e41f9701652472a30b2f7af59e526",
+      "teacher_substantive_text_present": true,
+      "answer_media": [
+        {
+          "type": "jpg",
+          "path": "/storage/trex_backup/5962937967779622806_y_4.jpg"
+        }
+      ],
+      "source_created_at": "2022-07-22T10:22:35.000000Z",
+      "source_updated_at": "2022-07-22T10:22:35.000000Z",
+      "id": "SR15-TREX-131"
+    },
+    {
+      "site_question_id": 135,
+      "displayed_title": "سوال شماره 140",
+      "source_url": "https://www.trexacademy.ir/questions/135",
+      "cache_file": "stage12-trex-135-decoded.json",
+      "cache_sha256": "0fc674372a665779ef8db93d2086f673b3f00778cea1efa0d5b6864e5e568f77",
+      "canonical_record_sha256": "bf6505b60ca5ab1a99730b70d70cd07dfe4f8a2b2b1a3e68ca22b03bcaf81d36",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:35.000000Z",
+      "source_updated_at": "2022-07-22T10:22:35.000000Z",
+      "id": "SR15-TREX-135"
+    },
+    {
+      "site_question_id": 138,
+      "displayed_title": "سوال شماره 143",
+      "source_url": "https://www.trexacademy.ir/questions/138",
+      "cache_file": "stage13-pinbar-page1-decoded.json",
+      "cache_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "canonical_record_sha256": "1569bc049e9ed2927c5173fd0a7904f1fc1953435ede36bf4063b23edb1f26fc",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:35.000000Z",
+      "source_updated_at": "2022-07-22T10:22:35.000000Z",
+      "id": "SR15-TREX-138"
+    },
+    {
+      "site_question_id": 139,
+      "displayed_title": "سوال شماره 144",
+      "source_url": "https://www.trexacademy.ir/questions/139",
+      "cache_file": "stage13-pinbar-page1-decoded.json",
+      "cache_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "canonical_record_sha256": "8879bfb8d71ac0da0f42e71170c2a4713d792ef0e4a5a5935cc5c6ba722964bd",
+      "teacher_substantive_text_present": false,
+      "answer_media": [
+        {
+          "type": "ogg",
+          "path": "/storage/trex_backup/-3849160326775290313_5967525507791586518.ogg"
+        }
+      ],
+      "source_created_at": "2022-07-22T10:22:35.000000Z",
+      "source_updated_at": "2022-07-22T10:22:35.000000Z",
+      "id": "SR15-TREX-139"
+    },
+    {
+      "site_question_id": 147,
+      "displayed_title": "سوال شماره 151",
+      "source_url": "https://www.trexacademy.ir/questions/147",
+      "cache_file": "stage13-pinbar-page1-decoded.json",
+      "cache_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "canonical_record_sha256": "7f0dd4e84138fb1d95d8293af813aa97b1491e8bbcb0fb7ff49b05a169fdab92",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:35.000000Z",
+      "source_updated_at": "2022-07-22T10:22:35.000000Z",
+      "id": "SR15-TREX-147"
+    },
+    {
+      "site_question_id": 150,
+      "displayed_title": "سوال شماره 154",
+      "source_url": "https://www.trexacademy.ir/questions/150",
+      "cache_file": "stage9-tag-110-decoded.json",
+      "cache_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "canonical_record_sha256": "b875dbf9cf51628486df0109152692c980f32dc9fe22e8f73894d2e7d2190362",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:35.000000Z",
+      "source_updated_at": "2022-07-22T10:22:35.000000Z",
+      "id": "SR15-TREX-150"
+    },
+    {
+      "site_question_id": 152,
+      "displayed_title": "سوال شماره 156",
+      "source_url": "https://www.trexacademy.ir/questions/152",
+      "cache_file": "stage13-pinbar-page1-decoded.json",
+      "cache_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "canonical_record_sha256": "223bbed9267f9d9c778276fc0cd4fc48cd2cc745590177ef2c63377fba4542cb",
+      "teacher_substantive_text_present": true,
+      "answer_media": [
+        {
+          "type": "ogg",
+          "path": "/storage/trex_backup/109076898830901879_5976826216521401479.ogg"
+        }
+      ],
+      "source_created_at": "2022-07-22T10:22:35.000000Z",
+      "source_updated_at": "2022-07-22T10:22:35.000000Z",
+      "id": "SR15-TREX-152"
+    },
+    {
+      "site_question_id": 156,
+      "displayed_title": "سوال شماره 160",
+      "source_url": "https://www.trexacademy.ir/questions/156",
+      "cache_file": "stage13-pinbar-page1-decoded.json",
+      "cache_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "canonical_record_sha256": "db901500775c75e88e2a4151c9b4193d96aa3b5f9639c0bc88997eba04b69039",
+      "teacher_substantive_text_present": false,
+      "answer_media": [
+        {
+          "type": "jpg",
+          "path": "/storage/trex_backup/5976826216977641151_x_4.jpg"
+        },
+        {
+          "type": "ogg",
+          "path": "/storage/trex_backup/7319567060346171497_5976826216521401484.ogg"
+        }
+      ],
+      "source_created_at": "2022-07-22T10:22:35.000000Z",
+      "source_updated_at": "2022-07-22T10:22:35.000000Z",
+      "id": "SR15-TREX-156"
+    },
+    {
+      "site_question_id": 160,
+      "displayed_title": "سوال شماره 164",
+      "source_url": "https://www.trexacademy.ir/questions/160",
+      "cache_file": "stage13-pinbar-page1-decoded.json",
+      "cache_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "canonical_record_sha256": "00617d96d4453004ed95f91d3cc425ad6188e427547aa55fc31dc6344481acd7",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:35.000000Z",
+      "source_updated_at": "2022-07-22T10:22:35.000000Z",
+      "id": "SR15-TREX-160"
+    },
+    {
+      "site_question_id": 164,
+      "displayed_title": "سوال شماره 168",
+      "source_url": "https://www.trexacademy.ir/questions/164",
+      "cache_file": "stage13-pinbar-page1-decoded.json",
+      "cache_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "canonical_record_sha256": "9eabb0c1f7df00c651ba6a115449a34b10d9d335b72bd5cb50648100566d4e68",
+      "teacher_substantive_text_present": true,
+      "answer_media": [
+        {
+          "type": "ogg",
+          "path": "/storage/trex_backup/-7010687707972203491_5987726852108584244.ogg"
+        }
+      ],
+      "source_created_at": "2022-07-22T10:22:35.000000Z",
+      "source_updated_at": "2022-07-22T10:22:35.000000Z",
+      "id": "SR15-TREX-164"
+    },
+    {
+      "site_question_id": 166,
+      "displayed_title": "سوال شماره 171",
+      "source_url": "https://www.trexacademy.ir/questions/166",
+      "cache_file": "stage12-trex-166-decoded.json",
+      "cache_sha256": "fa9d66f69a512a0deb0b8a3e252e53dc54814ea028e125c84cb648b234811b36",
+      "canonical_record_sha256": "83cc8cfb9f69a56d45f992d869ea33d2e861c0f34ee198b1fbdf1fca0c5c52f3",
+      "teacher_substantive_text_present": true,
+      "answer_media": [
+        {
+          "type": "jpg",
+          "path": "/storage/trex_backup/5987726852564823910_x_4.jpg"
+        }
+      ],
+      "source_created_at": "2022-07-22T10:22:35.000000Z",
+      "source_updated_at": "2022-07-22T10:22:35.000000Z",
+      "id": "SR15-TREX-166"
+    },
+    {
+      "site_question_id": 176,
+      "displayed_title": "سوال شماره 181",
+      "source_url": "https://www.trexacademy.ir/questions/176",
+      "cache_file": "stage9-trex-176-decoded.json",
+      "cache_sha256": "c02cecbb6184750e930b418b9501aa2c5968248fd2ea7ba45ac491f728b92945",
+      "canonical_record_sha256": "b5b83b82e7f49400bb10dc272d41e3621e9536626d605212668532b5cf413ac4",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-176"
+    },
+    {
+      "site_question_id": 177,
+      "displayed_title": "سوال شماره 182",
+      "source_url": "https://www.trexacademy.ir/questions/177",
+      "cache_file": "stage9-tag-132-decoded.json",
+      "cache_sha256": "bc70fef4c7abe319fff856458dd1e6cea84da2bf8c1d093c3ce26aa8f2550fa4",
+      "canonical_record_sha256": "02a8505e94f320d51889cfd51320a3a260798de5eea195a4a744085ff11e481e",
+      "teacher_substantive_text_present": true,
+      "answer_media": [
+        {
+          "type": "jpg",
+          "path": "/storage/trex_backup/5989978652378509199_m_4.jpg"
+        }
+      ],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-177"
+    },
+    {
+      "site_question_id": 178,
+      "displayed_title": "سوال شماره 183",
+      "source_url": "https://www.trexacademy.ir/questions/178",
+      "cache_file": "stage9-trex-178-decoded.json",
+      "cache_sha256": "d3d5702efc595fae62593c5fd35e115bd8aa05e32a47ef24e993aa0efc322a8a",
+      "canonical_record_sha256": "2e58952af245fc8d94749a829240fe13506ff78e2d93f1a9924fc602f1cbebe3",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-178"
+    },
+    {
+      "site_question_id": 179,
+      "displayed_title": "سوال شماره 184",
+      "source_url": "https://www.trexacademy.ir/questions/179",
+      "cache_file": "stage13-pinbar-page1-decoded.json",
+      "cache_sha256": "16751dcc0f388969bbe19f2ef4f00ac6adff10593cdeab2a36c28719f8852727",
+      "canonical_record_sha256": "0f3f7fc70f7ae3ed00c82a8f071c49b5dd8ee8562637c79705977005e56c3294",
+      "teacher_substantive_text_present": true,
+      "answer_media": [
+        {
+          "type": "jpg",
+          "path": "/storage/trex_backup/5989978652378509217_x_4.jpg"
+        }
+      ],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-179"
+    },
+    {
+      "site_question_id": 180,
+      "displayed_title": "سوال شماره 185",
+      "source_url": "https://www.trexacademy.ir/questions/180",
+      "cache_file": "stage13-pinbar-page2-decoded.json",
+      "cache_sha256": "70f2d526cfdece9857b2866d4b61adc2202ec5f80bd065d9c13ecd91713a130d",
+      "canonical_record_sha256": "a0f7c0e77e4f449541c4cdcbf4e0118e9fd4f95d22c44b8f76cc2d85843def2e",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-180"
+    },
+    {
+      "site_question_id": 184,
+      "displayed_title": "سوال شماره 189",
+      "source_url": "https://www.trexacademy.ir/questions/184",
+      "cache_file": "stage9-trex-184-decoded.json",
+      "cache_sha256": "95dc5ad9dde798955905e7ea1fea239f4cdde3798bcac582aab794fb4d7a64c8",
+      "canonical_record_sha256": "f012d2845500307da2da21921d470d173c0663566087767bb8e2af282e2ee337",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-184"
+    },
+    {
+      "site_question_id": 185,
+      "displayed_title": "سوال شماره 190",
+      "source_url": "https://www.trexacademy.ir/questions/185",
+      "cache_file": "stage13-pinbar-page2-decoded.json",
+      "cache_sha256": "70f2d526cfdece9857b2866d4b61adc2202ec5f80bd065d9c13ecd91713a130d",
+      "canonical_record_sha256": "c2c0104ccabf42d5875c7c43720d7354c2156d39817f76347ebc87f8ac52a1ea",
+      "teacher_substantive_text_present": true,
+      "answer_media": [
+        {
+          "type": "jpg",
+          "path": "/storage/trex_backup/5989978652378509227_x_4.jpg"
+        }
+      ],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-185"
+    },
+    {
+      "site_question_id": 186,
+      "displayed_title": "سوال شماره 191",
+      "source_url": "https://www.trexacademy.ir/questions/186",
+      "cache_file": "stage9-tag-110-decoded.json",
+      "cache_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "canonical_record_sha256": "8a2a2eb6910beb7e983a3858c0d6d05e643f9bfc82efbf9d4c9273c6e7900a43",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-186"
+    },
+    {
+      "site_question_id": 189,
+      "displayed_title": "سوال شماره 194",
+      "source_url": "https://www.trexacademy.ir/questions/189",
+      "cache_file": "stage9-tag-136-decoded.json",
+      "cache_sha256": "764f8774c3451f54ca83671be4e88f078b8d5e4d9c1347f961f4448c7f33d559",
+      "canonical_record_sha256": "642c1a0939c6d3bd8ea58e784ccac31f0268fde3af3b6eed8b1bc0187782c96e",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-189"
+    },
+    {
+      "site_question_id": 192,
+      "displayed_title": "سوال شماره 197",
+      "source_url": "https://www.trexacademy.ir/questions/192",
+      "cache_file": "stage9-tag-132-decoded.json",
+      "cache_sha256": "bc70fef4c7abe319fff856458dd1e6cea84da2bf8c1d093c3ce26aa8f2550fa4",
+      "canonical_record_sha256": "117261e37f82a80a2337c1e91be0c0b74683139e3034005fac0dbfb8ee2a7ebb",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-192"
+    },
+    {
+      "site_question_id": 193,
+      "displayed_title": "سوال شماره 198",
+      "source_url": "https://www.trexacademy.ir/questions/193",
+      "cache_file": "stage9-tag-110-decoded.json",
+      "cache_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "canonical_record_sha256": "7fa3a66dc38cfa8c9b0f5d3effe1db6c5461b74eec206494528012eea4393557",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-193"
+    },
+    {
+      "site_question_id": 197,
+      "displayed_title": "سوال شماره 202",
+      "source_url": "https://www.trexacademy.ir/questions/197",
+      "cache_file": "stage9-tag-110-decoded.json",
+      "cache_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "canonical_record_sha256": "191871b103fea3a3d9cfd2f25cebeee5381de82f33b9f6f973df95211a6ec80e",
+      "teacher_substantive_text_present": true,
+      "answer_media": [
+        {
+          "type": "jpg",
+          "path": "/storage/trex_backup/5990297970312065528_y_4.jpg"
+        }
+      ],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-197"
+    },
+    {
+      "site_question_id": 198,
+      "displayed_title": "سوال شماره 203",
+      "source_url": "https://www.trexacademy.ir/questions/198",
+      "cache_file": "stage9-tag-136-decoded.json",
+      "cache_sha256": "764f8774c3451f54ca83671be4e88f078b8d5e4d9c1347f961f4448c7f33d559",
+      "canonical_record_sha256": "c44566564d453a0c65fe9b38d3e3e83141d763fe1ec6dcea2df3d34b3ffe7fc1",
+      "teacher_substantive_text_present": false,
+      "answer_media": [
+        {
+          "type": "jpg",
+          "path": "/storage/trex_backup/5990297970312065603_x_4.jpg"
+        }
+      ],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-198"
+    },
+    {
+      "site_question_id": 203,
+      "displayed_title": "سوال شماره 208",
+      "source_url": "https://www.trexacademy.ir/questions/203",
+      "cache_file": "stage13-pinbar-page2-decoded.json",
+      "cache_sha256": "70f2d526cfdece9857b2866d4b61adc2202ec5f80bd065d9c13ecd91713a130d",
+      "canonical_record_sha256": "1b3d4a4e47ce33a1e43f047018af6bd569ce3d957ce4e19fb91ff86443eac864",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:36.000000Z",
+      "source_updated_at": "2022-07-22T10:22:36.000000Z",
+      "id": "SR15-TREX-203"
+    },
+    {
+      "site_question_id": 222,
+      "displayed_title": "سوال شماره 228",
+      "source_url": "https://www.trexacademy.ir/questions/222",
+      "cache_file": "stage9-tag-99-decoded.json",
+      "cache_sha256": "bc1f08d87025aa8450fe6c822e691a0b6ad34c439d1a49af930cb1a29e1dd4da",
+      "canonical_record_sha256": "51e43c9cd300b72ba8596b8f01c4f7553bd8aa1d8801587c9faaf2a9f8a9a371",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:37.000000Z",
+      "source_updated_at": "2022-07-22T10:22:37.000000Z",
+      "id": "SR15-TREX-222"
+    },
+    {
+      "site_question_id": 225,
+      "displayed_title": "سوال شماره 231",
+      "source_url": "https://www.trexacademy.ir/questions/225",
+      "cache_file": "stage13-pinbar-page2-decoded.json",
+      "cache_sha256": "70f2d526cfdece9857b2866d4b61adc2202ec5f80bd065d9c13ecd91713a130d",
+      "canonical_record_sha256": "b1413da83cd093c56123e76c1c74fa42c33311fa20d983921c3b6c4852160ac4",
+      "teacher_substantive_text_present": true,
+      "answer_media": [
+        {
+          "type": "jpg",
+          "path": "/storage/trex_backup/6005873269779050406_y_4.jpg"
+        }
+      ],
+      "source_created_at": "2022-07-22T10:22:37.000000Z",
+      "source_updated_at": "2022-07-22T10:22:37.000000Z",
+      "id": "SR15-TREX-225"
+    },
+    {
+      "site_question_id": 229,
+      "displayed_title": "سوال شماره 235",
+      "source_url": "https://www.trexacademy.ir/questions/229",
+      "cache_file": "stage13-pinbar-page2-decoded.json",
+      "cache_sha256": "70f2d526cfdece9857b2866d4b61adc2202ec5f80bd065d9c13ecd91713a130d",
+      "canonical_record_sha256": "184fff28e65a25be4616c393827a48091f0639d891efcaed5e01addcba53c32f",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:37.000000Z",
+      "source_updated_at": "2022-07-22T10:22:37.000000Z",
+      "id": "SR15-TREX-229"
+    },
+    {
+      "site_question_id": 246,
+      "displayed_title": "سوال شماره 255",
+      "source_url": "https://www.trexacademy.ir/questions/246",
+      "cache_file": "stage9-tag-110-decoded.json",
+      "cache_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "canonical_record_sha256": "503cc6fb5b62a6ab4a73ef85792a0eb3101b4c50a8e6274fab5f7f0e1e8d9c54",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:37.000000Z",
+      "source_updated_at": "2022-07-22T10:22:37.000000Z",
+      "id": "SR15-TREX-246"
+    },
+    {
+      "site_question_id": 256,
+      "displayed_title": "سوال شماره 265",
+      "source_url": "https://www.trexacademy.ir/questions/256",
+      "cache_file": "stage9-tag-110-decoded.json",
+      "cache_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "canonical_record_sha256": "c32a42c1940909135755243bc03b8d9314fdfefc870035252c99e07ad4ce4b51",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:38.000000Z",
+      "source_updated_at": "2022-07-22T10:22:38.000000Z",
+      "id": "SR15-TREX-256"
+    },
+    {
+      "site_question_id": 269,
+      "displayed_title": "سوال شماره 279",
+      "source_url": "https://www.trexacademy.ir/questions/269",
+      "cache_file": "stage12-trex-269-decoded.json",
+      "cache_sha256": "67ea2b869be6e64f58cef5a807fb45ffa25d4ff3bbb6ba8477fab5ff54b1611e",
+      "canonical_record_sha256": "77a231963197a0aefb35ea7a65f537d9f2b7015063cbb9b4e600ea8bc7aa67a9",
+      "teacher_substantive_text_present": true,
+      "answer_media": [
+        {
+          "type": "jpg",
+          "path": "/storage/trex_backup/6017008337566150677_y_4.jpg"
+        }
+      ],
+      "source_created_at": "2022-07-22T10:22:38.000000Z",
+      "source_updated_at": "2022-07-22T10:22:38.000000Z",
+      "id": "SR15-TREX-269"
+    },
+    {
+      "site_question_id": 291,
+      "displayed_title": "سوال شماره 293",
+      "source_url": "https://www.trexacademy.ir/questions/291",
+      "cache_file": "stage9-tag-110-decoded.json",
+      "cache_sha256": "a006ec4663d49879ea184107235a5a9d93923a4d7dda34a78451ffaaaaa3130a",
+      "canonical_record_sha256": "4116590e04ed64e9cc1e5ac3c747d318a05f7676185151b9372ef9573bab8376",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:39.000000Z",
+      "source_updated_at": "2022-07-22T10:22:39.000000Z",
+      "id": "SR15-TREX-291"
+    },
+    {
+      "site_question_id": 345,
+      "displayed_title": "سوال شماره 348",
+      "source_url": "https://www.trexacademy.ir/questions/345",
+      "cache_file": "stage13-pinbar-page2-decoded.json",
+      "cache_sha256": "70f2d526cfdece9857b2866d4b61adc2202ec5f80bd065d9c13ecd91713a130d",
+      "canonical_record_sha256": "dc479068a220b6d58796661a9565072de43256955b156fa168d305b6529d52a5",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:40.000000Z",
+      "source_updated_at": "2022-07-22T10:22:40.000000Z",
+      "id": "SR15-TREX-345"
+    },
+    {
+      "site_question_id": 370,
+      "displayed_title": "سوال شماره 375",
+      "source_url": "https://www.trexacademy.ir/questions/370",
+      "cache_file": "stage13-pinbar-page2-decoded.json",
+      "cache_sha256": "70f2d526cfdece9857b2866d4b61adc2202ec5f80bd065d9c13ecd91713a130d",
+      "canonical_record_sha256": "ec13d6d6e8e3f4877d03a7e5ce0fa5371668c727b3fb350d547e293f35c2c510",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:41.000000Z",
+      "source_updated_at": "2022-07-22T10:22:41.000000Z",
+      "id": "SR15-TREX-370"
+    },
+    {
+      "site_question_id": 412,
+      "displayed_title": "سوال شماره 422",
+      "source_url": "https://www.trexacademy.ir/questions/412",
+      "cache_file": "stage12-trex-412-decoded.json",
+      "cache_sha256": "3cfee4d2617e0f60f628c617af03099735ceb9c09814d971b955ddee994a3143",
+      "canonical_record_sha256": "92923b9e60896cb303d677434aa1746b4d9c6e8c1fa141ffab51c88e1df7f5d0",
+      "teacher_substantive_text_present": true,
+      "answer_media": [],
+      "source_created_at": "2022-07-22T10:22:42.000000Z",
+      "source_updated_at": "2022-07-22T10:22:42.000000Z",
+      "id": "SR15-TREX-412"
+    }
+  ],
+  "images": [
+    {
+      "file": "stage9-trex198.jpg",
+      "sha256": "ddc4e05aad9f12ccea4b64d3b38a69ff2e6ec164c63a9e2604ef584d3178e1a5",
+      "visually_reviewed_in_this_pass": true,
+      "ohlc_or_atr_reconstructed": false
+    },
+    {
+      "file": "stage9-trex166.jpg",
+      "sha256": "85b58b3639b365639166022bd000917a201b38bf8cf9e816b37eeaeaf3928364",
+      "visually_reviewed_in_this_pass": true,
+      "ohlc_or_atr_reconstructed": false
+    },
+    {
+      "file": "stage10-trex150.jpg",
+      "sha256": "0f48bb385d8d358ea5cf8a4b25d347f1584554caf816be93f0af912581367349",
+      "visually_reviewed_in_this_pass": true,
+      "ohlc_or_atr_reconstructed": false
+    }
+  ],
+  "findings": [
+    {
+      "id": "SA15-01",
+      "topic": "reference_candle",
+      "status": "supported_bounded_rule",
+      "source_ids": [
+        177,
+        189,
+        198,
+        203,
+        192
+      ],
+      "conclusion": "An applicable master is covered by a close beyond its shadow extremity. Wick-only excursions do not cover. An existing master has priority over an ATR virtual line. A later contextual master can become active. Body-dominant masters normally align with the incoming move; spinning/shadow references do not require body colour. The 80 percent description is approximate and is not a universal pivot boundary.",
+      "implementation": "Keep explicit causal selection and versioned replacement; distinguish a geometric candidate from a confirmed contextual master. The last geometric candidate is only a review prompt, not automatic universal replacement. Keep exact numerical 80 percent as the named engineering/workbook profile.",
+      "remaining_gap": "Exhaustive selection/replacement logic, gap variants and virtual-line models are not established by these texts."
+    },
+    {
+      "id": "SA15-02",
+      "topic": "incoming_wave",
+      "status": "supported_bounded_rule",
+      "source_ids": [
+        178,
+        222,
+        246,
+        256,
+        345,
+        186
+      ],
+      "conclusion": "Three standard candles in one direction and total displacement around three ATR are alternative qualification routes. Opposite candles can be noise only when they do not form a pivot, or form a settlement pivot that price subsequently passes. The exception cannot simply be counted as a third same-direction body, although its shadow can contribute to movement measurement. A depicted 2.4 ATR example is not a universal 2.4 or 2.5 rule.",
+      "implementation": "Require explicit endpoints, baseline and as-of timestamps. Keep all intervening candles in review. A machine-detected cover alone cannot certify the semantic no-pivot/settlement label for the entire Trex method. A close beyond an annotated settlement is a conservative engineering proxy and must remain labelled as such.",
+      "remaining_gap": "Independent contextual labelling of no-pivot/settlement and highest applicable timeframe is still needed."
+    },
+    {
+      "id": "SA15-03",
+      "topic": "exception_confirmation",
+      "status": "principle_supported_classifier_incomplete",
+      "source_ids": [
+        135,
+        150,
+        166,
+        197,
+        370
+      ],
+      "conclusion": "The teacher expressly grants no-next-candle confirmation for a correctly identified exceptional/self-cover pivot, including depicted cases. This principle is not missing. What remains unresolved is an exhaustive numerical classifier proving that an arbitrary silhouette belongs to the exempt subtype, and the exact required-confirmation subtype mentioned in answer 135.",
+      "implementation": "Report separately source principle known, observed subtype not established, and entry setup not validated. Preserve the no-automatic-exemption gate for raw shape candidates. Do not phrase the entire source method as requiring later confirmation, or imply the teacher never stated an exemption.",
+      "remaining_gap": "Single-pinbar subtype-specific confirmation rule and exact candle sequence; answer 135 refers to course video. The 2017 lesson 2 transcript is not automatically the same material as the 2022 FAQ lesson 3."
+    },
+    {
+      "id": "SA15-04",
+      "topic": "post_compression_context",
+      "status": "new_source_supported_scope_gate",
+      "source_ids": [
+        164,
+        229,
+        370
+      ],
+      "conclusion": "The cited exclusion concerns a reversal pinbar after the long/spike candle that breaks a compression. It is explicitly not a ban on every pinbar after every spike. Answer 370 associates the poor trend-trade value with the expectation of reaching the third target, while acknowledging first targets may still be touched.",
+      "implementation": "Before presenting a trend-reversal/extended-target scenario, require a separate review of whether the preceding long/spike candle is a compression breakout. If confirmed, flag this source-defined exclusion for that scenario. If context is unknown, retain uncertainty. Do not delete the historical level, infer a loss, or ban all shorter scenarios.",
+      "remaining_gap": "Compression identification, target numbering and exact lower-timeframe entry are not fully numerically defined in these answers."
+    },
+    {
+      "id": "SA15-05",
+      "topic": "geometry_source_conflict",
+      "status": "conflict_resolved_by_profile_separation_not_parameter_blending",
+      "source_ids": [
+        166,
+        179,
+        185,
+        225,
+        147,
+        180
+      ],
+      "workbook_refs": [
+        "X-CANDLE-B4",
+        "X-CANDLE-B7",
+        "X-CANDLE-B8"
+      ],
+      "conclusion": "Workbook B7 requires incoming shadow at least 1 ATR; answer 225 discusses a shadow family beginning at 0.6 ATR. Workbook B8 uses extreme-fifth open/close and range at least 1.2 ATR; answer 166 discusses one-third or one-quarter body illustrations and answer 225 cautions against treating naming ratios as the main concept. These are not identical executable definitions. Opposite noise is measured against whole candle range (answer 147), and body colour is not mandatory for the depicted pinbars (answer 180).",
+      "implementation": "Keep the existing frozen Excel-derived numeric screen explicitly named. A failed 1 ATR or extreme-fifth screen must mean not matched to that profile, never invalid under the whole Trex method. If adding the 0.6 ATR family screen, give it a distinct profile and diagnostic-only status; do not silently alter native parity or grant a pivot exemption.",
+      "remaining_gap": "Exact taxonomy, threshold inclusivity, baseline choice, and relation of all diagram families to the original workbook require a separate versioned adjudication."
+    },
+    {
+      "id": "SA15-06",
+      "topic": "entry_zone_and_probability",
+      "status": "supported_boundary",
+      "source_ids": [
+        131,
+        138,
+        139,
+        152,
+        156,
+        160,
+        291
+      ],
+      "conclusion": "Recognition, structural timeframe, lower-timeframe arrangement, entry region and outcome are separate. The open-region and hidden-shadow region can differ; hidden-shadow is not an exact universal 50 percent line. Answer 152 postpones the exact retracement depth. Answer 160 addresses paired candles before separately giving a personal observation about zero-noise pinbars. No calibrated probability or profitable strategy is demonstrated.",
+      "implementation": "Never convert student questions into source rules, paired-candle confirmation into a single-pinbar rule, or machine transcript into verified exact entry order. Preserve reached-zone/closed-trigger checks and no inferred OHLC intrabar ordering.",
+      "remaining_gap": "The 139/152/156 audio responses have not been independently listened to in this audit."
+    }
+  ],
+  "recommended_acceptance_cases": [
+    {
+      "id": "SA15-CASE-01",
+      "case": "A shape matching workbook pinbar geometry with no independently established source subtype",
+      "expected": "Geometry match; method exemption unverified; no automatic entry."
+    },
+    {
+      "id": "SA15-CASE-02",
+      "case": "Source-labelled self-cover example with no subsequent candle",
+      "expected": "Source principle says no next-candle confirmation for this identified exception; do not generalize the label to arbitrary new bars."
+    },
+    {
+      "id": "SA15-CASE-03",
+      "case": "Pinbar follows a spike but compression-breakout provenance is absent",
+      "expected": "Do not apply a blanket post-spike exclusion; context unknown."
+    },
+    {
+      "id": "SA15-CASE-04",
+      "case": "Pinbar follows a confirmed long-bar breakout from compression",
+      "expected": "Flag exclusion for trend/extended-target scenario; retain possible level and separate target-one interpretation."
+    },
+    {
+      "id": "SA15-CASE-05",
+      "case": "Incoming shadow 0.8 ATR, all other geometry supplied",
+      "expected": "Fails Excel B7 one-ATR screen, falls within source 225 broad shadow-family candidate; no claim that the whole method rejects it."
+    },
+    {
+      "id": "SA15-CASE-06",
+      "case": "Two directional bodies followed by opposite-colour self-cover with incoming shadow",
+      "expected": "Do not count as three directional bodies; separately evaluate explicit displacement route."
+    },
+    {
+      "id": "SA15-CASE-07",
+      "case": "Existing applicable master plus virtual ATR-line crossing without strict master cover",
+      "expected": "Virtual line cannot bypass master priority."
+    },
+    {
+      "id": "SA15-CASE-08",
+      "case": "Zero-noise pinbar with paired-candle answer 160 as claimed evidence",
+      "expected": "Reject citation transfer; subtype confirmation remains unresolved."
+    }
+  ]
+}

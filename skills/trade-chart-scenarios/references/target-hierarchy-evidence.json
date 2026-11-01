@@ -1,0 +1,50 @@
+{
+  "format_version": 1,
+  "review_date": "2026-10-26",
+  "records": [
+    {
+      "id": "TGT-X-TF-B3",
+      "kind": "user_workbook",
+      "source_id": "H01",
+      "sheet": "تایم فریم",
+      "cell": "B3",
+      "sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0",
+      "summary_fa": "اکسل، تعیین هدف نهایی را به تایم‌فریم ساختار و بهینه‌سازی ورود را به تایم‌فریم تریگر وابسته می‌کند."
+    },
+    {
+      "id": "TGT-X-TRIGGER-B7",
+      "kind": "user_workbook",
+      "source_id": "H01",
+      "sheet": "تریگر",
+      "cell": "B7",
+      "summary_fa": "تشکیل پیوت و شکست سطح در تایم‌فریم خود سطح بررسی می‌شود؛ محل جست‌وجوی تریگر ورود جداست."
+    },
+    {
+      "id": "TGT-TREX-RETAINED",
+      "kind": "retained_text_review",
+      "records": [
+        "S2-TREX-218",
+        "S2-TREX-252",
+        "S2-TREX-826",
+        "S2-TREX-866",
+        "S2-TREX-891"
+      ],
+      "location": "contract-evidence.json",
+      "fresh_page_access": false,
+      "attempted_on": "2026-10-26",
+      "limitations": "Web tool could not open /questions/866 or /questions/891; no renewed image/audio/video review"
+    },
+    {
+      "id": "TGT-TV-HTF",
+      "kind": "official_technical_documentation",
+      "url": "https://www.tradingview.com/pine-script-docs/concepts/other-timeframes-and-data/",
+      "accessed_on": "2026-10-26",
+      "summary": "Higher timeframe context and availability must be handled explicitly; native implementation remains future work"
+    },
+    {
+      "id": "DESIGN-TGT-HIERARCHY-01",
+      "kind": "engineering_design_not_teacher_quote",
+      "summary": "Freeze inventory at scenario origin; report nearest obstacle and supplied structural destination separately; conservatively withhold direct continuation through intermediate or unreviewed obstacles."
+    }
+  ]
+}

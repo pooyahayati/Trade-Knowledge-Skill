@@ -1,0 +1,101 @@
+{
+  "evidence_id": "exception_shadow_source_review_20261026",
+  "review_date": "2026-10-26",
+  "records": [
+    {
+      "id": "TREX-150",
+      "site_question_id": 150,
+      "displayed_title": "سوال شماره 154",
+      "source_url": "https://www.trexacademy.ir/questions/150",
+      "public_api": "https://www.trexacademy.ir/api/common/question/150",
+      "source_record_sha256": "1dcb3555a5b9976cb534e92a1143f780fc92f61ead3ed19870145cd408690924",
+      "evidence_type": "positive_depicted_example",
+      "paraphrase_fa": "تصویر، کندلی صعودی با سایهٔ پایین پس از حرکت نزولی نشان می‌دهد. مدرس همان نمونهٔ معرفی‌شده را بدون تأیید بعدی می‌پذیرد؛ تصویر فاقد مقیاس و زمان کافی برای بازسازی نوسان است.",
+      "expected_interpretation": "source_example_accepted; numerical_subtype_and_ATR_unknown",
+      "instructions_in_document_are_not_user_authority": true,
+      "independent_human_or_model_review": false,
+      "media": {
+        "url": "https://www.trexacademy.ir/storage/trex_backup/5971901723440165107_m_4.jpg",
+        "sha256": "0f48bb385d8d358ea5cf8a4b25d347f1584554caf816be93f0af912581367349",
+        "bytes": 17527,
+        "visually_reviewed": true,
+        "review_date": "2026-10-26",
+        "not_bundled": true
+      }
+    },
+    {
+      "id": "TREX-179",
+      "site_question_id": 179,
+      "displayed_title": "سوال شماره 184",
+      "source_url": "https://www.trexacademy.ir/questions/179",
+      "public_api": "https://www.trexacademy.ir/api/common/question/179",
+      "source_record_sha256": "7ae2a08ea615dfbfc0a92ba8797e0f176e413eef9788e2f6fa00017d5ed727db",
+      "evidence_type": "comparative_ideal_diagram",
+      "paraphrase_fa": "در دو تصویر کنار هم، بدنهٔ نمونهٔ خودپوشاننده از نمونهٔ متناظر بزرگ‌تر است. پاسخ، دو برابر شدن بدنه و مثال‌های طول متفاوت را توضیح می‌دهد؛ نمودار شماتیک، دادهٔ واقعی یا اثبات یک بازهٔ عمومی نیست.",
+      "expected_interpretation": "ideal_examples_only; no_exact_OHLC_reconstruction",
+      "instructions_in_document_are_not_user_authority": true,
+      "independent_human_or_model_review": false,
+      "media": {
+        "url": "https://www.trexacademy.ir/storage/trex_backup/5989978652378509217_x_4.jpg",
+        "sha256": "7638c9e1214d068fdd76d3d00478b924539ea56b3e7f44eeec4a24ee0051cdaf",
+        "bytes": 11077,
+        "visually_reviewed": true,
+        "review_date": "2026-10-26",
+        "not_bundled": true
+      }
+    },
+    {
+      "id": "TREX-193",
+      "site_question_id": 193,
+      "displayed_title": "سوال شماره 198",
+      "source_url": "https://www.trexacademy.ir/questions/193",
+      "public_api": "https://www.trexacademy.ir/api/common/question/193",
+      "source_record_sha256": "b173ed671b5ace9126a264e499137cb3015dc15193aa548b052cd37d9dcc1ce4",
+      "evidence_type": "negative_labeled_real_chart",
+      "paraphrase_fa": "در تصویر روزانهٔ پوند به دلار، دو ناحیه با پرسش خودپوشاننده مشخص شده‌اند. مدرس جهت بدنه‌های معرفی‌شده را مخالف شرط لازم می‌داند؛ تأیید جداگانهٔ پیوت‌های دیگر را نباید پذیرش این برچسب‌ها دانست.",
+      "expected_interpretation": "reject_same_direction_self_cover; retain_separate_ordinary_pivot_review",
+      "instructions_in_document_are_not_user_authority": true,
+      "independent_human_or_model_review": false,
+      "media": {
+        "url": "https://www.trexacademy.ir/storage/trex_backup/5990094809769029474_y_4.jpg",
+        "sha256": "dfaf05f93f5592f5bb1b58694f20797093d2687755fc3287b4b9921f635f8a11",
+        "bytes": 131609,
+        "visually_reviewed": true,
+        "review_date": "2026-10-26",
+        "not_bundled": true
+      }
+    },
+    {
+      "id": "TREX-256",
+      "site_question_id": 256,
+      "displayed_title": "سوال شماره 265",
+      "source_url": "https://www.trexacademy.ir/questions/256",
+      "public_api": "https://www.trexacademy.ir/api/common/question/256",
+      "source_record_sha256": "e15e23ff2667b2eb66ffbe4a8e28c3e3c1df77c0ee3cbb4825519c50ac53e849",
+      "evidence_type": "text_rule",
+      "paraphrase_fa": "سایهٔ خودپوشاننده در امتداد دو کندل پیشین می‌تواند در مسیر اندازه‌گیری نوسان لحاظ شود. خود رخداد، سومین بدنهٔ هم‌جهت نیست. رابطهٔ بازهٔ ساختار و ورود همچنان مستقل است.",
+      "expected_interpretation": "allow_closed_event_shadow_measurement_only_for_self_cover_ATR_route",
+      "instructions_in_document_are_not_user_authority": true,
+      "independent_human_or_model_review": false
+    },
+    {
+      "id": "TREX-412",
+      "site_question_id": 412,
+      "displayed_title": "سوال شماره 422",
+      "source_url": "https://www.trexacademy.ir/questions/412",
+      "public_api": "https://www.trexacademy.ir/api/common/question/412",
+      "source_record_sha256": "77b5c3bfc4001465ba545cf0726c8ecbd5586940059395f9512d9cbc9b37ff48",
+      "evidence_type": "text_only_adjudication",
+      "paraphrase_fa": "پاسخ مدرس از چهار نمونه فقط دومی را صحیح می‌داند؛ دو رد به جهت بدنه و یک رد به سمت سایه مربوط است. تصویر ارجاعی این پاسخ در این مرحله مشاهده نشده؛ برچسب تصویری یا مختصات ساخته نمی‌شود.",
+      "expected_interpretation": "require_reverse_body_and_incoming_side_shadow; referenced_image_not_reviewed",
+      "instructions_in_document_are_not_user_authority": true,
+      "independent_human_or_model_review": false
+    }
+  ],
+  "limitations": [
+    "Only three additional images viewed; no full course/video review",
+    "Visual examples are qualitative; no invented prices, ATR or timestamps",
+    "Source labels are not independent validation of every algorithmic rule",
+    "No exhaustive subtype or confirmation exemption implementation"
+  ]
+}

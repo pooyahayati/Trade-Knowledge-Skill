@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "as_of": "2020-01-01T02:00:00Z",
+  "series": {
+    "symbol": "TEST",
+    "market": "forex",
+    "feed_id": "synthetic",
+    "price_basis": "bid",
+    "timeframe": "M15",
+    "chart_type": "standard_ohlc",
+    "tick_size": "0.1",
+    "atr_period": 2,
+    "session_definition": "contiguous test bars",
+    "source_timezone": "UTC",
+    "bars": [
+      {
+        "id": "0",
+        "open_time": "2020-01-01T00:00:00Z",
+        "close_time": "2020-01-01T00:15:00Z",
+        "available_at": "2020-01-01T00:15:00Z",
+        "is_closed": true,
+        "open": "100",
+        "high": "105",
+        "low": "100",
+        "close": "104"
+      },
+      {
+        "id": "1",
+        "open_time": "2020-01-01T00:15:00Z",
+        "close_time": "2020-01-01T00:30:00Z",
+        "available_at": "2020-01-01T00:30:00Z",
+        "is_closed": true,
+        "open": "100",
+        "high": "105",
+        "low": "100",
+        "close": "104"
+      },
+      {
+        "id": "2",
+        "open_time": "2020-01-01T00:30:00Z",
+        "close_time": "2020-01-01T00:45:00Z",
+        "available_at": "2020-01-01T00:45:00Z",
+        "is_closed": true,
+        "open": "100",
+        "high": "105",
+        "low": "100",
+        "close": "104"
+      },
+      {
+        "id": "3",
+        "open_time": "2020-01-01T00:45:00Z",
+        "close_time": "2020-01-01T01:00:00Z",
+        "available_at": "2020-01-01T01:00:00Z",
+        "is_closed": true,
+        "open": "100",
+        "high": "105",
+        "low": "100",
+        "close": "104"
+      },
+      {
+        "id": "4",
+        "open_time": "2020-01-01T01:00:00Z",
+        "close_time": "2020-01-01T01:15:00Z",
+        "available_at": "2020-01-01T01:15:00Z",
+        "is_closed": true,
+        "open": "100",
+        "high": "105",
+        "low": "100",
+        "close": "104"
+      },
+      {
+        "id": "5",
+        "open_time": "2020-01-01T01:15:00Z",
+        "close_time": "2020-01-01T01:30:00Z",
+        "available_at": "2020-01-01T01:30:00Z",
+        "is_closed": true,
+        "open": "104",
+        "high": "109",
+        "low": "104",
+        "close": "108"
+      },
+      {
+        "id": "6",
+        "open_time": "2020-01-01T01:30:00Z",
+        "close_time": "2020-01-01T01:45:00Z",
+        "available_at": "2020-01-01T01:45:00Z",
+        "is_closed": true,
+        "open": "108",
+        "high": "113",
+        "low": "108",
+        "close": "112"
+      },
+      {
+        "id": "7",
+        "open_time": "2020-01-01T01:45:00Z",
+        "close_time": "2020-01-01T02:00:00Z",
+        "available_at": "2020-01-01T02:00:00Z",
+        "is_closed": true,
+        "open": "100.5",
+        "high": "110",
+        "low": "100",
+        "close": "101.9"
+      }
+    ]
+  },
+  "level_analysis": {
+    "profile": "levels_targets_v1",
+    "evidence": [
+      {
+        "level_id": "pivot",
+        "profile": "exception_candidate_v1",
+        "context_source_ref": "synthetic explicitly supplied wave",
+        "context_available_at": "2020-01-01T01:45:00Z",
+        "preleg": {
+          "route": "three_standard_bars",
+          "bar_ids": [
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        "event_bar_id": "7",
+        "family": "pinbar"
+      }
+    ]
+  },
+  "pivot_review": {
+    "profile": "source_linked_pivots_v1"
+  },
+  "levels": [
+    {
+      "id": "pivot",
+      "kind": "pivot_zone",
+      "side": "resistance",
+      "timeframe": "M15",
+      "lower": "101.9",
+      "upper": "110",
+      "origin_at": "2020-01-01T01:45:00Z",
+      "available_at": "2020-01-01T02:00:00Z",
+      "source_refs": [
+        "synthetic:explicit"
+      ],
+      "construction_method": "wick_to_body"
+    }
+  ]
+}

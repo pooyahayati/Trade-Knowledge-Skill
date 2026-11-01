@@ -1,0 +1,99 @@
+{
+  "review_date": "2026-10-25",
+  "records": [
+    {
+      "id": "X-PIVOT-B3",
+      "source_id": "H01",
+      "sheet": "پیوت",
+      "cell": "B3",
+      "text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "workbook_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0"
+    },
+    {
+      "id": "X-SEM-TREND-B2",
+      "source_id": "H01",
+      "sheet": "روند",
+      "cell": "B2",
+      "text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "workbook_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0"
+    },
+    {
+      "id": "X-SEM-TREND-B8",
+      "source_id": "H01",
+      "sheet": "روند",
+      "cell": "B8",
+      "text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "workbook_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0"
+    },
+    {
+      "id": "X-SEM-TIME-B3",
+      "source_id": "H01",
+      "sheet": "تایم فریم",
+      "cell": "B3",
+      "text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "workbook_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0"
+    },
+    {
+      "id": "X-SEM-TIME-B6",
+      "source_id": "H01",
+      "sheet": "تایم فریم",
+      "cell": "B6",
+      "text_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "workbook_sha256": "33a91a5d932547198ef86b1713687165a1ee5c19ade85b13714d29a60630ace0"
+    },
+    {
+      "id": "USER-PIVOT-20261025",
+      "kind": "explicit_user_decision",
+      "date": "2026-10-25",
+      "text_fa_omitted": "Verbatim wording is retained only in the private evidence archive. Source identity, rule effect, and scope are preserved.",
+      "effect": "Trex is primary; MACD phase and 38.2 percent retracement are auxiliary, not mandatory AND conditions",
+      "scope": "Pivot method precedence only; not approval of every chart label, performance, master selection or parameter"
+    },
+    {
+      "id": "SEM-DESIGN-01",
+      "kind": "engineering_design",
+      "text": "At candidate-open freeze, anchor/context/target availability must be no later than origin for a prospective continuation. Preserve retrospective observations and terminal invalidation/consumed status. This extends the existing target-freeze policy; not attributed as a Trex quotation."
+    },
+    {
+      "id": "SEM-OFFICIAL-REPAINT",
+      "kind": "official_documentation",
+      "url": "https://www.tradingview.com/pine-script-docs/concepts/repainting/",
+      "accessed_on": "2026-10-25",
+      "summary": "Closed-bar and historical availability differ from retrospective plotting; historical OHLC cannot reconstruct all intrabar events."
+    }
+  ],
+  "reused_refs": [
+    "X-TREND-B7",
+    "S2-TREX-135",
+    "S2-TREX-166",
+    "S2-TREX-176",
+    "S2-TREX-178",
+    "S2-TREX-184",
+    "S2-TREX-218",
+    "S2-TREX-252",
+    "S2-TREX-826",
+    "S2-TREX-864",
+    "S2-TREX-866",
+    "S2-TREX-934"
+  ],
+  "reused_files": [
+    "contract-evidence.json",
+    "structure-mtf-evidence.json"
+  ],
+  "trex_refresh": {
+    "status": "unavailable",
+    "attempted_urls": [
+      "https://www.trexacademy.ir/questions",
+      "https://www.trexacademy.ir/questions/252",
+      "https://www.trexacademy.ir/questions/934"
+    ],
+    "evidence_used": "Previously reviewed retained textual summaries; no new chart/audio/video review claimed"
+  },
+  "images_manifest": "tests/semantic_reference/source-images.json",
+  "source_images_in_skill": false,
+  "benchmark_label_author": "development agent; prior engine output was known; not independent or blinded",
+  "user_adjudicated_items": [
+    "pivot method precedence"
+  ],
+  "full_method_validated": false
+}

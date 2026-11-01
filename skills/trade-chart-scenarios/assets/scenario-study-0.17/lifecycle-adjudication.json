@@ -1,0 +1,544 @@
+{
+  "source_expected_sha256": "016ace38387cecbb9b1be998ee217557be2d44d78dc9063f400f2a34170d2c73",
+  "original_labels_unchanged": true,
+  "postfreeze_adjudication": true,
+  "reason": "BRK-C02 b0 is a BRK-C01 candidate; INV-C01 lifecycle does not start when candidate conditions fail",
+  "not_formed_count": 47,
+  "diagnostic_boundary_events_without_profile_candidate": 20,
+  "cases": [
+    {
+      "case_id": "ETHUSDT-ETHUSDT-segment01-b588-down-549",
+      "profile_candidate_formed": false,
+      "steps": [
+        {
+          "bars_after_candidate": 0,
+          "as_of": "2026-09-03T01:05:00Z",
+          "frozen_original_strict_status": "strict_template_not_matched",
+          "projected_profile_status": "strict_template_not_matched",
+          "profile_candidate_formed": false,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {
+            "nearest_obstacle": {
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "open_time": "2026-09-03T01:00:00Z",
+              "close_time": "2026-09-03T01:05:00Z",
+              "available_at": "2026-09-03T01:05:00Z",
+              "kind": "range_intersection",
+              "intrabar_time_known": false,
+              "bars_after_candidate": 0
+            }
+          },
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 1,
+          "as_of": "2026-09-03T01:10:00Z",
+          "frozen_original_strict_status": "invalidated",
+          "projected_profile_status": "strict_template_not_matched",
+          "profile_candidate_formed": false,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": {
+            "bar_id": "ETHUSDT-M5-1788397500",
+            "close_time": "2026-09-03T01:10:00Z",
+            "available_at": "2026-09-03T01:10:00Z",
+            "bars_after_candidate": 1
+          },
+          "diagnostic_target_events": {
+            "nearest_obstacle": {
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "open_time": "2026-09-03T01:00:00Z",
+              "close_time": "2026-09-03T01:05:00Z",
+              "available_at": "2026-09-03T01:05:00Z",
+              "kind": "range_intersection",
+              "intrabar_time_known": false,
+              "bars_after_candidate": 0
+            }
+          },
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 2,
+          "as_of": "2026-09-03T01:15:00Z",
+          "frozen_original_strict_status": "invalidated",
+          "projected_profile_status": "strict_template_not_matched",
+          "profile_candidate_formed": false,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": {
+            "bar_id": "ETHUSDT-M5-1788397500",
+            "close_time": "2026-09-03T01:10:00Z",
+            "available_at": "2026-09-03T01:10:00Z",
+            "bars_after_candidate": 1
+          },
+          "diagnostic_target_events": {
+            "nearest_obstacle": {
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "open_time": "2026-09-03T01:00:00Z",
+              "close_time": "2026-09-03T01:05:00Z",
+              "available_at": "2026-09-03T01:05:00Z",
+              "kind": "range_intersection",
+              "intrabar_time_known": false,
+              "bars_after_candidate": 0
+            }
+          },
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 3,
+          "as_of": "2026-09-03T01:20:00Z",
+          "frozen_original_strict_status": "invalidated",
+          "projected_profile_status": "strict_template_not_matched",
+          "profile_candidate_formed": false,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": {
+            "bar_id": "ETHUSDT-M5-1788397500",
+            "close_time": "2026-09-03T01:10:00Z",
+            "available_at": "2026-09-03T01:10:00Z",
+            "bars_after_candidate": 1
+          },
+          "diagnostic_target_events": {
+            "nearest_obstacle": {
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "open_time": "2026-09-03T01:00:00Z",
+              "close_time": "2026-09-03T01:05:00Z",
+              "available_at": "2026-09-03T01:05:00Z",
+              "kind": "range_intersection",
+              "intrabar_time_known": false,
+              "bars_after_candidate": 0
+            }
+          },
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 4,
+          "as_of": "2026-09-03T01:25:00Z",
+          "frozen_original_strict_status": "invalidated",
+          "projected_profile_status": "strict_template_not_matched",
+          "profile_candidate_formed": false,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": {
+            "bar_id": "ETHUSDT-M5-1788397500",
+            "close_time": "2026-09-03T01:10:00Z",
+            "available_at": "2026-09-03T01:10:00Z",
+            "bars_after_candidate": 1
+          },
+          "diagnostic_target_events": {
+            "nearest_obstacle": {
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "open_time": "2026-09-03T01:00:00Z",
+              "close_time": "2026-09-03T01:05:00Z",
+              "available_at": "2026-09-03T01:05:00Z",
+              "kind": "range_intersection",
+              "intrabar_time_known": false,
+              "bars_after_candidate": 0
+            }
+          },
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 5,
+          "as_of": "2026-09-03T01:30:00Z",
+          "frozen_original_strict_status": "invalidated",
+          "projected_profile_status": "strict_template_not_matched",
+          "profile_candidate_formed": false,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": {
+            "bar_id": "ETHUSDT-M5-1788397500",
+            "close_time": "2026-09-03T01:10:00Z",
+            "available_at": "2026-09-03T01:10:00Z",
+            "bars_after_candidate": 1
+          },
+          "diagnostic_target_events": {
+            "nearest_obstacle": {
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "open_time": "2026-09-03T01:00:00Z",
+              "close_time": "2026-09-03T01:05:00Z",
+              "available_at": "2026-09-03T01:05:00Z",
+              "kind": "range_intersection",
+              "intrabar_time_known": false,
+              "bars_after_candidate": 0
+            }
+          },
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 6,
+          "as_of": "2026-09-03T01:35:00Z",
+          "frozen_original_strict_status": "invalidated",
+          "projected_profile_status": "strict_template_not_matched",
+          "profile_candidate_formed": false,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": {
+            "bar_id": "ETHUSDT-M5-1788397500",
+            "close_time": "2026-09-03T01:10:00Z",
+            "available_at": "2026-09-03T01:10:00Z",
+            "bars_after_candidate": 1
+          },
+          "diagnostic_target_events": {
+            "nearest_obstacle": {
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "open_time": "2026-09-03T01:00:00Z",
+              "close_time": "2026-09-03T01:05:00Z",
+              "available_at": "2026-09-03T01:05:00Z",
+              "kind": "range_intersection",
+              "intrabar_time_known": false,
+              "bars_after_candidate": 0
+            }
+          },
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 7,
+          "as_of": "2026-09-03T01:40:00Z",
+          "frozen_original_strict_status": "invalidated",
+          "projected_profile_status": "strict_template_not_matched",
+          "profile_candidate_formed": false,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": {
+            "bar_id": "ETHUSDT-M5-1788397500",
+            "close_time": "2026-09-03T01:10:00Z",
+            "available_at": "2026-09-03T01:10:00Z",
+            "bars_after_candidate": 1
+          },
+          "diagnostic_target_events": {
+            "nearest_obstacle": {
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "open_time": "2026-09-03T01:00:00Z",
+              "close_time": "2026-09-03T01:05:00Z",
+              "available_at": "2026-09-03T01:05:00Z",
+              "kind": "range_intersection",
+              "intrabar_time_known": false,
+              "bars_after_candidate": 0
+            }
+          },
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 8,
+          "as_of": "2026-09-03T01:45:00Z",
+          "frozen_original_strict_status": "invalidated",
+          "projected_profile_status": "strict_template_not_matched",
+          "profile_candidate_formed": false,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": {
+            "bar_id": "ETHUSDT-M5-1788397500",
+            "close_time": "2026-09-03T01:10:00Z",
+            "available_at": "2026-09-03T01:10:00Z",
+            "bars_after_candidate": 1
+          },
+          "diagnostic_target_events": {
+            "nearest_obstacle": {
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "open_time": "2026-09-03T01:00:00Z",
+              "close_time": "2026-09-03T01:05:00Z",
+              "available_at": "2026-09-03T01:05:00Z",
+              "kind": "range_intersection",
+              "intrabar_time_known": false,
+              "bars_after_candidate": 0
+            }
+          },
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 9,
+          "as_of": "2026-09-03T01:50:00Z",
+          "frozen_original_strict_status": "invalidated",
+          "projected_profile_status": "strict_template_not_matched",
+          "profile_candidate_formed": false,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": {
+            "bar_id": "ETHUSDT-M5-1788397500",
+            "close_time": "2026-09-03T01:10:00Z",
+            "available_at": "2026-09-03T01:10:00Z",
+            "bars_after_candidate": 1
+          },
+          "diagnostic_target_events": {
+            "nearest_obstacle": {
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "open_time": "2026-09-03T01:00:00Z",
+              "close_time": "2026-09-03T01:05:00Z",
+              "available_at": "2026-09-03T01:05:00Z",
+              "kind": "range_intersection",
+              "intrabar_time_known": false,
+              "bars_after_candidate": 0
+            }
+          },
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 10,
+          "as_of": "2026-09-03T01:55:00Z",
+          "frozen_original_strict_status": "invalidated",
+          "projected_profile_status": "strict_template_not_matched",
+          "profile_candidate_formed": false,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": {
+            "bar_id": "ETHUSDT-M5-1788397500",
+            "close_time": "2026-09-03T01:10:00Z",
+            "available_at": "2026-09-03T01:10:00Z",
+            "bars_after_candidate": 1
+          },
+          "diagnostic_target_events": {
+            "nearest_obstacle": {
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "open_time": "2026-09-03T01:00:00Z",
+              "close_time": "2026-09-03T01:05:00Z",
+              "available_at": "2026-09-03T01:05:00Z",
+              "kind": "range_intersection",
+              "intrabar_time_known": false,
+              "bars_after_candidate": 0
+            }
+          },
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 11,
+          "as_of": "2026-09-03T02:00:00Z",
+          "frozen_original_strict_status": "invalidated",
+          "projected_profile_status": "strict_template_not_matched",
+          "profile_candidate_formed": false,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": {
+            "bar_id": "ETHUSDT-M5-1788397500",
+            "close_time": "2026-09-03T01:10:00Z",
+            "available_at": "2026-09-03T01:10:00Z",
+            "bars_after_candidate": 1
+          },
+          "diagnostic_target_events": {
+            "nearest_obstacle": {
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "open_time": "2026-09-03T01:00:00Z",
+              "close_time": "2026-09-03T01:05:00Z",
+              "available_at": "2026-09-03T01:05:00Z",
+              "kind": "range_intersection",
+              "intrabar_time_known": false,
+              "bars_after_candidate": 0
+            }
+          },
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 12,
+          "as_of": "2026-09-03T02:05:00Z",
+          "frozen_original_strict_status": "invalidated",
+          "projected_profile_status": "strict_template_not_matched",
+          "profile_candidate_formed": false,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": {
+            "bar_id": "ETHUSDT-M5-1788397500",
+            "close_time": "2026-09-03T01:10:00Z",
+            "available_at": "2026-09-03T01:10:00Z",
+            "bars_after_candidate": 1
+          },
+          "diagnostic_target_events": {
+            "nearest_obstacle": {
+              "bar_id": "ETHUSDT-M5-1788397200",
+              "open_time": "2026-09-03T01:00:00Z",
+              "close_time": "2026-09-03T01:05:00Z",
+              "available_at": "2026-09-03T01:05:00Z",
+              "kind": "range_intersection",
+              "intrabar_time_known": false,
+              "bars_after_candidate": 0
+            }
+          },
+          "profile_confirmation": null
+        }
+      ]
+    },
+    {
+      "case_id": "BTCUSDT-BTCUSDT-segment01-b748-up-27",
+      "profile_candidate_formed": true,
+      "steps": [
+        {
+          "bars_after_candidate": 0,
+          "as_of": "2026-09-03T14:25:00Z",
+          "frozen_original_strict_status": "pending_confirmation",
+          "projected_profile_status": "candidate",
+          "profile_candidate_formed": true,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {},
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 1,
+          "as_of": "2026-09-03T14:30:00Z",
+          "frozen_original_strict_status": "pending_confirmation",
+          "projected_profile_status": "pending_confirmation",
+          "profile_candidate_formed": true,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {},
+          "profile_confirmation": null
+        },
+        {
+          "bars_after_candidate": 2,
+          "as_of": "2026-09-03T14:35:00Z",
+          "frozen_original_strict_status": "confirmed_under_selected_profile",
+          "projected_profile_status": "confirmed_under_selected_profile",
+          "profile_candidate_formed": true,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {},
+          "profile_confirmation": {
+            "bar_id": "BTCUSDT-M5-1788445800",
+            "close_time": "2026-09-03T14:35:00Z",
+            "available_at": "2026-09-03T14:35:00Z"
+          }
+        },
+        {
+          "bars_after_candidate": 3,
+          "as_of": "2026-09-03T14:40:00Z",
+          "frozen_original_strict_status": "confirmed_under_selected_profile",
+          "projected_profile_status": "confirmed_under_selected_profile",
+          "profile_candidate_formed": true,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {},
+          "profile_confirmation": {
+            "bar_id": "BTCUSDT-M5-1788445800",
+            "close_time": "2026-09-03T14:35:00Z",
+            "available_at": "2026-09-03T14:35:00Z"
+          }
+        },
+        {
+          "bars_after_candidate": 4,
+          "as_of": "2026-09-03T14:45:00Z",
+          "frozen_original_strict_status": "confirmed_under_selected_profile",
+          "projected_profile_status": "confirmed_under_selected_profile",
+          "profile_candidate_formed": true,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {},
+          "profile_confirmation": {
+            "bar_id": "BTCUSDT-M5-1788445800",
+            "close_time": "2026-09-03T14:35:00Z",
+            "available_at": "2026-09-03T14:35:00Z"
+          }
+        },
+        {
+          "bars_after_candidate": 5,
+          "as_of": "2026-09-03T14:50:00Z",
+          "frozen_original_strict_status": "confirmed_under_selected_profile",
+          "projected_profile_status": "confirmed_under_selected_profile",
+          "profile_candidate_formed": true,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {},
+          "profile_confirmation": {
+            "bar_id": "BTCUSDT-M5-1788445800",
+            "close_time": "2026-09-03T14:35:00Z",
+            "available_at": "2026-09-03T14:35:00Z"
+          }
+        },
+        {
+          "bars_after_candidate": 6,
+          "as_of": "2026-09-03T14:55:00Z",
+          "frozen_original_strict_status": "confirmed_under_selected_profile",
+          "projected_profile_status": "confirmed_under_selected_profile",
+          "profile_candidate_formed": true,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {},
+          "profile_confirmation": {
+            "bar_id": "BTCUSDT-M5-1788445800",
+            "close_time": "2026-09-03T14:35:00Z",
+            "available_at": "2026-09-03T14:35:00Z"
+          }
+        },
+        {
+          "bars_after_candidate": 7,
+          "as_of": "2026-09-03T15:00:00Z",
+          "frozen_original_strict_status": "confirmed_under_selected_profile",
+          "projected_profile_status": "confirmed_under_selected_profile",
+          "profile_candidate_formed": true,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {},
+          "profile_confirmation": {
+            "bar_id": "BTCUSDT-M5-1788445800",
+            "close_time": "2026-09-03T14:35:00Z",
+            "available_at": "2026-09-03T14:35:00Z"
+          }
+        },
+        {
+          "bars_after_candidate": 8,
+          "as_of": "2026-09-03T15:05:00Z",
+          "frozen_original_strict_status": "confirmed_under_selected_profile",
+          "projected_profile_status": "confirmed_under_selected_profile",
+          "profile_candidate_formed": true,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {},
+          "profile_confirmation": {
+            "bar_id": "BTCUSDT-M5-1788445800",
+            "close_time": "2026-09-03T14:35:00Z",
+            "available_at": "2026-09-03T14:35:00Z"
+          }
+        },
+        {
+          "bars_after_candidate": 9,
+          "as_of": "2026-09-03T15:10:00Z",
+          "frozen_original_strict_status": "confirmed_under_selected_profile",
+          "projected_profile_status": "confirmed_under_selected_profile",
+          "profile_candidate_formed": true,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {},
+          "profile_confirmation": {
+            "bar_id": "BTCUSDT-M5-1788445800",
+            "close_time": "2026-09-03T14:35:00Z",
+            "available_at": "2026-09-03T14:35:00Z"
+          }
+        },
+        {
+          "bars_after_candidate": 10,
+          "as_of": "2026-09-03T15:15:00Z",
+          "frozen_original_strict_status": "confirmed_under_selected_profile",
+          "projected_profile_status": "confirmed_under_selected_profile",
+          "profile_candidate_formed": true,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {},
+          "profile_confirmation": {
+            "bar_id": "BTCUSDT-M5-1788445800",
+            "close_time": "2026-09-03T14:35:00Z",
+            "available_at": "2026-09-03T14:35:00Z"
+          }
+        },
+        {
+          "bars_after_candidate": 11,
+          "as_of": "2026-09-03T15:20:00Z",
+          "frozen_original_strict_status": "confirmed_under_selected_profile",
+          "projected_profile_status": "confirmed_under_selected_profile",
+          "profile_candidate_formed": true,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {},
+          "profile_confirmation": {
+            "bar_id": "BTCUSDT-M5-1788445800",
+            "close_time": "2026-09-03T14:35:00Z",
+            "available_at": "2026-09-03T14:35:00Z"
+          }
+        },
+        {
+          "bars_after_candidate": 12,
+          "as_of": "2026-09-03T15:25:00Z",
+          "frozen_original_strict_status": "confirmed_under_selected_profile",
+          "projected_profile_status": "confirmed_under_selected_profile",
+          "profile_candidate_formed": true,
+          "profile_invalidation": null,
+          "diagnostic_boundary_crossing": null,
+          "diagnostic_target_events": {},
+          "profile_confirmation": {
+            "bar_id": "BTCUSDT-M5-1788445800",
+            "close_time": "2026-09-03T14:35:00Z",
+            "available_at": "2026-09-03T14:35:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "source_projection_sha256": "634cea6372b73f66e1b1f4858709103cd27072a57c3488390a3855bfba8749bd",
+  "distribution_scope": "Only the two Binance illustrations are included; study-wide counts describe the private original adjudication."
+}

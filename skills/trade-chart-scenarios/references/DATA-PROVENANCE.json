@@ -1,0 +1,178 @@
+{
+  "provider": "Binance Vision",
+  "license": "CC-BY-NC-SA-4.0",
+  "terms_url": "https://github.com/binance/binance-public-data/blob/master/TERMS_AND_CONDITIONS.md",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "terms_verified_on": "2026-11-01",
+  "terms_document_updated_on": "2026-08-26",
+  "terms_blob_sha": "d47bf55acfd83456d6fe57b31f400b42bda83c19",
+  "scope": "Only the enumerated historical data examples and derived expected numerical rows; not a grant for project code.",
+  "files": [
+    {
+      "file": "skills/trade-chart-scenarios/assets/conformance/BTCUSDT-H1.json",
+      "sha256": "c586d26be47c122317368b2b7a349aba9db43db259b1f2fc17f7c36e51e45248"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/conformance/BTCUSDT-H4.json",
+      "sha256": "d1744dac2cedb20d2b169199c7b50ab534760a65d7ca492d8524d3be4f5e6a6a"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/conformance/BTCUSDT-D1.json",
+      "sha256": "79b47d6c666e81d3c159a50e3794963d503a9a2f9ad13fd7c8f95cd611e7b107"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/conformance/ETHUSDT-H1.json",
+      "sha256": "6c897969cdcc6cde91113fc097025867f884e78fb69105b4e855eecfade05f35"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/conformance/ETHUSDT-H4.json",
+      "sha256": "c598fd59adece49b41d213d06b9d6196974c50c1a9e8e801f4ea2b0e9ead7332"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/conformance/ETHUSDT-D1.json",
+      "sha256": "ad99c2a5b04aa4b4cff791f807873e58c499faaf393ac2e618cdecbd9bc6743b"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/market-research-example.json",
+      "sha256": "8100fb2b9288bde7b866f3541d6f51f3246b809cbfc37242bb16aa221465e4b8"
+    },
+    {
+      "file": "tests/structure_market/data/ETHUSDT.json",
+      "sha256": "afa5c6046ae76368c69356a36a3502babf45218eb351b8234b686d7c57d23e99"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/confirmation-input.json",
+      "sha256": "b89f76dc60240e15762aa60db3503914b61296b1c14f124df54e4ab35dbd1870"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/expected.json",
+      "sha256": "e73ea4d0df0b3f5f7a8cd8048b27f29ef77c792df45f67ed63f9020e200df5f6"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/future-updates.json",
+      "sha256": "dc2473b5261dd5074bb859a98c1af44183e316e3083a5a0e00597d28e1ba9b59"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/horizon-input.json",
+      "sha256": "93ec30f54882399d96c8de5bb4b61b75113cc751c9d81d48dc47ae0dcfc4b967"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/scenario-study-0.17/btc-geometric-confirmation/prefix-input.json",
+      "sha256": "6b3f8d36a5e960c44b3e5812cb45a3ea6bc8df253cdbacf370630ffd35f003a1"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/confirmation-input.json",
+      "sha256": "73b454f88d811a57123428ddd4a61e1327c58d81a26414870f9692ceaae215f7"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/expected.json",
+      "sha256": "4c7001e9aecfbb61006b36522f5de4bab196feb45540050ccd48a0db1e9b1899"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/future-updates.json",
+      "sha256": "050a558704ba6f74b102710725a36050944902eaf83ae42631a17b24a8a440c1"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/horizon-input.json",
+      "sha256": "9a2cec7e5371c16c23fed1b7c00348ea61aa1d24ebcc9559a587ebd150e31ce6"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/scenario-study-0.17/eth-geometric-rejection/prefix-input.json",
+      "sha256": "9dafe72390afd7105f6c997b65b80b559bb23136cf027a53e70215638ca9d24c"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/scenario-study-0.17/lifecycle-adjudication.json",
+      "sha256": "ea2021aa4099265a689935b628a41b4d3fbce290a2ed3df058315ea686c0797e"
+    },
+    {
+      "file": "skills/trade-chart-scenarios/assets/scenario-study-0.17/manifest.json",
+      "sha256": "696832f0e8836cb294bb02b1e4d958fe3704444a2c9e8a688496fbc7c7034d11"
+    }
+  ],
+  "sources": [
+    {
+      "family": "conformance_and_mtf",
+      "symbol": "BTCUSDT",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1h/BTCUSDT-1h-2020-01.zip",
+      "sha256": "4ef7fa698b6821493f4c8317bc616d48bcdf5951d32fe6e40aaa7608886e51ca",
+      "retrieved_at": "2026-10-25T00:52:40.749928+00:00"
+    },
+    {
+      "family": "conformance_and_mtf",
+      "symbol": "BTCUSDT",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1h/BTCUSDT-1h-2019-12.zip",
+      "sha256": "87267b84d9f0e64ec94799d62de6730825c6a44f154ada5ed8c2dd267df78481",
+      "retrieved_at": "2026-10-25T12:48:33.487382+00:00"
+    },
+    {
+      "family": "conformance_and_mtf",
+      "symbol": "BTCUSDT",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1h/BTCUSDT-1h-2020-02.zip",
+      "sha256": "0189065a1b789825448530cb3fdddcefa45ca13b0a6bca181f358c72d3a6d5e6",
+      "retrieved_at": "2026-10-25T12:48:35.768408+00:00"
+    },
+    {
+      "family": "conformance_and_mtf",
+      "symbol": "ETHUSDT",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2020-01.zip",
+      "sha256": "9e0ca4d30bcb22d5c876b912b3160445d2410634d09e9584060f592c30a06402",
+      "retrieved_at": "2026-10-25T00:52:42.143316+00:00"
+    },
+    {
+      "family": "conformance_and_mtf",
+      "symbol": "ETHUSDT",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2019-12.zip",
+      "sha256": "c7734b09fafca18a99f4906ba33b34a37cb96b8c0f866e6b92f9e951f99f5b8d",
+      "retrieved_at": "2026-10-25T12:48:37.196820+00:00"
+    },
+    {
+      "family": "conformance_and_mtf",
+      "symbol": "ETHUSDT",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2020-02.zip",
+      "sha256": "1cf8a5b129d16bed072c46e158b5914247007ec7e00b489880f422c80c73afbe",
+      "retrieved_at": "2026-10-25T12:48:38.667725+00:00"
+    },
+    {
+      "family": "market_research_example",
+      "symbol": "BTCUSDT",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1h/BTCUSDT-1h-2017-11.zip",
+      "sha256": "3df1d2c3378f0aab1b7bb64901e87f2f4cf71fccecbb12a48cd917770a7ba77c",
+      "retrieved_at": "2026-10-26T15:19:05.996946+00:00"
+    },
+    {
+      "family": "market_research_example",
+      "symbol": "BTCUSDT",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1h/BTCUSDT-1h-2017-12.zip",
+      "sha256": "9b86b43c9a649065cc1e7f3b8fe4825e614d9e8ca43808b74a0efe96465bd90c",
+      "retrieved_at": "2026-10-26T15:19:06.060928+00:00"
+    },
+    {
+      "family": "market_research_example",
+      "symbol": "BTCUSDT",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1h/BTCUSDT-1h-2018-01.zip",
+      "sha256": "b649198039645124717f334443ae550d1060661ee03c5fb605cf067fab26dc85",
+      "retrieved_at": "2026-10-26T15:19:07.457717+00:00"
+    },
+    {
+      "family": "scenario-study-0.17",
+      "case_id": "btc-geometric-confirmation",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2026-09.zip",
+      "sha256": "4106fc73698fd1851b1821cd0293adc6304f86f0c2e72244e15c41f63c2bde08",
+      "retrieved_at": "2026-11-01T09:01:25.500083Z"
+    },
+    {
+      "family": "scenario-study-0.17",
+      "case_id": "eth-geometric-rejection",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2026-09.zip",
+      "sha256": "83cf3f7302d0d252898b9fc3175123c7337c796662a58ef24a452024164da92c",
+      "retrieved_at": "2026-11-01T09:01:39.307588Z"
+    }
+  ],
+  "adaptations": [
+    "Original decimal OHLC retained; selected fixed historical prefixes or contiguous slices.",
+    "H4/D1 candles aggregate original H1 records where stated; timestamps and archive availability assumptions are retained.",
+    "Reference numerical outputs use the supplied independent rational oracle; research costs are declared assumptions.",
+    "The two 0.17 study illustrations were selected after the frozen 60-case study: first selected BTC geometric confirmation and first selected ETH geometric non-confirmation. They are not a performance sample or fresh blind test."
+  ],
+  "endorsement": false
+}

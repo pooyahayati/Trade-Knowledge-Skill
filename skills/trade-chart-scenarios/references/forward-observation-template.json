@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "status": "template_not_an_observed_event",
+  "purpose": "Read-only forward observations; never an order instruction",
+  "required_before_decision": ["event_id", "received_at_utc", "data_cutoff_utc", "skill_version", "source_file_sha256", "instrument_profile_sha256", "feed_id", "symbol", "timeframe", "last_closed_bar_id", "scenario_id", "scenario_status", "conditions", "invalidation", "target_evidence", "missing_inputs", "decision_reason"],
+  "required_when_resolved": ["resolution_event_id", "parent_event_id", "observed_at_utc", "outcome_available_at_utc", "resolution_kind", "source_file_sha256", "actual_costs_or_unknown", "ambiguities"],
+  "rules": ["Append a new resolution event; never overwrite the original decision", "A historical backfill is not a live observation", "Do not mark hypothetical costs as actual", "No orders, credentials, balance or position size are required", "Do not infer event chronology from candle shape"]
+}

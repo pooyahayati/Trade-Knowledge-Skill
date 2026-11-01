@@ -1,0 +1,19 @@
+{
+  "contract_id": "self_cover_event_shadow_extension_v1",
+  "schema_version": 1,
+  "date": "2026-10-26",
+  "extends": "source_linked_pivots_v1",
+  "primary_source": "TREX-256",
+  "activation": "Under pivot_review source_linked_pivots_v1, exception_candidate_v1 family self_cover, preleg route atr_displacement with end_bar_id equal to event_bar_id.",
+  "rules": [
+    "Wave start precedes the event. Closed, available, own-timeframe event must have a positive incoming-side shadow.",
+    "Use start open to event low for support or event high for resistance. Use explicitly selected baseline_atr and existing three-ATR threshold; other thresholds require method review.",
+    "Measure only after cumulative event data availability. The measurement object distinguishes the event endpoint from the pre-event inspected candle span.",
+    "Direction and noise review stop before the event. It cannot be a third directional body or settle an earlier counter-bar by a purported preleg close.",
+    "This source-supported extension does not apply automatically to pinbar or long_shadow families.",
+    "Shape, zone construction, source context and timeframes remain separate checks. Always retain needs_exception_review and no automatic confirmation exemption.",
+    "Existing pre-event endpoints and ordinary pivots keep their prior interpretation. No source image is converted into invented OHLC, ATR or historical availability."
+  ],
+  "source_adjudication": "Source-answer labels and image readings are not independent human/model validation or proof of universal thresholds.",
+  "full_exception_method_implemented": false
+}

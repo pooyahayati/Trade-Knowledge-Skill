@@ -1,0 +1,3122 @@
+{
+  "case_id": "BTCUSDT-BTCUSDT-segment01-b748-up-27",
+  "selected_for": [
+    "no_nearest_obstacle"
+  ],
+  "prefix_ready": false,
+  "prefix_blockers": [
+    "anchor_review",
+    "no_nearest_obstacle",
+    "no_H1_target",
+    "origin_context",
+    "decision_context"
+  ],
+  "prefix_gates": {
+    "candidate_range": true,
+    "candidate_body": true,
+    "no_gap": true,
+    "anchor_qualified": false,
+    "anchor_independent_path": true,
+    "nearest_exists": false,
+    "nearest_qualified": false,
+    "H1_target_exists": false,
+    "H1_target_qualified": false,
+    "no_intermediate_obstacles": true,
+    "origin_context_aligned": false,
+    "decision_context_aligned": false,
+    "fresh_context": true,
+    "nearest_not_consumed_by_b0": true
+  },
+  "anchor_review_reasons": [
+    "preleg_routes_not_met",
+    "unreviewed_counter_or_doji_wave_evidence",
+    "newer_ordinary_master_requires_reselection",
+    "intervening_split_shadow_source_variant"
+  ],
+  "nearest_obstacle_review_reasons": null,
+  "H1_target_review_reasons": null,
+  "fixed_target_map": {
+    "freeze_at": "2026-09-03T14:20:00Z",
+    "reference": "79220.61000000",
+    "known_pool_ids": [
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m70",
+      "BTCUSDT-BTCUSDT-segment01-M15-up-m22",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m49",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m39",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m27",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m71",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m70",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m424",
+      "BTCUSDT-BTCUSDT-segment01-H1-down-m34",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m408",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m147",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m146",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m398",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m155",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m488",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m555",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m552",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m581",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m183",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m487",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m376",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m635",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m616",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m689",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m179",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m59"
+    ],
+    "nearest_obstacle_id": null,
+    "structural_target_id": null,
+    "nearest_qualified": null,
+    "structural_qualified": null,
+    "anchor_overlap_extensions": [],
+    "overlap_components": [
+      [
+        "BTCUSDT-BTCUSDT-segment01-M5-up-m70",
+        "BTCUSDT-BTCUSDT-segment01-M15-up-m22",
+        "BTCUSDT-BTCUSDT-segment01-M5-up-m49",
+        "BTCUSDT-BTCUSDT-segment01-M5-up-m39",
+        "BTCUSDT-BTCUSDT-segment01-M5-up-m27"
+      ],
+      [
+        "BTCUSDT-BTCUSDT-segment01-M15-down-m71",
+        "BTCUSDT-BTCUSDT-segment01-M15-down-m70",
+        "BTCUSDT-BTCUSDT-segment01-M5-down-m424",
+        "BTCUSDT-BTCUSDT-segment01-H1-down-m34",
+        "BTCUSDT-BTCUSDT-segment01-M5-down-m408",
+        "BTCUSDT-BTCUSDT-segment01-M15-down-m147",
+        "BTCUSDT-BTCUSDT-segment01-M15-down-m146",
+        "BTCUSDT-BTCUSDT-segment01-M5-down-m398",
+        "BTCUSDT-BTCUSDT-segment01-M5-down-m376",
+        "BTCUSDT-BTCUSDT-segment01-M5-down-m179",
+        "BTCUSDT-BTCUSDT-segment01-M15-down-m59"
+      ],
+      [
+        "BTCUSDT-BTCUSDT-segment01-M15-down-m155"
+      ],
+      [
+        "BTCUSDT-BTCUSDT-segment01-M5-down-m488",
+        "BTCUSDT-BTCUSDT-segment01-M5-down-m555",
+        "BTCUSDT-BTCUSDT-segment01-M5-down-m552",
+        "BTCUSDT-BTCUSDT-segment01-M5-down-m581",
+        "BTCUSDT-BTCUSDT-segment01-M15-down-m183",
+        "BTCUSDT-BTCUSDT-segment01-M5-down-m487"
+      ],
+      [
+        "BTCUSDT-BTCUSDT-segment01-M5-down-m635",
+        "BTCUSDT-BTCUSDT-segment01-M5-down-m616"
+      ],
+      [
+        "BTCUSDT-BTCUSDT-segment01-M5-down-m689"
+      ]
+    ],
+    "component_by_id": {
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m70": "BTCUSDT-BTCUSDT-segment01-M15-up-m22",
+      "BTCUSDT-BTCUSDT-segment01-M15-up-m22": "BTCUSDT-BTCUSDT-segment01-M15-up-m22",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m49": "BTCUSDT-BTCUSDT-segment01-M15-up-m22",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m39": "BTCUSDT-BTCUSDT-segment01-M15-up-m22",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m27": "BTCUSDT-BTCUSDT-segment01-M15-up-m22",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m71": "BTCUSDT-BTCUSDT-segment01-M5-down-m179",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m70": "BTCUSDT-BTCUSDT-segment01-M5-down-m179",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m424": "BTCUSDT-BTCUSDT-segment01-M5-down-m179",
+      "BTCUSDT-BTCUSDT-segment01-H1-down-m34": "BTCUSDT-BTCUSDT-segment01-M5-down-m179",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m408": "BTCUSDT-BTCUSDT-segment01-M5-down-m179",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m147": "BTCUSDT-BTCUSDT-segment01-M5-down-m179",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m146": "BTCUSDT-BTCUSDT-segment01-M5-down-m179",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m398": "BTCUSDT-BTCUSDT-segment01-M5-down-m179",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m376": "BTCUSDT-BTCUSDT-segment01-M5-down-m179",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m179": "BTCUSDT-BTCUSDT-segment01-M5-down-m179",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m59": "BTCUSDT-BTCUSDT-segment01-M5-down-m179",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m155": "BTCUSDT-BTCUSDT-segment01-M15-down-m155",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m488": "BTCUSDT-BTCUSDT-segment01-M5-down-m487",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m555": "BTCUSDT-BTCUSDT-segment01-M5-down-m487",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m552": "BTCUSDT-BTCUSDT-segment01-M5-down-m487",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m581": "BTCUSDT-BTCUSDT-segment01-M5-down-m487",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m183": "BTCUSDT-BTCUSDT-segment01-M5-down-m487",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m487": "BTCUSDT-BTCUSDT-segment01-M5-down-m487",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m635": "BTCUSDT-BTCUSDT-segment01-M5-down-m616",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m616": "BTCUSDT-BTCUSDT-segment01-M5-down-m616",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m689": "BTCUSDT-BTCUSDT-segment01-M5-down-m689"
+    },
+    "intermediate_obstacle_ids": [],
+    "ordered_opposing_ids": [],
+    "excluded_broken_ids": [
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m27",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m52",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m62",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m117",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m139",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m112",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m198",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m201",
+      "BTCUSDT-BTCUSDT-segment01-M15-up-m70",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m241",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m241",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m242",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m269",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m89",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m259",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m307",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m101",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m286",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m331",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m337",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m112",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m330",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m354",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m352",
+      "BTCUSDT-BTCUSDT-segment01-M15-up-m117",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m370",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m376",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m316",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m323",
+      "BTCUSDT-BTCUSDT-segment01-M15-up-m105",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m416",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m432",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m431",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m447",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m454",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m454",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m458",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m477",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m518",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m521",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m518",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m534",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m173",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m540",
+      "BTCUSDT-BTCUSDT-segment01-M15-up-m166",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m565",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m567",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m573",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m591",
+      "BTCUSDT-BTCUSDT-segment01-M15-down-m197",
+      "BTCUSDT-BTCUSDT-segment01-M5-down-m612",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m635",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m633",
+      "BTCUSDT-BTCUSDT-segment01-M15-up-m197",
+      "BTCUSDT-BTCUSDT-segment01-M5-up-m647"
+    ]
+  },
+  "candidate_range_atr": "2.3032219857303950625716628045943730531278669105722",
+  "candidate_body_fraction": "0.97740128358533666920482976177526378766452735777222",
+  "candidate_geometry_pass": true,
+  "stabilization_pass": true,
+  "b2_confirmation_pass": true,
+  "invalidation_close_boundary": "79016.58000000",
+  "confirmation_snapshot": {
+    "bars_after_candidate": 2,
+    "as_of": "2026-09-03T14:35:00Z",
+    "strict_status": "confirmed_under_selected_profile",
+    "historical_confirmation": {
+      "bar_id": "BTCUSDT-M5-1788445800",
+      "close_time": "2026-09-03T14:35:00Z",
+      "available_at": "2026-09-03T14:35:00Z"
+    },
+    "invalidation": null,
+    "target_events": {},
+    "context_aligned_now": false,
+    "current_context": {
+      "time": "2026-09-03T14:35:00Z",
+      "roles": {
+        "M5": {
+          "state": "uptrend",
+          "direction": "up",
+          "underlying_direction": "up",
+          "stale": false,
+          "age_bars": 7,
+          "pending_ambiguity": false,
+          "guard": {
+            "kind": "low",
+            "price": "78450.25000000",
+            "bar_id": "BTCUSDT-M5-1788441600",
+            "origin_index": 736,
+            "confirmed_index": 738,
+            "available_at": "2026-09-03T13:35:00Z"
+          },
+          "driver": {
+            "kind": "high",
+            "price": "79000.00000000",
+            "bar_id": "BTCUSDT-M5-1788443100",
+            "origin_index": 741,
+            "confirmed_index": 743,
+            "available_at": "2026-09-03T14:00:00Z"
+          },
+          "break_index": 722,
+          "available_at": "2026-09-03T14:35:00Z",
+          "bar_id": "BTCUSDT-M5-1788445800",
+          "sequence": [
+            {
+              "kind": "high",
+              "price": "78782.75000000",
+              "bar_id": "BTCUSDT-M5-1788440100",
+              "origin_index": 731,
+              "confirmed_index": 733,
+              "available_at": "2026-09-03T13:10:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "78450.25000000",
+              "bar_id": "BTCUSDT-M5-1788441600",
+              "origin_index": 736,
+              "confirmed_index": 738,
+              "available_at": "2026-09-03T13:35:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "79000.00000000",
+              "bar_id": "BTCUSDT-M5-1788443100",
+              "origin_index": 741,
+              "confirmed_index": 743,
+              "available_at": "2026-09-03T14:00:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "78704.00000000",
+              "bar_id": "BTCUSDT-M5-1788444000",
+              "origin_index": 744,
+              "confirmed_index": 746,
+              "available_at": "2026-09-03T14:15:00Z"
+            }
+          ],
+          "close_lag_seconds": 0.0,
+          "fresh": true
+        },
+        "M15": {
+          "state": "transition",
+          "direction": null,
+          "underlying_direction": null,
+          "stale": false,
+          "age_bars": 34,
+          "pending_ambiguity": false,
+          "guard": {
+            "kind": "high",
+            "price": "77824.00000000",
+            "bar_id": "BTCUSDT-M15-1788411600",
+            "origin_index": 212,
+            "confirmed_index": 214,
+            "available_at": "2026-09-03T05:45:00Z"
+          },
+          "driver": {
+            "kind": "low",
+            "price": "77101.01000000",
+            "bar_id": "BTCUSDT-M15-1788412500",
+            "origin_index": 213,
+            "confirmed_index": 215,
+            "available_at": "2026-09-03T06:00:00Z"
+          },
+          "break_index": 218,
+          "available_at": "2026-09-03T14:30:00Z",
+          "bar_id": "BTCUSDT-M15-1788444900",
+          "sequence": [
+            {
+              "kind": "high",
+              "price": "78183.91000000",
+              "bar_id": "BTCUSDT-M15-1788418800",
+              "origin_index": 220,
+              "confirmed_index": 222,
+              "available_at": "2026-09-03T07:45:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "77478.00000000",
+              "bar_id": "BTCUSDT-M15-1788431400",
+              "origin_index": 234,
+              "confirmed_index": 236,
+              "available_at": "2026-09-03T11:15:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "78782.75000000",
+              "bar_id": "BTCUSDT-M15-1788439500",
+              "origin_index": 243,
+              "confirmed_index": 245,
+              "available_at": "2026-09-03T13:30:00Z"
+            }
+          ],
+          "close_lag_seconds": 300.0,
+          "fresh": true
+        },
+        "H1": {
+          "state": "transition",
+          "direction": null,
+          "underlying_direction": null,
+          "stale": false,
+          "age_bars": 25,
+          "pending_ambiguity": false,
+          "guard": {
+            "kind": "high",
+            "price": "77792.00000000",
+            "bar_id": "BTCUSDT-H1-1788318000",
+            "origin_index": 27,
+            "confirmed_index": 29,
+            "available_at": "2026-09-02T06:00:00Z"
+          },
+          "driver": {
+            "kind": "low",
+            "price": "76264.00000000",
+            "bar_id": "BTCUSDT-H1-1788343200",
+            "origin_index": 34,
+            "confirmed_index": 36,
+            "available_at": "2026-09-02T13:00:00Z"
+          },
+          "break_index": 50,
+          "available_at": "2026-09-03T14:00:00Z",
+          "bar_id": "BTCUSDT-H1-1788440400",
+          "sequence": [
+            {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-H1-1788411600",
+              "origin_index": 53,
+              "confirmed_index": 55,
+              "available_at": "2026-09-03T08:00:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "78183.91000000",
+              "bar_id": "BTCUSDT-H1-1788418800",
+              "origin_index": 55,
+              "confirmed_index": 57,
+              "available_at": "2026-09-03T10:00:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "77478.00000000",
+              "bar_id": "BTCUSDT-H1-1788429600",
+              "origin_index": 58,
+              "confirmed_index": 60,
+              "available_at": "2026-09-03T13:00:00Z"
+            }
+          ],
+          "close_lag_seconds": 2100.0,
+          "fresh": true
+        }
+      },
+      "data_reasons": []
+    },
+    "scenario_ready": false,
+    "analytical_status": "confirmed_geometry_with_blockers"
+  },
+  "missing_confirmation_bars": 0,
+  "fixed_horizon_bars_after_candidate": 12,
+  "available_horizon_bars_after_candidate": 12,
+  "missing_horizon_bars": 0,
+  "steps": [
+    {
+      "bars_after_candidate": 0,
+      "as_of": "2026-09-03T14:25:00Z",
+      "strict_status": "pending_confirmation",
+      "historical_confirmation": null,
+      "invalidation": null,
+      "target_events": {},
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T14:25:00Z",
+        "roles": {
+          "M5": {
+            "state": "uptrend",
+            "direction": "up",
+            "underlying_direction": "up",
+            "stale": false,
+            "age_bars": 5,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "low",
+              "price": "78450.25000000",
+              "bar_id": "BTCUSDT-M5-1788441600",
+              "origin_index": 736,
+              "confirmed_index": 738,
+              "available_at": "2026-09-03T13:35:00Z"
+            },
+            "driver": {
+              "kind": "high",
+              "price": "79000.00000000",
+              "bar_id": "BTCUSDT-M5-1788443100",
+              "origin_index": 741,
+              "confirmed_index": 743,
+              "available_at": "2026-09-03T14:00:00Z"
+            },
+            "break_index": 722,
+            "available_at": "2026-09-03T14:25:00Z",
+            "bar_id": "BTCUSDT-M5-1788445200",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M5-1788440100",
+                "origin_index": 731,
+                "confirmed_index": 733,
+                "available_at": "2026-09-03T13:10:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78450.25000000",
+                "bar_id": "BTCUSDT-M5-1788441600",
+                "origin_index": 736,
+                "confirmed_index": 738,
+                "available_at": "2026-09-03T13:35:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "79000.00000000",
+                "bar_id": "BTCUSDT-M5-1788443100",
+                "origin_index": 741,
+                "confirmed_index": 743,
+                "available_at": "2026-09-03T14:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78704.00000000",
+                "bar_id": "BTCUSDT-M5-1788444000",
+                "origin_index": 744,
+                "confirmed_index": 746,
+                "available_at": "2026-09-03T14:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 33,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77824.00000000",
+              "bar_id": "BTCUSDT-M15-1788411600",
+              "origin_index": 212,
+              "confirmed_index": 214,
+              "available_at": "2026-09-03T05:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-M15-1788412500",
+              "origin_index": 213,
+              "confirmed_index": 215,
+              "available_at": "2026-09-03T06:00:00Z"
+            },
+            "break_index": 218,
+            "available_at": "2026-09-03T14:15:00Z",
+            "bar_id": "BTCUSDT-M15-1788444000",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-M15-1788418800",
+                "origin_index": 220,
+                "confirmed_index": 222,
+                "available_at": "2026-09-03T07:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-M15-1788431400",
+                "origin_index": 234,
+                "confirmed_index": 236,
+                "available_at": "2026-09-03T11:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M15-1788439500",
+                "origin_index": 243,
+                "confirmed_index": 245,
+                "available_at": "2026-09-03T13:30:00Z"
+              }
+            ],
+            "close_lag_seconds": 600.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 25,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77792.00000000",
+              "bar_id": "BTCUSDT-H1-1788318000",
+              "origin_index": 27,
+              "confirmed_index": 29,
+              "available_at": "2026-09-02T06:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "76264.00000000",
+              "bar_id": "BTCUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T14:00:00Z",
+            "bar_id": "BTCUSDT-H1-1788440400",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "77101.01000000",
+                "bar_id": "BTCUSDT-H1-1788411600",
+                "origin_index": 53,
+                "confirmed_index": 55,
+                "available_at": "2026-09-03T08:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-H1-1788418800",
+                "origin_index": 55,
+                "confirmed_index": 57,
+                "available_at": "2026-09-03T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-H1-1788429600",
+                "origin_index": 58,
+                "confirmed_index": 60,
+                "available_at": "2026-09-03T13:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 1500.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": []
+      },
+      "scenario_ready": false,
+      "analytical_status": "pending_confirmation"
+    },
+    {
+      "bars_after_candidate": 1,
+      "as_of": "2026-09-03T14:30:00Z",
+      "strict_status": "pending_confirmation",
+      "historical_confirmation": null,
+      "invalidation": null,
+      "target_events": {},
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T14:30:00Z",
+        "roles": {
+          "M5": {
+            "state": "uptrend",
+            "direction": "up",
+            "underlying_direction": "up",
+            "stale": false,
+            "age_bars": 6,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "low",
+              "price": "78450.25000000",
+              "bar_id": "BTCUSDT-M5-1788441600",
+              "origin_index": 736,
+              "confirmed_index": 738,
+              "available_at": "2026-09-03T13:35:00Z"
+            },
+            "driver": {
+              "kind": "high",
+              "price": "79000.00000000",
+              "bar_id": "BTCUSDT-M5-1788443100",
+              "origin_index": 741,
+              "confirmed_index": 743,
+              "available_at": "2026-09-03T14:00:00Z"
+            },
+            "break_index": 722,
+            "available_at": "2026-09-03T14:30:00Z",
+            "bar_id": "BTCUSDT-M5-1788445500",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M5-1788440100",
+                "origin_index": 731,
+                "confirmed_index": 733,
+                "available_at": "2026-09-03T13:10:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78450.25000000",
+                "bar_id": "BTCUSDT-M5-1788441600",
+                "origin_index": 736,
+                "confirmed_index": 738,
+                "available_at": "2026-09-03T13:35:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "79000.00000000",
+                "bar_id": "BTCUSDT-M5-1788443100",
+                "origin_index": 741,
+                "confirmed_index": 743,
+                "available_at": "2026-09-03T14:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78704.00000000",
+                "bar_id": "BTCUSDT-M5-1788444000",
+                "origin_index": 744,
+                "confirmed_index": 746,
+                "available_at": "2026-09-03T14:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 34,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77824.00000000",
+              "bar_id": "BTCUSDT-M15-1788411600",
+              "origin_index": 212,
+              "confirmed_index": 214,
+              "available_at": "2026-09-03T05:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-M15-1788412500",
+              "origin_index": 213,
+              "confirmed_index": 215,
+              "available_at": "2026-09-03T06:00:00Z"
+            },
+            "break_index": 218,
+            "available_at": "2026-09-03T14:30:00Z",
+            "bar_id": "BTCUSDT-M15-1788444900",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-M15-1788418800",
+                "origin_index": 220,
+                "confirmed_index": 222,
+                "available_at": "2026-09-03T07:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-M15-1788431400",
+                "origin_index": 234,
+                "confirmed_index": 236,
+                "available_at": "2026-09-03T11:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M15-1788439500",
+                "origin_index": 243,
+                "confirmed_index": 245,
+                "available_at": "2026-09-03T13:30:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 25,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77792.00000000",
+              "bar_id": "BTCUSDT-H1-1788318000",
+              "origin_index": 27,
+              "confirmed_index": 29,
+              "available_at": "2026-09-02T06:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "76264.00000000",
+              "bar_id": "BTCUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T14:00:00Z",
+            "bar_id": "BTCUSDT-H1-1788440400",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "77101.01000000",
+                "bar_id": "BTCUSDT-H1-1788411600",
+                "origin_index": 53,
+                "confirmed_index": 55,
+                "available_at": "2026-09-03T08:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-H1-1788418800",
+                "origin_index": 55,
+                "confirmed_index": 57,
+                "available_at": "2026-09-03T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-H1-1788429600",
+                "origin_index": 58,
+                "confirmed_index": 60,
+                "available_at": "2026-09-03T13:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 1800.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": []
+      },
+      "scenario_ready": false,
+      "analytical_status": "pending_confirmation"
+    },
+    {
+      "bars_after_candidate": 2,
+      "as_of": "2026-09-03T14:35:00Z",
+      "strict_status": "confirmed_under_selected_profile",
+      "historical_confirmation": {
+        "bar_id": "BTCUSDT-M5-1788445800",
+        "close_time": "2026-09-03T14:35:00Z",
+        "available_at": "2026-09-03T14:35:00Z"
+      },
+      "invalidation": null,
+      "target_events": {},
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T14:35:00Z",
+        "roles": {
+          "M5": {
+            "state": "uptrend",
+            "direction": "up",
+            "underlying_direction": "up",
+            "stale": false,
+            "age_bars": 7,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "low",
+              "price": "78450.25000000",
+              "bar_id": "BTCUSDT-M5-1788441600",
+              "origin_index": 736,
+              "confirmed_index": 738,
+              "available_at": "2026-09-03T13:35:00Z"
+            },
+            "driver": {
+              "kind": "high",
+              "price": "79000.00000000",
+              "bar_id": "BTCUSDT-M5-1788443100",
+              "origin_index": 741,
+              "confirmed_index": 743,
+              "available_at": "2026-09-03T14:00:00Z"
+            },
+            "break_index": 722,
+            "available_at": "2026-09-03T14:35:00Z",
+            "bar_id": "BTCUSDT-M5-1788445800",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M5-1788440100",
+                "origin_index": 731,
+                "confirmed_index": 733,
+                "available_at": "2026-09-03T13:10:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78450.25000000",
+                "bar_id": "BTCUSDT-M5-1788441600",
+                "origin_index": 736,
+                "confirmed_index": 738,
+                "available_at": "2026-09-03T13:35:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "79000.00000000",
+                "bar_id": "BTCUSDT-M5-1788443100",
+                "origin_index": 741,
+                "confirmed_index": 743,
+                "available_at": "2026-09-03T14:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78704.00000000",
+                "bar_id": "BTCUSDT-M5-1788444000",
+                "origin_index": 744,
+                "confirmed_index": 746,
+                "available_at": "2026-09-03T14:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 34,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77824.00000000",
+              "bar_id": "BTCUSDT-M15-1788411600",
+              "origin_index": 212,
+              "confirmed_index": 214,
+              "available_at": "2026-09-03T05:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-M15-1788412500",
+              "origin_index": 213,
+              "confirmed_index": 215,
+              "available_at": "2026-09-03T06:00:00Z"
+            },
+            "break_index": 218,
+            "available_at": "2026-09-03T14:30:00Z",
+            "bar_id": "BTCUSDT-M15-1788444900",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-M15-1788418800",
+                "origin_index": 220,
+                "confirmed_index": 222,
+                "available_at": "2026-09-03T07:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-M15-1788431400",
+                "origin_index": 234,
+                "confirmed_index": 236,
+                "available_at": "2026-09-03T11:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M15-1788439500",
+                "origin_index": 243,
+                "confirmed_index": 245,
+                "available_at": "2026-09-03T13:30:00Z"
+              }
+            ],
+            "close_lag_seconds": 300.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 25,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77792.00000000",
+              "bar_id": "BTCUSDT-H1-1788318000",
+              "origin_index": 27,
+              "confirmed_index": 29,
+              "available_at": "2026-09-02T06:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "76264.00000000",
+              "bar_id": "BTCUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T14:00:00Z",
+            "bar_id": "BTCUSDT-H1-1788440400",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "77101.01000000",
+                "bar_id": "BTCUSDT-H1-1788411600",
+                "origin_index": 53,
+                "confirmed_index": 55,
+                "available_at": "2026-09-03T08:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-H1-1788418800",
+                "origin_index": 55,
+                "confirmed_index": 57,
+                "available_at": "2026-09-03T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-H1-1788429600",
+                "origin_index": 58,
+                "confirmed_index": 60,
+                "available_at": "2026-09-03T13:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 2100.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": []
+      },
+      "scenario_ready": false,
+      "analytical_status": "confirmed_geometry_with_blockers"
+    },
+    {
+      "bars_after_candidate": 3,
+      "as_of": "2026-09-03T14:40:00Z",
+      "strict_status": "confirmed_under_selected_profile",
+      "historical_confirmation": {
+        "bar_id": "BTCUSDT-M5-1788445800",
+        "close_time": "2026-09-03T14:35:00Z",
+        "available_at": "2026-09-03T14:35:00Z"
+      },
+      "invalidation": null,
+      "target_events": {},
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T14:40:00Z",
+        "roles": {
+          "M5": {
+            "state": "uptrend",
+            "direction": "up",
+            "underlying_direction": "up",
+            "stale": false,
+            "age_bars": 8,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "low",
+              "price": "78450.25000000",
+              "bar_id": "BTCUSDT-M5-1788441600",
+              "origin_index": 736,
+              "confirmed_index": 738,
+              "available_at": "2026-09-03T13:35:00Z"
+            },
+            "driver": {
+              "kind": "high",
+              "price": "79000.00000000",
+              "bar_id": "BTCUSDT-M5-1788443100",
+              "origin_index": 741,
+              "confirmed_index": 743,
+              "available_at": "2026-09-03T14:00:00Z"
+            },
+            "break_index": 722,
+            "available_at": "2026-09-03T14:40:00Z",
+            "bar_id": "BTCUSDT-M5-1788446100",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M5-1788440100",
+                "origin_index": 731,
+                "confirmed_index": 733,
+                "available_at": "2026-09-03T13:10:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78450.25000000",
+                "bar_id": "BTCUSDT-M5-1788441600",
+                "origin_index": 736,
+                "confirmed_index": 738,
+                "available_at": "2026-09-03T13:35:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "79000.00000000",
+                "bar_id": "BTCUSDT-M5-1788443100",
+                "origin_index": 741,
+                "confirmed_index": 743,
+                "available_at": "2026-09-03T14:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78704.00000000",
+                "bar_id": "BTCUSDT-M5-1788444000",
+                "origin_index": 744,
+                "confirmed_index": 746,
+                "available_at": "2026-09-03T14:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 34,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77824.00000000",
+              "bar_id": "BTCUSDT-M15-1788411600",
+              "origin_index": 212,
+              "confirmed_index": 214,
+              "available_at": "2026-09-03T05:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-M15-1788412500",
+              "origin_index": 213,
+              "confirmed_index": 215,
+              "available_at": "2026-09-03T06:00:00Z"
+            },
+            "break_index": 218,
+            "available_at": "2026-09-03T14:30:00Z",
+            "bar_id": "BTCUSDT-M15-1788444900",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-M15-1788418800",
+                "origin_index": 220,
+                "confirmed_index": 222,
+                "available_at": "2026-09-03T07:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-M15-1788431400",
+                "origin_index": 234,
+                "confirmed_index": 236,
+                "available_at": "2026-09-03T11:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M15-1788439500",
+                "origin_index": 243,
+                "confirmed_index": 245,
+                "available_at": "2026-09-03T13:30:00Z"
+              }
+            ],
+            "close_lag_seconds": 600.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 25,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77792.00000000",
+              "bar_id": "BTCUSDT-H1-1788318000",
+              "origin_index": 27,
+              "confirmed_index": 29,
+              "available_at": "2026-09-02T06:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "76264.00000000",
+              "bar_id": "BTCUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T14:00:00Z",
+            "bar_id": "BTCUSDT-H1-1788440400",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "77101.01000000",
+                "bar_id": "BTCUSDT-H1-1788411600",
+                "origin_index": 53,
+                "confirmed_index": 55,
+                "available_at": "2026-09-03T08:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-H1-1788418800",
+                "origin_index": 55,
+                "confirmed_index": 57,
+                "available_at": "2026-09-03T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-H1-1788429600",
+                "origin_index": 58,
+                "confirmed_index": 60,
+                "available_at": "2026-09-03T13:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 2400.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": []
+      },
+      "scenario_ready": false,
+      "analytical_status": "confirmed_geometry_with_blockers"
+    },
+    {
+      "bars_after_candidate": 4,
+      "as_of": "2026-09-03T14:45:00Z",
+      "strict_status": "confirmed_under_selected_profile",
+      "historical_confirmation": {
+        "bar_id": "BTCUSDT-M5-1788445800",
+        "close_time": "2026-09-03T14:35:00Z",
+        "available_at": "2026-09-03T14:35:00Z"
+      },
+      "invalidation": null,
+      "target_events": {},
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T14:45:00Z",
+        "roles": {
+          "M5": {
+            "state": "uptrend",
+            "direction": "up",
+            "underlying_direction": "up",
+            "stale": false,
+            "age_bars": 9,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "low",
+              "price": "78450.25000000",
+              "bar_id": "BTCUSDT-M5-1788441600",
+              "origin_index": 736,
+              "confirmed_index": 738,
+              "available_at": "2026-09-03T13:35:00Z"
+            },
+            "driver": {
+              "kind": "high",
+              "price": "79000.00000000",
+              "bar_id": "BTCUSDT-M5-1788443100",
+              "origin_index": 741,
+              "confirmed_index": 743,
+              "available_at": "2026-09-03T14:00:00Z"
+            },
+            "break_index": 722,
+            "available_at": "2026-09-03T14:45:00Z",
+            "bar_id": "BTCUSDT-M5-1788446400",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M5-1788440100",
+                "origin_index": 731,
+                "confirmed_index": 733,
+                "available_at": "2026-09-03T13:10:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78450.25000000",
+                "bar_id": "BTCUSDT-M5-1788441600",
+                "origin_index": 736,
+                "confirmed_index": 738,
+                "available_at": "2026-09-03T13:35:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "79000.00000000",
+                "bar_id": "BTCUSDT-M5-1788443100",
+                "origin_index": 741,
+                "confirmed_index": 743,
+                "available_at": "2026-09-03T14:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78704.00000000",
+                "bar_id": "BTCUSDT-M5-1788444000",
+                "origin_index": 744,
+                "confirmed_index": 746,
+                "available_at": "2026-09-03T14:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 35,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77824.00000000",
+              "bar_id": "BTCUSDT-M15-1788411600",
+              "origin_index": 212,
+              "confirmed_index": 214,
+              "available_at": "2026-09-03T05:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-M15-1788412500",
+              "origin_index": 213,
+              "confirmed_index": 215,
+              "available_at": "2026-09-03T06:00:00Z"
+            },
+            "break_index": 218,
+            "available_at": "2026-09-03T14:45:00Z",
+            "bar_id": "BTCUSDT-M15-1788445800",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-M15-1788418800",
+                "origin_index": 220,
+                "confirmed_index": 222,
+                "available_at": "2026-09-03T07:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-M15-1788431400",
+                "origin_index": 234,
+                "confirmed_index": 236,
+                "available_at": "2026-09-03T11:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M15-1788439500",
+                "origin_index": 243,
+                "confirmed_index": 245,
+                "available_at": "2026-09-03T13:30:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 25,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77792.00000000",
+              "bar_id": "BTCUSDT-H1-1788318000",
+              "origin_index": 27,
+              "confirmed_index": 29,
+              "available_at": "2026-09-02T06:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "76264.00000000",
+              "bar_id": "BTCUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T14:00:00Z",
+            "bar_id": "BTCUSDT-H1-1788440400",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "77101.01000000",
+                "bar_id": "BTCUSDT-H1-1788411600",
+                "origin_index": 53,
+                "confirmed_index": 55,
+                "available_at": "2026-09-03T08:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-H1-1788418800",
+                "origin_index": 55,
+                "confirmed_index": 57,
+                "available_at": "2026-09-03T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-H1-1788429600",
+                "origin_index": 58,
+                "confirmed_index": 60,
+                "available_at": "2026-09-03T13:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 2700.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": []
+      },
+      "scenario_ready": false,
+      "analytical_status": "confirmed_geometry_with_blockers"
+    },
+    {
+      "bars_after_candidate": 5,
+      "as_of": "2026-09-03T14:50:00Z",
+      "strict_status": "confirmed_under_selected_profile",
+      "historical_confirmation": {
+        "bar_id": "BTCUSDT-M5-1788445800",
+        "close_time": "2026-09-03T14:35:00Z",
+        "available_at": "2026-09-03T14:35:00Z"
+      },
+      "invalidation": null,
+      "target_events": {},
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T14:50:00Z",
+        "roles": {
+          "M5": {
+            "state": "uptrend",
+            "direction": "up",
+            "underlying_direction": "up",
+            "stale": false,
+            "age_bars": 10,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "low",
+              "price": "78450.25000000",
+              "bar_id": "BTCUSDT-M5-1788441600",
+              "origin_index": 736,
+              "confirmed_index": 738,
+              "available_at": "2026-09-03T13:35:00Z"
+            },
+            "driver": {
+              "kind": "high",
+              "price": "79000.00000000",
+              "bar_id": "BTCUSDT-M5-1788443100",
+              "origin_index": 741,
+              "confirmed_index": 743,
+              "available_at": "2026-09-03T14:00:00Z"
+            },
+            "break_index": 722,
+            "available_at": "2026-09-03T14:50:00Z",
+            "bar_id": "BTCUSDT-M5-1788446700",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M5-1788440100",
+                "origin_index": 731,
+                "confirmed_index": 733,
+                "available_at": "2026-09-03T13:10:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78450.25000000",
+                "bar_id": "BTCUSDT-M5-1788441600",
+                "origin_index": 736,
+                "confirmed_index": 738,
+                "available_at": "2026-09-03T13:35:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "79000.00000000",
+                "bar_id": "BTCUSDT-M5-1788443100",
+                "origin_index": 741,
+                "confirmed_index": 743,
+                "available_at": "2026-09-03T14:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78704.00000000",
+                "bar_id": "BTCUSDT-M5-1788444000",
+                "origin_index": 744,
+                "confirmed_index": 746,
+                "available_at": "2026-09-03T14:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 35,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77824.00000000",
+              "bar_id": "BTCUSDT-M15-1788411600",
+              "origin_index": 212,
+              "confirmed_index": 214,
+              "available_at": "2026-09-03T05:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-M15-1788412500",
+              "origin_index": 213,
+              "confirmed_index": 215,
+              "available_at": "2026-09-03T06:00:00Z"
+            },
+            "break_index": 218,
+            "available_at": "2026-09-03T14:45:00Z",
+            "bar_id": "BTCUSDT-M15-1788445800",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-M15-1788418800",
+                "origin_index": 220,
+                "confirmed_index": 222,
+                "available_at": "2026-09-03T07:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-M15-1788431400",
+                "origin_index": 234,
+                "confirmed_index": 236,
+                "available_at": "2026-09-03T11:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M15-1788439500",
+                "origin_index": 243,
+                "confirmed_index": 245,
+                "available_at": "2026-09-03T13:30:00Z"
+              }
+            ],
+            "close_lag_seconds": 300.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 25,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77792.00000000",
+              "bar_id": "BTCUSDT-H1-1788318000",
+              "origin_index": 27,
+              "confirmed_index": 29,
+              "available_at": "2026-09-02T06:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "76264.00000000",
+              "bar_id": "BTCUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T14:00:00Z",
+            "bar_id": "BTCUSDT-H1-1788440400",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "77101.01000000",
+                "bar_id": "BTCUSDT-H1-1788411600",
+                "origin_index": 53,
+                "confirmed_index": 55,
+                "available_at": "2026-09-03T08:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-H1-1788418800",
+                "origin_index": 55,
+                "confirmed_index": 57,
+                "available_at": "2026-09-03T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-H1-1788429600",
+                "origin_index": 58,
+                "confirmed_index": 60,
+                "available_at": "2026-09-03T13:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 3000.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": []
+      },
+      "scenario_ready": false,
+      "analytical_status": "confirmed_geometry_with_blockers"
+    },
+    {
+      "bars_after_candidate": 6,
+      "as_of": "2026-09-03T14:55:00Z",
+      "strict_status": "confirmed_under_selected_profile",
+      "historical_confirmation": {
+        "bar_id": "BTCUSDT-M5-1788445800",
+        "close_time": "2026-09-03T14:35:00Z",
+        "available_at": "2026-09-03T14:35:00Z"
+      },
+      "invalidation": null,
+      "target_events": {},
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T14:55:00Z",
+        "roles": {
+          "M5": {
+            "state": "uptrend",
+            "direction": "up",
+            "underlying_direction": "up",
+            "stale": false,
+            "age_bars": 11,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "low",
+              "price": "78450.25000000",
+              "bar_id": "BTCUSDT-M5-1788441600",
+              "origin_index": 736,
+              "confirmed_index": 738,
+              "available_at": "2026-09-03T13:35:00Z"
+            },
+            "driver": {
+              "kind": "high",
+              "price": "79000.00000000",
+              "bar_id": "BTCUSDT-M5-1788443100",
+              "origin_index": 741,
+              "confirmed_index": 743,
+              "available_at": "2026-09-03T14:00:00Z"
+            },
+            "break_index": 722,
+            "available_at": "2026-09-03T14:55:00Z",
+            "bar_id": "BTCUSDT-M5-1788447000",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M5-1788440100",
+                "origin_index": 731,
+                "confirmed_index": 733,
+                "available_at": "2026-09-03T13:10:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78450.25000000",
+                "bar_id": "BTCUSDT-M5-1788441600",
+                "origin_index": 736,
+                "confirmed_index": 738,
+                "available_at": "2026-09-03T13:35:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "79000.00000000",
+                "bar_id": "BTCUSDT-M5-1788443100",
+                "origin_index": 741,
+                "confirmed_index": 743,
+                "available_at": "2026-09-03T14:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78704.00000000",
+                "bar_id": "BTCUSDT-M5-1788444000",
+                "origin_index": 744,
+                "confirmed_index": 746,
+                "available_at": "2026-09-03T14:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 35,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77824.00000000",
+              "bar_id": "BTCUSDT-M15-1788411600",
+              "origin_index": 212,
+              "confirmed_index": 214,
+              "available_at": "2026-09-03T05:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-M15-1788412500",
+              "origin_index": 213,
+              "confirmed_index": 215,
+              "available_at": "2026-09-03T06:00:00Z"
+            },
+            "break_index": 218,
+            "available_at": "2026-09-03T14:45:00Z",
+            "bar_id": "BTCUSDT-M15-1788445800",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-M15-1788418800",
+                "origin_index": 220,
+                "confirmed_index": 222,
+                "available_at": "2026-09-03T07:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-M15-1788431400",
+                "origin_index": 234,
+                "confirmed_index": 236,
+                "available_at": "2026-09-03T11:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M15-1788439500",
+                "origin_index": 243,
+                "confirmed_index": 245,
+                "available_at": "2026-09-03T13:30:00Z"
+              }
+            ],
+            "close_lag_seconds": 600.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 25,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77792.00000000",
+              "bar_id": "BTCUSDT-H1-1788318000",
+              "origin_index": 27,
+              "confirmed_index": 29,
+              "available_at": "2026-09-02T06:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "76264.00000000",
+              "bar_id": "BTCUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T14:00:00Z",
+            "bar_id": "BTCUSDT-H1-1788440400",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "77101.01000000",
+                "bar_id": "BTCUSDT-H1-1788411600",
+                "origin_index": 53,
+                "confirmed_index": 55,
+                "available_at": "2026-09-03T08:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-H1-1788418800",
+                "origin_index": 55,
+                "confirmed_index": 57,
+                "available_at": "2026-09-03T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-H1-1788429600",
+                "origin_index": 58,
+                "confirmed_index": 60,
+                "available_at": "2026-09-03T13:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 3300.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": []
+      },
+      "scenario_ready": false,
+      "analytical_status": "confirmed_geometry_with_blockers"
+    },
+    {
+      "bars_after_candidate": 7,
+      "as_of": "2026-09-03T15:00:00Z",
+      "strict_status": "confirmed_under_selected_profile",
+      "historical_confirmation": {
+        "bar_id": "BTCUSDT-M5-1788445800",
+        "close_time": "2026-09-03T14:35:00Z",
+        "available_at": "2026-09-03T14:35:00Z"
+      },
+      "invalidation": null,
+      "target_events": {},
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T15:00:00Z",
+        "roles": {
+          "M5": {
+            "state": "uptrend",
+            "direction": "up",
+            "underlying_direction": "up",
+            "stale": false,
+            "age_bars": 12,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "low",
+              "price": "78450.25000000",
+              "bar_id": "BTCUSDT-M5-1788441600",
+              "origin_index": 736,
+              "confirmed_index": 738,
+              "available_at": "2026-09-03T13:35:00Z"
+            },
+            "driver": {
+              "kind": "high",
+              "price": "79000.00000000",
+              "bar_id": "BTCUSDT-M5-1788443100",
+              "origin_index": 741,
+              "confirmed_index": 743,
+              "available_at": "2026-09-03T14:00:00Z"
+            },
+            "break_index": 722,
+            "available_at": "2026-09-03T15:00:00Z",
+            "bar_id": "BTCUSDT-M5-1788447300",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M5-1788440100",
+                "origin_index": 731,
+                "confirmed_index": 733,
+                "available_at": "2026-09-03T13:10:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78450.25000000",
+                "bar_id": "BTCUSDT-M5-1788441600",
+                "origin_index": 736,
+                "confirmed_index": 738,
+                "available_at": "2026-09-03T13:35:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "79000.00000000",
+                "bar_id": "BTCUSDT-M5-1788443100",
+                "origin_index": 741,
+                "confirmed_index": 743,
+                "available_at": "2026-09-03T14:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78704.00000000",
+                "bar_id": "BTCUSDT-M5-1788444000",
+                "origin_index": 744,
+                "confirmed_index": 746,
+                "available_at": "2026-09-03T14:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 36,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77824.00000000",
+              "bar_id": "BTCUSDT-M15-1788411600",
+              "origin_index": 212,
+              "confirmed_index": 214,
+              "available_at": "2026-09-03T05:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-M15-1788412500",
+              "origin_index": 213,
+              "confirmed_index": 215,
+              "available_at": "2026-09-03T06:00:00Z"
+            },
+            "break_index": 218,
+            "available_at": "2026-09-03T15:00:00Z",
+            "bar_id": "BTCUSDT-M15-1788446700",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-M15-1788418800",
+                "origin_index": 220,
+                "confirmed_index": 222,
+                "available_at": "2026-09-03T07:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-M15-1788431400",
+                "origin_index": 234,
+                "confirmed_index": 236,
+                "available_at": "2026-09-03T11:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M15-1788439500",
+                "origin_index": 243,
+                "confirmed_index": 245,
+                "available_at": "2026-09-03T13:30:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 26,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77792.00000000",
+              "bar_id": "BTCUSDT-H1-1788318000",
+              "origin_index": 27,
+              "confirmed_index": 29,
+              "available_at": "2026-09-02T06:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "76264.00000000",
+              "bar_id": "BTCUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T15:00:00Z",
+            "bar_id": "BTCUSDT-H1-1788444000",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "77101.01000000",
+                "bar_id": "BTCUSDT-H1-1788411600",
+                "origin_index": 53,
+                "confirmed_index": 55,
+                "available_at": "2026-09-03T08:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-H1-1788418800",
+                "origin_index": 55,
+                "confirmed_index": 57,
+                "available_at": "2026-09-03T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-H1-1788429600",
+                "origin_index": 58,
+                "confirmed_index": 60,
+                "available_at": "2026-09-03T13:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": []
+      },
+      "scenario_ready": false,
+      "analytical_status": "confirmed_geometry_with_blockers"
+    },
+    {
+      "bars_after_candidate": 8,
+      "as_of": "2026-09-03T15:05:00Z",
+      "strict_status": "confirmed_under_selected_profile",
+      "historical_confirmation": {
+        "bar_id": "BTCUSDT-M5-1788445800",
+        "close_time": "2026-09-03T14:35:00Z",
+        "available_at": "2026-09-03T14:35:00Z"
+      },
+      "invalidation": null,
+      "target_events": {},
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T15:05:00Z",
+        "roles": {
+          "M5": {
+            "state": "uptrend",
+            "direction": "up",
+            "underlying_direction": "up",
+            "stale": false,
+            "age_bars": 13,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "low",
+              "price": "78450.25000000",
+              "bar_id": "BTCUSDT-M5-1788441600",
+              "origin_index": 736,
+              "confirmed_index": 738,
+              "available_at": "2026-09-03T13:35:00Z"
+            },
+            "driver": {
+              "kind": "high",
+              "price": "79000.00000000",
+              "bar_id": "BTCUSDT-M5-1788443100",
+              "origin_index": 741,
+              "confirmed_index": 743,
+              "available_at": "2026-09-03T14:00:00Z"
+            },
+            "break_index": 722,
+            "available_at": "2026-09-03T15:05:00Z",
+            "bar_id": "BTCUSDT-M5-1788447600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M5-1788440100",
+                "origin_index": 731,
+                "confirmed_index": 733,
+                "available_at": "2026-09-03T13:10:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78450.25000000",
+                "bar_id": "BTCUSDT-M5-1788441600",
+                "origin_index": 736,
+                "confirmed_index": 738,
+                "available_at": "2026-09-03T13:35:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "79000.00000000",
+                "bar_id": "BTCUSDT-M5-1788443100",
+                "origin_index": 741,
+                "confirmed_index": 743,
+                "available_at": "2026-09-03T14:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78704.00000000",
+                "bar_id": "BTCUSDT-M5-1788444000",
+                "origin_index": 744,
+                "confirmed_index": 746,
+                "available_at": "2026-09-03T14:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 36,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77824.00000000",
+              "bar_id": "BTCUSDT-M15-1788411600",
+              "origin_index": 212,
+              "confirmed_index": 214,
+              "available_at": "2026-09-03T05:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-M15-1788412500",
+              "origin_index": 213,
+              "confirmed_index": 215,
+              "available_at": "2026-09-03T06:00:00Z"
+            },
+            "break_index": 218,
+            "available_at": "2026-09-03T15:00:00Z",
+            "bar_id": "BTCUSDT-M15-1788446700",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-M15-1788418800",
+                "origin_index": 220,
+                "confirmed_index": 222,
+                "available_at": "2026-09-03T07:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-M15-1788431400",
+                "origin_index": 234,
+                "confirmed_index": 236,
+                "available_at": "2026-09-03T11:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M15-1788439500",
+                "origin_index": 243,
+                "confirmed_index": 245,
+                "available_at": "2026-09-03T13:30:00Z"
+              }
+            ],
+            "close_lag_seconds": 300.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 26,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77792.00000000",
+              "bar_id": "BTCUSDT-H1-1788318000",
+              "origin_index": 27,
+              "confirmed_index": 29,
+              "available_at": "2026-09-02T06:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "76264.00000000",
+              "bar_id": "BTCUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T15:00:00Z",
+            "bar_id": "BTCUSDT-H1-1788444000",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "77101.01000000",
+                "bar_id": "BTCUSDT-H1-1788411600",
+                "origin_index": 53,
+                "confirmed_index": 55,
+                "available_at": "2026-09-03T08:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-H1-1788418800",
+                "origin_index": 55,
+                "confirmed_index": 57,
+                "available_at": "2026-09-03T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-H1-1788429600",
+                "origin_index": 58,
+                "confirmed_index": 60,
+                "available_at": "2026-09-03T13:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 300.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": []
+      },
+      "scenario_ready": false,
+      "analytical_status": "confirmed_geometry_with_blockers"
+    },
+    {
+      "bars_after_candidate": 9,
+      "as_of": "2026-09-03T15:10:00Z",
+      "strict_status": "confirmed_under_selected_profile",
+      "historical_confirmation": {
+        "bar_id": "BTCUSDT-M5-1788445800",
+        "close_time": "2026-09-03T14:35:00Z",
+        "available_at": "2026-09-03T14:35:00Z"
+      },
+      "invalidation": null,
+      "target_events": {},
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T15:10:00Z",
+        "roles": {
+          "M5": {
+            "state": "uptrend",
+            "direction": "up",
+            "underlying_direction": "up",
+            "stale": false,
+            "age_bars": 14,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "low",
+              "price": "78450.25000000",
+              "bar_id": "BTCUSDT-M5-1788441600",
+              "origin_index": 736,
+              "confirmed_index": 738,
+              "available_at": "2026-09-03T13:35:00Z"
+            },
+            "driver": {
+              "kind": "high",
+              "price": "79000.00000000",
+              "bar_id": "BTCUSDT-M5-1788443100",
+              "origin_index": 741,
+              "confirmed_index": 743,
+              "available_at": "2026-09-03T14:00:00Z"
+            },
+            "break_index": 722,
+            "available_at": "2026-09-03T15:10:00Z",
+            "bar_id": "BTCUSDT-M5-1788447900",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M5-1788440100",
+                "origin_index": 731,
+                "confirmed_index": 733,
+                "available_at": "2026-09-03T13:10:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78450.25000000",
+                "bar_id": "BTCUSDT-M5-1788441600",
+                "origin_index": 736,
+                "confirmed_index": 738,
+                "available_at": "2026-09-03T13:35:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "79000.00000000",
+                "bar_id": "BTCUSDT-M5-1788443100",
+                "origin_index": 741,
+                "confirmed_index": 743,
+                "available_at": "2026-09-03T14:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78704.00000000",
+                "bar_id": "BTCUSDT-M5-1788444000",
+                "origin_index": 744,
+                "confirmed_index": 746,
+                "available_at": "2026-09-03T14:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 36,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77824.00000000",
+              "bar_id": "BTCUSDT-M15-1788411600",
+              "origin_index": 212,
+              "confirmed_index": 214,
+              "available_at": "2026-09-03T05:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-M15-1788412500",
+              "origin_index": 213,
+              "confirmed_index": 215,
+              "available_at": "2026-09-03T06:00:00Z"
+            },
+            "break_index": 218,
+            "available_at": "2026-09-03T15:00:00Z",
+            "bar_id": "BTCUSDT-M15-1788446700",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-M15-1788418800",
+                "origin_index": 220,
+                "confirmed_index": 222,
+                "available_at": "2026-09-03T07:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-M15-1788431400",
+                "origin_index": 234,
+                "confirmed_index": 236,
+                "available_at": "2026-09-03T11:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M15-1788439500",
+                "origin_index": 243,
+                "confirmed_index": 245,
+                "available_at": "2026-09-03T13:30:00Z"
+              }
+            ],
+            "close_lag_seconds": 600.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 26,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77792.00000000",
+              "bar_id": "BTCUSDT-H1-1788318000",
+              "origin_index": 27,
+              "confirmed_index": 29,
+              "available_at": "2026-09-02T06:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "76264.00000000",
+              "bar_id": "BTCUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T15:00:00Z",
+            "bar_id": "BTCUSDT-H1-1788444000",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "77101.01000000",
+                "bar_id": "BTCUSDT-H1-1788411600",
+                "origin_index": 53,
+                "confirmed_index": 55,
+                "available_at": "2026-09-03T08:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-H1-1788418800",
+                "origin_index": 55,
+                "confirmed_index": 57,
+                "available_at": "2026-09-03T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-H1-1788429600",
+                "origin_index": 58,
+                "confirmed_index": 60,
+                "available_at": "2026-09-03T13:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 600.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": []
+      },
+      "scenario_ready": false,
+      "analytical_status": "confirmed_geometry_with_blockers"
+    },
+    {
+      "bars_after_candidate": 10,
+      "as_of": "2026-09-03T15:15:00Z",
+      "strict_status": "confirmed_under_selected_profile",
+      "historical_confirmation": {
+        "bar_id": "BTCUSDT-M5-1788445800",
+        "close_time": "2026-09-03T14:35:00Z",
+        "available_at": "2026-09-03T14:35:00Z"
+      },
+      "invalidation": null,
+      "target_events": {},
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T15:15:00Z",
+        "roles": {
+          "M5": {
+            "state": "uptrend",
+            "direction": "up",
+            "underlying_direction": "up",
+            "stale": false,
+            "age_bars": 0,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "low",
+              "price": "78704.00000000",
+              "bar_id": "BTCUSDT-M5-1788444000",
+              "origin_index": 744,
+              "confirmed_index": 746,
+              "available_at": "2026-09-03T14:15:00Z"
+            },
+            "driver": {
+              "kind": "high",
+              "price": "80966.63000000",
+              "bar_id": "BTCUSDT-M5-1788447600",
+              "origin_index": 756,
+              "confirmed_index": 758,
+              "available_at": "2026-09-03T15:15:00Z"
+            },
+            "break_index": 722,
+            "available_at": "2026-09-03T15:15:00Z",
+            "bar_id": "BTCUSDT-M5-1788448200",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "78450.25000000",
+                "bar_id": "BTCUSDT-M5-1788441600",
+                "origin_index": 736,
+                "confirmed_index": 738,
+                "available_at": "2026-09-03T13:35:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "79000.00000000",
+                "bar_id": "BTCUSDT-M5-1788443100",
+                "origin_index": 741,
+                "confirmed_index": 743,
+                "available_at": "2026-09-03T14:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78704.00000000",
+                "bar_id": "BTCUSDT-M5-1788444000",
+                "origin_index": 744,
+                "confirmed_index": 746,
+                "available_at": "2026-09-03T14:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "80966.63000000",
+                "bar_id": "BTCUSDT-M5-1788447600",
+                "origin_index": 756,
+                "confirmed_index": 758,
+                "available_at": "2026-09-03T15:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 37,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77824.00000000",
+              "bar_id": "BTCUSDT-M15-1788411600",
+              "origin_index": 212,
+              "confirmed_index": 214,
+              "available_at": "2026-09-03T05:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-M15-1788412500",
+              "origin_index": 213,
+              "confirmed_index": 215,
+              "available_at": "2026-09-03T06:00:00Z"
+            },
+            "break_index": 218,
+            "available_at": "2026-09-03T15:15:00Z",
+            "bar_id": "BTCUSDT-M15-1788447600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-M15-1788418800",
+                "origin_index": 220,
+                "confirmed_index": 222,
+                "available_at": "2026-09-03T07:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-M15-1788431400",
+                "origin_index": 234,
+                "confirmed_index": 236,
+                "available_at": "2026-09-03T11:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M15-1788439500",
+                "origin_index": 243,
+                "confirmed_index": 245,
+                "available_at": "2026-09-03T13:30:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 26,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77792.00000000",
+              "bar_id": "BTCUSDT-H1-1788318000",
+              "origin_index": 27,
+              "confirmed_index": 29,
+              "available_at": "2026-09-02T06:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "76264.00000000",
+              "bar_id": "BTCUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T15:00:00Z",
+            "bar_id": "BTCUSDT-H1-1788444000",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "77101.01000000",
+                "bar_id": "BTCUSDT-H1-1788411600",
+                "origin_index": 53,
+                "confirmed_index": 55,
+                "available_at": "2026-09-03T08:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-H1-1788418800",
+                "origin_index": 55,
+                "confirmed_index": 57,
+                "available_at": "2026-09-03T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-H1-1788429600",
+                "origin_index": 58,
+                "confirmed_index": 60,
+                "available_at": "2026-09-03T13:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 900.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": []
+      },
+      "scenario_ready": false,
+      "analytical_status": "confirmed_geometry_with_blockers"
+    },
+    {
+      "bars_after_candidate": 11,
+      "as_of": "2026-09-03T15:20:00Z",
+      "strict_status": "confirmed_under_selected_profile",
+      "historical_confirmation": {
+        "bar_id": "BTCUSDT-M5-1788445800",
+        "close_time": "2026-09-03T14:35:00Z",
+        "available_at": "2026-09-03T14:35:00Z"
+      },
+      "invalidation": null,
+      "target_events": {},
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T15:20:00Z",
+        "roles": {
+          "M5": {
+            "state": "uptrend",
+            "direction": "up",
+            "underlying_direction": "up",
+            "stale": false,
+            "age_bars": 1,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "low",
+              "price": "78704.00000000",
+              "bar_id": "BTCUSDT-M5-1788444000",
+              "origin_index": 744,
+              "confirmed_index": 746,
+              "available_at": "2026-09-03T14:15:00Z"
+            },
+            "driver": {
+              "kind": "high",
+              "price": "80966.63000000",
+              "bar_id": "BTCUSDT-M5-1788447600",
+              "origin_index": 756,
+              "confirmed_index": 758,
+              "available_at": "2026-09-03T15:15:00Z"
+            },
+            "break_index": 722,
+            "available_at": "2026-09-03T15:20:00Z",
+            "bar_id": "BTCUSDT-M5-1788448500",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "78450.25000000",
+                "bar_id": "BTCUSDT-M5-1788441600",
+                "origin_index": 736,
+                "confirmed_index": 738,
+                "available_at": "2026-09-03T13:35:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "79000.00000000",
+                "bar_id": "BTCUSDT-M5-1788443100",
+                "origin_index": 741,
+                "confirmed_index": 743,
+                "available_at": "2026-09-03T14:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78704.00000000",
+                "bar_id": "BTCUSDT-M5-1788444000",
+                "origin_index": 744,
+                "confirmed_index": 746,
+                "available_at": "2026-09-03T14:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "80966.63000000",
+                "bar_id": "BTCUSDT-M5-1788447600",
+                "origin_index": 756,
+                "confirmed_index": 758,
+                "available_at": "2026-09-03T15:15:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 37,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77824.00000000",
+              "bar_id": "BTCUSDT-M15-1788411600",
+              "origin_index": 212,
+              "confirmed_index": 214,
+              "available_at": "2026-09-03T05:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-M15-1788412500",
+              "origin_index": 213,
+              "confirmed_index": 215,
+              "available_at": "2026-09-03T06:00:00Z"
+            },
+            "break_index": 218,
+            "available_at": "2026-09-03T15:15:00Z",
+            "bar_id": "BTCUSDT-M15-1788447600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-M15-1788418800",
+                "origin_index": 220,
+                "confirmed_index": 222,
+                "available_at": "2026-09-03T07:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-M15-1788431400",
+                "origin_index": 234,
+                "confirmed_index": 236,
+                "available_at": "2026-09-03T11:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M15-1788439500",
+                "origin_index": 243,
+                "confirmed_index": 245,
+                "available_at": "2026-09-03T13:30:00Z"
+              }
+            ],
+            "close_lag_seconds": 300.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 26,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77792.00000000",
+              "bar_id": "BTCUSDT-H1-1788318000",
+              "origin_index": 27,
+              "confirmed_index": 29,
+              "available_at": "2026-09-02T06:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "76264.00000000",
+              "bar_id": "BTCUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T15:00:00Z",
+            "bar_id": "BTCUSDT-H1-1788444000",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "77101.01000000",
+                "bar_id": "BTCUSDT-H1-1788411600",
+                "origin_index": 53,
+                "confirmed_index": 55,
+                "available_at": "2026-09-03T08:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-H1-1788418800",
+                "origin_index": 55,
+                "confirmed_index": 57,
+                "available_at": "2026-09-03T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-H1-1788429600",
+                "origin_index": 58,
+                "confirmed_index": 60,
+                "available_at": "2026-09-03T13:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 1200.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": []
+      },
+      "scenario_ready": false,
+      "analytical_status": "confirmed_geometry_with_blockers"
+    },
+    {
+      "bars_after_candidate": 12,
+      "as_of": "2026-09-03T15:25:00Z",
+      "strict_status": "confirmed_under_selected_profile",
+      "historical_confirmation": {
+        "bar_id": "BTCUSDT-M5-1788445800",
+        "close_time": "2026-09-03T14:35:00Z",
+        "available_at": "2026-09-03T14:35:00Z"
+      },
+      "invalidation": null,
+      "target_events": {},
+      "context_aligned_now": false,
+      "current_context": {
+        "time": "2026-09-03T15:25:00Z",
+        "roles": {
+          "M5": {
+            "state": "uptrend",
+            "direction": "up",
+            "underlying_direction": "up",
+            "stale": false,
+            "age_bars": 2,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "low",
+              "price": "78704.00000000",
+              "bar_id": "BTCUSDT-M5-1788444000",
+              "origin_index": 744,
+              "confirmed_index": 746,
+              "available_at": "2026-09-03T14:15:00Z"
+            },
+            "driver": {
+              "kind": "high",
+              "price": "80966.63000000",
+              "bar_id": "BTCUSDT-M5-1788447600",
+              "origin_index": 756,
+              "confirmed_index": 758,
+              "available_at": "2026-09-03T15:15:00Z"
+            },
+            "break_index": 722,
+            "available_at": "2026-09-03T15:25:00Z",
+            "bar_id": "BTCUSDT-M5-1788448800",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "79000.00000000",
+                "bar_id": "BTCUSDT-M5-1788443100",
+                "origin_index": 741,
+                "confirmed_index": 743,
+                "available_at": "2026-09-03T14:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "78704.00000000",
+                "bar_id": "BTCUSDT-M5-1788444000",
+                "origin_index": 744,
+                "confirmed_index": 746,
+                "available_at": "2026-09-03T14:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "80966.63000000",
+                "bar_id": "BTCUSDT-M5-1788447600",
+                "origin_index": 756,
+                "confirmed_index": 758,
+                "available_at": "2026-09-03T15:15:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "80354.65000000",
+                "bar_id": "BTCUSDT-M5-1788448200",
+                "origin_index": 758,
+                "confirmed_index": 760,
+                "available_at": "2026-09-03T15:25:00Z"
+              }
+            ],
+            "close_lag_seconds": 0.0,
+            "fresh": true
+          },
+          "M15": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 37,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77824.00000000",
+              "bar_id": "BTCUSDT-M15-1788411600",
+              "origin_index": 212,
+              "confirmed_index": 214,
+              "available_at": "2026-09-03T05:45:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-M15-1788412500",
+              "origin_index": 213,
+              "confirmed_index": 215,
+              "available_at": "2026-09-03T06:00:00Z"
+            },
+            "break_index": 218,
+            "available_at": "2026-09-03T15:15:00Z",
+            "bar_id": "BTCUSDT-M15-1788447600",
+            "sequence": [
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-M15-1788418800",
+                "origin_index": 220,
+                "confirmed_index": 222,
+                "available_at": "2026-09-03T07:45:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-M15-1788431400",
+                "origin_index": 234,
+                "confirmed_index": 236,
+                "available_at": "2026-09-03T11:15:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78782.75000000",
+                "bar_id": "BTCUSDT-M15-1788439500",
+                "origin_index": 243,
+                "confirmed_index": 245,
+                "available_at": "2026-09-03T13:30:00Z"
+              }
+            ],
+            "close_lag_seconds": 600.0,
+            "fresh": true
+          },
+          "H1": {
+            "state": "transition",
+            "direction": null,
+            "underlying_direction": null,
+            "stale": false,
+            "age_bars": 26,
+            "pending_ambiguity": false,
+            "guard": {
+              "kind": "high",
+              "price": "77792.00000000",
+              "bar_id": "BTCUSDT-H1-1788318000",
+              "origin_index": 27,
+              "confirmed_index": 29,
+              "available_at": "2026-09-02T06:00:00Z"
+            },
+            "driver": {
+              "kind": "low",
+              "price": "76264.00000000",
+              "bar_id": "BTCUSDT-H1-1788343200",
+              "origin_index": 34,
+              "confirmed_index": 36,
+              "available_at": "2026-09-02T13:00:00Z"
+            },
+            "break_index": 50,
+            "available_at": "2026-09-03T15:00:00Z",
+            "bar_id": "BTCUSDT-H1-1788444000",
+            "sequence": [
+              {
+                "kind": "low",
+                "price": "77101.01000000",
+                "bar_id": "BTCUSDT-H1-1788411600",
+                "origin_index": 53,
+                "confirmed_index": 55,
+                "available_at": "2026-09-03T08:00:00Z"
+              },
+              {
+                "kind": "high",
+                "price": "78183.91000000",
+                "bar_id": "BTCUSDT-H1-1788418800",
+                "origin_index": 55,
+                "confirmed_index": 57,
+                "available_at": "2026-09-03T10:00:00Z"
+              },
+              {
+                "kind": "low",
+                "price": "77478.00000000",
+                "bar_id": "BTCUSDT-H1-1788429600",
+                "origin_index": 58,
+                "confirmed_index": 60,
+                "available_at": "2026-09-03T13:00:00Z"
+              }
+            ],
+            "close_lag_seconds": 1500.0,
+            "fresh": true
+          }
+        },
+        "data_reasons": []
+      },
+      "scenario_ready": false,
+      "analytical_status": "confirmed_geometry_with_blockers"
+    }
+  ],
+  "final": {
+    "bars_after_candidate": 12,
+    "as_of": "2026-09-03T15:25:00Z",
+    "strict_status": "confirmed_under_selected_profile",
+    "historical_confirmation": {
+      "bar_id": "BTCUSDT-M5-1788445800",
+      "close_time": "2026-09-03T14:35:00Z",
+      "available_at": "2026-09-03T14:35:00Z"
+    },
+    "invalidation": null,
+    "target_events": {},
+    "context_aligned_now": false,
+    "current_context": {
+      "time": "2026-09-03T15:25:00Z",
+      "roles": {
+        "M5": {
+          "state": "uptrend",
+          "direction": "up",
+          "underlying_direction": "up",
+          "stale": false,
+          "age_bars": 2,
+          "pending_ambiguity": false,
+          "guard": {
+            "kind": "low",
+            "price": "78704.00000000",
+            "bar_id": "BTCUSDT-M5-1788444000",
+            "origin_index": 744,
+            "confirmed_index": 746,
+            "available_at": "2026-09-03T14:15:00Z"
+          },
+          "driver": {
+            "kind": "high",
+            "price": "80966.63000000",
+            "bar_id": "BTCUSDT-M5-1788447600",
+            "origin_index": 756,
+            "confirmed_index": 758,
+            "available_at": "2026-09-03T15:15:00Z"
+          },
+          "break_index": 722,
+          "available_at": "2026-09-03T15:25:00Z",
+          "bar_id": "BTCUSDT-M5-1788448800",
+          "sequence": [
+            {
+              "kind": "high",
+              "price": "79000.00000000",
+              "bar_id": "BTCUSDT-M5-1788443100",
+              "origin_index": 741,
+              "confirmed_index": 743,
+              "available_at": "2026-09-03T14:00:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "78704.00000000",
+              "bar_id": "BTCUSDT-M5-1788444000",
+              "origin_index": 744,
+              "confirmed_index": 746,
+              "available_at": "2026-09-03T14:15:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "80966.63000000",
+              "bar_id": "BTCUSDT-M5-1788447600",
+              "origin_index": 756,
+              "confirmed_index": 758,
+              "available_at": "2026-09-03T15:15:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "80354.65000000",
+              "bar_id": "BTCUSDT-M5-1788448200",
+              "origin_index": 758,
+              "confirmed_index": 760,
+              "available_at": "2026-09-03T15:25:00Z"
+            }
+          ],
+          "close_lag_seconds": 0.0,
+          "fresh": true
+        },
+        "M15": {
+          "state": "transition",
+          "direction": null,
+          "underlying_direction": null,
+          "stale": false,
+          "age_bars": 37,
+          "pending_ambiguity": false,
+          "guard": {
+            "kind": "high",
+            "price": "77824.00000000",
+            "bar_id": "BTCUSDT-M15-1788411600",
+            "origin_index": 212,
+            "confirmed_index": 214,
+            "available_at": "2026-09-03T05:45:00Z"
+          },
+          "driver": {
+            "kind": "low",
+            "price": "77101.01000000",
+            "bar_id": "BTCUSDT-M15-1788412500",
+            "origin_index": 213,
+            "confirmed_index": 215,
+            "available_at": "2026-09-03T06:00:00Z"
+          },
+          "break_index": 218,
+          "available_at": "2026-09-03T15:15:00Z",
+          "bar_id": "BTCUSDT-M15-1788447600",
+          "sequence": [
+            {
+              "kind": "high",
+              "price": "78183.91000000",
+              "bar_id": "BTCUSDT-M15-1788418800",
+              "origin_index": 220,
+              "confirmed_index": 222,
+              "available_at": "2026-09-03T07:45:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "77478.00000000",
+              "bar_id": "BTCUSDT-M15-1788431400",
+              "origin_index": 234,
+              "confirmed_index": 236,
+              "available_at": "2026-09-03T11:15:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "78782.75000000",
+              "bar_id": "BTCUSDT-M15-1788439500",
+              "origin_index": 243,
+              "confirmed_index": 245,
+              "available_at": "2026-09-03T13:30:00Z"
+            }
+          ],
+          "close_lag_seconds": 600.0,
+          "fresh": true
+        },
+        "H1": {
+          "state": "transition",
+          "direction": null,
+          "underlying_direction": null,
+          "stale": false,
+          "age_bars": 26,
+          "pending_ambiguity": false,
+          "guard": {
+            "kind": "high",
+            "price": "77792.00000000",
+            "bar_id": "BTCUSDT-H1-1788318000",
+            "origin_index": 27,
+            "confirmed_index": 29,
+            "available_at": "2026-09-02T06:00:00Z"
+          },
+          "driver": {
+            "kind": "low",
+            "price": "76264.00000000",
+            "bar_id": "BTCUSDT-H1-1788343200",
+            "origin_index": 34,
+            "confirmed_index": 36,
+            "available_at": "2026-09-02T13:00:00Z"
+          },
+          "break_index": 50,
+          "available_at": "2026-09-03T15:00:00Z",
+          "bar_id": "BTCUSDT-H1-1788444000",
+          "sequence": [
+            {
+              "kind": "low",
+              "price": "77101.01000000",
+              "bar_id": "BTCUSDT-H1-1788411600",
+              "origin_index": 53,
+              "confirmed_index": 55,
+              "available_at": "2026-09-03T08:00:00Z"
+            },
+            {
+              "kind": "high",
+              "price": "78183.91000000",
+              "bar_id": "BTCUSDT-H1-1788418800",
+              "origin_index": 55,
+              "confirmed_index": 57,
+              "available_at": "2026-09-03T10:00:00Z"
+            },
+            {
+              "kind": "low",
+              "price": "77478.00000000",
+              "bar_id": "BTCUSDT-H1-1788429600",
+              "origin_index": 58,
+              "confirmed_index": 60,
+              "available_at": "2026-09-03T13:00:00Z"
+            }
+          ],
+          "close_lag_seconds": 1500.0,
+          "fresh": true
+        }
+      },
+      "data_reasons": []
+    },
+    "scenario_ready": false,
+    "analytical_status": "confirmed_geometry_with_blockers"
+  },
+  "scope": {
+    "engineering_subset_only": true,
+    "full_method_validated": false,
+    "trade_executed": false,
+    "profitability_validated": false
+  }
+}

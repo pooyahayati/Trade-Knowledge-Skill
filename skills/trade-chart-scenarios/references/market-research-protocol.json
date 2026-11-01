@@ -1,0 +1,38 @@
+{
+  "protocol_id": "market-transfer-research-20261026-v1",
+  "registered_before_outcome_inspection": true,
+  "dataset": {
+    "symbols": ["EURUSD", "NZDUSD", "BTCUSDT", "ETHUSDT"],
+    "timeframe": "H1",
+    "history_start": "2017-11-06T00:00:00Z",
+    "history_end": "2018-01-05T22:00:00Z",
+    "forex_clock": "FXCM archive winter New York UTC-05; exclude Saturday and Friday after 22 / Sunday before 22 UTC",
+    "prior_development_overlap": "These dates precede existing technical fixtures, but source archives were already retrieved; not a prospective blind financial trial."
+  },
+  "folds": [
+    {"id": "development", "start": "2017-11-08T00:00:00Z", "end": "2017-12-01T00:00:00Z"},
+    {"id": "validation", "start": "2017-12-01T00:00:00Z", "end": "2017-12-15T00:00:00Z"},
+    {"id": "holdout", "start": "2017-12-15T00:00:00Z", "end": "2018-01-05T22:00:00Z"}
+  ],
+  "candidates": [
+    {"lookback": 12, "target_r": "1"},
+    {"lookback": 12, "target_r": "2"},
+    {"lookback": 24, "target_r": "1"},
+    {"lookback": 24, "target_r": "2"},
+    {"lookback": 48, "target_r": "1"},
+    {"lookback": 48, "target_r": "2"}
+  ],
+  "max_holding_bars": 12,
+  "selection": "Compare fixed candidate 0, pooled, market-group, and symbol-specific. Choose using validation lower mean R only after >=5 development and >=3 validation trades for EVERY instrument in the group. Score is equal-weight mean of instrument means, tie -> lower candidate index. If none qualify, no selection. Freeze selection before inspecting holdout. No candidate edits after holdout.",
+  "research_costs_only": true,
+  "cost_assumptions": {
+    "EURUSD": {"spread_price": "0.00010", "slippage_price": "0.00002", "fee_bps_per_side": "0", "daily_carry_bps": "0.5"},
+    "NZDUSD": {"spread_price": "0.00015", "slippage_price": "0.00003", "fee_bps_per_side": "0", "daily_carry_bps": "0.5"},
+    "BTCUSDT": {"spread_price": "2", "slippage_price": "2", "fee_bps_per_side": "10"},
+    "ETHUSDT": {"spread_price": "0.1", "slippage_price": "0.1", "fee_bps_per_side": "10"}
+  },
+  "cost_stress": "Double nonnegative spread/slippage/fee/carry charges after selection; do not reselect.",
+  "missing_data": "Undeclared intramarket gaps split the series into independent contiguous blocks. Reset ATR/channel warmup. Censor positions at the missing boundary. Do not relabel missing data as scheduled closures.",
+  "stability": "Descriptive UTC six-hour entry blocks and lagged channel-width/ATR <4,4-8,>=8; no probability or liquidity-regime claim. Minimum 20 holdout trades per instrument and >=5 per reported subgroup before even considering a new independent validation; not a sufficient profitability gate.",
+  "limits": ["not_full_Trex_method", "public_historical_bid_or_trade_prices", "synthetic_costs", "no_native_platform_or_live_forward_evidence", "no_portfolio_equity", "no_actual_order_size_or_liquidation"]
+}
